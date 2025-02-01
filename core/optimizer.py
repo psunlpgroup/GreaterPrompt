@@ -19,8 +19,8 @@ class GreaterOptimizer:
         supported, model_name = model_supported(model)
         assert supported, f"Model: {model} is not supported"
 
-        model_fn = getattr(importlib.import_module("models"), model_name)
-        self.model = model_fn(model, model_params, tokenizer, tokenizer_params)
+        model_class = getattr(importlib.import_module("models"), model_name)
+        self.model = model_class(model, model_params, tokenizer, tokenizer_params)
     
 
     @torch.no_grad()

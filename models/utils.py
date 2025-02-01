@@ -11,13 +11,14 @@ from transformers import (
 )
 
 
+# TODO: hard code here
 def model_supported(model: str) -> Tuple[bool, str]:
-    supported_models = ["gptj", "gpt2", "llama", "gemma", "gemma2", "gptneox"]
+    supported_models = ["Gemma-2", "Llama32"]
     model = model.lower().strip()
 
     for m in supported_models:
-        if m in model:
-            return True, m
+        if m.lower() in model:
+            return True, m if m != "Gemma-2" else "Gemma2"
     return False, None
 
 
