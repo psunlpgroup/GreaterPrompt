@@ -26,7 +26,7 @@ optimize_config = {
     "intersection": False,
     "candidates_topk": 3,
     "generate_config": {
-        "temperature": 1e-5
+        "do_sample": False,
     }
 }
 T = 105

@@ -5,8 +5,10 @@ from models.utils import model_supported
 
 import torch
 from torch.nn import functional as F
+from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
+# TODO: hard code here, make it as an arugment
 P_EXTRACTOR = "Only return the exact answer. Therefore, the final answer (use exact format: '$ True' or '$ False') is $ "
 
 
@@ -42,7 +44,7 @@ class GreaterOptimizer:
         return loss
 
 
-    def get_candidates(self, input: dict) -> Tuple[List[str], List[float]]:
+    def get_candidates(self, input: dict) -> List[str]:
         candidates = self.client.get_candidates(input, self.optimize_config)
 
         return candidates
@@ -60,12 +62,12 @@ class GreaterOptimizer:
         embedding_layer = self.client.model.get_input_embeddings()
         embedding_grad = embedding_layer.weight.grad
 
-        p_i_start, p_i_start_grad = None, float("inf")
+        p_i_start, p_i_start_grad = None, float("-inf")
 
         for token in candidates:
             token_id = self.client.tokenizer.encode(token, return_tensors="pt")
-            token_grad = torch.norm(embedding_grad[token_id], p=2)
-            if token_grad < p_i_start_grad:
+            token_grad = torch.norm(embedding_grad[token_id], p=2) * -1
+            if token_grad > p_i_start_grad:
                 p_i_start = token
                 p_i_start_grad = token_grad
 
@@ -75,7 +77,7 @@ class GreaterOptimizer:
     def optimize(self, inputs: List[dict], rounds: int) -> Tuple[List[str], List[dict]]:
         outputs, meta_info = [], []
 
-        for input in inputs:
+        for i, input in enumerate(inputs):
             # TODO: hard code here, model outpus start with a space
             question, p_init, ground_truth = input["question"], input["prompt"], " " + input["answer"]
             p_tokens = self.client.tokenizer.tokenize(p_init)
@@ -83,7 +85,7 @@ class GreaterOptimizer:
             y_tokens = y_tokens[0, 1:].to(self.client.device)
             assert len(p_tokens) >= 2, "Init prompt should be at least 2 words"
 
-            for i in range(rounds):                
+            for i in tqdm(range(rounds), desc=f"Optimizing {i} / {len(inputs)}"):                
                 # calculate p_i, if i == 0, skip
                 idx = i % len(p_tokens)
                 if idx == 0: continue
@@ -115,12 +117,20 @@ class GreaterOptimizer:
                 p_i_start = self.get_p_i_start(candidates)
                 p_tokens[idx] = p_i_start
 
+                # if p_i_start is a period, truncate the prompt and start from the beginning
+                if p_i_start.strip() == ".":
+                    p_tokens = p_tokens[:idx + 1]
+                    idx = 1
+                # elif p_i_start is not a period and it's the last token, append a dummy token
+                # for next candidate generation
+                elif p_i_start.strip() != "." and idx == len(p_tokens) - 1:
+                    p_tokens.append("#")
+                    idx += 1
+                else:
+                    idx += 1
+
             outputs.append("".join(p_tokens))
-            meta_info.append({
-                "question": question,
-                "p_init": p_init,
-                "p_star": "".join(p_tokens)}
-            )
+            meta_info.append(input)
 
         return outputs, meta_info
     
