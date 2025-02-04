@@ -1,9 +1,8 @@
 from core.optimizer import GreaterOptimizer
+from utils.dataloader import GreaterDataSet
 
 import torch
-from torch.utils.data import DataLoader
 
-from utils.dataloader import GreaterDataSet
 
 # build dataset
 dataset = GreaterDataSet(data_path="./data/BBH/boolean_expressions_refactored.jsonl")
@@ -13,7 +12,7 @@ optimize_config = {
     "intersection": False,
     "candidates_topk": 3,
     "generate_config": {
-        # "temperature": 1e-5
+        "temperature": 1e-5
     }
 }
 T = 105
