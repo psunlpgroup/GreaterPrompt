@@ -1,9 +1,10 @@
 import importlib
 from typing import List, Tuple
 
-from models.utils import llama_post_process, model_supported
+from models.utils import model_supported
 
 import torch
+from torch.nn import functional as F
 
 
 P_EXTRACTOR = "Only return the exact answer. Therefore, the final answer (use exact format: '$ True' or '$ False') is $ "
@@ -27,15 +28,21 @@ class GreaterOptimizer:
         self.client = model_class(model, model_params, tokenizer, tokenizer_params)
 
 
-    def get_prediction(self, input: dict, logits_size: int) -> str:
-        logits = []
-
+    def get_pred_probs(self, input: dict) -> torch.Tensor:
         with torch.enable_grad():
-            for _ in range(logits_size):
-                logit = self.client.get_logits(input, self.optimize_config["generate_config"])
-                logits.append(logit.detach().cpu())
+            generate_config = self.optimize_config["generate_config"]
+            generate_config["pad_token_id"] = generate_config.get("eos_token_id", None) # to aviod termination error
+            logits = self.client.get_logits(input, generate_config)
+            probs = F.softmax(logits, dim=-1)
 
-        return logits
+        return probs
+    
+
+    def calculate_loss(self, y_tokens: torch.Tensor, probs: torch.Tensor) -> torch.Tensor:
+        loss = F.cross_entropy(probs, y_tokens)
+        loss.backward(retain_graph=True)
+
+        return loss
 
 
     def get_candidates(self, input: dict) -> Tuple[List[str], List[float]]:
@@ -51,14 +58,32 @@ class GreaterOptimizer:
 
         return self.client.post_process(response)
     
+    
+    def get_p_i_start(self, candidates: List[str]) -> str:
+        embedding_layer = self.client.model.get_input_embeddings()
+        embedding_grad = embedding_layer.weight.grad
 
-    def optimize(self, inputs: List[dict], rounds: int) -> List[str]:
-        outputs: List[str] = []
+        p_i_start, p_i_start_grad = None, float("inf")
+
+        for token in candidates:
+            token_id = self.client.tokenizer.encode(token, return_tensors="pt")
+            token_grad = torch.norm(embedding_grad[token_id], p=2)
+            if token_grad < p_i_start_grad:
+                p_i_start = token
+                p_i_start_grad = token_grad
+
+        return p_i_start
+
+
+    def optimize(self, inputs: List[dict], rounds: int) -> Tuple[List[str], List[dict]]:
+        outputs, meta_info = [], []
 
         for input in inputs:
-            question, p_init, ground_truth = input["question"], input["prompt"], input["answer"]
+            # TODO: hard code here, model outpus start with a space
+            question, p_init, ground_truth = input["question"], input["prompt"], " " + input["answer"]
             p_tokens = self.client.tokenizer.tokenize(p_init)
-            y_token = self.client.tokenizer.tokenize(ground_truth)
+            y_tokens = self.client.tokenizer.encode(ground_truth, return_tensors="pt")
+            y_tokens = y_tokens[0, 1:].to(self.client.device)
             assert len(p_tokens) >= 2, "Init prompt should be at least 2 words"
 
             for i in range(T):
@@ -83,11 +108,21 @@ class GreaterOptimizer:
                 input_text = f'{question} {"".join(p_tokens)} {reasoning_chain} {P_EXTRACTOR}'
                 input_ids = self.client.tokenizer.encode(input_text, return_tensors="pt")
 
-                y_hat = self.get_prediction(input_ids)
-                
+                y_hat_probs = self.get_pred_probs(input_ids)
+                loss = self.calculate_loss(y_tokens, y_hat_probs)
 
+                # calculate gradient for each candidate to get p_i_start
+                p_i_start = self.get_p_i_start(candidates)
+                p_tokens[idx] = p_i_start
 
-        return outputs
+            outputs.append("".join(p_tokens))
+            meta_info.append({
+                "question": question,
+                "p_init": p_init,
+                "p_star": "".join(p_tokens)}
+            )
+
+        return outputs, meta_info
     
 
     def batch_optimize(self, inputs: List[dict], rounds: int) -> List[str]:

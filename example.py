@@ -5,26 +5,31 @@ from torch.utils.data import DataLoader
 
 from utils.dataloader import GreaterDataSet
 
-
+# build dataset
 dataset = GreaterDataSet(data_path="./data/BBH/boolean_expressions_refactored.jsonl")
-dataloader = DataLoader(dataset, batch_size=5, shuffle=True)
 
-
+# optimizer config
 optimize_config = {
     "intersection": False,
-    "candidate_topk": 3,
+    "candidates_topk": 3,
     "generate_config": {
-        "temperature": 1e-5,
-        "max_new_tokens": 100
+        # "temperature": 1e-5
     }
 }
 
+# optimize
 optimizer = GreaterOptimizer(
-    model="/scratch2/wmz5132/models/huggingface/gemma-2-2b",
-    model_params={},
-    tokenizer="/scratch2/wmz5132/models/huggingface/gemma-2-2b",
-    tokenizer_params={},
+    model="/scratch1/wmz5132/models/huggingface/Llama-3.1-8B-Instruct",
+    model_params={"torch_dtype": torch.bfloat16, "device_map": "cuda:6", "low_cpu_mem_usage": True, "trust_remote_code": True},
+    tokenizer="/scratch1/wmz5132/models/huggingface/Llama-3.1-8B-Instruct",
+    tokenizer_params={"use_fast": True, "padding_side": "left"},
     optimize_config=optimize_config
 )
 
-p_stars = optimizer.optimize(inputs=dataloader, rounds=10)
+p_stars, meta_info = optimizer.optimize(inputs=dataset, rounds=10)
+
+for p_star, info in zip(p_stars, meta_info):
+    print(f'question: {info["question"]}')
+    print(f'p_init: {info["p_init"]}')
+    print(f'p_star: {p_star}')
+    print('--------------------------------')
