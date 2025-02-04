@@ -12,15 +12,24 @@ class Llama31(BaseModel):
         super().__init__(model, model_params, tokenizer, tokenizer_params, *args, **kwargs)
         self.device = self.model.device
         self.end_token = self.tokenizer.eos_token
+        # TODO: avoid terminal warning, refactor this
+        self.tokenizer.pad_token_id = self.tokenizer.eos_token_id
+        self.terminators = [
+            self.tokenizer.eos_token_id,
+            self.tokenizer.convert_tokens_to_ids("<|eot_id|>")
+        ]
 
     
     def post_process(self, outputs: torch.Tensor) -> str:
         output = llama_post_process(self.tokenizer.decode(outputs[0]))
-        
+
         return output
 
     
     def forward(self, inputs: dict, generation_config: dict) -> dict:
+        generation_config["eos_token_id"] = self.terminators
+        generation_config["pad_token_id"] = self.tokenizer.eos_token_id
+
         inputs = inputs.to(self.device)
         attention_mask = torch.ones_like(inputs).to(self.device)
         outputs = self.model(inputs, attention_mask=attention_mask, **generation_config)
@@ -29,6 +38,9 @@ class Llama31(BaseModel):
     
 
     def generate(self, inputs: dict, generation_config: dict) -> dict:
+        generation_config["eos_token_id"] = self.terminators
+        generation_config["pad_token_id"] = self.tokenizer.eos_token_id
+        
         inputs = inputs.to(self.device)
         attention_mask = torch.ones_like(inputs).to(self.device)
         outputs = self.model.generate(inputs, attention_mask=attention_mask, **generation_config)
