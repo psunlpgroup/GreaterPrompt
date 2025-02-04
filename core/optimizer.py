@@ -31,7 +31,6 @@ class GreaterOptimizer:
     def get_pred_probs(self, input: dict) -> torch.Tensor:
         with torch.enable_grad():
             generate_config = self.optimize_config["generate_config"]
-            generate_config["pad_token_id"] = generate_config.get("eos_token_id", None) # to aviod termination error
             logits = self.client.get_logits(input, generate_config)
             probs = F.softmax(logits, dim=-1)
 
