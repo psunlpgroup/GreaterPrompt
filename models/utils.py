@@ -2,22 +2,19 @@ from typing import Tuple
 
 import torch
 from transformers import (
+    AutoModelForCausalLM, AutoTokenizer,
     GPTJForCausalLM, GPT2LMHeadModel, GPTNeoXForCausalLM, 
     LlamaForCausalLM, GemmaForCausalLM, Gemma2ForCausalLM
 )
 
 
-# TODO: hard code here
-def model_supported(model: str) -> Tuple[bool, str]:
-    supported_models = {
-        "Gemma-2": "Gemma2", 
-        "Llama-3.1": "Llama31"
-    }
-
-    for k, v in supported_models.items():
-        if k.lower() in model.lower():
-            return True, v
-    return False, None
+def model_supported(model: AutoModelForCausalLM) -> Tuple[bool, str]:
+    if isinstance(model, LlamaForCausalLM):
+        return True, "Llama31"
+    elif isinstance(model, Gemma2ForCausalLM):
+        return True, "Gemma2"
+    else:
+        return False, None
 
 
 def get_embedding_layer(model: torch.nn.Module) -> torch.nn.Module:

@@ -5,9 +5,9 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
 class BaseModel:
-    def __init__(self, model: str, model_params: dict, tokenizer: str, tokenizer_params: dict, *args, **kwargs):
-        self.model = AutoModelForCausalLM.from_pretrained(model, **model_params)
-        self.tokenizer = AutoTokenizer.from_pretrained(tokenizer, **tokenizer_params)
+    def __init__(self, model: AutoModelForCausalLM, tokenizer: AutoTokenizer, *args, **kwargs):
+        self.model = model
+        self.tokenizer = tokenizer
     
     def generate(self, input: dict) -> str:
         raise NotImplementedError("Subclass must implement this method")

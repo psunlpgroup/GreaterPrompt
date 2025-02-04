@@ -5,26 +5,25 @@ from models.utils import model_supported
 
 import torch
 from torch.nn import functional as F
-
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 P_EXTRACTOR = "Only return the exact answer. Therefore, the final answer (use exact format: '$ True' or '$ False') is $ "
 
 
 class GreaterOptimizer:
     def __init__(
-        self, model: str, model_params: dict, tokenizer: str, tokenizer_params: dict,
-        optimize_config: dict, *args, **kwargs
-    ):
+            self, model: AutoModelForCausalLM, tokenizer: AutoTokenizer, optimize_config: dict, *args, **kwargs
+        ):
         self.optimize_config = optimize_config
-        self._init_agents(model, model_params, tokenizer, tokenizer_params)
+        self._init_agents(model, tokenizer)
     
 
-    def _init_agents(self, model: str, model_params: dict, tokenizer: str, tokenizer_params: dict):
+    def _init_agents(self, model: AutoModelForCausalLM, tokenizer: AutoTokenizer):
         supported, model_name = model_supported(model)
         assert supported, f"Model: {model} is not supported"
 
         model_class = getattr(importlib.import_module("models"), model_name)
-        self.client = model_class(model, model_params, tokenizer, tokenizer_params)
+        self.client = model_class(model, tokenizer)
 
 
     def get_pred_probs(self, input: dict) -> torch.Tensor:

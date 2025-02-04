@@ -5,14 +5,16 @@ from models.utils import llama_post_process
 
 import torch
 from torch.nn import functional as F
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
 class Llama31(BaseModel):
-    def __init__(self, model: str, model_params: dict, tokenizer: str, tokenizer_params: dict, *args, **kwargs):
-        super().__init__(model, model_params, tokenizer, tokenizer_params, *args, **kwargs)
+    def __init__(self, model: AutoModelForCausalLM, tokenizer: AutoTokenizer, *args, **kwargs):
+        super().__init__(model, tokenizer, *args, **kwargs)
         self.device = self.model.device
         self.end_token = self.tokenizer.eos_token
-        # TODO: avoid terminal warning, refactor this
+
+        # set pad and eos token to avoid terminal warning
         self.tokenizer.pad_token_id = self.tokenizer.eos_token_id
         self.terminators = [
             self.tokenizer.eos_token_id,
