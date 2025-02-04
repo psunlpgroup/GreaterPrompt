@@ -16,6 +16,7 @@ optimize_config = {
         # "temperature": 1e-5
     }
 }
+T = 105
 
 # optimize
 optimizer = GreaterOptimizer(
@@ -26,7 +27,7 @@ optimizer = GreaterOptimizer(
     optimize_config=optimize_config
 )
 
-p_stars, meta_info = optimizer.optimize(inputs=dataset, rounds=10)
+p_stars, meta_info = optimizer.optimize(inputs=dataset, rounds=T)
 
 for p_star, info in zip(p_stars, meta_info):
     print(f'question: {info["question"]}')

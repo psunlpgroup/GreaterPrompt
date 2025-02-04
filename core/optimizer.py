@@ -8,7 +8,6 @@ from torch.nn import functional as F
 
 
 P_EXTRACTOR = "Only return the exact answer. Therefore, the final answer (use exact format: '$ True' or '$ False') is $ "
-T = 105
 
 
 class GreaterOptimizer:
@@ -85,7 +84,7 @@ class GreaterOptimizer:
             y_tokens = y_tokens[0, 1:].to(self.client.device)
             assert len(p_tokens) >= 2, "Init prompt should be at least 2 words"
 
-            for i in range(T):
+            for i in range(rounds):
                 # calculate p_i, if i == 0, skip
                 idx = i % len(p_tokens)
                 if idx == 0: continue
