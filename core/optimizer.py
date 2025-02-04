@@ -84,10 +84,13 @@ class GreaterOptimizer:
             y_tokens = y_tokens[0, 1:].to(self.client.device)
             assert len(p_tokens) >= 2, "Init prompt should be at least 2 words"
 
-            for i in range(rounds):
+            for i in range(rounds):                
                 # calculate p_i, if i == 0, skip
                 idx = i % len(p_tokens)
                 if idx == 0: continue
+
+                # clear gradient before each p_i optimization
+                self.client.model.zero_grad()
 
                 # get candidates for p_i using x + p_0 ... p_i-1
                 token = p_tokens[idx]
