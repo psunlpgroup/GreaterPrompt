@@ -9,22 +9,19 @@ import torch.nn.functional as F
 class Gemma2(BaseModel):
     def __init__(self, model: str, model_params: dict, tokenizer: str, tokenizer_params: dict, *args, **kwargs):
         super().__init__(model, model_params, tokenizer, tokenizer_params, *args, **kwargs)
+        self.device = self.model.device
     
 
-    @torch.no_grad()
     def generate(self, input: dict, generate_config: dict) -> str:
+        input = input.to(self.device)
         outputs = self.model.generate(**input, **generate_config)
 
         return outputs
     
 
     def get_logits(self, input: dict, generate_config: dict) -> torch.Tensor:
-        generate_config = generate_config.copy()
-        generate_config["max_new_tokens"] = 1
-        generate_config["output_scores"] = True
-
         outputs = self.generate(input, generate_config)
-        logits = outputs.scores[0][0]
+        logits = outputs.scores
 
         return logits
 
@@ -33,9 +30,10 @@ class Gemma2(BaseModel):
         generate_config: dict = optimize_config["generate_config"]
         logits = self.get_logits(input, generate_config)
 
-        topk: int = optimize_config["topk"]
+        topk: int = optimize_config["candidates_topk"]
         probs = F.softmax(logits, dim=-1)
         topk_probs, topk_tokens = torch.topk(probs, topk)
 
-        return topk_tokens, topk_probs
+        candidates = [self.tokenizer.decode(token) for token in topk_tokens[0]]
 
+        return candidates, topk_probs
