@@ -1,4 +1,4 @@
-from core.optimizer import GreaterOptimizer
+from optimizer import GreaterOptimizer
 from utils.dataloader import GreaterDataSet
 
 import torch
@@ -38,11 +38,18 @@ optimizer = GreaterOptimizer(
     optimize_config=optimize_config
 )
 
-p_stars, meta_info = optimizer.optimize(inputs=dataset, rounds=T)
+p_stars, meta_info = optimizer.optimize(
+    inputs=dataset, 
+    # this extractor will be applied to all prompts inside the dataset
+    extractor="Only return the exact answer. Therefore, the final answer (use exact format: '$ True' or '$ False') is $ ",
+    rounds=T
+)
 
 # print results
 for p_star, info in zip(p_stars, meta_info):
     print(f'question: {info["question"]}')
-    print(f'p_init: {info["p_init"]}')
-    print(f'p_star: {p_star}')
+    print(f'p_init: {info["prompt"]}')
+    print(f'p_stars: ')
+    for i, p in enumerate(p_star):
+        print(f'{i + 1}: {p}')
     print('--------------------------------')

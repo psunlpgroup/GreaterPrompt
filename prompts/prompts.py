@@ -1,10 +1,6 @@
-def default_input_prompt() -> str:
-    prompt: str = "Use logical reasoning and think step by step."
-
-    return prompt
+# TODO: maybe could define a class to store each prompt for better organization
 
 
-def default_extractor_prompt() -> str:
-    prompt: str = "Extract the answer from the text."
-
-    return prompt
+class Prompt:
+    def __init__(self):
+        pass

@@ -47,7 +47,7 @@ class Llama31(BaseModel):
         attention_mask = torch.ones_like(inputs).to(self.device)
         outputs = self.model.generate(inputs, attention_mask=attention_mask, **generation_config)
 
-        return outputs
+        return self.post_process(outputs)
     
 
     def get_logits(self, input: dict, generate_config: dict) -> torch.Tensor:

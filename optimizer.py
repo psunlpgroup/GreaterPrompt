@@ -8,9 +8,6 @@ from torch.nn import functional as F
 from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-# TODO: hard code here, make it as an arugment
-P_EXTRACTOR = "Only return the exact answer. Therefore, the final answer (use exact format: '$ True' or '$ False') is $ "
-
 
 class GreaterOptimizer:
     def __init__(
@@ -55,7 +52,7 @@ class GreaterOptimizer:
         with torch.inference_mode():
             response = self.client.generate(input, generate_config)
 
-        return self.client.post_process(response)
+        return response
     
     
     def get_p_i_start(self, candidates: List[str]) -> str:
@@ -74,7 +71,7 @@ class GreaterOptimizer:
         return p_i_start
 
 
-    def optimize(self, inputs: List[dict], rounds: int) -> Tuple[List[str], List[dict]]:
+    def optimize(self, inputs: List[dict], extractor:str, rounds: int) -> Tuple[List[List[str]], List[dict]]:
         outputs, meta_info = [], []
 
         for i, input in enumerate(inputs):
@@ -84,6 +81,7 @@ class GreaterOptimizer:
             y_tokens = self.client.tokenizer.encode(ground_truth, return_tensors="pt")
             y_tokens = y_tokens[0, 1:].to(self.client.device)
             assert len(p_tokens) >= 2, "Init prompt should be at least 2 words"
+            p_stars = []
 
             for i in tqdm(range(rounds), desc=f"Optimizing {i} / {len(inputs)}"):                
                 # calculate p_i, if i == 0, skip
@@ -107,30 +105,32 @@ class GreaterOptimizer:
                 input_ids = self.client.tokenizer.encode(input_text, return_tensors="pt")
 
                 # then using x + r + p to get raw response and extract y_hat
-                input_text = f'{question} {"".join(p_tokens)} {reasoning_chain} {P_EXTRACTOR}'
+                input_text = f'{question} {"".join(p_tokens)} {reasoning_chain} {extractor}'
                 input_ids = self.client.tokenizer.encode(input_text, return_tensors="pt")
 
                 y_hat_probs = self.get_pred_probs(input_ids)
                 loss = self.calculate_loss(y_tokens, y_hat_probs)
 
                 # calculate gradient for each candidate to get p_i_start
-                p_i_start = self.get_p_i_start(candidates)
-                p_tokens[idx] = p_i_start
+                p_i_star = self.get_p_i_start(candidates)
+                p_tokens[idx] = p_i_star
 
                 # if p_i_start is a period, truncate the prompt and start from the beginning
-                if p_i_start.strip() == ".":
+                if p_i_star.strip() == ".":
                     p_tokens = p_tokens[:idx + 1]
+                    p_stars.append("".join(p_tokens).strip())
                     idx = 1
                 # elif p_i_start is not a period and it's the last token, append a dummy token
                 # for next candidate generation
-                elif p_i_start.strip() != "." and idx == len(p_tokens) - 1:
+                elif p_i_star.strip() != "." and idx == len(p_tokens) - 1:
                     p_tokens.append("#")
                     idx += 1
                 else:
                     idx += 1
 
-            outputs.append("".join(p_tokens))
+            outputs.append(p_stars if p_stars else "".join(p_tokens).strip())
             meta_info.append(input)
+            break
 
         return outputs, meta_info
     
