@@ -52,14 +52,14 @@ class Llama31(BaseModel):
 
     def get_logits(self, input: dict, generate_config: dict) -> torch.Tensor:
         outputs = self.forward(input, generate_config)
-        logits = outputs.logits[:, -1, :]
+        logits = outputs.logits
 
         return logits
     
 
     def get_candidates(self, input: dict, optimize_config: dict) -> List[str]:
         generate_config = optimize_config["generate_config"]
-        logits = self.get_logits(input, generate_config)
+        logits = self.get_logits(input, generate_config)[:, -1, :]
 
         topk = optimize_config.get("candidates_topk", 3)
         probs = F.softmax(logits, dim=-1)

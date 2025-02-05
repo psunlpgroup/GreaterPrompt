@@ -39,13 +39,12 @@ optimizer = GreaterOptimizer(
 )
 
 p_stars, meta_info = optimizer.optimize(
-    inputs=dataset, 
+    inputs=dataset1, 
     # this extractor will be applied to all prompts inside the dataset
     extractor="Only return the exact answer. \
                Therefore, the final answer (use exact format: '$ True' or '$ False') is $ ",
     rounds=T
 )
-
 # print results
 for p_star, info in zip(p_stars, meta_info):
     print(f'question: {info["question"]}')
@@ -74,7 +73,6 @@ dataset2 = GreaterDataSet(custom_inputs=[
         "answer": "-50"
     }
 ])
-
 p_stars, meta_info = optimizer.optimize(
     inputs=dataset2, 
     # this extractor will be applied to all prompts inside the dataset
@@ -82,7 +80,6 @@ p_stars, meta_info = optimizer.optimize(
                where NUMBER is a positive or negative integer) is **",
     rounds=T
 )
-
 for p_star, info in zip(p_stars, meta_info):
     print(f'question: {info["question"]}')
     print(f'p_init: {info["prompt"]}')

@@ -25,20 +25,40 @@ class GreaterOptimizer:
         self.client = model_class(model, tokenizer)
 
 
-    def get_pred_probs(self, input: dict) -> torch.Tensor:
+    def get_pred_probs(self, input: dict, y_tokens: torch.Tensor) -> torch.Tensor:
+        probs = []
+
         with torch.enable_grad():
             generate_config = self.optimize_config["generate_config"]
-            logits = self.client.get_logits(input, generate_config)
-            probs = F.softmax(logits, dim=-1)
+            for i in range(-len(y_tokens), 0, 1):
+                logits = self.client.get_logits(input, generate_config)[:, i, :]
+                probs.append(F.softmax(logits, dim=-1))
+        
+        resp = ""
+        for p in probs:
+            resp += self.client.tokenizer.decode(p.argmax(dim=-1))
 
-        return probs
+        return torch.cat(probs, dim=0)
     
 
-    def calculate_loss(self, y_tokens: torch.Tensor, probs: torch.Tensor) -> torch.Tensor:
-        loss = F.cross_entropy(probs, y_tokens)
+    def calculate_loss(self, y_hat: torch.Tensor, y: torch.Tensor) -> torch.Tensor:
+        self.client.model.zero_grad()
+        loss = F.cross_entropy(y_hat, y)
         loss.backward(retain_graph=True)
 
         return loss
+    
+
+    def get_gradients(self, y_tokens: torch.Tensor, probs: torch.Tensor) -> List[torch.Tensor]:
+        gradients = []
+
+        for y, y_hat in zip(y_tokens, probs):
+            loss = self.calculate_loss(y_hat, y)
+            embedding_layer = self.client.model.get_input_embeddings()
+            embedding_grad = embedding_layer.weight.grad
+            gradients.append(embedding_grad)
+
+        return gradients
 
 
     def get_candidates(self, input: dict) -> List[str]:
@@ -55,30 +75,28 @@ class GreaterOptimizer:
         return response
     
     
-    def get_p_i_start(self, candidates: List[str]) -> str:
-        embedding_layer = self.client.model.get_input_embeddings()
-        embedding_grad = embedding_layer.weight.grad
-
-        p_i_start, p_i_start_grad = None, float("-inf")
+    def get_p_i_star(self, gradients: List[torch.Tensor], candidates: List[str]) -> str:
+        p_i_star, p_i_star_grad = None, float("-inf")
 
         for token in candidates:
             token_id = self.client.tokenizer.encode(token, return_tensors="pt")
-            token_grad = torch.norm(embedding_grad[token_id], p=2) * -1
-            if token_grad > p_i_start_grad:
-                p_i_start = token
-                p_i_start_grad = token_grad
+            token_grad = sum([torch.norm(grad[token_id], p=2) * -1 for grad in gradients])
+            token_grad /= len(gradients)
+            if token_grad > p_i_star_grad:
+                p_i_star = token
+                p_i_star_grad = token_grad
 
-        return p_i_start
+        return p_i_star
 
 
     def optimize(self, inputs: List[dict], extractor:str, rounds: int) -> Tuple[List[List[str]], List[dict]]:
         outputs, meta_info = [], []
 
         for i, input in enumerate(inputs):
-            # TODO: hard code here, model outpus start with a space
             question, p_init, ground_truth = input["question"], input["prompt"], " " + input["answer"]
             p_tokens = self.client.tokenizer.tokenize(p_init)
             y_tokens = self.client.tokenizer.encode(ground_truth, return_tensors="pt")
+            # TODO: hard code here, llama tokens start with a <s>
             y_tokens = y_tokens[0, 1:].to(self.client.device)
             assert len(p_tokens) >= 2, "Init prompt should be at least 2 words"
             p_stars = []
@@ -87,9 +105,6 @@ class GreaterOptimizer:
                 # calculate p_i, if i == 0, skip
                 idx = i % len(p_tokens)
                 if idx == 0: continue
-
-                # clear gradient before each p_i optimization
-                self.client.model.zero_grad()
 
                 # get candidates for p_i using x + p_0 ... p_i-1
                 token = p_tokens[idx]
@@ -108,19 +123,20 @@ class GreaterOptimizer:
                 input_text = f'{question} {"".join(p_tokens)} {reasoning_chain} {extractor}'
                 input_ids = self.client.tokenizer.encode(input_text, return_tensors="pt")
 
-                y_hat_probs = self.get_pred_probs(input_ids)
-                loss = self.calculate_loss(y_tokens, y_hat_probs)
+                # get logits of y_hat and use backward propagation to get gradients
+                y_hat_probs = self.get_pred_probs(input_ids, y_tokens)
+                gradients = self.get_gradients(y_tokens, y_hat_probs)
 
-                # calculate gradient for each candidate to get p_i_start
-                p_i_star = self.get_p_i_start(candidates)
+                # calculate gradient for each candidate to get p_i_star
+                p_i_star = self.get_p_i_star(gradients, candidates)
                 p_tokens[idx] = p_i_star
 
-                # if p_i_start is a period, truncate the prompt and start from the beginning
+                # if p_i_star is a period, truncate the prompt and star from the beginning
                 if p_i_star.strip() == ".":
                     p_tokens = p_tokens[:idx + 1]
                     p_stars.append("".join(p_tokens).strip())
                     idx = 1
-                # elif p_i_start is not a period and it's the last token, append a dummy token
+                # elif p_i_star is not a period and it's the last token, append a dummy token
                 # for next candidate generation
                 elif p_i_star.strip() != "." and idx == len(p_tokens) - 1:
                     p_tokens.append("#")
