@@ -128,9 +128,8 @@ class GreaterOptimizer:
                 else:
                     idx += 1
 
-            outputs.append(p_stars if p_stars else "".join(p_tokens).strip())
+            outputs.append(p_stars if p_stars else ["".join(p_tokens).strip()])
             meta_info.append(input)
-            break
 
         return outputs, meta_info
     

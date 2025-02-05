@@ -1,0 +1,5 @@
+{"id": "0", "question": "((-1 + 2 + 9 * 5) - (-2 + -4 + -4 * -7)) =", "prompt": "Use logical reasoning and think step by step.", "answer": "24"}
+{"id": "1", "question": "((-9 * -5 - 6 + -2) - (-8 - -6 * -3 * 1)) =", "prompt": "Use logical reasoning and think step by step.", "answer": "63"}
+{"id": "2", "question": "((3 * -3 * 6 + -5) - (-2 + -7 - 7 - -7)) =", "prompt": "Use logical reasoning and think step by step.", "answer": "-50"}
+{"id": "3", "question": "((6 * -6 * 8 * 1) * (-1 * 7 * -6 + -2)) =", "prompt": "Use logical reasoning and think step by step.", "answer": "-11520"}
+{"id": "4", "question": "((-6 - -4 + 9 + 0) + (1 + -4 - -9 * 6)) =", "prompt": "Use logical reasoning and think step by step.", "answer": "58"}

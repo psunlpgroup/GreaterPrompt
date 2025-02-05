@@ -1,0 +1,5 @@
+{"id": "0", "question": "not ( True ) and ( True ) is", "prompt": "Use logical reasoning and think step by step.", "answer": "False"}
+{"id": "1", "question": "True and not not ( not False ) is", "prompt": "Use logical reasoning and think step by step.", "answer": "True"}
+{"id": "2", "question": "not True or False or ( False ) is", "prompt": "Use logical reasoning and think step by step.", "answer": "False"}
+{"id": "3", "question": "False or not ( True ) and False is", "prompt": "Use logical reasoning and think step by step.", "answer": "False"}
+{"id": "4", "question": "True or not False and True and False is", "prompt": "Use logical reasoning and think step by step.", "answer": "True"}
