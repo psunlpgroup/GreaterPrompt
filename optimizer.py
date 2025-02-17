@@ -1,5 +1,6 @@
 import importlib
 import logging
+import time
 from typing import List
 
 from models.utils import model_supported
@@ -9,10 +10,9 @@ from torch.nn import functional as F
 from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s",
-    filename="optimizer.log", filemode="w"
+    filename=f"{time.strftime('%Y%m%d_%H%M%S')}.log", filemode="w"
 )
 
 
@@ -122,15 +122,14 @@ class GreaterOptimizer:
             y_tokens = y_tokens[:, 1:].to(self.client.device)
             assert len(p_tokens[0, :]) >= 2, "Init prompt should be at least 2 words"
             p_stars = []
+            idx = 1
 
-            for j in tqdm(range(1, rounds + 1), desc=f"Optimizing {i} / {len(inputs)}"):
+            for j in tqdm(range(rounds), desc=f"Optimizing {i} / {len(inputs)}"):
                 torch.cuda.empty_cache()
                 # calculate p_i, if it is the first token, skip
-                idx = j % len(p_tokens[0, :])
                 logging.info(f'Round {j}, p_idx: {idx}')
                 logging.info(f'p_tokens: {p_tokens}')
                 logging.info(f'p_tokens decoded: {repr(self.client.tokenizer.decode(p_tokens[0, :]))}')
-                if idx == 0: continue
 
                 # get candidates for p_i by using x + p_0 ... p_i-1
                 token_i = p_tokens[:, idx]
@@ -171,13 +170,12 @@ class GreaterOptimizer:
                 # elif p_i_star is not a period and it's the last token, append a dummy
                 # token for the next round of candidate generation
                 elif p_i_star_token.strip() != "." and idx == len(p_tokens[0, :]) - 1:
-                    pad_token_id = self.client.tokenizer.pad_token_id
-                    dummy_token = torch.tensor([[pad_token_id]], device=p_tokens.device)
+                    dummy_token = torch.tensor([[0]], device=p_tokens.device)
                     p_tokens = torch.cat([p_tokens, dummy_token], dim=1)
                     idx += 1
-                    logging.info(f'p_i_star is not a period and it is the last token, append a dummy token for the next round of candidate generation')
+                    logging.info(f'p_i_star is not a period and it is the last token, extend the prompt')
                 else:
-                    idx += 1
+                    idx = (idx + 1) % len(p_tokens[0, :])
                     logging.info(f'p_i_star is not a period and it is not the last token, update the index')
                 logging.info(f'\n')
 
