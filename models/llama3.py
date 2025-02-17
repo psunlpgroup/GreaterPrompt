@@ -8,7 +8,7 @@ from torch.nn import functional as F
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
-class Llama31(BaseModel):
+class Llama3(BaseModel):
     def __init__(self, model: AutoModelForCausalLM, tokenizer: AutoTokenizer, *args, **kwargs):
         super().__init__(model, tokenizer, *args, **kwargs)
         self.device = self.model.device

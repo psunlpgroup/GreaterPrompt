@@ -7,7 +7,7 @@ from transformers import (
 
 def model_supported(model: AutoModelForCausalLM) -> Tuple[bool, str]:
     if isinstance(model, LlamaForCausalLM):
-        return True, "Llama31"
+        return True, "Llama3"
     elif isinstance(model, Gemma2ForCausalLM):
         return True, "Gemma2"
     else:
