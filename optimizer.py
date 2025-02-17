@@ -170,7 +170,7 @@ class GreaterOptimizer:
                     logging.info(f'p_i_star is a period, truncate the prompt and star from the beginning')
                 # elif p_i_star is not a period and it's the last token, append a dummy
                 # token for the next round of candidate generation
-                elif p_i_star_token.strip() != "." and idx == len(p_tokens) - 1:
+                elif p_i_star_token.strip() != "." and idx == len(p_tokens[0, :]) - 1:
                     pad_token_id = self.client.tokenizer.pad_token_id
                     dummy_token = torch.tensor([[pad_token_id]], device=p_tokens.device)
                     p_tokens = torch.cat([p_tokens, dummy_token], dim=1)
