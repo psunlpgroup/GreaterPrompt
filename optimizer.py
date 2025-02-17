@@ -44,8 +44,8 @@ class GreaterOptimizer:
 
         p_extr_tokens = self.client.tokenizer.encode(p_extractor, return_tensors="pt")
         p_extr_tokens = p_extr_tokens[:, 1:].to(self.client.device)
-
-        y_tokens = self.client.tokenizer.encode(answer, return_tensors="pt")
+        # because model use generate token start with space, so here use space to start with
+        y_tokens = self.client.tokenizer.encode(" " + answer, return_tensors="pt")
         y_tokens = y_tokens[:, 1:].to(self.client.device)
 
         return question_tokens, p_tokens, p_extr_tokens, y_tokens
@@ -70,11 +70,12 @@ class GreaterOptimizer:
 
     def calculate_loss(self, y_hat: torch.Tensor, y: torch.Tensor) -> torch.Tensor:
         self.client.model.zero_grad()
-        loss = F.cross_entropy(y_hat, y)
+        loss_function = self.optimize_config.get("loss_function", F.cross_entropy)
+        loss = loss_function(y_hat, y)
         loss.backward(retain_graph=True)
 
         return loss
-    
+
 
     def get_gradients(self, y_tokens: torch.Tensor, y_hat_probs: torch.Tensor) -> List[torch.Tensor]:
         gradients = []
@@ -132,6 +133,7 @@ class GreaterOptimizer:
             p_stars = []
             idx = 1
 
+            start_time = time.time()
             for j in tqdm(range(rounds), desc=f"Optimizing {i} / {len(inputs)}"):
                 torch.cuda.empty_cache()
                 # calculate p_i, if it is the first token, skip
@@ -187,5 +189,6 @@ class GreaterOptimizer:
                 logging.info(f'\n')
 
             outputs.append(p_stars if p_stars else [self.client.tokenizer.decode(p_tokens[0, :], skip_special_tokens=True)])
-
+            logging.info(f'time taken: {time.time() - start_time}')
+            
         return outputs

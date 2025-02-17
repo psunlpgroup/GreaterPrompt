@@ -2,6 +2,7 @@ from optimizer import GreaterOptimizer
 from utils.dataloader import GreaterDataSet
 
 import torch
+from torch.nn import functional as F
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # Example1, use jsonl file to build dataset
@@ -17,6 +18,7 @@ tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 optimize_config = {
     "intersection": False,
     "candidates_topk": 3,
+    "loss_function": F.cross_entropy,
     "generate_config": {
         "max_new_tokens": 1024
     }
@@ -31,7 +33,7 @@ optimizer = GreaterOptimizer(
 p_stars = optimizer.optimize(
     inputs=dataset1, 
     # this extractor will be applied to all prompts inside the dataset
-    p_extractor="\nNext, only give the exact answer, no extract words, spaces or any punctuation: ",
+    p_extractor="\nNext, only give the exact answer, no extract words, spaces or any punctuation:",
     rounds=105
 )
 
@@ -65,8 +67,8 @@ dataset2 = GreaterDataSet(custom_inputs=[
 p_stars = optimizer.optimize(
     inputs=dataset2, 
     # this extractor will be applied to all prompts inside the dataset
-    extractor="\nNext, only give the exact answer, no extract words or any punctuation: ",
-    rounds=35
+    extractor="\nNext, only give the exact answer, no extract words or any punctuation:",
+    rounds=105
 )
 for p_init, p_star in zip(dataset2, p_stars):
     print(f'question: {p_init["question"]}')
