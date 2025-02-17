@@ -6,7 +6,6 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # Example1, use jsonl file to build dataset
 dataset1 = GreaterDataSet(data_path="./data/boolean_expressions.jsonl")
-dataset1.items = dataset1.items[:1]
 
 # init model and tokenzier
 MODEL_PATH = "meta-llama/Llama-3.1-8B-Instruct"
