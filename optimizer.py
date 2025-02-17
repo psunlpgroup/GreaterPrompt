@@ -1,6 +1,6 @@
 import importlib
 import logging
-from typing import List, Tuple
+from typing import List
 
 from models.utils import model_supported
 
@@ -21,14 +21,6 @@ class GreaterOptimizer:
             self, model: AutoModelForCausalLM, tokenizer: AutoTokenizer, optimize_config: dict, *args, **kwargs
         ):
         self.optimize_config = optimize_config
-        # by default, disable sampling
-        if "generate_config" not in optimize_config:
-            self.optimize_config["generate_config"] = {
-                "do_sample": False
-            }
-        elif "do_sample" not in optimize_config["generate_config"]:
-            self.optimize_config["generate_config"]["do_sample"] = False
-
         self._init_agents(model, tokenizer)
     
 
@@ -51,7 +43,7 @@ class GreaterOptimizer:
                 probs.append(F.softmax(logits, dim=-1))
                 next_token_id = torch.argmax(logits, dim=-1)
                 next_token_id = next_token_id.unsqueeze(0)
-                logging.info(f'next_token_id: {next_token_id}, next_token_id decoded: {self.client.tokenizer.decode(next_token_id[0, 0])}')
+                logging.info(f'next_token_id: {next_token_id}, next_token_id decoded: {repr(self.client.tokenizer.decode(next_token_id[0, 0]))}')
                 input = torch.cat([input, next_token_id], dim=1)
 
         return torch.cat(probs, dim=0)
@@ -70,8 +62,8 @@ class GreaterOptimizer:
 
         for y, y_hat in zip(y_tokens[0, :], y_hat_probs):
             logging.info(f'calculating loss')
-            logging.info(f'y_token: {self.client.tokenizer.decode(y)}')
-            logging.info(f'y_hat_token: {self.client.tokenizer.decode(torch.argmax(y_hat))}')
+            logging.info(f'y_token: {repr(self.client.tokenizer.decode(y))}')
+            logging.info(f'y_hat_token: {repr(self.client.tokenizer.decode(torch.argmax(y_hat)))}')
             loss = self.calculate_loss(y_hat, y)
             logging.info(f'loss: {loss.item()}')
             embedding_layer = self.client.model.get_input_embeddings()
@@ -102,7 +94,7 @@ class GreaterOptimizer:
         for candidate in candidates:
             token_grad = sum([torch.norm(grad[candidate], p=2) * -1 for grad in gradients])
             token_grad /= len(gradients)
-            logging.info(f'candidate id: {candidate}, candidate token: {self.client.tokenizer.decode(candidate)}, token_grad: {token_grad}')
+            logging.info(f'candidate id: {candidate}, candidate token: {repr(self.client.tokenizer.decode(candidate))}, token_grad: {token_grad}')
             if token_grad > p_i_star_grad:
                 p_i_star = candidate
                 p_i_star_grad = token_grad
@@ -110,8 +102,8 @@ class GreaterOptimizer:
         return p_i_star
 
 
-    def optimize(self, inputs: List[dict], extractor:str, rounds: int) -> Tuple[List[List[str]], List[dict]]:
-        outputs, meta_info = [], []
+    def optimize(self, inputs: List[dict], extractor:str, rounds: int) -> List[List[str]]:
+        outputs = []
 
         for i, input in enumerate(inputs):
             # TODO: why there is a space before answer?
@@ -131,28 +123,29 @@ class GreaterOptimizer:
             assert len(p_tokens[0, :]) >= 2, "Init prompt should be at least 2 words"
             p_stars = []
 
-            for i in tqdm(range(1, rounds + 1), desc=f"Optimizing {i} / {len(inputs)}"):           
+            for j in tqdm(range(1, rounds + 1), desc=f"Optimizing {i} / {len(inputs)}"):
+                torch.cuda.empty_cache()
                 # calculate p_i, if it is the first token, skip
-                idx = i % len(p_tokens[0, :])
-                logging.info(f'Round {i}, p_idx: {idx}')
+                idx = j % len(p_tokens[0, :])
+                logging.info(f'Round {j}, p_idx: {idx}')
                 logging.info(f'p_tokens: {p_tokens}')
-                logging.info(f'p_tokens decoded: {self.client.tokenizer.decode(p_tokens[0, :])}')
+                logging.info(f'p_tokens decoded: {repr(self.client.tokenizer.decode(p_tokens[0, :]))}')
                 if idx == 0: continue
 
                 # get candidates for p_i by using x + p_0 ... p_i-1
                 token_i = p_tokens[:, idx]
-                logging.info(f'token_i: {token_i}, token_i decoded: {self.client.tokenizer.decode(token_i)}')
+                logging.info(f'token_i: {token_i}, token_i decoded: {repr(self.client.tokenizer.decode(token_i))}')
                 input_ids = torch.cat([question_tokens, p_tokens[:, :idx]], dim=1)
-                logging.info(f'input text for candidate generation: {self.client.tokenizer.decode(input_ids[0, :])}')
+                logging.info(f'input text for candidate generation: {repr(self.client.tokenizer.decode(input_ids[0, :]))}')
                 candidates = self.get_candidates(input_ids)
                 candidates.append(int(token_i[0]))
                 logging.info(f'candidates: {candidates}')
-                logging.info(f'candidates decoded: {[self.client.tokenizer.decode(c) for c in candidates]}')
+                logging.info(f'candidates decoded: {[repr(self.client.tokenizer.decode(c)) for c in candidates]}')
 
                 # get reasoning chain r by x + p
                 input_ids = torch.cat([question_tokens, p_tokens], dim=1)
                 reasoning_chain = self.get_reasoning(input_ids)
-                logging.info(f'reasoning_chain: {reasoning_chain}')
+                logging.info(f'reasoning_chain:\n {reasoning_chain}')
                 r_tokens = self.client.tokenizer.encode(reasoning_chain, return_tensors="pt")
                 r_tokens = r_tokens.to(self.client.device)
 
@@ -163,22 +156,24 @@ class GreaterOptimizer:
 
                 # calculate gradient for each candidate to get p_i_star
                 p_i_star = self.get_p_i_star(gradients, candidates)
-                logging.info(f'p_i_star: {p_i_star}, p_i_star decoded: {self.client.tokenizer.decode(p_i_star)}')
+                logging.info(f'p_i_star: {p_i_star}, p_i_star decoded: {repr(self.client.tokenizer.decode(p_i_star))}')
                 p_tokens[:, idx] = p_i_star
                 logging.info(f'p_tokens after updating: {p_tokens}')
-                logging.info(f'p_tokens decoded: {self.client.tokenizer.decode(p_tokens[0, :])}')
+                logging.info(f'p_tokens decoded: {repr(self.client.tokenizer.decode(p_tokens[0, :]))}')
 
                 # if p_i_star is a period, truncate the prompt and star from the beginning
                 p_i_star_token = self.client.tokenizer.decode(p_i_star)
                 if p_i_star_token.strip() == ".":
                     p_tokens = p_tokens[:, :idx + 1]
-                    p_stars.append(self.client.tokenizer.decode(p_tokens))
+                    p_stars.append(self.client.tokenizer.decode(p_tokens[0, :idx + 1], skip_special_tokens=True))
                     idx = 1
                     logging.info(f'p_i_star is a period, truncate the prompt and star from the beginning')
                 # elif p_i_star is not a period and it's the last token, append a dummy
                 # token for the next round of candidate generation
                 elif p_i_star_token.strip() != "." and idx == len(p_tokens) - 1:
-                    p_tokens = torch.cat([p_tokens, torch.tensor([None])], dim=1)
+                    pad_token_id = self.client.tokenizer.pad_token_id
+                    dummy_token = torch.tensor([[pad_token_id]], device=p_tokens.device)
+                    p_tokens = torch.cat([p_tokens, dummy_token], dim=1)
                     idx += 1
                     logging.info(f'p_i_star is not a period and it is the last token, append a dummy token for the next round of candidate generation')
                 else:
@@ -186,7 +181,6 @@ class GreaterOptimizer:
                     logging.info(f'p_i_star is not a period and it is not the last token, update the index')
                 logging.info(f'\n')
 
-            outputs.append(p_stars if p_stars else [self.client.tokenizer.decode(p_tokens[0, :])])
-            meta_info.append(input)
+            outputs.append(p_stars if p_stars else [self.client.tokenizer.decode(p_tokens[0, :], skip_special_tokens=True)])
 
-        return outputs, meta_info
+        return outputs

@@ -6,52 +6,43 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # Example1, use jsonl file to build dataset
 dataset1 = GreaterDataSet(data_path="./data/boolean_expressions.jsonl")
+dataset1.items = dataset1.items[:1]
 
 # init model and tokenzier
 MODEL_PATH = "meta-llama/Llama-3.1-8B-Instruct"
-model = AutoModelForCausalLM.from_pretrained(
-    MODEL_PATH,
-    torch_dtype=torch.bfloat16,
-    device_map="auto",
-    low_cpu_mem_usage=True,
-    trust_remote_code=True
-)
-tokenizer = AutoTokenizer.from_pretrained(
-    MODEL_PATH,
-    use_fast=True,
-)
+model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, torch_dtype=torch.bfloat16, device_map="cuda:6")
+tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
+tokenizer.pad_token = tokenizer.eos_token
+tokenizer.pad_token_id = tokenizer.eos_token_id
 
 # optimizer config
 optimize_config = {
     "intersection": False,
     "candidates_topk": 3,
     "generate_config": {
-        "do_sample": False,
+        "max_new_tokens": 1024
     }
 }
-T = 105
 
-# optimize
+# init optimizer and optimize
 optimizer = GreaterOptimizer(
     model=model,
     tokenizer=tokenizer,
     optimize_config=optimize_config
 )
-
-p_stars, meta_info = optimizer.optimize(
+p_stars = optimizer.optimize(
     inputs=dataset1, 
     # this extractor will be applied to all prompts inside the dataset
     extractor="\nNext, only give the exact answer, no extract words or any punctuation: ",
-    rounds=T
+    rounds=35
 )
+
 # print results
-for p_star, info in zip(p_stars, meta_info):
-    print(f'question: {info["question"]}')
-    print(f'p_init: {info["prompt"]}')
+for p_init, p_star in zip(dataset1, p_stars):
+    print(f'p_init: {p_init["prompt"]}')
     print(f'p_stars: ')
     for i, p in enumerate(p_star):
         print(f'{i + 1}: {p}')
-    print('--------------------------------')
 
 
 # Example2, use custom inputs to build dataset
@@ -72,17 +63,14 @@ dataset2 = GreaterDataSet(custom_inputs=[
         "answer": "-50"
     }
 ])
-p_stars, meta_info = optimizer.optimize(
+p_stars = optimizer.optimize(
     inputs=dataset2, 
     # this extractor will be applied to all prompts inside the dataset
-    extractor="Therefore, the final answer (use exactly this format: **NUMBER**, \
-               where NUMBER is a positive or negative integer) is **",
-    rounds=T
+    extractor="\nNext, only give the exact answer, no extract words or any punctuation: ",
+    rounds=35
 )
-for p_star, info in zip(p_stars, meta_info):
-    print(f'question: {info["question"]}')
-    print(f'p_init: {info["prompt"]}')
+for p_init, p_star in zip(dataset2, p_stars):
+    print(f'p_init: {p_init["prompt"]}')
     print(f'p_stars: ')
     for i, p in enumerate(p_star):
         print(f'{i + 1}: {p}')
-    print('--------------------------------')
