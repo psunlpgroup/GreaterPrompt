@@ -105,7 +105,7 @@ pip install GReaTer
 
 ## Citation
 
-```
+```plaintext
 @article{das2024greater,
   title={GReaTer: Gradients over Reasoning Makes Smaller Language Models Strong Prompt Optimizers},
   author={Das, Sarkar Snigdha Sarathi and Kamoi, Ryo and Pang, Bo and Zhang, Yusen and Xiong, Caiming and Zhang, Rui},
@@ -113,4 +113,3 @@ pip install GReaTer
   year={2024}
 }
 ```
-

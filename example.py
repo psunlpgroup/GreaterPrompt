@@ -41,8 +41,7 @@ optimizer = GreaterOptimizer(
 p_stars, meta_info = optimizer.optimize(
     inputs=dataset1, 
     # this extractor will be applied to all prompts inside the dataset
-    extractor="Only return the exact answer. \
-               Therefore, the final answer (use exact format: '$ True' or '$ False') is $ ",
+    extractor="\nNext, only give the exact answer, no extract words or any punctuation: ",
     rounds=T
 )
 # print results

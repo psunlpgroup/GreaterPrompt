@@ -1,4 +1,5 @@
 import importlib
+import logging
 from typing import List, Tuple
 
 from models.utils import model_supported
@@ -9,11 +10,25 @@ from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s",
+    filename="optimizer.log", filemode="w"
+)
+
+
 class GreaterOptimizer:
     def __init__(
             self, model: AutoModelForCausalLM, tokenizer: AutoTokenizer, optimize_config: dict, *args, **kwargs
         ):
         self.optimize_config = optimize_config
+        # by default, disable sampling
+        if "generate_config" not in optimize_config:
+            self.optimize_config["generate_config"] = {
+                "do_sample": False
+            }
+        elif "do_sample" not in optimize_config["generate_config"]:
+            self.optimize_config["generate_config"]["do_sample"] = False
+
         self._init_agents(model, tokenizer)
     
 
@@ -26,17 +41,18 @@ class GreaterOptimizer:
 
 
     def get_pred_probs(self, input: dict, y_tokens: torch.Tensor) -> torch.Tensor:
+        logging.info('getting model predictions')
         probs = []
 
         with torch.enable_grad():
             generate_config = self.optimize_config["generate_config"]
-            for i in range(-len(y_tokens), 0, 1):
-                logits = self.client.get_logits(input, generate_config)[:, i, :]
+            for i in range(len(y_tokens)):
+                logits = self.client.get_logits(input, generate_config)[:, -1, :]
                 probs.append(F.softmax(logits, dim=-1))
-        
-        resp = ""
-        for p in probs:
-            resp += self.client.tokenizer.decode(p.argmax(dim=-1))
+                next_token_id = torch.argmax(logits, dim=-1)
+                next_token_id = next_token_id.unsqueeze(0)
+                logging.info(f'next_token_id: {next_token_id}, next_token_id decoded: {self.client.tokenizer.decode(next_token_id[0, 0])}')
+                input = torch.cat([input, next_token_id], dim=1)
 
         return torch.cat(probs, dim=0)
     
@@ -49,11 +65,15 @@ class GreaterOptimizer:
         return loss
     
 
-    def get_gradients(self, y_tokens: torch.Tensor, probs: torch.Tensor) -> List[torch.Tensor]:
+    def get_gradients(self, y_tokens: torch.Tensor, y_hat_probs: torch.Tensor) -> List[torch.Tensor]:
         gradients = []
 
-        for y, y_hat in zip(y_tokens, probs):
+        for y, y_hat in zip(y_tokens[0, :], y_hat_probs):
+            logging.info(f'calculating loss')
+            logging.info(f'y_token: {self.client.tokenizer.decode(y)}')
+            logging.info(f'y_hat_token: {self.client.tokenizer.decode(torch.argmax(y_hat))}')
             loss = self.calculate_loss(y_hat, y)
+            logging.info(f'loss: {loss.item()}')
             embedding_layer = self.client.model.get_input_embeddings()
             embedding_grad = embedding_layer.weight.grad
             gradients.append(embedding_grad)
@@ -61,29 +81,30 @@ class GreaterOptimizer:
         return gradients
 
 
-    def get_candidates(self, input: dict) -> List[str]:
+    def get_candidates(self, input: dict) -> List[int]:
         candidates = self.client.get_candidates(input, self.optimize_config)
 
         return candidates
     
 
     def get_reasoning(self, input: dict) -> str:
-        generate_config = self.optimize_config.get("reasoning_config", {})
+        generate_config = self.optimize_config.get("generate_config", {})
         with torch.inference_mode():
             response = self.client.generate(input, generate_config)
 
         return response
     
     
-    def get_p_i_star(self, gradients: List[torch.Tensor], candidates: List[str]) -> str:
+    def get_p_i_star(self, gradients: List[torch.Tensor], candidates: List[int]) -> int:
+        logging.info('calculating p_i_star')
         p_i_star, p_i_star_grad = None, float("-inf")
 
-        for token in candidates:
-            token_id = self.client.tokenizer.encode(token, return_tensors="pt")
-            token_grad = sum([torch.norm(grad[token_id], p=2) * -1 for grad in gradients])
+        for candidate in candidates:
+            token_grad = sum([torch.norm(grad[candidate], p=2) * -1 for grad in gradients])
             token_grad /= len(gradients)
+            logging.info(f'candidate id: {candidate}, candidate token: {self.client.tokenizer.decode(candidate)}, token_grad: {token_grad}')
             if token_grad > p_i_star_grad:
-                p_i_star = token
+                p_i_star = candidate
                 p_i_star_grad = token_grad
 
         return p_i_star
@@ -93,67 +114,79 @@ class GreaterOptimizer:
         outputs, meta_info = [], []
 
         for i, input in enumerate(inputs):
-            question, p_init, ground_truth = input["question"], input["prompt"], " " + input["answer"]
-            p_tokens = self.client.tokenizer.tokenize(p_init)
+            # TODO: why there is a space before answer?
+            question, p_init, ground_truth = input["question"].strip() + " ?", " " + input["prompt"], input["answer"]
+            logging.info(f'question: {question}')
+            logging.info(f'p_init: {p_init}')
+            logging.info(f'ground_truth: {ground_truth}\n')
+            # only keep <|begin_of_text|> token for question
+            question_tokens = self.client.tokenizer.encode(question, return_tensors="pt")
+            question_tokens = question_tokens.to(self.client.device)
+            p_tokens = self.client.tokenizer.encode(p_init, return_tensors="pt")
+            p_tokens = p_tokens[:, 1:].to(self.client.device)
+            p_extr_tokens = self.client.tokenizer.encode(extractor, return_tensors="pt")
+            p_extr_tokens = p_extr_tokens[:, 1:].to(self.client.device)
             y_tokens = self.client.tokenizer.encode(ground_truth, return_tensors="pt")
-            # TODO: hard code here, llama tokens start with a <s>
-            y_tokens = y_tokens[0, 1:].to(self.client.device)
-            assert len(p_tokens) >= 2, "Init prompt should be at least 2 words"
+            y_tokens = y_tokens[:, 1:].to(self.client.device)
+            assert len(p_tokens[0, :]) >= 2, "Init prompt should be at least 2 words"
             p_stars = []
 
-            for i in tqdm(range(rounds), desc=f"Optimizing {i} / {len(inputs)}"):                
-                # calculate p_i, if i == 0, skip
-                idx = i % len(p_tokens)
+            for i in tqdm(range(1, rounds + 1), desc=f"Optimizing {i} / {len(inputs)}"):           
+                # calculate p_i, if it is the first token, skip
+                idx = i % len(p_tokens[0, :])
+                logging.info(f'Round {i}, p_idx: {idx}')
+                logging.info(f'p_tokens: {p_tokens}')
+                logging.info(f'p_tokens decoded: {self.client.tokenizer.decode(p_tokens[0, :])}')
                 if idx == 0: continue
 
-                # get candidates for p_i using x + p_0 ... p_i-1
-                token = p_tokens[idx]
-                input_text = f'{question} {"".join(p_tokens[:idx])}'
-                input_ids = self.client.tokenizer.encode(input_text, return_tensors="pt")
-
+                # get candidates for p_i by using x + p_0 ... p_i-1
+                token_i = p_tokens[:, idx]
+                logging.info(f'token_i: {token_i}, token_i decoded: {self.client.tokenizer.decode(token_i)}')
+                input_ids = torch.cat([question_tokens, p_tokens[:, :idx]], dim=1)
+                logging.info(f'input text for candidate generation: {self.client.tokenizer.decode(input_ids[0, :])}')
                 candidates = self.get_candidates(input_ids)
-                candidates += [token]
+                candidates.append(int(token_i[0]))
+                logging.info(f'candidates: {candidates}')
+                logging.info(f'candidates decoded: {[self.client.tokenizer.decode(c) for c in candidates]}')
 
                 # get reasoning chain r by x + p
+                input_ids = torch.cat([question_tokens, p_tokens], dim=1)
                 reasoning_chain = self.get_reasoning(input_ids)
-                input_text = f'{question} {"".join(p_tokens)} {reasoning_chain}'
-                input_ids = self.client.tokenizer.encode(input_text, return_tensors="pt")
+                logging.info(f'reasoning_chain: {reasoning_chain}')
+                r_tokens = self.client.tokenizer.encode(reasoning_chain, return_tensors="pt")
+                r_tokens = r_tokens.to(self.client.device)
 
-                # then using x + r + p to get raw response and extract y_hat
-                input_text = f'{question} {"".join(p_tokens)} {reasoning_chain} {extractor}'
-                input_ids = self.client.tokenizer.encode(input_text, return_tensors="pt")
-
-                # get logits of y_hat and use backward propagation to get gradients
+                # use x + p + r + p_extractor to get logits of y_hat
+                input_ids = torch.cat([question_tokens, p_tokens, r_tokens, p_extr_tokens], dim=1)
                 y_hat_probs = self.get_pred_probs(input_ids, y_tokens)
                 gradients = self.get_gradients(y_tokens, y_hat_probs)
 
                 # calculate gradient for each candidate to get p_i_star
                 p_i_star = self.get_p_i_star(gradients, candidates)
-                p_tokens[idx] = p_i_star
+                logging.info(f'p_i_star: {p_i_star}, p_i_star decoded: {self.client.tokenizer.decode(p_i_star)}')
+                p_tokens[:, idx] = p_i_star
+                logging.info(f'p_tokens after updating: {p_tokens}')
+                logging.info(f'p_tokens decoded: {self.client.tokenizer.decode(p_tokens[0, :])}')
 
                 # if p_i_star is a period, truncate the prompt and star from the beginning
-                if p_i_star.strip() == ".":
-                    p_tokens = p_tokens[:idx + 1]
-                    p_stars.append("".join(p_tokens).strip())
+                p_i_star_token = self.client.tokenizer.decode(p_i_star)
+                if p_i_star_token.strip() == ".":
+                    p_tokens = p_tokens[:, :idx + 1]
+                    p_stars.append(self.client.tokenizer.decode(p_tokens))
                     idx = 1
-                # elif p_i_star is not a period and it's the last token, append a dummy token
-                # for next candidate generation
-                elif p_i_star.strip() != "." and idx == len(p_tokens) - 1:
-                    p_tokens.append("#")
+                    logging.info(f'p_i_star is a period, truncate the prompt and star from the beginning')
+                # elif p_i_star is not a period and it's the last token, append a dummy
+                # token for the next round of candidate generation
+                elif p_i_star_token.strip() != "." and idx == len(p_tokens) - 1:
+                    p_tokens = torch.cat([p_tokens, torch.tensor([None])], dim=1)
                     idx += 1
+                    logging.info(f'p_i_star is not a period and it is the last token, append a dummy token for the next round of candidate generation')
                 else:
                     idx += 1
+                    logging.info(f'p_i_star is not a period and it is not the last token, update the index')
+                logging.info(f'\n')
 
-            outputs.append(p_stars if p_stars else ["".join(p_tokens).strip()])
+            outputs.append(p_stars if p_stars else [self.client.tokenizer.decode(p_tokens[0, :])])
             meta_info.append(input)
 
         return outputs, meta_info
-    
-
-    def batch_optimize(self, inputs: List[dict], rounds: int) -> List[str]:
-        p_stars: List[str] = []
-
-        for input in inputs:
-            pass
-
-        return p_stars
