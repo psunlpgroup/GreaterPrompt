@@ -11,8 +11,7 @@ dataset1 = GreaterDataSet(data_path="./data/boolean_expressions.jsonl")
 MODEL_PATH = "meta-llama/Llama-3.1-8B-Instruct"
 model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, torch_dtype=torch.bfloat16, device_map="cuda:6")
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
-tokenizer.pad_token = tokenizer.eos_token
-tokenizer.pad_token_id = tokenizer.eos_token_id
+
 
 # optimizer config
 optimize_config = {
@@ -32,12 +31,13 @@ optimizer = GreaterOptimizer(
 p_stars = optimizer.optimize(
     inputs=dataset1, 
     # this extractor will be applied to all prompts inside the dataset
-    extractor="\nNext, only give the exact answer, no extract words or any punctuation: ",
-    rounds=35
+    p_extractor="\nNext, only give the exact answer, no extract words, spaces or any punctuation: ",
+    rounds=105
 )
 
 # print results
 for p_init, p_star in zip(dataset1, p_stars):
+    print(f'question: {p_init["question"]}')
     print(f'p_init: {p_init["prompt"]}')
     print(f'p_stars: ')
     for i, p in enumerate(p_star):
@@ -69,6 +69,7 @@ p_stars = optimizer.optimize(
     rounds=35
 )
 for p_init, p_star in zip(dataset2, p_stars):
+    print(f'question: {p_init["question"]}')
     print(f'p_init: {p_init["prompt"]}')
     print(f'p_stars: ')
     for i, p in enumerate(p_star):

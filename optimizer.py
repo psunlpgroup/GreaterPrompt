@@ -10,6 +10,8 @@ from torch.nn import functional as F
 from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
+
+# TODO: remove logger when offically released
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s",
     filename=f"{time.strftime('%Y%m%d_%H%M%S')}.log", filemode="w"
@@ -32,7 +34,24 @@ class GreaterOptimizer:
         self.client = model_class(model, tokenizer)
 
 
-    def get_pred_probs(self, input: dict, y_tokens: torch.Tensor) -> torch.Tensor:
+    def encode_init(self, question: str, p_init: str, p_extractor: str, answer: str) -> torch.Tensor:
+        # only keep <|begin_of_text|> token for question
+        question_tokens = self.client.tokenizer.encode(question, return_tensors="pt")
+        question_tokens = question_tokens.to(self.client.device)
+
+        p_tokens = self.client.tokenizer.encode(p_init, return_tensors="pt")
+        p_tokens = p_tokens[:, 1:].to(self.client.device)
+
+        p_extr_tokens = self.client.tokenizer.encode(p_extractor, return_tensors="pt")
+        p_extr_tokens = p_extr_tokens[:, 1:].to(self.client.device)
+
+        y_tokens = self.client.tokenizer.encode(answer, return_tensors="pt")
+        y_tokens = y_tokens[:, 1:].to(self.client.device)
+
+        return question_tokens, p_tokens, p_extr_tokens, y_tokens
+
+
+    def get_pred_probs(self, input: torch.Tensor, y_tokens: torch.Tensor) -> torch.Tensor:
         logging.info('getting model predictions')
         probs = []
 
@@ -43,7 +62,7 @@ class GreaterOptimizer:
                 probs.append(F.softmax(logits, dim=-1))
                 next_token_id = torch.argmax(logits, dim=-1)
                 next_token_id = next_token_id.unsqueeze(0)
-                logging.info(f'next_token_id: {next_token_id}, next_token_id decoded: {repr(self.client.tokenizer.decode(next_token_id[0, 0]))}')
+                logging.info(f'next_token_id: {next_token_id}, next_token decoded: {repr(self.client.tokenizer.decode(next_token_id[0, 0]))}')
                 input = torch.cat([input, next_token_id], dim=1)
 
         return torch.cat(probs, dim=0)
@@ -73,13 +92,13 @@ class GreaterOptimizer:
         return gradients
 
 
-    def get_candidates(self, input: dict) -> List[int]:
+    def get_candidates(self, input: torch.Tensor) -> List[int]:
         candidates = self.client.get_candidates(input, self.optimize_config)
 
         return candidates
     
 
-    def get_reasoning(self, input: dict) -> str:
+    def get_reasoning(self, input: torch.Tensor) -> str:
         generate_config = self.optimize_config.get("generate_config", {})
         with torch.inference_mode():
             response = self.client.generate(input, generate_config)
@@ -102,24 +121,13 @@ class GreaterOptimizer:
         return p_i_star
 
 
-    def optimize(self, inputs: List[dict], extractor:str, rounds: int) -> List[List[str]]:
+    def optimize(self, inputs: List[dict], p_extractor:str, rounds: int) -> List[List[str]]:
         outputs = []
 
         for i, input in enumerate(inputs):
-            # TODO: why there is a space before answer?
             question, p_init, ground_truth = input["question"].strip() + " ?", " " + input["prompt"], input["answer"]
-            logging.info(f'question: {question}')
-            logging.info(f'p_init: {p_init}')
-            logging.info(f'ground_truth: {ground_truth}\n')
-            # only keep <|begin_of_text|> token for question
-            question_tokens = self.client.tokenizer.encode(question, return_tensors="pt")
-            question_tokens = question_tokens.to(self.client.device)
-            p_tokens = self.client.tokenizer.encode(p_init, return_tensors="pt")
-            p_tokens = p_tokens[:, 1:].to(self.client.device)
-            p_extr_tokens = self.client.tokenizer.encode(extractor, return_tensors="pt")
-            p_extr_tokens = p_extr_tokens[:, 1:].to(self.client.device)
-            y_tokens = self.client.tokenizer.encode(ground_truth, return_tensors="pt")
-            y_tokens = y_tokens[:, 1:].to(self.client.device)
+            logging.info(f'question: {question}, p_init: {p_init}, ground_truth: {ground_truth}')
+            question_tokens, p_tokens, p_extr_tokens, y_tokens = self.encode_init(question, p_init, p_extractor, ground_truth)
             assert len(p_tokens[0, :]) >= 2, "Init prompt should be at least 2 words"
             p_stars = []
             idx = 1
@@ -128,8 +136,7 @@ class GreaterOptimizer:
                 torch.cuda.empty_cache()
                 # calculate p_i, if it is the first token, skip
                 logging.info(f'Round {j}, p_idx: {idx}')
-                logging.info(f'p_tokens: {p_tokens}')
-                logging.info(f'p_tokens decoded: {repr(self.client.tokenizer.decode(p_tokens[0, :]))}')
+                logging.info(f'p_tokens: {p_tokens}, p_tokens decoded: {repr(self.client.tokenizer.decode(p_tokens[0, :]))}')
 
                 # get candidates for p_i by using x + p_0 ... p_i-1
                 token_i = p_tokens[:, idx]
@@ -144,7 +151,7 @@ class GreaterOptimizer:
                 # get reasoning chain r by x + p
                 input_ids = torch.cat([question_tokens, p_tokens], dim=1)
                 reasoning_chain = self.get_reasoning(input_ids)
-                logging.info(f'reasoning_chain:\n {reasoning_chain}')
+                logging.info(f'reasoning_chain:\n{reasoning_chain}')
                 r_tokens = self.client.tokenizer.encode(reasoning_chain, return_tensors="pt")
                 r_tokens = r_tokens.to(self.client.device)
 
