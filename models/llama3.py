@@ -21,14 +21,14 @@ class Llama3(BaseModel):
 
     
     def forward(self, inputs: dict, generation_config: dict) -> dict:
-        attention_mask = torch.ones_like(inputs)
+        attention_mask = torch.ones_like(inputs, dtype=torch.long, device=inputs.device)
         outputs = self.model(inputs, attention_mask=attention_mask, **generation_config)
 
         return outputs
     
 
     def generate(self, inputs: dict, generation_config: dict) -> dict:
-        attention_mask = torch.ones_like(inputs)
+        attention_mask = torch.ones_like(inputs, dtype=torch.long, device=inputs.device)
         outputs = self.model.generate(inputs, attention_mask=attention_mask, **generation_config)
         response = self.post_process(outputs)
 
