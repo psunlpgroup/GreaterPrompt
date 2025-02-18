@@ -253,7 +253,7 @@ class GreaterOptimizer:
             truncated = [False] * len(batch)
 
             start_time = time.time()
-            for j in tqdm(range(rounds), desc=f"Optimizing {i} / {len(batch_inputs)}"):
+            for j in tqdm(range(rounds), desc=f"Optimizing {i + 1} / {len(batch_inputs)}"):
                 torch.cuda.empty_cache()
                 # calculate p_i, if it is the first token, skip
                 logging.info(f'Round {j}, p_idx: {idx}')

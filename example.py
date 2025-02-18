@@ -66,7 +66,7 @@ dataset2 = GreaterDataSet(custom_inputs=[
 p_stars = optimizer.optimize_intersection(
     inputs=dataset2, 
     # this extractor will be applied to all prompts inside the dataset
-    extractor="\nNext, only give the exact answer, no extract words or any punctuation:",
+    p_extractor="\nNext, only give the exact answer, no extract words or any punctuation:",
     rounds=105
 )
 
