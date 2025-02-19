@@ -14,11 +14,8 @@
 Three key components of GReaTer are the following:
 
 - The language model fLLM generates token candidates by conditioning on input samples.
-- fLLM uses task input and current prompt to generate reasoning
-and extract final answer logits.
-- The logits are used to calculate loss and compute gradient over
-generated reasoning with respect to the candidate tokens. These gradients determine the selection
-of candidate token to update the current position of the current prompt.
+- fLLM uses task input and current prompt to generate reasoning and extract final answer logits.
+- The logits are used to calculate loss and compute gradient over generated reasoning with respect to the candidate tokens. These gradients determine the selection of candidate token to update the current position of the current prompt.
 
 ## Installation
 
@@ -37,32 +34,35 @@ pip install GReaTer
 
     # There are two ways to create a dataset
     # 1. Load a pre-defined dataset from a json file
-    dataset1 = GreaterDataSet(data_path="./data/boolean_expressions.jsonl")
+        ```python
+        dataset1 = GreaterDataSet(data_path="./data/boolean_expressions.jsonl")
+        ```
 
     # 2. Create a dataset from scratch
     # custom_inputs is a list of dictionaries, each dictionary is suppposed to contain a question, a prompt, and an answer
-    dataset2 = GreaterDataSet(custom_inputs=[
-        {
-            "question": "((-1 + 2 + 9 * 5) - (-2 + -4 + -4 * -7)) =", 
-            "prompt": "Use logical reasoning and think step by step.", 
-            "answer": "24"
-        },
-        {
-            "question": "((-9 * -5 - 6 + -2) - (-8 - -6 * -3 * 1)) =",
-            "prompt": "Use logical reasoning and think step by step.",
-            "answer": "63"
-        },
-        {
-            "question": "((3 * -3 * 6 + -5) - (-2 + -7 - 7 - -7)) =",
-            "prompt": "Use logical reasoning and think step by step.",
-            "answer": "-50"
-        }
-    ])
-    ```
+        ```python
+        dataset2 = GreaterDataSet(custom_inputs=[
+            {
+                "question": "((-1 + 2 + 9 * 5) - (-2 + -4 + -4 * -7)) =", 
+                "prompt": "Use logical reasoning and think step by step.", 
+                "answer": "24"
+            },
+            {
+                "question": "((-9 * -5 - 6 + -2) - (-8 - -6 * -3 * 1)) =",
+                "prompt": "Use logical reasoning and think step by step.",
+                "answer": "63"
+            },
+            {
+                "question": "((3 * -3 * 6 + -5) - (-2 + -7 - 7 - -7)) =",
+                "prompt": "Use logical reasoning and think step by step.",
+                "answer": "-50"
+            }
+        ])
+        ```
 
 2. define the optimize config, for details please refer to the our [documentation page](https://www.google.com/)
 
-    ```bash
+    ```python
     # optimizer config
     optimize_config = {
         "intersection": False,
@@ -76,7 +76,7 @@ pip install GReaTer
 
 3. load the model and tokenizer to initialize the optimizer
 
-    ```bash
+    ```python
     # So far we support Llama-3.1 Gemma-2 family models
     # You could use transformers to load the model and tokenizer
     from transformers import LlamaForCausalLM, LlamaTokenizer
@@ -92,7 +92,7 @@ pip install GReaTer
 
 4. optimize the prompt
 
-    ```bash
+    ```python
     # optimize the prompt, optimizer will return a list of optimized prompts and some meta information(e.g. id, question, initial prompt)
     p_stars, meta_info = optimizer.optimize(
         inputs=dataset1, 

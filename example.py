@@ -15,7 +15,7 @@ tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 
 # optimizer config
 optimize_config = {
-    "intersect_q": 1,
+    "intersect_q": 5,
     "candidates_topk": 10,
     "loss_function": F.cross_entropy,
     "perplexity_loss": True,
@@ -32,11 +32,11 @@ optimizer = GreaterOptimizer(
     tokenizer=tokenizer,
     optimize_config=optimize_config
 )
-outputs = optimizer.optimize_intersection(
+outputs = optimizer.optimize(
     inputs=dataset1, 
     # this extractor will be applied to all prompts inside the dataset
     p_extractor="\nNext, only give the exact answer, no extract words or any punctuation:",
-    rounds=105
+    rounds=80
 )
 
 # print results
@@ -63,11 +63,11 @@ dataset2 = GreaterDataSet(custom_inputs=[
         "answer": "-50"
     }
 ])
-p_stars = optimizer.optimize_intersection(
+outputs = optimizer.optimize(
     inputs=dataset2, 
     # this extractor will be applied to all prompts inside the dataset
     p_extractor="\nNext, only give the exact answer, no extract words or any punctuation:",
-    rounds=105
+    rounds=80
 )
 
 # print results

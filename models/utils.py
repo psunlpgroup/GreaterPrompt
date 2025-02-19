@@ -1,8 +1,6 @@
 from typing import Tuple
 
-from transformers import (
-    AutoModelForCausalLM, LlamaForCausalLM, Gemma2ForCausalLM
-)
+from transformers import AutoModelForCausalLM, Gemma2ForCausalLM, LlamaForCausalLM
 
 
 def model_supported(model: AutoModelForCausalLM) -> Tuple[bool, str]:
