@@ -62,24 +62,27 @@ pip install GReaTer
     ```python
     # optimizer config
     optimize_config = {
-        "intersection": False,
-        "candidates_topk": 3,
+        "intersect_q": 5,
+        "candidates_topk": 10,
+        "loss_function": F.cross_entropy,
+        "perplexity_loss": True,
+        "perplexity_lambda": 0.2,
         "generate_config": {
-            "do_sample": False
+            "temperature": 0.6,
+            "max_new_tokens": 1024
         }
     }
-    T = 105
     ```
 
 3. load the model and tokenizer to initialize the optimizer
 
     ```python
-    # So far we support Llama-3.1 Gemma-2 family models
+    # So far we support Llama-3 and Gemma-2 family models
     # You could use transformers to load the model and tokenizer
     from transformers import LlamaForCausalLM, LlamaTokenizer
 
-    model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-3.1-8B-Instruct")
-    tokenizer = LlamaTokenizer.from_pretrained("meta-llama/Llama-3.1-8B-Instruct")
+    model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-3.2-3B-Instruct")
+    tokenizer = LlamaTokenizer.from_pretrained("meta-llama/Llama-3.2-3B-Instruct")
 
     # initialize the optimizer with the model, tokenizer, and optimize config
     optimizer = GreaterOptimizer(
@@ -90,13 +93,12 @@ pip install GReaTer
 4. optimize the prompt
 
     ```python
-    # optimize the prompt, optimizer will return a list of optimized prompts and some meta information(e.g. id, question, initial prompt)
-    p_stars, meta_info = optimizer.optimize(
+    # optimize the prompt, optimizer will return a dict containing original question and a list of optimized prompts
+    outputs = optimizer.optimize(
         inputs=dataset1, 
-        # extractor will be applied to all prompts inside the input dataset
-        extractor="Only return the exact answer. \
-                Therefore, the final answer (use exact format: '$ True' or '$ False') is $ ",
-        rounds=T
+        # this extractor will be applied to all prompts inside the dataset
+        p_extractor="\nNext, only give the exact answer, no extract words or any punctuation:",
+        rounds=80
     )
     ```
 
