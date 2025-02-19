@@ -29,36 +29,33 @@ pip install GReaTer
 
 1. create an input dataset for optimization
 
-    ```bash
+    ```python
     from GReaTer import GreaterDataSet
 
     # There are two ways to create a dataset
     # 1. Load a pre-defined dataset from a json file
-        ```python
-        dataset1 = GreaterDataSet(data_path="./data/boolean_expressions.jsonl")
-        ```
+    dataset1 = GreaterDataSet(data_path="./data/boolean_expressions.jsonl")
 
     # 2. Create a dataset from scratch
     # custom_inputs is a list of dictionaries, each dictionary is suppposed to contain a question, a prompt, and an answer
-        ```python
-        dataset2 = GreaterDataSet(custom_inputs=[
-            {
-                "question": "((-1 + 2 + 9 * 5) - (-2 + -4 + -4 * -7)) =", 
-                "prompt": "Use logical reasoning and think step by step.", 
-                "answer": "24"
-            },
-            {
-                "question": "((-9 * -5 - 6 + -2) - (-8 - -6 * -3 * 1)) =",
-                "prompt": "Use logical reasoning and think step by step.",
-                "answer": "63"
-            },
-            {
-                "question": "((3 * -3 * 6 + -5) - (-2 + -7 - 7 - -7)) =",
-                "prompt": "Use logical reasoning and think step by step.",
-                "answer": "-50"
-            }
-        ])
-        ```
+    dataset2 = GreaterDataSet(custom_inputs=[
+        {
+            "question": "((-1 + 2 + 9 * 5) - (-2 + -4 + -4 * -7)) =", 
+            "prompt": "Use logical reasoning and think step by step.", 
+            "answer": "24"
+        },
+        {
+            "question": "((-9 * -5 - 6 + -2) - (-8 - -6 * -3 * 1)) =",
+            "prompt": "Use logical reasoning and think step by step.",
+            "answer": "63"
+        },
+        {
+            "question": "((3 * -3 * 6 + -5) - (-2 + -7 - 7 - -7)) =",
+            "prompt": "Use logical reasoning and think step by step.",
+            "answer": "-50"
+        }
+    ])
+    ```
 
 2. define the optimize config, for details please refer to the our [documentation page](https://www.google.com/)
 
