@@ -1,6 +1,6 @@
 from typing import List, Tuple
 
-from models.base_model import BaseModel
+from src.GReaTer_Wenliang04.models.base_model import BaseModel
 
 import torch
 import torch.nn.functional as F

@@ -1,5 +1,4 @@
-from core.optimizer import GreaterOptimizer
-from utils.dataloader import GreaterDataSet
+from src.GReaTer_Wenliang04 import GreaterOptimizer, GreaterDataSet
 
 import torch
 from torch.nn import functional as F
@@ -22,7 +21,8 @@ optimize_config = {
     "perplexity_lambda": 0.2,
     "generate_config": {
         "temperature": 0.6,
-        "max_new_tokens": 1024
+        "max_new_tokens": 1024,
+        "pad_token_id": tokenizer.eos_token_id
     }
 }
 

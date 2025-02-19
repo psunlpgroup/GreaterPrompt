@@ -1,7 +1,7 @@
 from typing import List
 
-from models.base_model import BaseModel
-from models.utils import llama_post_process
+from src.GReaTer_Wenliang04.models.base_model import BaseModel
+from src.GReaTer_Wenliang04.models.utils import llama_post_process
 
 import torch
 from torch.nn import functional as F
