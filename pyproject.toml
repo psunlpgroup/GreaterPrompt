@@ -3,24 +3,34 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "GReaTer_Wenliang04"
+name = "greaterprompt"
 version = "0.1.0"
-authors = [
-  { name="Wenliang Zheng", email="wenliangz2004@gmail.com" },
-]
-description = "GReaTer: A Gradient-based Prompt Optimizer for Text Generation"
-readme = "README.md"
-requires-python = ">=3.8"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "Operating System :: OS Independent",
-]
-license = "MIT"
-license-files = ["LICEN[CS]E*"]
 dependencies = [
     "torch", "transformers", "tqdm"
 ]
 
+authors = [
+  {name = "Wenliang Zheng", email = "wenliangz2004@gmail.com"},
+  {name = "Sarkar Snigdha Sarathi Das", email = "sfd5525@psu.edu"},
+  {name = "Rui Zhang", email = "rmz5227@psu.edu"}
+]
+maintainers = [
+  {name = "Wenliang Zheng", email = "wenliangz2004@gmail.com"}
+]
+
+description = "A Gradient-based Prompt Optimizer for Text Generation"
+readme = "README.md"
+license = "MIT"
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+
+  "Programming Language :: Python :: 3"
+]
+
 [project.urls]
 Homepage = "https://github.com/WenliangZhoushan/GreaterPrompt"
-Issues = "https://github.com/WenliangZhoushan/GreaterPrompt/issues"
