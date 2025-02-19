@@ -1,4 +1,4 @@
-from src.GReaTer_Wenliang04 import GreaterOptimizer, GreaterDataSet
+from src.greaterprompt import GreaterOptimizer, GreaterDataSet
 
 import torch
 from torch.nn import functional as F

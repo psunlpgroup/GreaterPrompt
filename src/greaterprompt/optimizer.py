@@ -4,7 +4,7 @@ import time
 from collections import defaultdict
 from typing import List
 
-from src.GReaTer_Wenliang04.models import model_supported
+from src.greaterprompt.models import model_supported
 
 import torch
 from torch.nn import functional as F
@@ -32,7 +32,7 @@ class GreaterOptimizer:
         supported, model_name = model_supported(model)
         assert supported, f"Model: {model} is not supported"
 
-        model_class = getattr(importlib.import_module("src.GReaTer_Wenliang04.models"), model_name)
+        model_class = getattr(importlib.import_module("src.greaterprompt.models"), model_name)
         self.client = model_class(model, tokenizer)
 
 
