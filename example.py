@@ -1,4 +1,4 @@
-from optimizer import GreaterOptimizer
+from core.optimizer import GreaterOptimizer
 from utils.dataloader import GreaterDataSet
 
 import torch
@@ -9,8 +9,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 dataset1 = GreaterDataSet(data_path="./data/boolean_expressions.jsonl")
 
 # init model and tokenzier
-MODEL_PATH = "meta-llama/Llama-3.1-8B-Instruct"
-model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, torch_dtype=torch.bfloat16, device_map="cuda:6")
+MODEL_PATH = "/scratch1/wmz5132/models/huggingface/Llama-3.2-3B-Instruct"
+model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, torch_dtype=torch.bfloat16, device_map="cuda:0")
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 
 # optimizer config
