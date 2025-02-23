@@ -1,7 +1,7 @@
 from typing import List
 
-from greaterprompt.models.base_model import BaseModel
-from greaterprompt.models.utils import llama_post_process
+from src.greaterprompt.models.base_model import BaseModel
+from src.greaterprompt.models.utils import llama_post_process
 
 import torch
 from torch.nn import functional as F

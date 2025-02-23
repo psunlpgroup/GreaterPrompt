@@ -4,7 +4,7 @@ import time
 from collections import defaultdict
 from typing import List
 
-from greaterprompt.models import model_supported
+from src.greaterprompt.models import model_supported
 
 import torch
 from torch.nn import functional as F
@@ -32,7 +32,7 @@ class GreaterOptimizer:
         supported, model_name = model_supported(model)
         assert supported, f"Model: {model} is not supported"
 
-        model_class = getattr(importlib.import_module("greaterprompt.models"), model_name)
+        model_class = getattr(importlib.import_module("src.greaterprompt.models"), model_name)
         self.client = model_class(model, tokenizer)
 
 
@@ -42,8 +42,11 @@ class GreaterOptimizer:
         for input in batch_inputs:
             q_token = self.client.tokenizer.encode(input["question"].strip() + " ?", return_tensors="pt")
             p_token = self.client.tokenizer.encode(" " + input["prompt"], return_tensors="pt")
-            y_token = self.client.tokenizer.encode(" " + input["answer"], return_tensors="pt")
-            # only keep <|begin_of_text|> token for question tokens
+            if self.client.model.config.model_type == "llama":
+                y_token = self.client.tokenizer.encode(" " + input["answer"], return_tensors="pt")
+            elif self.client.model.config.model_type == "gemma2":
+                y_token = self.client.tokenizer.encode(input["answer"], return_tensors="pt")
+            # only keep <|begin_of_text|> or <bos> token for question tokens
             question_tokens.append(q_token.to(self.client.device))
             p_tokens.append(p_token[:, 1:].to(self.client.device))
             y_tokens.append(y_token[:, 1:].to(self.client.device))
