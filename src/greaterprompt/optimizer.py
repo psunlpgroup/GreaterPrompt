@@ -4,7 +4,7 @@ import time
 from collections import defaultdict
 from typing import List
 
-from src.greaterprompt.models import model_supported
+from greaterprompt.models import model_supported
 
 import torch
 from torch.nn import functional as F
@@ -32,7 +32,7 @@ class GreaterOptimizer:
         supported, model_name = model_supported(model)
         assert supported, f"Model: {model} is not supported"
 
-        model_class = getattr(importlib.import_module("src.greaterprompt.models"), model_name)
+        model_class = getattr(importlib.import_module("greaterprompt.models"), model_name)
         self.client = model_class(model, tokenizer)
 
 
@@ -200,8 +200,8 @@ class GreaterOptimizer:
                     r_tokens = self.client.tokenizer.encode(reasoning_chain, return_tensors="pt")
                     r_tokens = r_tokens.to(self.client.device)
 
-                    # use x + p + r + p_extractor to get logits of y_hat
-                    input_ids = torch.cat([question_tokens[k], p, r_tokens, p_extr_tokens], dim=1)
+                    # use x + p + r + p_extractor to get logits of y_hat(x and p is already included in r)
+                    input_ids = torch.cat([r_tokens, p_extr_tokens], dim=1)
                     y_hat_probs = self.get_pred_probs(input_ids, y_tokens[k])
                     gradients = self.get_gradients(question_tokens[k], p[:, :idx], y_tokens[k], y_hat_probs)
 

@@ -15,5 +15,6 @@ def model_supported(model: AutoModelForCausalLM) -> Tuple[bool, str]:
 def llama_post_process(text: str) -> str:
     text = text.split("<|end_header_id|>")[-1]
     text = text.replace("<|eot_id|>","")
-
+    text = text.replace("<|begin_of_text|>", "")
+    
     return text

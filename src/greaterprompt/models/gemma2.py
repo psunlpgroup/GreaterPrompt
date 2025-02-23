@@ -1,6 +1,6 @@
 from typing import List, Tuple
 
-from src.greaterprompt.models.base_model import BaseModel
+from greaterprompt.models.base_model import BaseModel
 
 import torch
 import torch.nn.functional as F
