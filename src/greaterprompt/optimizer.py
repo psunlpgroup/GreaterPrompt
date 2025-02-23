@@ -37,8 +37,7 @@ class GreaterOptimizer:
 
 
     def encode_input(self, batch_inputs: List[dict], p_extractor: str) -> torch.Tensor:
-        question_tokens, p_tokens, y_tokens = [], [], []
-
+        q_tokens, p_tokens, y_tokens = [], [], []
         for input in batch_inputs:
             q_token = self.client.tokenizer.encode(input["question"].strip() + " ?", return_tensors="pt")
             p_token = self.client.tokenizer.encode(" " + input["prompt"], return_tensors="pt")
@@ -46,15 +45,19 @@ class GreaterOptimizer:
                 y_token = self.client.tokenizer.encode(" " + input["answer"], return_tensors="pt")
             elif self.client.model.config.model_type == "gemma2":
                 y_token = self.client.tokenizer.encode(input["answer"], return_tensors="pt")
-            # only keep <|begin_of_text|> or <bos> token for question tokens
-            question_tokens.append(q_token.to(self.client.device))
-            p_tokens.append(p_token[:, 1:].to(self.client.device))
-            y_tokens.append(y_token[:, 1:].to(self.client.device))
+            q_tokens.append(q_token)
+            p_tokens.append(p_token[:, 1:])
+            y_tokens.append(y_token[:, 1:])
         
         p_extr_token = self.client.tokenizer.encode(p_extractor, return_tensors="pt")
-        p_extr_token = p_extr_token[:, 1:].to(self.client.device)
+        p_extr_token = p_extr_token[:, 1:]
 
-        return question_tokens, p_tokens, p_extr_token, y_tokens
+        return (
+            [t.to(self.client.device) for t in q_tokens],
+            [t.to(self.client.device) for t in p_tokens],
+            p_extr_token.to(self.client.device),
+            [t.to(self.client.device) for t in y_tokens]
+        )
     
 
     def get_pred_probs(self, input: torch.Tensor, y_tokens: torch.Tensor) -> torch.Tensor:
@@ -70,6 +73,9 @@ class GreaterOptimizer:
                 next_token_id = next_token_id.unsqueeze(0)
                 logging.info(f'next_token_id: {next_token_id}, next_token decoded: {repr(self.client.tokenizer.decode(next_token_id[0, 0]))}')
                 input = torch.cat([input, next_token_id], dim=1)
+                del logits
+                if i % 5 == 0:
+                    torch.cuda.empty_cache()
 
         return torch.cat(probs, dim=0)
     
@@ -99,7 +105,7 @@ class GreaterOptimizer:
             perpl_lambda = 0
         
         loss = loss_function(y_hat, y) + perpl_lambda * self.perplexity_loss(q_tokens, p_tokens)
-        loss.backward(retain_graph=True)
+        loss.backward(retain_graph=self.optimize_config.get("retain_graph", False))
 
         return loss
 
@@ -114,8 +120,8 @@ class GreaterOptimizer:
             loss = self.calculate_loss(q_tokens, p_tokens, y_hat, y)
             logging.info(f'loss: {loss.item()}')
             embedding_layer = self.client.model.get_input_embeddings()
-            embedding_grad = embedding_layer.weight.grad.clone().detach()
-            gradients.append(embedding_grad)
+            embedding_grad = embedding_layer.weight.grad.detach().clone()
+            gradients.append(embedding_grad.cpu())  # 移动到CPU
 
         return gradients
 
@@ -173,7 +179,7 @@ class GreaterOptimizer:
                 logging.info(f'Batch p_tokens decoded: {[repr(self.client.tokenizer.decode(p_token[0, :])) for p_token in p_tokens]}')
 
                 # get candidates for p_i by using x + p_0 ... p_i-1 for each p in the batch
-                candidates = set()
+                candidates_tmp = []
 
                 for k, p in enumerate(p_tokens):
                     if idx >= p.size(1): continue
@@ -187,9 +193,14 @@ class GreaterOptimizer:
                     eos_token_id = self.client.tokenizer.eos_token_id
                     p_candidates.update([int(p_token_i[0])] if int(p_token_i[0]) != eos_token_id else [])
                     logging.info(f'p_candidates for p_{k}: {p_candidates}, decoded: {[repr(self.client.tokenizer.decode(c)) for c in p_candidates]}')
-                    candidates = candidates.intersection(p_candidates) if candidates else p_candidates
-                    logging.info(f'candidates after intersection: {candidates}, decoded: {[repr(self.client.tokenizer.decode(c)) for c in candidates]}')
+                    candidates_tmp.append(p_candidates)
                 
+                candidates = set(candidates_tmp[0])
+                for c in candidates_tmp[1:]:
+                    candidates = candidates.intersection(c)
+                if not candidates:
+                    candidates = set(t for c in candidates_tmp for t in c)
+
                 logging.info(f'Batch candidates: {candidates}, decoded: {[repr(self.client.tokenizer.decode(c)) for c in candidates]}')
                 
                 # use intersection candidates to optimize each p in the batch
@@ -250,5 +261,13 @@ class GreaterOptimizer:
             logging.info(f'time taken: {time.time() - start_time}')
             logging.info(f'Batch {i + 1} finished, outputs: {outputs}')
             logging.info(f'Moving to next batch')
+
+            # 在每次迭代后强制释放内存
+            del input_ids, reasoning_chain, r_tokens, y_hat_probs
+            torch.cuda.empty_cache()
+            
+            # 使用内存映射处理大张量
+            p_tokens = [p.cpu() for p in p_tokens]  # 非活跃张量移到CPU
+            p_tokens = [p.to(self.client.device) for p in p_tokens]  # 需要时移回GPU
 
         return outputs
