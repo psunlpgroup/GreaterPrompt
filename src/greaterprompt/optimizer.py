@@ -68,9 +68,19 @@ class GreaterOptimizer:
             generate_config = self.optimize_config["generate_config"]
             for i in range(len(y_tokens)):
                 logits = self.client.get_logits(input, generate_config)[:, -1, :]
-                probs.append(F.softmax(logits, dim=-1))
                 next_token_id = torch.argmax(logits, dim=-1)
+
+                # ----------------- only for gemma2 ----------------- #
+                # TODO: hardcode here, if gemma2 generate \n, keep generating until it is not
+                if self.client.model.config.model_type == "gemma2":
+                    while self.client.tokenizer.decode(next_token_id[0], skip_special_tokens=True) in ["\n", "\n\n"]:
+                        input = torch.cat([input, next_token_id.unsqueeze(0)], dim=1)
+                        logits = self.client.get_logits(input, generate_config)[:, -1, :]
+                        next_token_id = torch.argmax(logits, dim=-1)
+                # ----------------- only for gemma2 ----------------- #
+    
                 next_token_id = next_token_id.unsqueeze(0)
+                probs.append(F.softmax(logits, dim=-1))
                 logging.info(f'next_token_id: {next_token_id}, next_token decoded: {repr(self.client.tokenizer.decode(next_token_id[0, 0]))}')
                 input = torch.cat([input, next_token_id], dim=1)
                 del logits
@@ -105,7 +115,7 @@ class GreaterOptimizer:
             perpl_lambda = 0
         
         loss = loss_function(y_hat, y) + perpl_lambda * self.perplexity_loss(q_tokens, p_tokens)
-        loss.backward(retain_graph=self.optimize_config.get("retain_graph", False))
+        loss.backward()
 
         return loss
 
@@ -121,7 +131,7 @@ class GreaterOptimizer:
             logging.info(f'loss: {loss.item()}')
             embedding_layer = self.client.model.get_input_embeddings()
             embedding_grad = embedding_layer.weight.grad.detach().clone()
-            gradients.append(embedding_grad.cpu())  # 移动到CPU
+            gradients.append(embedding_grad.cpu())
 
         return gradients
 
@@ -262,12 +272,7 @@ class GreaterOptimizer:
             logging.info(f'Batch {i + 1} finished, outputs: {outputs}')
             logging.info(f'Moving to next batch')
 
-            # 在每次迭代后强制释放内存
             del input_ids, reasoning_chain, r_tokens, y_hat_probs
             torch.cuda.empty_cache()
-            
-            # 使用内存映射处理大张量
-            p_tokens = [p.cpu() for p in p_tokens]  # 非活跃张量移到CPU
-            p_tokens = [p.to(self.client.device) for p in p_tokens]  # 需要时移回GPU
 
         return outputs

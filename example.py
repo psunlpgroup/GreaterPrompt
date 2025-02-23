@@ -8,8 +8,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 dataset1 = GreaterDataSet(data_path="./data/boolean_expressions.jsonl")
 
 # init model and tokenzier
-MODEL_PATH = "/scratch1/wmz5132/models/huggingface/Llama-3.2-3B-Instruct"
-model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, torch_dtype=torch.bfloat16, device_map="cuda:0")
+MODEL_PATH = "/scratch1/wmz5132/models/huggingface/gemma-2-9b-it"
+model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, torch_dtype=torch.bfloat16, device_map="cuda:4")
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 
 # optimizer config
@@ -20,9 +20,9 @@ optimize_config = {
     "perplexity_loss": True,
     "perplexity_lambda": 0.2,
     "generate_config": {
-        "temperature": 0.6,
+        "temperature": 0.2,
         "max_new_tokens": 1024,
-        "pad_token_id": tokenizer.eos_token_id
+        # "pad_token_id": tokenizer.eos_token_id
     }
 }
 
