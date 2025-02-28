@@ -13,7 +13,7 @@
 <p>
 <a href="#wrench-installation">Installation</a> |
 <a href="#rocket-quick-start">Quick-Start</a> |
-<a href="https://colab.research.google.com/drive/1yUPWSG6DuFFD0VIcbCTFdYpxrdT0-Z-f?usp=sharing">Colab-Examples</a> |
+<a href="https://colab.research.google.com/drive/1yUPWSG6DuFFD0VIcbCTFdYpxrdT0-Z-f?usp=sharing" target="_blank">Colab-Examples</a> |
 <a href="#book-input-format"> Input-Format</a> |
 <a href="#robot-optimize-configs"> Optimize-Configs</a> |
 <a href="#sparkles-features">Features</a> |
