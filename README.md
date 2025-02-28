@@ -1,114 +1,190 @@
-# GReaTer
+# <div align="center">🤩 GreaterPrompt: A Python Toolkit for Prompt Optimization<div>
 
-[![arXiv](https://img.shields.io/badge/arXiv-2412.09722-b31b1b.svg)](https://arxiv.org/abs/2412.09722)
-[![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yUPWSG6DuFFD0VIcbCTFdYpxrdT0-Z-f?usp=sharing)
+<div align="center">
+<a href="https://github.com/WenliangZhoushan/GreaterPrompt/blob/main/LICENSE" target="_blank"><img src=https://img.shields.io/badge/license-MIT-green></a>
+<a href="https://pypi.org/project/greaterprompt/" target="_blank"><img src=https://img.shields.io/badge/Pypi-GreaterPrompt-orange></a>
+<a href="https://arxiv.org/abs/2412.09722" target="_blank"><img src=https://img.shields.io/badge/arXiv-2412.09722-b31b1b.svg></a>
+<a href="https://colab.research.google.com/drive/1yUPWSG6DuFFD0VIcbCTFdYpxrdT0-Z-f?usp=sharing" target="_blank"><img src=https://colab.research.google.com/assets/colab-badge.svg></a>
+<a href="https://github.com/WenliangZhoushan/GreaterPrompt/pulls" target="_blank"><img src=https://img.shields.io/github/issues-pr/WenliangZhoushan/GreaterPrompt></a>
+<a href="https://github.com/WenliangZhoushan/GreaterPrompt/issues" target="_blank"><img src=https://img.shields.io/github/issues/WenliangZhoushan/GreaterPrompt></a>
+</div>
 
-> **GReaTer: Gradients over Reasoning Makes Smaller Language Models Strong Prompt Optimizers**
+<h4 align="center">
+<p>
+<a href="#wrench-installation">Installation</a> |
+<a href="#rocket-quick-start">Quick-Start</a> |
+<a href="https://colab.research.google.com/drive/1yUPWSG6DuFFD0VIcbCTFdYpxrdT0-Z-f?usp=sharing">Colab-Examples</a> |
+<a href="#book-input-format"> Input-Format</a> |
+<a href="#robot-optimize-configs"> Optimize-Configs</a> |
+<a href="#art-greaterprompt-ui"> GreaterPrompt-UI</a>
+</p>
+</h4>
 
-> Sarkar Snigdha Sarathi Das, Ryo Kamoi, Bo Pang, Yusen Zhang, Caiming Xiong, Rui Zhang
+GreaterPrompt is a python toolkit for prompt optimization which only levarges small models to achieve a better performances by large models.
 
-## Overview
+ Our toolkit includes 3 different optimizer and supports 2 models family now.
 
-![overview](./images/overview.png)
+<p align="center">
+<img src="./images/overview.png">
+</p>
 
-Three key components of GReaTer are the following:
+## :wrench: Installation
 
-- The language model fLLM generates token candidates by conditioning on input samples.
-- fLLM uses task input and current prompt to generate reasoning and extract final answer logits.
-- The logits are used to calculate loss and compute gradient over generated reasoning with respect to the candidate tokens. These gradients determine the selection of candidate token to update the current position of the current prompt.
+To get started with GreaterPormpt, you can simply install with pip:
 
-## Installation
-
-Not implemented yet. Don't really do the following. Refer to [example.py](./example.py) to learn how to use for now.
-
-```bash
-pip install GReaTer
+```base
+pip install greaterprompt
 ```
 
-## Usage
+## :rocket: Quick Start
 
-1. create an input dataset for optimization
+### Step 1: Build Input Dataloader
 
-    ```python
-    from GReaTer import GreaterDataSet
+We support 2 methods to build dataloader, either load from a jsonl file or custom input
 
-    # There are two ways to create a dataset
-    # 1. Load a pre-defined dataset from a json file
-    dataset1 = GreaterDataSet(data_path="./data/boolean_expressions.jsonl")
+#### Method 1: load from a jsonl file
 
-    # 2. Create a dataset from scratch
-    # custom_inputs is a list of dictionaries, each dictionary is suppposed to contain a question, a prompt, and an answer
-    dataset2 = GreaterDataSet(custom_inputs=[
-        {
-            "question": "((-1 + 2 + 9 * 5) - (-2 + -4 + -4 * -7)) =", 
-            "prompt": "Use logical reasoning and think step by step.", 
-            "answer": "24"
-        },
-        {
-            "question": "((-9 * -5 - 6 + -2) - (-8 - -6 * -3 * 1)) =",
-            "prompt": "Use logical reasoning and think step by step.",
-            "answer": "63"
-        },
-        {
-            "question": "((3 * -3 * 6 + -5) - (-2 + -7 - 7 - -7)) =",
-            "prompt": "Use logical reasoning and think step by step.",
-            "answer": "-50"
-        }
-    ])
-    ```
+```python
+from greaterprompt import GreaterDataloader
 
-2. define the optimize config, for details please refer to the our [documentation page](https://www.google.com/)
+dataset1 = GreaterDataloader(data_path="./data/boolean_expressions.jsonl")
+```
 
-    ```python
-    # optimizer config
-    optimize_config = {
-        "intersect_q": 5,
-        "candidates_topk": 10,
-        "loss_function": F.cross_entropy,
-        "perplexity_loss": True,
-        "perplexity_lambda": 0.2,
-        "generate_config": {
-            "temperature": 0.6,
-            "max_new_tokens": 1024
-        }
+#### Method 2: custom input
+
+```python
+from greaterprompt import GreaterDataloader
+
+dataset2 = GreaterDataloader(custom_inputs=[
+    {
+        "question": "((-1 + 2 + 9 * 5) - (-2 + -4 + -4 * -7)) =", 
+        "prompt": "Use logical reasoning and think step by step.", 
+        "answer": "24"
+    },
+    {
+        "question": "((-9 * -5 - 6 + -2) - (-8 - -6 * -3 * 1)) =",
+        "prompt": "Use logical reasoning and think step by step.",
+        "answer": "63"
+     },
+    {
+        "question": "((3 * -3 * 6 + -5) - (-2 + -7 - 7 - -7)) =",
+        "prompt": "Use logical reasoning and think step by step.",
+        "answer": "-50"
     }
-    ```
+])
+```
 
-3. load the model and tokenizer to initialize the optimizer
+### Step 2: Init the Model and Tokenizer
 
-    ```python
-    # So far we support Llama-3 and Gemma-2 family models
-    # You could use transformers to load the model and tokenizer
-    from transformers import LlamaForCausalLM, LlamaTokenizer
+```python
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
-    model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-3.2-3B-Instruct")
-    tokenizer = LlamaTokenizer.from_pretrained("meta-llama/Llama-3.2-3B-Instruct")
+MODEL_PATH = "google/gemma-2-9b-it"
+model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, torch_dtype=torch.bfloat16, device_map='cuda:0')
+model.gradient_checkpointing_enable() #to save the cuda memory
+tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
+```
 
-    # initialize the optimizer with the model, tokenizer, and optimize config
-    optimizer = GreaterOptimizer(
-        model=model, tokenizer=tokenizer, optimize_config=optimize_config
-    )
-    ```
+### Step 3: Set Optimize Configs
 
-4. optimize the prompt
+It's totally okay to not set the custom config!!! For details about each parameter, please refer to <a href="#robot-optimize-configs"> Optimize-Configs</a>
 
-    ```python
-    # optimize the prompt, optimizer will return a dict containing original question and a list of optimized prompts
-    outputs = optimizer.optimize(
-        inputs=dataset1, 
-        # this extractor will be applied to all prompts inside the dataset
-        p_extractor="\nNext, only give the exact answer, no extract words or any punctuation:",
-        rounds=80
-    )
-    ```
+```python
+from torch.nn import functional as F
 
-## Citation
-
-```plaintext
-@article{das2024greater,
-  title={GReaTer: Gradients over Reasoning Makes Smaller Language Models Strong Prompt Optimizers},
-  author={Das, Sarkar Snigdha Sarathi and Kamoi, Ryo and Pang, Bo and Zhang, Yusen and Xiong, Caiming and Zhang, Rui},
-  journal={arXiv preprint arXiv:2412.09722},
-  year={2024}
+optimize_config = {
+    "intersect_q": 5,
+    "candidates_topk": 10,
+    "loss_function": F.cross_entropy,
+    "perplexity_loss": True,
+    "perplexity_lambda": 0.2,
+    "filter": True,
+    "generate_config": {
+        "temperature": 0.2,
+        "max_new_tokens": 512,
+    }
 }
+```
+
+### Step 4: Init the Optimizer with Model, Tokenzier and Configs
+
+```python
+from greaterprompt import GreaterOptimizer
+
+optimizer = GreaterOptimizer(
+    model=model,
+    tokenizer=tokenizer,
+    optimize_config=optimize_config # optimize_config is not mandatory
+)
+```
+
+### Step 5: Pass the Dataloader to Optimizer
+
+Optimizer will return a dict, which each key is the original question and item is a list of tuples, each tuple is a (p*, loss)
+
+```python
+outputs = optimizer.optimize(
+    inputs=dataset1, 
+    # this extractor will be applied to all prompts inside the dataset
+    p_extractor="\nNext, only give the exact answer, no extract words or any punctuation:",
+    rounds=105
+)
+
+# print results
+for question, p_stars in outputs.items():
+    print(f'question: {question}')
+    print(f'p_stars: {p_stars}')
+```
+
+## :book: Input Format
+
+If you wanna use jsonl file as the input, please make sure each line contains "question", "prompt" and "answer" three mandatory keys
+
+```jsonl
+{"id": "0", "question": "not ( True ) and ( True ) is", "prompt": "Use logical reasoning and think step by step.", "answer": "False"}
+{"id": "1", "question": "True and not not ( not False ) is", "prompt": "Use logical reasoning and think step by step.", "answer": "True"}
+{"id": "2", "question": "not True or False or ( False ) is", "prompt": "Use logical reasoning and think step by step.", "answer": "False"}
+{"id": "3", "question": "False or not ( True ) and False is", "prompt": "Use logical reasoning and think step by step.", "answer": "False"}
+{"id": "4", "question": "True or not False and True and False is", "prompt": "Use logical reasoning and think step by step.", "answer": "True"}
+```
+
+## :robot: Optimize Configs
+
+<details>
+<summary>Explanations on the Configs</summary>
+
+* `intersect_q: int`, use how many question/prompt inpur pair to build a batch to get candidates.
+* `candidates_topk: int`, sample how many candidates for each p_i.
+* `loss_function: Callable[torch.Tensor, torch.Tensor] -> torch.Tensor`, the loss function used for the backward to get the gradients.
+* `perplexity_loss: bool`, whether to enable the perplexity_loss.
+* `perplexity_lambda: float`, if perplexity loss was enabled, its weight in the whole loss function.
+* `filter: bool`, whether to filter the p* to make sure all prompts are human readable.
+* `generate_config: dict`: configs used for transformer model's generation.
+
+</details>
+
+### :art: GreaterPrompt UI
+
+With GreaterPrompt-UI, you can easily and quickly configure and experience the supported optimize methods through our visual interface, it makes everything much more efficient!
+
+Before using the UI interface, you have to clone the repo
+
+```bash
+git clone git@github.com:WenliangZhoushan/GreaterPrompt.git
+
+cd Web
+streamlit run Overview.py
+```
+
+## :bookmark: License
+
+GreaterPrompt is licensed under the [<u>MIT License</u>](./LICENSE).
+
+## :star2: Citation
+
+Please kindly cite our work if helps your research:
+
+```BibTex
+TODO: paper not start writing yet.
 ```
