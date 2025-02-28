@@ -16,13 +16,12 @@
 <a href="https://colab.research.google.com/drive/1yUPWSG6DuFFD0VIcbCTFdYpxrdT0-Z-f?usp=sharing">Colab-Examples</a> |
 <a href="#book-input-format"> Input-Format</a> |
 <a href="#robot-optimize-configs"> Optimize-Configs</a> |
+<a href="#sparkles-features">Features</a> |
 <a href="#art-greaterprompt-ui"> GreaterPrompt-UI</a>
 </p>
 </h4>
 
-GreaterPrompt is a python toolkit for prompt optimization which only levarges small models to achieve a better performances by large models.
-
- Our toolkit includes 3 different optimizer and supports 2 models family now.
+GreaterPrompt is a python toolkit for prompt optimization which only levarges small models to achieve a better performances by large models. Our toolkit includes 3 different optimizer and supports 2 models family now.
 
 <p align="center">
 <img src="./images/overview.png">
@@ -119,7 +118,7 @@ optimizer = GreaterOptimizer(
 )
 ```
 
-### Step 5: Pass the Dataloader to Optimizer
+### Step 5: Pass the Dataloader to Optimizer and Optimize
 
 Optimizer will return a dict, which each key is the original question and item is a list of tuples, each tuple is a (p*, loss)
 
@@ -163,6 +162,31 @@ If you wanna use jsonl file as the input, please make sure each line contains "q
 * `generate_config: dict`: configs used for transformer model's generation.
 
 </details>
+
+## :sparkles: Features
+
+We support custom loss function in order to optimize different tasks, you could either use customed loss function or other pytorch loss functions!
+
+```python
+import torch
+from torch.nn import functional as F
+
+def dummy_loss_fn(y_pred: torch.Tensor, y: torch.Tensor) -> torch.Tensor:
+    loss = F.cross_entropy(y_pred, y)
+    dummy_loss = 2 * loss + 1
+
+    return dummy_loss
+
+# use custom loss function
+optimize_config = {
+    "loss_function": dummy_loss_fn
+}
+
+# use other pytorch loss function
+optimize_config = {
+    "loss_function": F.nll_loss
+}
+```
 
 ### :art: GreaterPrompt UI
 
