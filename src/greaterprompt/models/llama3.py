@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Tuple
 
 from src.greaterprompt.models.base_model import BaseModel
 from src.greaterprompt.models.utils import llama_post_process
@@ -52,3 +52,17 @@ class Llama3(BaseModel):
         candidates = topk_tokens[0].tolist()
 
         return candidates
+    
+
+    def filter(self, prompts: List[Tuple[str, float]]) -> List[Tuple[str, float]]:
+        readable_prompts = []
+
+        for prompt, score in prompts:
+            input_text = f'{prompt}\n is this a human readable prompt? Only respond with yes or no.'
+            input_ids = self.tokenizer(input_text, return_tensors="pt").to(self.device)
+            outputs = self.model.generate(input_ids, max_new_tokens=24)
+            response = self.post_process(outputs)
+            if "yes" in response.lower():
+                readable_prompts.append((prompt, score))
+
+        return readable_prompts

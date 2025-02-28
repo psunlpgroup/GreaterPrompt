@@ -1,4 +1,4 @@
 from .optimizer import GreaterOptimizer
-from .utils import GreaterDataSet
+from .utils import GreaterDataloader
 
-__all__ = ["GreaterDataSet", "GreaterOptimizer"]
+__all__ = ["GreaterDataloader", "GreaterOptimizer"]

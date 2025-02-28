@@ -4,7 +4,7 @@ from typing import Any, Dict, List
 from torch.utils.data import Dataset
 
 
-class GreaterDataSet(Dataset):
+class GreaterDataloader(Dataset):
     def __init__(
         self, custom_inputs: List[dict] | None = None, data_path: str | None = None, **kwargs
     ):

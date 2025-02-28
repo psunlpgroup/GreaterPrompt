@@ -1,15 +1,17 @@
-from src.greaterprompt import GreaterOptimizer, GreaterDataSet
+from src.greaterprompt import GreaterOptimizer, GreaterDataloader
 
 import torch
 from torch.nn import functional as F
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # Example1, use jsonl file to build dataset
-dataset1 = GreaterDataSet(data_path="./data/boolean_expressions.jsonl")
+dataset1 = GreaterDataloader(data_path="./data/boolean_expressions.jsonl")
 
 # init model and tokenzier
 MODEL_PATH = "/scratch1/wmz5132/models/huggingface/gemma-2-9b-it"
-model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, torch_dtype=torch.bfloat16, device_map="cuda:4")
+DEVICE = "cuda:0"
+model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, torch_dtype=torch.bfloat16, device_map=DEVICE)
+model.gradient_checkpointing_enable()
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 
 # optimizer config
@@ -19,10 +21,10 @@ optimize_config = {
     "loss_function": F.cross_entropy,
     "perplexity_loss": True,
     "perplexity_lambda": 0.2,
+    "filter": True,
     "generate_config": {
         "temperature": 0.2,
         "max_new_tokens": 1024,
-        # "pad_token_id": tokenizer.eos_token_id
     }
 }
 
@@ -36,7 +38,7 @@ outputs = optimizer.optimize(
     inputs=dataset1, 
     # this extractor will be applied to all prompts inside the dataset
     p_extractor="\nNext, only give the exact answer, no extract words or any punctuation:",
-    rounds=80
+    rounds=105
 )
 
 # print results
@@ -46,7 +48,7 @@ for question, p_stars in outputs.items():
 
 
 # Example2, use custom inputs to build dataset
-dataset2 = GreaterDataSet(custom_inputs=[
+dataset2 = GreaterDataloader(custom_inputs=[
     {
         "question": "((-1 + 2 + 9 * 5) - (-2 + -4 + -4 * -7)) =", 
         "prompt": "Use logical reasoning and think step by step.", 
@@ -67,7 +69,7 @@ outputs = optimizer.optimize(
     inputs=dataset2, 
     # this extractor will be applied to all prompts inside the dataset
     p_extractor="\nNext, only give the exact answer, no extract words or any punctuation:",
-    rounds=80
+    rounds=105
 )
 
 # print results
