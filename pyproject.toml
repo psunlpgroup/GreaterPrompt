@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "greaterprompt"
-version = "0.1.1"
+version = "0.2.0"
 dependencies = [
     "torch", "transformers", "tqdm", "streamlit"
 ]
@@ -19,7 +19,7 @@ maintainers = [
 ]
 
 description = "A Gradient-based Prompt Optimizer for Text Generation"
-readme = "README.md"
+readme = "README_pypi.md"
 license = "MIT"
 
 classifiers = [
