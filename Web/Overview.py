@@ -1,27 +1,29 @@
 import streamlit as st
 
-# 设置页面配置，使内容更宽并隐藏默认的汉堡菜单
+
+p2p_star = {
+    "not ( True ) and ( True ) is": "Use this statement with a conditional if know what is the value True of and what Not False means. Or not True and also boolean. In explain your reasoning.",
+    "((-1 + 2 + 9 * 5) - (-2 + -4 + -4 * -7)) =": "Use your knowledge reasoning and think step by step. Finally give the actual correct answer.",
+    "Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?": "Use the date today which will not would give us an error. solution is given as answer date is correct the option data and the current month and year to get to previous and current month of year to determine what the current data will look."
+}
+
 st.set_page_config(
     layout="wide",
     page_title="GreaterOptimizer",
-    initial_sidebar_state="expanded"  # 确保侧边栏默认展开
+    initial_sidebar_state="expanded"
 )
 
-# 使用CSS移除顶部空白并调整布局
 st.markdown("""
 <style>
-    /* 修复标题位置，确保不被遮挡 */
     header {
         visibility: hidden;
     }
-    
-    /* 调整内容容器的顶部边距 */
+
     .block-container {
         padding-top: 2rem !important;
         padding-bottom: 0rem;
     }
     
-    /* 移除标题上方的空白 */
     .main-header {
         display: flex;
         justify-content: center;
@@ -33,8 +35,8 @@ st.markdown("""
     .title-text {
         font-size: 2.5rem;
         font-weight: bold;
-        margin-top: 0px;  /* 减少顶部边距 */
-        margin-bottom: 0px; /* 减少底部边距，让标题和作者名更接近 */
+        margin-top: 0px;
+        margin-bottom: 0px;
         white-space: nowrap;
     }
     .author-text {
@@ -70,14 +72,12 @@ st.markdown("""
         font-size: 18px;
     }
     
-    /* 隐藏Streamlit默认页脚 */
     footer {
         visibility: hidden;
     }
     
-    /* 概述文本样式 */
     .overview-text {
-        margin-top: 20px; /* 从40px减少到20px，使概述更靠近按钮 */
+        margin-top: 20px;
         text-align: justify;
         max-width: 1000px;
         margin-left: auto;
@@ -93,9 +93,6 @@ st.markdown('<div class="main-header"><h3 class="author-text">\
             <a href="mailto:sfd5525@psu.edu">Sarkar Snigdha Sarathi Das</a>,\
             <a href="mailto:rmz5227@psu.edu">Rui Zhang</a>\
             </h3></div>', unsafe_allow_html=True)
-
-# 移除这个空行标记，让按钮更靠近作者信息
-# st.markdown("<br>", unsafe_allow_html=True)
 
 st.markdown("""
 <div class="button-container">
@@ -114,7 +111,6 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# 添加概述文本
 st.markdown("""
 <div class="overview-text">
 <p><strong>Overview of Research</strong>: The performance of large language models (LLMs) is significantly influenced by prompt design, making prompt optimization a crucial area of study. Traditional methods for optimizing prompts heavily depend on textual feedback from large, closed-source models like GPT-4, which analyze inference errors and suggest refinements. However, this reliance on computationally expensive LLMs limits the efficiency of smaller, open-source models that lack the ability to generate high-quality optimization feedback on their own.</p>
@@ -123,7 +119,14 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# 减少底部空间
 st.markdown("<br>", unsafe_allow_html=True)
 
-st.write("<h2 style='text-align: center; white-space: nowrap;'>🤗 Now pick a method on the left side to get started!</h2>", unsafe_allow_html=True)
+with st.sidebar:
+    see = st.markdown("<h3>👀 See Examples</h3>", unsafe_allow_html=True)
+    questions = st.selectbox("Select a question", [
+        "not ( True ) and ( True ) is", "((-1 + 2 + 9 * 5) - (-2 + -4 + -4 * -7)) =", "Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?"
+    ])
+    p_init = st.text_input(label="Initial P", value="Use logical reasoning to think it.", disabled=True)
+    p_star = st.text_area(label="Optimized P*", value=p2p_star[questions], height=200, disabled=True)
+
+st.write("<h2 style='text-align: center; white-space: nowrap;'>🤗 Now pick a method on the left side bar to get started!</h2>", unsafe_allow_html=True)

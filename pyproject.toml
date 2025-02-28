@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "greaterprompt"
 version = "0.1.1"
 dependencies = [
-    "torch", "transformers", "tqdm"
+    "torch", "transformers", "tqdm", "streamlit"
 ]
 
 authors = [
