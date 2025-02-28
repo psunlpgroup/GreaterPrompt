@@ -1,9 +1,5 @@
-# TODO: remove this when pypi published
-import sys
-sys.path.append("/scratch1/wmz5132/GreaterPrompt")
-
 import json
-from src.greaterprompt.optimizer import GreaterOptimizer, GreaterDataloader
+from greaterprompt.optimizer import GreaterOptimizer, GreaterDataloader
 
 import torch
 import streamlit as st

@@ -1,4 +1,4 @@
-from src.greaterprompt import GreaterOptimizer, GreaterDataloader
+from greaterprompt import GreaterOptimizer, GreaterDataloader
 
 import torch
 from torch.nn import functional as F
@@ -24,7 +24,7 @@ optimize_config = {
     "filter": True,
     "generate_config": {
         "temperature": 0.2,
-        "max_new_tokens": 1024,
+        "max_new_tokens": 512,
     }
 }
 

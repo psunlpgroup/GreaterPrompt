@@ -23,7 +23,7 @@ logging.basicConfig(
 class GreaterOptimizer:
     def __init__(
             self, model: AutoModelForCausalLM, tokenizer: AutoTokenizer,
-            optimize_config: dict | None = None, *args, **kwargs
+            optimize_config: dict = {}, *args, **kwargs
         ):
         self.optimize_config = optimize_config
         self._init_agents(model, tokenizer)
