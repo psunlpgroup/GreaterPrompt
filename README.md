@@ -1,4 +1,4 @@
-# <div align="center">🤩 GreaterPrompt: A Python Toolkit for Prompt Optimization<div>
+# <div align="center"><h3>🤩 GreaterPrompt: A Python Toolkit for Prompt Optimization</h3><div>
 
 <div align="center">
 <a href="https://github.com/WenliangZhoushan/GreaterPrompt/blob/main/LICENSE" target="_blank"><img src=https://img.shields.io/badge/license-MIT-green></a>
