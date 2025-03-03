@@ -1,0 +1,101 @@
+,input,output,sentence,letter,words,source
+312,He told me how many employees Karen introduced to the visitors. [t],told to the,He told me how many employees Karen introduced to the visitors.,t,"['told', 'to', 'the']",train
+1026,John laid the book on the table. [j],john,John laid the book on the table.,j,['John'],train
+1588,Bill seems to him to be handsome. [s],seems,Bill seems to him to be handsome.,s,['seems'],train
+2942,I saw John with a telescope. [a],a,I saw John with a telescope.,a,['a'],train
+2981,Jack is more tall than thin. [m],more,Jack is more tall than thin.,m,['more'],train
+2079,Cynthia gobbled the pizza . [t],the,Cynthia gobbled the pizza .,t,['the'],train
+2282,John is said to be rich. [r],rich,John is said to be rich.,r,['rich'],train
+721,I must eat macaroni. [i],i,I must eat macaroni.,i,['I'],train
+1538,I could have been flying helicopters by now. [b],been by,I could have been flying helicopters by now.,b,"['been', 'by']",train
+2494,This girl in the red coat will put a picture of Bill on your desk. [g],girl,This girl in the red coat will put a picture of Bill on your desk.,g,['girl'],train
+1717,Drowning cats is against the law. [t],the,Drowning cats is against the law.,t,['the'],train
+537,The public never had faith in his ability to handle the job. [n],never,The public never had faith in his ability to handle the job.,n,['never'],train
+299,The president Fred voted for has resigned. [p],president,The president Fred voted for has resigned.,p,['president'],train
+105,The three sunbathers went swimming. [t],the three,The three sunbathers went swimming.,t,"['The', 'three']",train
+1650,Perhaps Iphigenia will have murdered Oedipus by tomorrow. [h],have,Perhaps Iphigenia will have murdered Oedipus by tomorrow.,h,['have'],train
+2300,I mailed the sweater to Mary. [m],mailed mary,I mailed the sweater to Mary.,m,"['mailed', 'Mary']",train
+1110,Some branches broke off of the tree. [t],the tree,Some branches broke off of the tree.,t,"['the', 'tree']",train
+900,The hardest that I think I remember him ever telling me that he had heard of it snowing around here was last January th. [h],hardest him he had heard here,The hardest that I think I remember him ever telling me that he had heard of it snowing around here was last January th.,h,"['hardest', 'him', 'he', 'had', 'heard', 'here']",train
+462,The termites destroyed the sand castle. [d],destroyed,The termites destroyed the sand castle.,d,['destroyed'],train
+2591,Press the pad with the stamp completely. [c],completely,Press the pad with the stamp completely.,c,['completely'],train
+2665,Martha carves. [c],carves,Martha carves.,c,['carves'],train
+984,"In English, the main verb agrees with the head element of the subject. [s]",subject,"In English, the main verb agrees with the head element of the subject.",s,['subject'],train
+1192,Jewels sparkled on the crown. [t],the,Jewels sparkled on the crown.,t,['the'],train
+1004,Kathleen hates those pictures of herself. [k],kathleen,Kathleen hates those pictures of herself.,k,['Kathleen'],train
+2693,I had eaten the deep fried muffins. [m],muffins,I had eaten the deep fried muffins.,m,['muffins'],train
+464,The message was that you should come on time. [m],message,The message was that you should come on time.,m,['message'],train
+1109,I read his every book. [r],read,I read his every book.,r,['read'],train
+306,The student knows the answers. [a],answers,The student knows the answers.,a,['answers'],train
+1015,I wonder what John bought how. [b],bought,I wonder what John bought how.,b,['bought'],train
+23,Where do we go to register for graduation? [f],for,Where do we go to register for graduation?,f,['for'],train
+2771,Every student who handed in any homework will get a prize. [s],student,Every student who handed in any homework will get a prize.,s,['student'],train
+1769,The bag is bulging with groceries. [i],is,The bag is bulging with groceries.,i,['is'],train
+2278,Calvin admired himself in the mirror. [c],calvin,Calvin admired himself in the mirror.,c,['Calvin'],train
+1028,"Sandy must, too. [t]",too,"Sandy must, too.",t,['too'],train
+1477,Lopez says that he has done more than simply give a fresh coat of paint to the site. [d],done,Lopez says that he has done more than simply give a fresh coat of paint to the site.,d,['done'],train
+763,We are using their teaching material. [w],we,We are using their teaching material.,w,['We'],train
+31,That bottle of water might have. [b],bottle,That bottle of water might have.,b,['bottle'],train
+1465,"Any female tiger has orange fur, marked with black stripes. [w]",with,"Any female tiger has orange fur, marked with black stripes.",w,['with'],train
+2133,I am ashamed that I neglected you. [t],that,I am ashamed that I neglected you.,t,['that'],train
+1789,I feel it is unfortunate that television is so vulgar these days. [s],so,I feel it is unfortunate that television is so vulgar these days.,s,['so'],train
+1411,John wiped the window with a towel. [t],the towel,John wiped the window with a towel.,t,"['the', 'towel']",train
+978,I ate fruit [a],ate,I ate fruit,a,['ate'],train
+962,The muffins might have been being eaten. [e],eaten,The muffins might have been being eaten.,e,['eaten'],train
+307,Ellen warned against skating on thin ice. [i],ice,Ellen warned against skating on thin ice.,i,['ice'],train
+570,What did he reply? [h],he,What did he reply?,h,['he'],train
+157,Vera is knitting there. [k],knitting,Vera is knitting there.,k,['knitting'],train
+2851,This building is taller and wider than that one. [b],building,This building is taller and wider than that one.,b,['building'],train
+1245,The kettle bubbled water. [t],the,The kettle bubbled water.,t,['The'],train
+2127,John tries to fix the computer. [c],computer,John tries to fix the computer.,c,['computer'],train
+600,Catriona opened the door with this key. [o],opened,Catriona opened the door with this key.,o,['opened'],train
+1352,What all did you get for Christmas? [w],what,What all did you get for Christmas?,w,['What'],train
+1231,There is any book you could imagine in this library. [c],could,There is any book you could imagine in this library.,c,['could'],train
+639,There is any book you could imagine in this library. [b],book,There is any book you could imagine in this library.,b,['book'],train
+2054,The river runs from the lake to the sea. [r],river runs,The river runs from the lake to the sea.,r,"['river', 'runs']",train
+616,I showed every boy a planet. [s],showed,I showed every boy a planet.,s,['showed'],train
+2926,She put the pictures of Bill on your desk. [o],of on,She put the pictures of Bill on your desk.,o,"['of', 'on']",train
+2161,A big green insect flew into the soup. [f],flew,A big green insect flew into the soup.,f,['flew'],train
+723,. I figured it out that she was lying. [o],out,. I figured it out that she was lying.,o,['out'],train
+2462,This rock is too heavy for me to begin to decide about helping Bob to try to pick it up. [m],me,This rock is too heavy for me to begin to decide about helping Bob to try to pick it up.,m,['me'],train
+2461,Ellen conferred with Helen. [w],with,Ellen conferred with Helen.,w,['with'],train
+2398,Smith loaned and his widow later donated a valuable collection of manuscripts to the library. [o],of,Smith loaned and his widow later donated a valuable collection of manuscripts to the library.,o,['of'],train
+2786,I know who is mad at John. [i],i is,I know who is mad at John.,i,"['I', 'is']",train
+2562,Do you like peanut butter? [d],do,Do you like peanut butter?,d,['Do'],train
+504,That Plato lived in the city of Athens was well known. [c],city,That Plato lived in the city of Athens was well known.,c,['city'],train
+2084,Gilgamesh is in the dungeon. [g],gilgamesh,Gilgamesh is in the dungeon.,g,['Gilgamesh'],train
+906,It would be inconvenience to leave so soon. [l],leave,It would be inconvenience to leave so soon.,l,['leave'],train
+1531,Everyone attended some seminar. [e],everyone,Everyone attended some seminar.,e,['Everyone'],train
+93,Did the doctor prescribe aspirin? [t],the,Did the doctor prescribe aspirin?,t,['the'],train
+2412,Mary will complete her exam within an hour. [a],an,Mary will complete her exam within an hour.,a,['an'],train
+1873,What John told us is that he wants to quit school. [w],what wants,What John told us is that he wants to quit school.,w,"['What', 'wants']",train
+2000,Maxwell is the man who won the Nobel Prize for astrology. [m],maxwell man,Maxwell is the man who won the Nobel Prize for astrology.,m,"['Maxwell', 'man']",train
+1331,The ball lies in the box. [b],ball box,The ball lies in the box.,b,"['ball', 'box']",train
+1256,John deprived his sons of game cards. [h],his,John deprived his sons of game cards.,h,['his'],train
+2705,It was last night that the policeman met several young students in the park. [p],policeman park,It was last night that the policeman met several young students in the park.,p,"['policeman', 'park']",train
+1218,That you will marry any particular student is not certain. [s],student,That you will marry any particular student is not certain.,s,['student'],train
+899,I said for Mary to run. [m],mary,I said for Mary to run.,m,['Mary'],train
+484,Heidi hit herself on the head with a zucchini. [t],the,Heidi hit herself on the head with a zucchini.,t,['the'],train
+1010,It would be inconvenience for you to leave so soon. [l],leave,It would be inconvenience for you to leave so soon.,l,['leave'],train
+1683,Never have I stolen from any members of your family. [h],have,Never have I stolen from any members of your family.,h,['have'],train
+1828,This parcel is very heavy. [t],this,This parcel is very heavy.,t,['This'],train
+1247,Dave and Alina left. [l],left,Dave and Alina left.,l,['left'],train
+486,We would like John to win. [j],john,We would like John to win.,j,['John'],train
+644,Who did Mary see walking toward the railroad station? [r],railroad,Who did Mary see walking toward the railroad station?,r,['railroad'],train
+2509,Everyone reported that Max and some lady disappeared. [s],some,Everyone reported that Max and some lady disappeared.,s,['some'],train
+837,Anybody who ever swears at me better watch his step. [b],better,Anybody who ever swears at me better watch his step.,b,['better'],train
+2620,I like Mary and she likes me. [s],she,I like Mary and she likes me.,s,['she'],train
+911,There is any book you could imagine in this library. [i],is imagine in,There is any book you could imagine in this library.,i,"['is', 'imagine', 'in']",train
+687,the book of poems by Robert Burns from Blackwell with a red cover takes a very long time to read. [l],long,the book of poems by Robert Burns from Blackwell with a red cover takes a very long time to read.,l,['long'],train
+1962,The brave are not afraid to die. [b],brave,The brave are not afraid to die.,b,['brave'],train
+601,They believed that everybody would pass the test. [w],would,They believed that everybody would pass the test.,w,['would'],train
+1918,Do you believe that somebody was looking for something? [y],you,Do you believe that somebody was looking for something?,y,['you'],train
+1304,The big man from NY has often said that he gave peanuts to elephants. [m],man,The big man from NY has often said that he gave peanuts to elephants.,m,['man'],train
+851,"The angrier Sue gets, the more Fred admires her. [m]",more,"The angrier Sue gets, the more Fred admires her.",m,['more'],train
+1130,Each of these stones has to be cut and polished. [h],has,Each of these stones has to be cut and polished.,h,['has'],train
+196,I shipped the package halfway around the world. [a],around,I shipped the package halfway around the world.,a,['around'],train
+296,He has a car. [h],he has,He has a car.,h,"['He', 'has']",train
+664,Over the fort fluttered a large flag. [f],fort fluttered flag,Over the fort fluttered a large flag.,f,"['fort', 'fluttered', 'flag']",train
+546,They lent a bicycle to me. [a],a,They lent a bicycle to me.,a,['a'],train
+794,Whether she will win is a question Mary never considered. [s],she,Whether she will win is a question Mary never considered.,s,['she'],train
+119,I explained how we should fix the sink. [s],should sink,I explained how we should fix the sink.,s,"['should', 'sink']",train

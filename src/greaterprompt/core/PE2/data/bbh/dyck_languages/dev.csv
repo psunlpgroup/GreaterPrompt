@@ -1,0 +1,101 @@
+,input,label
+51,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( < { ( ) { } } ( < > ) >",)
+95,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( ( ( [ < [ < [ ( [ { < ( < ( ( ) ) { } [ ] > ) > } ] ) { < > } ] [ < [ { ( < < { { [ < { [ [ < > [ ] ] ] } > ] { { } } } } > > ) } ] > { < > { } } ] > ( [ ] ) ] > ] ) ( )",) )
+143,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( < ( ) >",)
+199,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( [ [ [ ( { ( ( < [ { < > } ] > { { [ ] } } ) ) } ( [ [ < > ] ] ) ) ] ] ] ) ( < > < [ ( ) ] > (",) )
+76,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( { } < > { < { ( < > ) } >",} )
+41,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( [ [ { < > { } { } < < < < { } > > ( < ( ( ) ) [ ( [ ] ) ] > ) > > { } } [ < < > > ] < ( ) > ] ]",)
+113,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ ( { } )",]
+152,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { < > } ( ) [ ] {",}
+78,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < [ { { [ { [ { ( ( ) ) } ] } ( < < ( < > ) > { } [ [ [ ( < { } > ) ] ] ] { } > ) ( { } ) { } ] }",} ] >
+147,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < < >",>
+26,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( ( < >",) )
+241,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ ] [ { } ] ( ( )",)
+164,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( ) { <",> }
+243,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < > < { { { [ ( ) ] } } } > ( { [ { ( [ ] { } ) } ]",} )
+137,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ { { } } ] ( < { < [ ( ( ) ) ] > } >",)
+0,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ [",] ]
+2,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { < { { [ ] } } { < [ { { < > } } [ ( ) ( ) ] [ [ [ [ ( { < ( < ( [ ] ) > ) > } ) ] ] ] ] ] ( ) ( [ ] { } ) > } > [ { ( ( ) ) } ]",}
+77,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < < [ ] > ( < > ) <",> >
+46,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ ( < { [ ( ) ] } >",) ]
+100,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < < ( ( [ ] )",) > >
+127,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( { < { ( ( { } ) ( ) ) } { } < { } > < > > } { } ( { ( { { } } ) [ ( ) ] } ) ) [ ( [ ]",) ]
+150,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( < ( [ ] ) > {",} )
+248,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ < { { } }",> ]
+90,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { < ( [ ( ( [ < { ( { } ) } < < > > > ] ) ) ] ) >",}
+85,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < ( ( { < > } )",) >
+175,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ ( ) { [ ] } [ ] [ ] { < { ( ( { } ) ) { [ { } ] } } > [ ] }",]
+195,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( < > [ { [ [ ( [ ] ) [ < ( < > ) { [ ( { ( [ ( ( < ( ( < [ ] { < > } > [ ] ) ) > ) [ { } ] ) ] ) } ) ] } > ] ] ] } [ ] ] ) < [",] >
+98,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( { ( )",} )
+36,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( ( { }",) )
+61,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { < { ( { [ ] } ) } > { } ( [ { { { ( [ < > ] ) } } } ] ) { { ( { } ) } }",}
+162,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ ( ( { < ( { } ) > } )",) ]
+139,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { ( [ ] ) } [ ] ( { < > } ( { } ( { { } } ) ) ( [ ] ) ( ) ( < ( { { ( < { [ ( ) ] } > ) } } [ < [ ( [ { } ] [ < > < < > > ] ) ] > ] { < { } > } < > ) > )",)
+11,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ { < ( ) > }",]
+244,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { ( <",> ) }
+198,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { { < { < > } > } [ ( < < > > ) [ { < ( ) > } ] ] [ ] } < ( { [ < [ { [ ( ) ] } ] > < { ( [ [ [ { } < > { ( < { [ ] } > ( ) ) } ] ] ] ) } > ] } )",>
+27,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < < { ( < ( ) > ) }",> >
+155,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < { < { [ < { ( [ ] ) } > { ( { } ) } ( ) ] } > } [ < < > > ] { } [ ] < { }",> >
+4,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < ( ( ( < > ) ) ( { { } [ { } ] [ ] < ( ) > } ) )",>
+122,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ < [ { ( < ( ( [ < < { } > < < [ ( { < < > > } ) ] > > > ] { } ) ) > ) } ] [ < < { } > ( < < ( ) < ( [ ] ) > > ( ( ) ) > ) > ] > ] < < {",} > >
+32,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ < [ ( [ < > ] { < > } [ [ ] ] ) ]",> ]
+144,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { ( ( ) ( { ( < ( ) > ) }",) ) }
+178,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ ] { ( { < > } ) } [ ( ) ] { } [ { { ( < > ) } <",> } ]
+138,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { < ( < < < [ < [ [ ] ( ( ) ) ] > < > ] > > > )",> }
+62,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( ( < [ { { } } ] > { } ) ( < > ) [ ( < > ) ] <",> )
+135,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( < { < ( ( < { } { < < { { { } } } > < < < > [ ] > { } ( < { { ( [ ( ) ] ) } } > ) > > } > ) ) > } >",)
+128,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < ( )",>
+226,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ < { < [ ( < > ) ( ( [ [ ] ] ) ) ( ( { } ) ) { [ ] } < ( < > ) > ] > }",> ]
+205,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ < > ] [ { < { } > { [ ( [ ( ) ] ) ]",} } ]
+70,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { [ < [ < { < { } > } > ( ( < { [ ] } > { { } } ) { } ) ] > ]",}
+192,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < < ( [ ] ) > < >",>
+64,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ < ( < < > [ ] ( ) >",) > ]
+44,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < { } [ [ ( ( < { < { [ ] } > } > ) )",] ] >
+165,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { ( [ { ( < [ { ( ) { } } ] > ) < > } ]",) }
+40,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { < { } > { (",) } }
+123,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ < [ ]",> ]
+153,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < [ { { [ [ [ < ( < [ ] { [ ( [ ] ) ] [ ] < > } > ) > ] ( [ ] ) ] ] } }",] >
+23,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < { < [ [ ( { } ) ] ]",> } >
+211,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( { [ { }",] } )
+183,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( < < > > < > [ ] [",] )
+81,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( < < > ( [ < { { } } ( ) > ] ) [ ( ) ] [ ] [ { } ] >",)
+39,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( ( [ < < > [ < { } > ] { < [ ] > ( ( ( [ [ { < > } ] ] ) ) ) ( < < > > ) } > ]",) )
+209,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( { { { { { < < ( { ( { { < < [ < [ [ ] ] > ] [ ] > [ [ ] ] > ( < [ { < > < [ ] > } ] > ) } } ) } ) > > } } }",} } )
+47,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( ( { < { < { < > } > } > } ) ( ) ( { [ ( < ( < < { ( { < > } ) } > > ) > ) { ( { < ( { [ ] } ( ) ) > } < { < { { ( ) } } > { < [ { ( ) } ] > } } > ) } [ [ ( ) ] ] ]",} ) )
+94,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( ( { < > ( ) [ { < ( < > < ( ( ) ( [ { } ] ) ) > { { } { ( ) } } ) [ ] > } ] { { } } }",) )
+190,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { [ [ < > ] (",) ] }
+161,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { ( (",) ) }
+43,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { { { } }",}
+145,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ < [ [ < > ] ] < ( ) > [ { } ] < [ [ ] ] > ( ) < { < [ ] < < [ [ { [ ] } ] ] > > ( [ ( ( ) ) ] ) > } > [ { { < > } } ] > < ( < { } { [ { [ ] } ] } >",) > ]
+182,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { ( ( [ ] ) )",}
+3,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < [ ] { < ( ) > } [ ] ( { }",) >
+105,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( { < [ < > ] > }",)
+53,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { { } ( ( < > )",) }
+133,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < ( < > ) > { } < { [ < > ]",} >
+227,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( { < { { [ ] } < > [ ] } [ [ [ < [ [ ] ] > ] ] ] > } [ ] { { { { [ { } ] } ( < [ [ [ ] ] ] > ) < < ( { ( [ ] ) [ { { } } ] { [ ] } } ) [ [ { [ [ { ( { } ) [ ( ) { } ] { } } ] ] < > } ] ] > > }",} } )
+193,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( [",] )
+232,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ < > { { { } } { } } ] < { } [ { [ ] }",] >
+49,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ < [ ] > ] [ { [ ] }",]
+163,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( [ < < { } > > ]",)
+80,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ < [ { { < > [ ( ) ] ( ( ) ) } } ] > ] { { { ( < > )",} } }
+34,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < [ ]",>
+206,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( < ( [ < < [ ] > > ] )",> )
+7,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < ( ( ( [ { } ] )",) ) >
+171,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < { < ( ) ( ( < > < ( ( < < > > ) ) { ( ) } > ) ) { { } }",> } >
+110,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( ( [ [ ] ]",) )
+91,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { { ( { [ [ { < [ ] > } ] ] } ) [ ( < { < > } > ) ]",} }
+83,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { < [ ]",> }
+223,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { < < ( )",> > }
+228,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < (",) >
+89,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ [ { { < ( ) > } } ]",]
+8,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ < > ] [ [ < > ]",]
+13,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < ( ( [ < > { [ { ( ) } ] < { < { } > [ ( < > ) ] } > } [ < > ] ] ) { { ( { ( ( [ ( [ ] ) ] < { } > ) ) { { ( [ [ ] ] ) } [ ( ) ] { { [ ] } } } } ) } ( { } ) }",) >
+59,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < [ < > ]",>
+215,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { { { < > } } < > < { { ( ) } } > { } } { < ( { [ < > ] [ ( ) < ( ) > { < ( ( ( ) ) ) > [ ] } ] < > ( < { } > ) }",) > }
+131,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { < ( ) > { < > } ( < > ) < ( ) > [ ] < < < < ( ( ) ) < ( ) > > > > > {",} }
+17,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < ( ( )",) >
+166,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { < < { ( < > ) }",> > }
+72,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: { { [ { < { } > } ( ) ]",} }
+220,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < {",} >
+134,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ < [ ] > [",] ]
+204,"Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( ) [ ( [ < { { ( { } ) } } >",] ) ]

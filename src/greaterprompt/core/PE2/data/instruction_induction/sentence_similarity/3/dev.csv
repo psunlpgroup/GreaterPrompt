@@ -1,0 +1,21 @@
+,input,output
+3513,Sentence 1: 3 Chinese tourists killed in Pakistan Sentence 2: Seven kidnappers killed in southern Nigeria,0 - definitely not
+1603,"Sentence 1: Nixon, Ford and Carter shut down the oilfields? Sentence 2: No has has shut down the oil fields.",2 - possibly
+1081,Sentence 1: A steam engine and train moving toward the camera. Sentence 2: A large bird of prey flying towards the camera.,1 - probably not
+52,Sentence 1: A dog licks a baby. Sentence 2: A dog is licking a baby.,5 - perfectly
+812,Sentence 1: A man is chopping coriander leaf. Sentence 2: A man is playing a guitar.,1 - probably not
+2649,Sentence 1: Amazon's Bezos to buy the Washington Post for $250 million Sentence 2: Amazon's Bezos buys Washington Post for $250-M,5 - perfectly
+1367,Sentence 1: Man rowing a boat. Sentence 2: a man doing a trick on skateboard,0 - definitely not
+1513,Sentence 1: Imagine a place that's % white and % black. Sentence 2: Imagine a place with % men and % women.,1 - probably not
+2112,"Sentence 1: In Islamist-led Egypt, Coptic Church names new pope Sentence 2: Egyptian Christians choose new pope",3 - probably
+3374,"Sentence 1: 6.3-magnitude quake hits Honshu, Japan: CENC Sentence 2: 6.7-magnitude earthquake jolts Taiwan: CENC",2 - possibly
+791,Sentence 1: A man is buttering bread. Sentence 2: A woman is ridint a horse.,0 - definitely not
+433,Sentence 1: A man is slicing a pepper. Sentence 2: A person cuts a big green pepper apart.,4 - almost perfectly
+786,Sentence 1: The man drilled holes into the wood. Sentence 2: A man drills wood.,4 - almost perfectly
+1518,"Sentence 1: Hey, Blue-Eyes, How's things in London? Sentence 2: **smooches Ran** Hey, Blue-Eyes, How's things in London?",4 - almost perfectly
+241,Sentence 1: The boy is playing the piano. Sentence 2: A boy plays a piano.,5 - perfectly
+3250,Sentence 1: Fire kills 38 in Russian psychiatric institution Sentence 2: 38 feared dead in Russian psychiatric hospital fire,4 - almost perfectly
+2165,Sentence 1: Factory Fires Kill At Least 260 in Pakistan Sentence 2: At Least Six Dead in Pakistan Gunfight,1 - probably not
+3309,Sentence 1: Google Unveils Prototype Self-Driving Car Sentence 2: Google Unveils Concept Self-Driving Car,5 - perfectly
+121,Sentence 1: A man is playing a flute. Sentence 2: A man is playing a piano.,2 - possibly
+545,Sentence 1: A man is praying. Sentence 2: A man is running.,1 - probably not

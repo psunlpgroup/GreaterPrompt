@@ -1,0 +1,101 @@
+,input,output
+2567,"Sentence 1: 7 killed, 3 injured in south China road accident Sentence 2: 20 killed, 44 injured in Philippine road accident",1 - probably not
+3651,Sentence 1: Iraq bombings kill at least 26 Sentence 2: Iraq suicide bomber kills at least 12,2 - possibly
+732,Sentence 1: A woman is playing the flute. Sentence 2: A woman is slicing some tuna.,0 - definitely not
+384,Sentence 1: A man is playing a guitar. Sentence 2: A man tries to read the paper.,1 - probably not
+2243,Sentence 1: South Africa police shot dead 30 miners Sentence 2: South Africa police say they killed 30+ miners,4 - almost perfectly
+2509,"Sentence 1: Zimmerman stopped for speeding in Texas, released with warning Sentence 2: Zimmerman pulled over in Texas for speeding, given warning",5 - perfectly
+3198,Sentence 1: Iran's nuclear negotiating team leaves for Kazakhstan Sentence 2: Iran's nuclear quest 'has cost Tehran over $100 billion',1 - probably not
+2802,Sentence 1: Obama meets Mandela family as icon remains in hospital Sentence 2: Obamas to meet Mandela family wont visit hospital,3 - probably
+1713,Sentence 1: What conviction would that be? Sentence 2: What conviction where you talking about before?,4 - almost perfectly
+713,Sentence 1: A man is cutting a rope with a sword. Sentence 2: The man slced through a thick rope with a sword.,4 - almost perfectly
+3572,Sentence 1: Woman dies while riding roller coaster in Texas Sentence 2: Woman dies riding roller coaster at Texas amusement park,4 - almost perfectly
+3688,Sentence 1: Benzema faces possible charges in sex-tape case Sentence 2: Menendez faces possible corruption charges,1 - probably not
+1385,Sentence 1: A black dog is running through the snow. Sentence 2: A black pit bull dog is running through the dirt.,2 - possibly
+3154,Sentence 1: China manufacturing index at 11-month low: HSBC Sentence 2: China manufacturing expands in September,1 - probably not
+580,Sentence 1: A woman is cracking eggs into a bowl. Sentence 2: A woman is cracking eggs.,4 - almost perfectly
+2322,Sentence 1: China mine accident kills 10 Sentence 2: China truck accident kills 20,2 - possibly
+1615,Sentence 1: Why did that transaction take place. Sentence 2: Did the transaction take place?,2 - possibly
+2936,Sentence 1: Suspected U.S. drone strike kills 5 in Pakistan Sentence 2: US drone strike kills at least ten in Pakistan,3 - probably
+1224,"Sentence 1: A black and white dog looking at the camera. Sentence 2: A grey, black, and white cat looking at the camera.",1 - probably not
+886,Sentence 1: A man is meditating. Sentence 2: The man is riding the horse.,1 - probably not
+3090,Sentence 1: Queen to name biggest ever carrier Sentence 2: Queen names giant aircraft carrier,4 - almost perfectly
+896,Sentence 1: A man and woman dance. Sentence 2: A man is petting a dog.,0 - definitely not
+3588,Sentence 1: Australian PM says 'Very confident' signals are from black box Sentence 2: Australian PM confident sounds are from Flight 370,4 - almost perfectly
+312,Sentence 1: The boy is stuck in the door of the doghouse. Sentence 2: A child is stuck in a dog house.,4 - almost perfectly
+3534,"Sentence 1: Palestinian hunger striker, Israel reach deal Sentence 2: Palestinian activist detained in Israeli raid",1 - probably not
+161,Sentence 1: A group of people dance on a hill. Sentence 2: A group of people are dancing.,3 - probably
+3204,Sentence 1: Bradley Manning acquitted of aiding the enemy Sentence 2: Wikileaks soldier Bradley Manning acquitted of aiding the enemy,4 - almost perfectly
+2769,Sentence 1: Deal reached on new Italian government Sentence 2: Italy to swear in new coalition government,3 - probably
+3093,Sentence 1: Dozens killed in Russian plane crash Sentence 2: Ten killed in Alaska plane crash,1 - probably not
+436,Sentence 1: A small monkey walks through water. Sentence 2: A monkey is wading across a marsh.,3 - probably
+624,Sentence 1: A motorcyclist crashes on his motorcycle. Sentence 2: A person crashes on a motorcycle.,4 - almost perfectly
+1119,Sentence 1: A white and red bus traveling on the street. Sentence 2: The red bus is on the street.,2 - possibly
+705,Sentence 1: A woman is cooking shrimp. Sentence 2: A woman is dancing.,1 - probably not
+3574,Sentence 1: Over 100 dead as typhoon slams central Philippines Sentence 2: At least 100 dead as typhoon batters Philippines,5 - perfectly
+1618,"Sentence 1: If you haven't made any claims, then just say so. Sentence 2: I haven't made any claims.",2 - possibly
+969,Sentence 1: Two men on boat floating on the water. Sentence 2: Large green boat floating on water.l.,2 - possibly
+3647,Sentence 1: 7.3 magnitude earthquake strikes Nepal Sentence 2: 6.6-magnitude earthquake strikes off Indonesia,1 - probably not
+262,Sentence 1: A man riding a horse in slow motion. Sentence 2: A man is riding on a horse.,3 - probably
+2341,Sentence 1: Soldier 'can't recall' massacre Sentence 2: US soldier ‘doesn’t recall massacre’,4 - almost perfectly
+897,Sentence 1: A group of couples are dancing. Sentence 2: Men and women are dancing slowly.,3 - probably
+142,Sentence 1: A man cuts up potatos. Sentence 2: A man slices potatoes.,5 - perfectly
+3374,"Sentence 1: 6.3-magnitude quake hits Honshu, Japan: CENC Sentence 2: 6.7-magnitude earthquake jolts Taiwan: CENC",2 - possibly
+763,Sentence 1: A gun is being fired. Sentence 2: A potato is being peeled.,0 - definitely not
+3294,Sentence 1: China yuan weakens to 6.1535 against USD Sentence 2: China yuan strengthens to new high against USD,2 - possibly
+495,Sentence 1: A kitten is playing with a blue rope toy. Sentence 2: A kitten is playing with a toy.,4 - almost perfectly
+677,Sentence 1: Someone is cleaning a animal. Sentence 2: A woman is cleaning a shrimp.,3 - probably
+20,Sentence 1: A man is playing a guitar. Sentence 2: A girl is playing a guitar.,3 - probably
+1376,Sentence 1: A young boy is standing on a gray tiled area. Sentence 2: A young boy is practicing his karate in a gym.,1 - probably not
+801,Sentence 1: A man is peeling a potato. Sentence 2: A man is hiking.,0 - definitely not
+2113,Sentence 1: US pledge to rebuild Haiti not being met Sentence 2: US Pledge to Rebuild Haiti Not Being Met,5 - perfectly
+2258,Sentence 1: Brazil's 'pop-star priest' gets mammoth new stage Sentence 2: Brazil's 'Pop-Star Priest' Gets Mammoth New Stage,5 - perfectly
+2310,Sentence 1: 'Million Muppet March' to defend Obama backing of PBS Sentence 2: Million Muppet March planned to defend U.S. backing for PBS,4 - almost perfectly
+2511,Sentence 1: Syria denies reports of deadly Damascus nerve gas attack Sentence 2: US allies get help to repel Iranian computer attacks,0 - definitely not
+2303,Sentence 1: Syrian fighter pilot defects to Jordan Sentence 2: Syrian PM defects to Jordan,1 - probably not
+1355,Sentence 1: Brown dog splashing into the water. Sentence 2: Four dogs splashing in the water,2 - possibly
+898,Sentence 1: A man is scaling a fish. Sentence 2: A man pours some cooking oil into a pot.,1 - probably not
+944,Sentence 1: A kid jumping a ledge with a bike. Sentence 2: A black and white cat playing with a blanket.,0 - definitely not
+3645,Sentence 1: Saudi-led airstrikes hit Yemeni capital Sentence 2: Saudi airstrikes in Yemen's capital kill 29,3 - probably
+2768,Sentence 1: Indonesia: Schoolchildren among 14 killed by Indonesia volcano eruption Sentence 2: Indonesia: Six dead in Indonesian volcanic eruption,3 - probably
+2981,Sentence 1: Singapore shares open lower on Friday Sentence 2: Singapore shares open higher on Thursday,2 - possibly
+3658,"Sentence 1: 4 dead, 3 injured in east China road accident Sentence 2: 2 dead, 8 injured in central Israel traffic accident",0 - definitely not
+1079,Sentence 1: Two women in the kitchen looking at a object. Sentence 2: Two women in kitchen with one taking a picture.,3 - probably
+2354,Sentence 1: Actor Gazzara dead at 81 Sentence 2: Actor Ben Gazzara dies at 81,4 - almost perfectly
+2970,Sentence 1: Three dead in US marathon bomb Sentence 2: Taliban denies involvement in Boston marathon bombing,1 - probably not
+3055,Sentence 1: Beijing's Aircraft Carrier Returns from South China Sea Sentence 2: China sends carrier to South China Sea,2 - possibly
+2198,Sentence 1: Tsunami warning: No need for SA to panic Sentence 2: Tsunami warning after Aceh quake,2 - possibly
+93,Sentence 1: A man is levitating. Sentence 2: A man is talking.,1 - probably not
+1175,Sentence 1: Boy feeding a sheep. Sentence 2: A boy feeding a sheep hay.,4 - almost perfectly
+3238,Sentence 1: Argentina declares mourning for flood victims Sentence 2: Parents demands common forms for nursery admissions,0 - definitely not
+1179,Sentence 1: Two brown horses standing in a green meadow. Sentence 2: A brown horse stands in tall grass.,3 - probably
+1115,Sentence 1: A white airplane is parked on the cement. Sentence 2: A blue motorcycle is parked on the sidewalk.,1 - probably not
+153,Sentence 1: The woman picked up the kangaroo. Sentence 2: A woman picks up a baby kangaroo.,4 - almost perfectly
+1258,Sentence 1: Three dogs playing in the snow. Sentence 2: Three dogs are playing in the water.,3 - probably
+2918,Sentence 1: two found dead in swimming pool at essex hotel Sentence 2: Man and woman found dead in Essex hotel swimming pool,4 - almost perfectly
+3109,Sentence 1: James Gandolfini dies aged 51 Sentence 2: Nelson Mandela dies aged 95,0 - definitely not
+331,Sentence 1: A woman is opening a soda and drinking it. Sentence 2: A woman is riding on an elephant.,1 - probably not
+64,Sentence 1: A squirrel is spinning around in circles. Sentence 2: A squirrel runs around in circles.,4 - almost perfectly
+3637,"Sentence 1: Hajj to go ahead despite crane collapse, officials vow Sentence 2: Hajj to go ahead despite crane collapse",4 - almost perfectly
+3041,Sentence 1: JAL's first order from Airbus is blow to Boeing Sentence 2: Japan Airlines orders 31 Airbus A350s valued at $9.5 bn,3 - probably
+28,Sentence 1: A girl is flying a kite. Sentence 2: A girl running is flying a kite.,4 - almost perfectly
+232,Sentence 1: A woman is dancing by a fire. Sentence 2: A woman is taking a bath.,1 - probably not
+50,Sentence 1: A little boy is playing a keyboard. Sentence 2: A boy is playing key board.,4 - almost perfectly
+1851,Sentence 1: the meetings lasted 2 days. Sentence 2: the osce meeting lasted two days.,3 - probably
+1620,Sentence 1: the problem isn't who has money. Sentence 2: the problem is who doesn't have money.,2 - possibly
+1207,Sentence 1: Two animals sitting on a rock. Sentence 2: Two eagles sitting on a long branch.,2 - possibly
+781,Sentence 1: A young boy sings and plays a guitar. Sentence 2: A kid plays the guitar.,3 - probably
+1757,Sentence 1: Sadly Ford did accept taxpayer money. Sentence 2: Ford didn't accept taxpayer money to save the company.,3 - probably
+2512,Sentence 1: China stocks close higher after economic meeting Sentence 2: China stocks close higher on Wednesday,3 - probably
+639,Sentence 1: A man is playing a guitar. Sentence 2: A man in a hat is playing a harp.,1 - probably not
+2609,Sentence 1: 37 killed in bus crash in Italy Sentence 2: 12 killed in bus accident in Pakistan,1 - probably not
+3634,"Sentence 1: U.S., EU Widen Sanctions On Russia Sentence 2: U.S., EU Boost Sanctions On Russia",5 - perfectly
+881,Sentence 1: The man rode his motorcycle down the highway. Sentence 2: A person is driving a motorcycle on a road.,4 - almost perfectly
+2816,Sentence 1: Pope Benedict XVI Says Goodbye to Cardinals Sentence 2: Pope Benedict XVI departs Vatican for last time,4 - almost perfectly
+322,Sentence 1: A man is breaking water jugs. Sentence 2: A woman is peeling garlic.,0 - definitely not
+2441,"Sentence 1: Nine Pakistani troops killed in militant ambush Sentence 2: Trade: Pakistan, India agree to take it a step ahead",1 - probably not
+172,Sentence 1: Three women are dancing. Sentence 2: The man is dancing.,2 - possibly
+2590,Sentence 1: Alleged cop killer died from shot to head Sentence 2: Alleged cop killer died from gunshot,4 - almost perfectly
+582,Sentence 1: A boy whacks a man with a sword. Sentence 2: A boy spanks a man with a plastic sword.,3 - probably
+806,Sentence 1: A person is riding a jetski in the waves. Sentence 2: A woman is riding a seadoo.,2 - possibly
+3365,"Sentence 1: The Note's Must-Reads for Friday May 24, 2013 Sentence 2: The Note's Must-Reads for Friday, August 23, 2013",2 - possibly

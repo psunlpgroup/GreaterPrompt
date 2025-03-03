@@ -1,0 +1,21 @@
+,input,output,words,category_items,other_categories,num_category_items,num_others
+1952,"lion, fly, burger, nurse, bat, spaceship","lion, fly, bat","['lion', 'fly', 'burger', 'nurse', 'bat', 'spaceship']","['lion', 'fly', 'bat']","['profession', 'food', 'vehicle']",3,3
+424,"penguin, sheep, plane, skirt, dolphin, shirt","penguin, dolphin, sheep","['penguin', 'sheep', 'plane', 'skirt', 'dolphin', 'shirt']","['penguin', 'dolphin', 'sheep']","['vehicle', 'clothing']",3,3
+1869,"monkey, duck, bat, motorway, tractor, potato, shark","duck, shark, bat, monkey","['monkey', 'duck', 'bat', 'motorway', 'tractor', 'potato', 'shark']","['duck', 'shark', 'bat', 'monkey']","['food', 'vehicle']",4,3
+290,"shirt, giraffe, snake, bat, swan, businessman","giraffe, swan, bat, snake","['shirt', 'giraffe', 'snake', 'bat', 'swan', 'businessman']","['giraffe', 'swan', 'bat', 'snake']","['profession', 'clothing']",4,2
+787,"red, parrot, train, whale, snail, dress, lizard","lizard, whale, snail, parrot","['red', 'parrot', 'train', 'whale', 'snail', 'dress', 'lizard']","['lizard', 'whale', 'snail', 'parrot']","['vehicle', 'color', 'clothing']",4,3
+2716,"lion, dolphin, skirt, fly, elephant, shirt, tractor","elephant, fly, lion, dolphin","['lion', 'dolphin', 'skirt', 'fly', 'elephant', 'shirt', 'tractor']","['elephant', 'fly', 'lion', 'dolphin']","['vehicle', 'clothing']",4,3
+2193,"whale, shirt, actor, chicken, pink, lizard, panda","chicken, lizard, panda, whale","['whale', 'shirt', 'actor', 'chicken', 'pink', 'lizard', 'panda']","['chicken', 'lizard', 'panda', 'whale']","['profession', 'color', 'clothing']",4,3
+2133,"rabbit, snail, sweater, gray, snake, chicken, pajamas","snail, rabbit, snake, chicken","['rabbit', 'snail', 'sweater', 'gray', 'snake', 'chicken', 'pajamas']","['snail', 'rabbit', 'snake', 'chicken']","['color', 'clothing']",4,3
+84,"teacher, businesswoman, octopus, dolphin, bat","dolphin, bat, octopus","['teacher', 'businesswoman', 'octopus', 'dolphin', 'bat']","['dolphin', 'bat', 'octopus']",['profession'],3,2
+2126,"gold, jellyfish, chicken, actor, fly","fly, chicken, jellyfish","['gold', 'jellyfish', 'chicken', 'actor', 'fly']","['fly', 'chicken', 'jellyfish']","['profession', 'color']",3,2
+420,"train, sheep, snail, gray, donkey, rabbit","sheep, donkey, snail, rabbit","['train', 'sheep', 'snail', 'gray', 'donkey', 'rabbit']","['sheep', 'donkey', 'snail', 'rabbit']","['vehicle', 'color']",4,2
+658,"candy, giraffe, taxi, horse, camel","horse, camel, giraffe","['candy', 'giraffe', 'taxi', 'horse', 'camel']","['horse', 'camel', 'giraffe']","['food', 'vehicle']",3,2
+2317,"zebra, sock, frog, dentist, spider, butterfly, engineer","frog, spider, zebra, butterfly","['zebra', 'sock', 'frog', 'dentist', 'spider', 'butterfly', 'engineer']","['frog', 'spider', 'zebra', 'butterfly']","['profession', 'clothing']",4,3
+1237,"horse, dentist, swan, orange, duck, skirt","swan, horse, duck","['horse', 'dentist', 'swan', 'orange', 'duck', 'skirt']","['swan', 'horse', 'duck']","['profession', 'food', 'clothing']",3,3
+433,"tortoise, tiger, purple, penguin, truck","tortoise, penguin, tiger","['tortoise', 'tiger', 'purple', 'penguin', 'truck']","['tortoise', 'penguin', 'tiger']","['vehicle', 'color']",3,2
+1654,"spider, dolphin, monkey, belt, butter","monkey, dolphin, spider","['spider', 'dolphin', 'monkey', 'belt', 'butter']","['monkey', 'dolphin', 'spider']","['food', 'clothing']",3,2
+670,"shark, panda, rabbit, yoghurt, fly, burger","fly, shark, panda, rabbit","['shark', 'panda', 'rabbit', 'yoghurt', 'fly', 'burger']","['fly', 'shark', 'panda', 'rabbit']",['food'],4,2
+801,"bee, swan, lizard, teacher, businessman","swan, bee, lizard","['bee', 'swan', 'lizard', 'teacher', 'businessman']","['swan', 'bee', 'lizard']",['profession'],3,2
+1641,"parrot, orange, spider, bat, bus","spider, parrot, bat","['parrot', 'orange', 'spider', 'bat', 'bus']","['spider', 'parrot', 'bat']","['vehicle', 'color']",3,2
+2029,"shirt, frog, camel, lizard, panda, pancake","camel, panda, lizard, frog","['shirt', 'frog', 'camel', 'lizard', 'panda', 'pancake']","['camel', 'panda', 'lizard', 'frog']","['food', 'clothing']",4,2

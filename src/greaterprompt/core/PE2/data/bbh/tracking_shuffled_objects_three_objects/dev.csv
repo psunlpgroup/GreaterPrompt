@@ -1,0 +1,601 @@
+,input,label
+51,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a black ball, Bob has a brown ball, and Claire has a blue ball.
+As the game progresses, pairs of players trade balls. First, Bob and Claire swap balls. Then, Alice and Bob swap balls. Finally, Claire and Bob swap balls. At the end of the game, Claire has the
+Options:
+(A) black ball
+(B) brown ball
+(C) blue ball",(A)
+95,"Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Ophelia, Bob is dancing with Rodrigo, and Claire is dancing with Karl.
+Throughout the song, the dancers often trade partners. First, Bob and Claire switch partners. Then, Alice and Bob switch partners. Finally, Bob and Claire switch partners. At the end of the dance, Alice is dancing with
+Options:
+(A) Ophelia
+(B) Rodrigo
+(C) Karl",(C)
+143,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a white ball, Bob has a purple ball, and Claire has a pink ball.
+As the game progresses, pairs of players trade balls. First, Bob and Alice swap balls. Then, Bob and Claire swap balls. Finally, Bob and Alice swap balls. At the end of the game, Bob has the
+Options:
+(A) white ball
+(B) purple ball
+(C) pink ball",(B)
+199,"Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Helga, Bob is dancing with Patrick, and Claire is dancing with Sam.
+Throughout the song, the dancers often trade partners. First, Claire and Alice switch partners. Then, Claire and Bob switch partners. Finally, Alice and Bob switch partners. At the end of the dance, Bob is dancing with
+Options:
+(A) Helga
+(B) Patrick
+(C) Sam",(C)
+76,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a black ball, Bob has a orange ball, and Claire has a white present.
+As the event progresses, pairs of people swap gifts. First, Claire and Bob swap their gifts. Then, Bob and Alice swap their gifts. Finally, Bob and Claire swap their gifts. At the end of the event, Claire has the
+Options:
+(A) black ball
+(B) orange ball
+(C) white present",(A)
+41,"Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing fullback, Bob is playing goalkeeper, and Claire is playing right winger.
+As the game progresses, pairs of players occasionally swap positions. First, Claire and Bob trade positions. Then, Alice and Claire trade positions. Finally, Alice and Bob trade positions. At the end of the match, Claire is playing
+Options:
+(A) fullback
+(B) goalkeeper
+(C) right winger",(A)
+113,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a green present, Bob has a black ball, and Claire has a blue present.
+As the event progresses, pairs of people swap gifts. First, Alice and Claire swap their gifts. Then, Claire and Bob swap their gifts. Finally, Alice and Bob swap their gifts. At the end of the event, Claire has the
+Options:
+(A) green present
+(B) black ball
+(C) blue present",(B)
+152,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a yellow present, Bob has a green present, and Claire has a purple present.
+As the event progresses, pairs of people swap gifts. First, Bob and Alice swap their gifts. Then, Claire and Alice swap their gifts. Finally, Alice and Bob swap their gifts. At the end of the event, Claire has the
+Options:
+(A) yellow present
+(B) green present
+(C) purple present",(B)
+78,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a pink ball, Bob has a brown ball, and Claire has a orange ball.
+As the game progresses, pairs of players trade balls. First, Claire and Alice swap balls. Then, Alice and Bob swap balls. Finally, Bob and Claire swap balls. At the end of the game, Bob has the
+Options:
+(A) pink ball
+(B) brown ball
+(C) orange ball",(A)
+147,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a blue present, Bob has a brown present, and Claire has a white present.
+As the event progresses, pairs of people swap gifts. First, Claire and Alice swap their gifts. Then, Bob and Claire swap their gifts. Finally, Alice and Bob swap their gifts. At the end of the event, Claire has the
+Options:
+(A) blue present
+(B) brown present
+(C) white present",(B)
+26,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a pink ball, Bob has a orange ball, and Claire has a white present.
+As the event progresses, pairs of people swap gifts. First, Bob and Claire swap their gifts. Then, Alice and Claire swap their gifts. Finally, Bob and Claire swap their gifts. At the end of the event, Bob has the
+Options:
+(A) pink ball
+(B) orange ball
+(C) white present",(A)
+241,"Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing benchwarmer, Bob is playing fullback, and Claire is playing goalkeeper.
+As the game progresses, pairs of players occasionally swap positions. First, Claire and Bob trade positions. Then, Alice and Claire trade positions. Finally, Bob and Alice trade positions. At the end of the match, Alice is playing
+Options:
+(A) benchwarmer
+(B) fullback
+(C) goalkeeper",(C)
+164,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a pink ball, Bob has a brown ball, and Claire has a white ball.
+As the game progresses, pairs of players trade balls. First, Alice and Claire swap balls. Then, Bob and Claire swap balls. Finally, Claire and Alice swap balls. At the end of the game, Alice has the
+Options:
+(A) pink ball
+(B) brown ball
+(C) white ball",(B)
+243,"Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Lola, Bob is dancing with Rodrigo, and Claire is dancing with Patrick.
+Throughout the song, the dancers often trade partners. First, Alice and Bob switch partners. Then, Claire and Bob switch partners. Finally, Bob and Alice switch partners. At the end of the dance, Claire is dancing with
+Options:
+(A) Lola
+(B) Rodrigo
+(C) Patrick",(A)
+137,"Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Izzi, Bob is dancing with Jamie, and Claire is dancing with Rodrigo.
+Throughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Alice and Claire switch partners. Finally, Claire and Bob switch partners. At the end of the dance, Alice is dancing with
+Options:
+(A) Izzi
+(B) Jamie
+(C) Rodrigo",(C)
+0,"Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Ulysses, Bob gets Frankenstein, and Claire gets Lolita.
+As the semester proceeds, they start trading around the new books. First, Claire and Bob swap books. Then, Bob and Alice swap books. Finally, Claire and Bob swap books. At the end of the semester, Bob has
+Options:
+(A) Ulysses
+(B) Frankenstein
+(C) Lolita",(B)
+2,"Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Frankenstein, Bob gets Catch-22, and Claire gets Ulysses.
+As the semester proceeds, they start trading around the new books. First, Bob and Alice swap books. Then, Alice and Claire swap books. Finally, Claire and Bob swap books. At the end of the semester, Alice has
+Options:
+(A) Frankenstein
+(B) Catch-22
+(C) Ulysses",(C)
+77,"Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets The Odyssey, Bob gets The Fellowship of the Ring, and Claire gets Hound of the Baskervilles.
+As the semester proceeds, they start trading around the new books. First, Bob and Alice swap books. Then, Claire and Bob swap books. Finally, Alice and Claire swap books. At the end of the semester, Bob has
+Options:
+(A) The Odyssey
+(B) The Fellowship of the Ring
+(C) Hound of the Baskervilles",(C)
+46,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a white present, Bob has a blue present, and Claire has a pink ball.
+As the event progresses, pairs of people swap gifts. First, Alice and Claire swap their gifts. Then, Claire and Bob swap their gifts. Finally, Bob and Alice swap their gifts. At the end of the event, Bob has the
+Options:
+(A) white present
+(B) blue present
+(C) pink ball",(C)
+100,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a pink ball, Bob has a green ball, and Claire has a white ball.
+As the game progresses, pairs of players trade balls. First, Claire and Alice swap balls. Then, Alice and Bob swap balls. Finally, Bob and Claire swap balls. At the end of the game, Claire has the
+Options:
+(A) pink ball
+(B) green ball
+(C) white ball",(C)
+127,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a yellow present, Bob has a white present, and Claire has a purple present.
+As the event progresses, pairs of people swap gifts. First, Alice and Bob swap their gifts. Then, Bob and Claire swap their gifts. Finally, Bob and Alice swap their gifts. At the end of the event, Alice has the
+Options:
+(A) yellow present
+(B) white present
+(C) purple present",(C)
+150,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a white present, Bob has a pink ball, and Claire has a black ball.
+As the event progresses, pairs of people swap gifts. First, Alice and Claire swap their gifts. Then, Alice and Bob swap their gifts. Finally, Claire and Alice swap their gifts. At the end of the event, Alice has the
+Options:
+(A) white present
+(B) pink ball
+(C) black ball",(A)
+248,"Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing right winger, Bob is playing cheerleader, and Claire is playing striker.
+As the game progresses, pairs of players occasionally swap positions. First, Alice and Claire trade positions. Then, Claire and Bob trade positions. Finally, Bob and Alice trade positions. At the end of the match, Alice is playing
+Options:
+(A) right winger
+(B) cheerleader
+(C) striker",(A)
+90,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a green ball, Bob has a black ball, and Claire has a blue ball.
+As the game progresses, pairs of players trade balls. First, Bob and Alice swap balls. Then, Claire and Alice swap balls. Finally, Alice and Bob swap balls. At the end of the game, Bob has the
+Options:
+(A) green ball
+(B) black ball
+(C) blue ball",(C)
+85,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a pink ball, Bob has a orange ball, and Claire has a white ball.
+As the game progresses, pairs of players trade balls. First, Bob and Claire swap balls. Then, Claire and Alice swap balls. Finally, Alice and Bob swap balls. At the end of the game, Alice has the
+Options:
+(A) pink ball
+(B) orange ball
+(C) white ball",(C)
+175,"Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Ophelia, Bob is dancing with Rodrigo, and Claire is dancing with Patrick.
+Throughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Claire and Bob switch partners. Finally, Claire and Alice switch partners. At the end of the dance, Alice is dancing with
+Options:
+(A) Ophelia
+(B) Rodrigo
+(C) Patrick",(A)
+195,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a green present, Bob has a blue present, and Claire has a brown present.
+As the event progresses, pairs of people swap gifts. First, Claire and Alice swap their gifts. Then, Claire and Bob swap their gifts. Finally, Alice and Claire swap their gifts. At the end of the event, Alice has the
+Options:
+(A) green present
+(B) blue present
+(C) brown present",(B)
+98,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a green present, Bob has a blue present, and Claire has a brown present.
+As the event progresses, pairs of people swap gifts. First, Claire and Alice swap their gifts. Then, Claire and Bob swap their gifts. Finally, Alice and Claire swap their gifts. At the end of the event, Claire has the
+Options:
+(A) green present
+(B) blue present
+(C) brown present",(C)
+36,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a pink ball, Bob has a yellow ball, and Claire has a white ball.
+As the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Alice and Bob swap balls. Finally, Claire and Bob swap balls. At the end of the game, Alice has the
+Options:
+(A) pink ball
+(B) yellow ball
+(C) white ball",(C)
+61,"Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Sam, Bob is dancing with Lola, and Claire is dancing with Karl.
+Throughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Bob and Claire switch partners. Finally, Alice and Bob switch partners. At the end of the dance, Claire is dancing with
+Options:
+(A) Sam
+(B) Lola
+(C) Karl",(A)
+162,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a red ball, Bob has a orange ball, and Claire has a black ball.
+As the game progresses, pairs of players trade balls. First, Alice and Bob swap balls. Then, Alice and Claire swap balls. Finally, Claire and Bob swap balls. At the end of the game, Bob has the
+Options:
+(A) red ball
+(B) orange ball
+(C) black ball",(B)
+139,"Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing center midfielder, Bob is playing right midfielder, and Claire is playing goalkeeper.
+As the game progresses, pairs of players occasionally swap positions. First, Claire and Bob trade positions. Then, Claire and Alice trade positions. Finally, Bob and Claire trade positions. At the end of the match, Alice is playing
+Options:
+(A) center midfielder
+(B) right midfielder
+(C) goalkeeper",(B)
+11,"Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Karl, Bob is dancing with Rodrigo, and Claire is dancing with Helga.
+Throughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Alice and Claire switch partners. Finally, Alice and Bob switch partners. At the end of the dance, Alice is dancing with
+Options:
+(A) Karl
+(B) Rodrigo
+(C) Helga",(A)
+244,"Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets The Great Gatsby, Bob gets Moby Dick, and Claire gets The Fellowship of the Ring.
+As the semester proceeds, they start trading around the new books. First, Claire and Alice swap books. Then, Bob and Claire swap books. Finally, Alice and Claire swap books. At the end of the semester, Bob has
+Options:
+(A) The Great Gatsby
+(B) Moby Dick
+(C) The Fellowship of the Ring",(A)
+198,"Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Frankenstein, Bob gets Moby Dick, and Claire gets The Fellowship of the Ring.
+As the semester proceeds, they start trading around the new books. First, Alice and Bob swap books. Then, Claire and Alice swap books. Finally, Bob and Claire swap books. At the end of the semester, Claire has
+Options:
+(A) Frankenstein
+(B) Moby Dick
+(C) The Fellowship of the Ring",(A)
+27,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a pink ball, Bob has a white present, and Claire has a blue present.
+As the event progresses, pairs of people swap gifts. First, Bob and Claire swap their gifts. Then, Claire and Alice swap their gifts. Finally, Claire and Bob swap their gifts. At the end of the event, Alice has the
+Options:
+(A) pink ball
+(B) white present
+(C) blue present",(B)
+155,"Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing cheerleader, Bob is playing right winger, and Claire is playing goalkeeper.
+As the game progresses, pairs of players occasionally swap positions. First, Alice and Claire trade positions. Then, Bob and Alice trade positions. Finally, Claire and Bob trade positions. At the end of the match, Claire is playing
+Options:
+(A) cheerleader
+(B) right winger
+(C) goalkeeper",(C)
+4,"Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Frankenstein, Bob gets The Odyssey, and Claire gets Lolita.
+As the semester proceeds, they start trading around the new books. First, Alice and Claire swap books. Then, Bob and Alice swap books. Finally, Claire and Bob swap books. At the end of the semester, Bob has
+Options:
+(A) Frankenstein
+(B) The Odyssey
+(C) Lolita",(A)
+122,"Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Melissa, Bob is dancing with Sam, and Claire is dancing with Karl.
+Throughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Claire and Alice switch partners. Finally, Bob and Alice switch partners. At the end of the dance, Alice is dancing with
+Options:
+(A) Melissa
+(B) Sam
+(C) Karl",(A)
+32,"Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Rodrigo, Bob is dancing with Sam, and Claire is dancing with Lola.
+Throughout the song, the dancers often trade partners. First, Claire and Bob switch partners. Then, Bob and Alice switch partners. Finally, Claire and Alice switch partners. At the end of the dance, Claire is dancing with
+Options:
+(A) Rodrigo
+(B) Sam
+(C) Lola",(C)
+144,"Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Rodrigo, Bob is dancing with Jamie, and Claire is dancing with Sam.
+Throughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Bob and Claire switch partners. Finally, Alice and Claire switch partners. At the end of the dance, Claire is dancing with
+Options:
+(A) Rodrigo
+(B) Jamie
+(C) Sam",(B)
+178,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a pink ball, Bob has a orange ball, and Claire has a white ball.
+As the game progresses, pairs of players trade balls. First, Bob and Claire swap balls. Then, Claire and Alice swap balls. Finally, Alice and Bob swap balls. At the end of the game, Bob has the
+Options:
+(A) pink ball
+(B) orange ball
+(C) white ball",(B)
+138,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a green ball, Bob has a blue ball, and Claire has a brown ball.
+As the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Alice and Claire swap balls. Finally, Alice and Bob swap balls. At the end of the game, Bob has the
+Options:
+(A) green ball
+(B) blue ball
+(C) brown ball",(B)
+62,"Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing left midfielder, Bob is playing center midfielder, and Claire is playing benchwarmer.
+As the game progresses, pairs of players occasionally swap positions. First, Alice and Bob trade positions. Then, Alice and Claire trade positions. Finally, Alice and Bob trade positions. At the end of the match, Claire is playing
+Options:
+(A) left midfielder
+(B) center midfielder
+(C) benchwarmer",(B)
+135,"Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Ophelia, Bob is dancing with Jamie, and Claire is dancing with Melissa.
+Throughout the song, the dancers often trade partners. First, Alice and Claire switch partners. Then, Bob and Alice switch partners. Finally, Claire and Bob switch partners. At the end of the dance, Claire is dancing with
+Options:
+(A) Ophelia
+(B) Jamie
+(C) Melissa",(C)
+128,"Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing goalkeeper, Bob is playing fullback, and Claire is playing left winger.
+As the game progresses, pairs of players occasionally swap positions. First, Claire and Bob trade positions. Then, Bob and Alice trade positions. Finally, Bob and Claire trade positions. At the end of the match, Claire is playing
+Options:
+(A) goalkeeper
+(B) fullback
+(C) left winger",(A)
+226,"Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Jamie, Bob is dancing with Sam, and Claire is dancing with Izzi.
+Throughout the song, the dancers often trade partners. First, Bob and Claire switch partners. Then, Claire and Alice switch partners. Finally, Claire and Bob switch partners. At the end of the dance, Claire is dancing with
+Options:
+(A) Jamie
+(B) Sam
+(C) Izzi",(C)
+205,"Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Melissa, Bob is dancing with Lola, and Claire is dancing with Izzi.
+Throughout the song, the dancers often trade partners. First, Alice and Bob switch partners. Then, Alice and Claire switch partners. Finally, Bob and Alice switch partners. At the end of the dance, Claire is dancing with
+Options:
+(A) Melissa
+(B) Lola
+(C) Izzi",(B)
+70,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a pink ball, Bob has a brown ball, and Claire has a orange ball.
+As the game progresses, pairs of players trade balls. First, Claire and Alice swap balls. Then, Alice and Bob swap balls. Finally, Bob and Claire swap balls. At the end of the game, Claire has the
+Options:
+(A) pink ball
+(B) brown ball
+(C) orange ball",(C)
+192,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a blue ball, Bob has a black ball, and Claire has a brown ball.
+As the game progresses, pairs of players trade balls. First, Alice and Claire swap balls. Then, Claire and Bob swap balls. Finally, Alice and Claire swap balls. At the end of the game, Claire has the
+Options:
+(A) blue ball
+(B) black ball
+(C) brown ball",(C)
+64,"Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing left winger, Bob is playing fullback, and Claire is playing right winger.
+As the game progresses, pairs of players occasionally swap positions. First, Alice and Claire trade positions. Then, Alice and Bob trade positions. Finally, Claire and Alice trade positions. At the end of the match, Claire is playing
+Options:
+(A) left winger
+(B) fullback
+(C) right winger",(B)
+44,"Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Catch-22, Bob gets Moby Dick, and Claire gets The Great Gatsby.
+As the semester proceeds, they start trading around the new books. First, Claire and Bob swap books. Then, Claire and Alice swap books. Finally, Bob and Claire swap books. At the end of the semester, Claire has
+Options:
+(A) Catch-22
+(B) Moby Dick
+(C) The Great Gatsby",(C)
+165,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a orange ball, Bob has a red ball, and Claire has a pink ball.
+As the game progresses, pairs of players trade balls. First, Bob and Claire swap balls. Then, Alice and Bob swap balls. Finally, Claire and Bob swap balls. At the end of the game, Claire has the
+Options:
+(A) orange ball
+(B) red ball
+(C) pink ball",(A)
+40,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a blue present, Bob has a red present, and Claire has a green present.
+As the event progresses, pairs of people swap gifts. First, Alice and Bob swap their gifts. Then, Claire and Bob swap their gifts. Finally, Alice and Claire swap their gifts. At the end of the event, Claire has the
+Options:
+(A) blue present
+(B) red present
+(C) green present",(B)
+123,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a pink ball, Bob has a red ball, and Claire has a green ball.
+As the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Alice and Claire swap balls. Finally, Claire and Bob swap balls. At the end of the game, Bob has the
+Options:
+(A) pink ball
+(B) red ball
+(C) green ball",(A)
+153,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a brown ball, Bob has a pink ball, and Claire has a blue ball.
+As the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Claire and Alice swap balls. Finally, Bob and Claire swap balls. At the end of the game, Claire has the
+Options:
+(A) brown ball
+(B) pink ball
+(C) blue ball",(C)
+23,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a purple ball, Bob has a yellow ball, and Claire has a orange ball.
+As the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Bob and Alice swap balls. Finally, Claire and Bob swap balls. At the end of the game, Claire has the
+Options:
+(A) purple ball
+(B) yellow ball
+(C) orange ball",(A)
+211,"Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Izzi, Bob is dancing with Patrick, and Claire is dancing with Ophelia.
+Throughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Claire and Bob switch partners. Finally, Claire and Alice switch partners. At the end of the dance, Bob is dancing with
+Options:
+(A) Izzi
+(B) Patrick
+(C) Ophelia",(C)
+183,"Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Hound of the Baskervilles, Bob gets The Pearl, and Claire gets The Odyssey.
+As the semester proceeds, they start trading around the new books. First, Bob and Claire swap books. Then, Claire and Alice swap books. Finally, Bob and Alice swap books. At the end of the semester, Claire has
+Options:
+(A) Hound of the Baskervilles
+(B) The Pearl
+(C) The Odyssey",(A)
+81,"Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing center midfielder, Bob is playing right midfielder, and Claire is playing goalkeeper.
+As the game progresses, pairs of players occasionally swap positions. First, Claire and Bob trade positions. Then, Claire and Alice trade positions. Finally, Bob and Claire trade positions. At the end of the match, Claire is playing
+Options:
+(A) center midfielder
+(B) right midfielder
+(C) goalkeeper",(C)
+39,"Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Lola, Bob is dancing with Patrick, and Claire is dancing with Melissa.
+Throughout the song, the dancers often trade partners. First, Alice and Claire switch partners. Then, Bob and Claire switch partners. Finally, Claire and Alice switch partners. At the end of the dance, Bob is dancing with
+Options:
+(A) Lola
+(B) Patrick
+(C) Melissa",(A)
+209,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a red ball, Bob has a orange ball, and Claire has a black ball.
+As the game progresses, pairs of players trade balls. First, Alice and Bob swap balls. Then, Alice and Claire swap balls. Finally, Claire and Bob swap balls. At the end of the game, Claire has the
+Options:
+(A) red ball
+(B) orange ball
+(C) black ball",(A)
+47,"Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Frankenstein, Bob gets The Odyssey, and Claire gets The Great Gatsby.
+As the semester proceeds, they start trading around the new books. First, Alice and Claire swap books. Then, Alice and Bob swap books. Finally, Alice and Claire swap books. At the end of the semester, Claire has
+Options:
+(A) Frankenstein
+(B) The Odyssey
+(C) The Great Gatsby",(B)
+94,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a yellow present, Bob has a white present, and Claire has a purple present.
+As the event progresses, pairs of people swap gifts. First, Alice and Bob swap their gifts. Then, Bob and Claire swap their gifts. Finally, Bob and Alice swap their gifts. At the end of the event, Bob has the
+Options:
+(A) yellow present
+(B) white present
+(C) purple present",(B)
+190,"Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing goalkeeper, Bob is playing left midfielder, and Claire is playing fullback.
+As the game progresses, pairs of players occasionally swap positions. First, Claire and Alice trade positions. Then, Alice and Bob trade positions. Finally, Bob and Claire trade positions. At the end of the match, Bob is playing
+Options:
+(A) goalkeeper
+(B) left midfielder
+(C) fullback",(A)
+161,"Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing goalkeeper, Bob is playing left winger, and Claire is playing left midfielder.
+As the game progresses, pairs of players occasionally swap positions. First, Alice and Claire trade positions. Then, Alice and Bob trade positions. Finally, Claire and Alice trade positions. At the end of the match, Bob is playing
+Options:
+(A) goalkeeper
+(B) left winger
+(C) left midfielder",(C)
+43,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a yellow ball, Bob has a green ball, and Claire has a blue ball.
+As the game progresses, pairs of players trade balls. First, Alice and Bob swap balls. Then, Alice and Claire swap balls. Finally, Claire and Bob swap balls. At the end of the game, Bob has the
+Options:
+(A) yellow ball
+(B) green ball
+(C) blue ball",(B)
+145,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a pink ball, Bob has a yellow ball, and Claire has a white ball.
+As the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Alice and Bob swap balls. Finally, Claire and Bob swap balls. At the end of the game, Bob has the
+Options:
+(A) pink ball
+(B) yellow ball
+(C) white ball",(B)
+182,"Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets The Odyssey, Bob gets The Pearl, and Claire gets Frankenstein.
+As the semester proceeds, they start trading around the new books. First, Claire and Bob swap books. Then, Claire and Alice swap books. Finally, Bob and Claire swap books. At the end of the semester, Bob has
+Options:
+(A) The Odyssey
+(B) The Pearl
+(C) Frankenstein",(A)
+3,"Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Helga, Bob is dancing with Lola, and Claire is dancing with Ophelia.
+Throughout the song, the dancers often trade partners. First, Alice and Bob switch partners. Then, Bob and Claire switch partners. Finally, Alice and Bob switch partners. At the end of the dance, Alice is dancing with
+Options:
+(A) Helga
+(B) Lola
+(C) Ophelia",(C)
+105,"Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Helga, Bob is dancing with Sam, and Claire is dancing with Jamie.
+Throughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Bob and Claire switch partners. Finally, Alice and Claire switch partners. At the end of the dance, Bob is dancing with
+Options:
+(A) Helga
+(B) Sam
+(C) Jamie",(C)
+53,"Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Ulysses, Bob gets Frankenstein, and Claire gets Catch-22.
+As the semester proceeds, they start trading around the new books. First, Bob and Claire swap books. Then, Claire and Alice swap books. Finally, Alice and Bob swap books. At the end of the semester, Alice has
+Options:
+(A) Ulysses
+(B) Frankenstein
+(C) Catch-22",(C)
+133,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a black ball, Bob has a white present, and Claire has a pink ball.
+As the event progresses, pairs of people swap gifts. First, Alice and Bob swap their gifts. Then, Bob and Claire swap their gifts. Finally, Alice and Bob swap their gifts. At the end of the event, Bob has the
+Options:
+(A) black ball
+(B) white present
+(C) pink ball",(B)
+227,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a white present, Bob has a blue present, and Claire has a pink ball.
+As the event progresses, pairs of people swap gifts. First, Alice and Claire swap their gifts. Then, Claire and Bob swap their gifts. Finally, Bob and Alice swap their gifts. At the end of the event, Claire has the
+Options:
+(A) white present
+(B) blue present
+(C) pink ball",(B)
+193,"Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Ulysses, Bob gets Moby Dick, and Claire gets Frankenstein.
+As the semester proceeds, they start trading around the new books. First, Bob and Alice swap books. Then, Bob and Claire swap books. Finally, Alice and Bob swap books. At the end of the semester, Claire has
+Options:
+(A) Ulysses
+(B) Moby Dick
+(C) Frankenstein",(A)
+232,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a green ball, Bob has a purple ball, and Claire has a blue ball.
+As the game progresses, pairs of players trade balls. First, Bob and Alice swap balls. Then, Claire and Bob swap balls. Finally, Bob and Alice swap balls. At the end of the game, Bob has the
+Options:
+(A) green ball
+(B) purple ball
+(C) blue ball",(B)
+49,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a pink ball, Bob has a black ball, and Claire has a purple present.
+As the event progresses, pairs of people swap gifts. First, Bob and Claire swap their gifts. Then, Alice and Claire swap their gifts. Finally, Claire and Bob swap their gifts. At the end of the event, Claire has the
+Options:
+(A) pink ball
+(B) black ball
+(C) purple present",(C)
+163,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a purple ball, Bob has a red ball, and Claire has a green ball.
+As the game progresses, pairs of players trade balls. First, Alice and Claire swap balls. Then, Alice and Bob swap balls. Finally, Claire and Alice swap balls. At the end of the game, Alice has the
+Options:
+(A) purple ball
+(B) red ball
+(C) green ball",(A)
+80,"Alice, Bob, and Claire are dancers at a square dance. At the start of a song, they each have a partner: Alice is dancing with Helga, Bob is dancing with Ophelia, and Claire is dancing with Sam.
+Throughout the song, the dancers often trade partners. First, Bob and Alice switch partners. Then, Claire and Bob switch partners. Finally, Claire and Alice switch partners. At the end of the dance, Claire is dancing with
+Options:
+(A) Helga
+(B) Ophelia
+(C) Sam",(B)
+34,"Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Hound of the Baskervilles, Bob gets Frankenstein, and Claire gets The Odyssey.
+As the semester proceeds, they start trading around the new books. First, Bob and Claire swap books. Then, Alice and Bob swap books. Finally, Alice and Claire swap books. At the end of the semester, Alice has
+Options:
+(A) Hound of the Baskervilles
+(B) Frankenstein
+(C) The Odyssey",(B)
+206,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a black ball, Bob has a green present, and Claire has a brown present.
+As the event progresses, pairs of people swap gifts. First, Alice and Bob swap their gifts. Then, Claire and Bob swap their gifts. Finally, Alice and Claire swap their gifts. At the end of the event, Bob has the
+Options:
+(A) black ball
+(B) green present
+(C) brown present",(C)
+7,"Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets The Great Gatsby, Bob gets The Odyssey, and Claire gets Lolita.
+As the semester proceeds, they start trading around the new books. First, Alice and Bob swap books. Then, Alice and Claire swap books. Finally, Bob and Claire swap books. At the end of the semester, Claire has
+Options:
+(A) The Great Gatsby
+(B) The Odyssey
+(C) Lolita",(A)
+171,"Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Frankenstein, Bob gets The Pearl, and Claire gets The Fellowship of the Ring.
+As the semester proceeds, they start trading around the new books. First, Bob and Claire swap books. Then, Bob and Alice swap books. Finally, Claire and Alice swap books. At the end of the semester, Claire has
+Options:
+(A) Frankenstein
+(B) The Pearl
+(C) The Fellowship of the Ring",(C)
+110,"Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Frankenstein, Bob gets Catch-22, and Claire gets Ulysses.
+As the semester proceeds, they start trading around the new books. First, Bob and Alice swap books. Then, Alice and Claire swap books. Finally, Claire and Bob swap books. At the end of the semester, Claire has
+Options:
+(A) Frankenstein
+(B) Catch-22
+(C) Ulysses",(A)
+91,"Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing center midfielder, Bob is playing benchwarmer, and Claire is playing fullback.
+As the game progresses, pairs of players occasionally swap positions. First, Alice and Claire trade positions. Then, Alice and Bob trade positions. Finally, Alice and Claire trade positions. At the end of the match, Bob is playing
+Options:
+(A) center midfielder
+(B) benchwarmer
+(C) fullback",(C)
+83,"Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing center midfielder, Bob is playing left midfielder, and Claire is playing left winger.
+As the game progresses, pairs of players occasionally swap positions. First, Alice and Claire trade positions. Then, Claire and Bob trade positions. Finally, Bob and Alice trade positions. At the end of the match, Claire is playing
+Options:
+(A) center midfielder
+(B) left midfielder
+(C) left winger",(B)
+223,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a blue ball, Bob has a black ball, and Claire has a pink ball.
+As the game progresses, pairs of players trade balls. First, Bob and Claire swap balls. Then, Bob and Alice swap balls. Finally, Alice and Claire swap balls. At the end of the game, Claire has the
+Options:
+(A) blue ball
+(B) black ball
+(C) pink ball",(C)
+228,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a black ball, Bob has a green present, and Claire has a brown present.
+As the event progresses, pairs of people swap gifts. First, Alice and Bob swap their gifts. Then, Claire and Bob swap their gifts. Finally, Alice and Claire swap their gifts. At the end of the event, Claire has the
+Options:
+(A) black ball
+(B) green present
+(C) brown present",(B)
+89,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a black ball, Bob has a green present, and Claire has a brown present.
+As the event progresses, pairs of people swap gifts. First, Alice and Bob swap their gifts. Then, Claire and Bob swap their gifts. Finally, Alice and Claire swap their gifts. At the end of the event, Alice has the
+Options:
+(A) black ball
+(B) green present
+(C) brown present",(A)
+8,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a brown ball, Bob has a red ball, and Claire has a white ball.
+As the game progresses, pairs of players trade balls. First, Claire and Bob swap balls. Then, Bob and Alice swap balls. Finally, Claire and Alice swap balls. At the end of the game, Bob has the
+Options:
+(A) brown ball
+(B) red ball
+(C) white ball",(A)
+13,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a orange ball, Bob has a purple present, and Claire has a red present.
+As the event progresses, pairs of people swap gifts. First, Claire and Bob swap their gifts. Then, Alice and Bob swap their gifts. Finally, Claire and Alice swap their gifts. At the end of the event, Claire has the
+Options:
+(A) orange ball
+(B) purple present
+(C) red present",(C)
+59,"Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing left midfielder, Bob is playing right midfielder, and Claire is playing goalkeeper.
+As the game progresses, pairs of players occasionally swap positions. First, Bob and Alice trade positions. Then, Alice and Claire trade positions. Finally, Bob and Alice trade positions. At the end of the match, Bob is playing
+Options:
+(A) left midfielder
+(B) right midfielder
+(C) goalkeeper",(C)
+215,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a red ball, Bob has a pink ball, and Claire has a black ball.
+As the game progresses, pairs of players trade balls. First, Claire and Alice swap balls. Then, Alice and Bob swap balls. Finally, Alice and Claire swap balls. At the end of the game, Claire has the
+Options:
+(A) red ball
+(B) pink ball
+(C) black ball",(B)
+131,"Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets Lolita, Bob gets Hound of the Baskervilles, and Claire gets The Fellowship of the Ring.
+As the semester proceeds, they start trading around the new books. First, Claire and Bob swap books. Then, Alice and Bob swap books. Finally, Claire and Bob swap books. At the end of the semester, Claire has
+Options:
+(A) Lolita
+(B) Hound of the Baskervilles
+(C) The Fellowship of the Ring",(A)
+17,"Alice, Bob, and Claire are on the same team in a soccer match. At the start of the match, they are each assigned to a position: Alice is playing goalkeeper, Bob is playing left winger, and Claire is playing center midfielder.
+As the game progresses, pairs of players occasionally swap positions. First, Claire and Bob trade positions. Then, Alice and Bob trade positions. Finally, Claire and Alice trade positions. At the end of the match, Alice is playing
+Options:
+(A) goalkeeper
+(B) left winger
+(C) center midfielder",(B)
+166,"Alice, Bob, and Claire are friends and avid readers who occasionally trade books. At the start of the semester, they each buy one new book: Alice gets The Great Gatsby, Bob gets The Pearl, and Claire gets The Odyssey.
+As the semester proceeds, they start trading around the new books. First, Alice and Claire swap books. Then, Bob and Alice swap books. Finally, Alice and Claire swap books. At the end of the semester, Bob has
+Options:
+(A) The Great Gatsby
+(B) The Pearl
+(C) The Odyssey",(C)
+72,"Alice, Bob, and Claire are playing a game. At the start of the game, they are each holding a ball: Alice has a yellow ball, Bob has a purple ball, and Claire has a blue ball.
+As the game progresses, pairs of players trade balls. First, Alice and Claire swap balls. Then, Bob and Claire swap balls. Finally, Alice and Claire swap balls. At the end of the game, Bob has the
+Options:
+(A) yellow ball
+(B) purple ball
+(C) blue ball",(A)
+220,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a orange ball, Bob has a purple present, and Claire has a red present.
+As the event progresses, pairs of people swap gifts. First, Claire and Bob swap their gifts. Then, Alice and Bob swap their gifts. Finally, Claire and Alice swap their gifts. At the end of the event, Alice has the
+Options:
+(A) orange ball
+(B) purple present
+(C) red present",(B)
+134,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a pink ball, Bob has a white present, and Claire has a orange ball.
+As the event progresses, pairs of people swap gifts. First, Bob and Alice swap their gifts. Then, Claire and Bob swap their gifts. Finally, Alice and Claire swap their gifts. At the end of the event, Claire has the
+Options:
+(A) pink ball
+(B) white present
+(C) orange ball",(B)
+204,"Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a red present, Bob has a blue present, and Claire has a yellow present.
+As the event progresses, pairs of people swap gifts. First, Alice and Claire swap their gifts. Then, Bob and Claire swap their gifts. Finally, Claire and Alice swap their gifts. At the end of the event, Bob has the
+Options:
+(A) red present
+(B) blue present
+(C) yellow present",(A)

@@ -1,0 +1,101 @@
+,input,output,possible_translations
+726,facility,facilidad,"['facilidad', 'instalación']"
+2645,pad,bloc,['bloc']
+69,track,pista,"['rastro', 'vía', 'surco', 'huella', 'pista']"
+840,appointment,cita,"['cita', 'compromiso', 'nombramiento']"
+2680,grape,uva,"['uva', 'parra', 'vid']"
+2463,yoga,yoga,['yoga']
+501,protection,protección,['protección']
+2596,stallion,semental,"['mango', 'padrillo', 'papasote', 'semental', 'cojudo', 'entero', 'potro', 'cuero']"
+183,president,presidente,"['presidente', 'presidenta', 'presidente director']"
+1621,throat,tráquea,"['tráquea', 'cuello', 'garganta']"
+2154,vacation,vacaciones,"['vacacionar', 'vacaciones']"
+1685,spur,espuela,"['espuela', 'conexión', 'espolón', 'motivar', 'acicate ; incentivo', 'incitar', 'acicatear', 'estimular', 'espolear', 'alcurnia', 'espolonear', 'incentivar', 'poner espuelas', 'extensión', 'prolongación', 'animar']"
+1755,patch,parche,['parche']
+2283,communism,comunismo,['comunismo']
+1937,jacket,chaqueta,"['chaqueta', 'paltó', 'cazadora', 'americana', 'campera', 'chumpa', 'jacket', 'saco', 'gabán', 'casaca', 'chamarra', 'chompa']"
+1393,bond,enlace,['enlace']
+1472,thickness,grosor,"['grosor', 'torpeza']"
+144,base,base,"['base', 'basar', 'bajo', 'sede']"
+1078,investment,inversión,['inversión']
+1395,cameo,camafeo,"['', 'camafeo']"
+1342,proportion,proporción,['proporción']
+1893,recreation,recreación,['recreación']
+1219,cable,cable,"['televisión por cable', 'telegrama', 'cuerda', 'cable', 'cablegrama']"
+1627,silence,silencio,"['silenciar', 'hacer callar', 'silencio']"
+1597,availability,disponibilidad,['disponibilidad']
+2562,deterioration,deterioro,"['deterioro', 'deterioración']"
+2516,alphabet,alfabeto,"['abecedario', 'alfabeto']"
+1435,hunt,caza,"['caza', 'cazar']"
+1666,enthusiasm,entusiasmo,['entusiasmo']
+1969,oxidation,oxidación,['oxidación']
+2434,guess,conjetura,"['conjeturar', 'adivinar', 'conjetura', 'deducir', 'suponer']"
+35,death,muerte,"['muerte', 'la muerte', 'el arcano de la muerte']"
+113,ground,fondo,"['fondo', 'fundamento', 'polo a tierra', 'castigar', 'poner a tierra', 'picado', 'conectar a tierra', 'base', 'suelo', 'molido', 'tierra', 'toma de tierra']"
+841,possession,posesión,['posesión']
+2513,receptor,receptor,['receptor']
+2544,accompaniment,acompañamiento,['acompañamiento']
+1366,nephew,sobrino,['sobrino']
+1216,skill,habilidad,"['maña', 'talento', 'habilidad', 'destreza']"
+2118,vacuum,vacío,"['aspirar', 'vacío']"
+1365,payment,pago,['pago']
+283,press,prensa,"['oprimir', 'prensar', 'pres', 'prensa', 'presionar']"
+1841,knife,cuchillo,"['puñal', 'acuchillar', 'cuchillo']"
+433,landing,rellano,"['rellano', 'aterrizaje', 'muelle', 'descansillo']"
+1882,replica,réplica,['réplica']
+2593,smile,sonrisa,"['sonrisa', 'sonreír']"
+270,plot,plano,"['trama', 'trazar', 'plano', 'argumento', 'conspirar', 'gráfica', 'lote', 'diagrama', 'complot', 'solar', 'tramar', 'conspiración']"
+583,cell,célula,"['célula', 'bartolina', 'teléfono móvil', 'celular', 'celda', 'móvil', 'teléfono celular']"
+352,winter,invierno,"['invernar', 'invierno']"
+2450,flour,harina,['harina']
+909,walk,paseo,"['trecho', 'paseo', 'trayecto', 'andar', 'caminar', 'andares', 'pasear', 'acompañar']"
+671,passage,pasaje,['pasaje']
+2374,encouragement,apoyo,['apoyo']
+1827,registration,registro,"['inscripción', 'recepción', 'registración', 'matriculación', 'registro']"
+377,tournament,torneo,"['campeonato', 'justa', 'torneo']"
+208,course,curso,"['trayectoria', 'curso', 'perseguir', 'plato', 'ruta', 'rumbo', 'correr']"
+120,mother,madre,['madre']
+1348,logo,logotipo,['logotipo']
+1760,orientation,orientación,['orientación']
+2308,authenticity,autenticidad,['autenticidad']
+2505,rudder,timón,['timón']
+2087,assumption,asunción,"['suposición', 'asunción']"
+2512,stripe,galón,"['franja', 'lista', 'galón', 'raya', 'línea']"
+331,scale,escala,"['escalar', 'escamar', 'escama', 'platillo', 'escala', 'gama', 'balanza']"
+1310,roster,lista de personal,['lista de personal']
+582,landfall,recalada,"['tocar tierra', 'aterrada', 'recalada']"
+1416,sheet,capa,"['capa', 'escota', 'hoja']"
+2145,dimension,dimensión,['dimensión']
+852,schedule,horario,"['itinerario', 'programar', 'horario']"
+2486,bunker,búnker,['búnker']
+1520,scrap,chatarra,"['resto', 'chatarra', 'desguazar', 'sobras', 'restos', 'achatarrar']"
+2471,pond,charca,"['estanque', 'charca', 'laguna']"
+2600,consultation,consulta,['consulta']
+1912,dinosaur,dinosaurio,['dinosaurio']
+951,protein,proteína,['proteína']
+1714,controller,controlador,['controlador']
+2297,hemisphere,hemisferio,['hemisferio']
+886,explosion,explosión,['explosión']
+1258,nose,nariz,"['nariz', 'morro', 'olfato', 'hocico']"
+2375,peat,turba,['turba']
+2295,incarnation,encarnación,['encarnación']
+1995,agenda,agenda,"['orden del dia', 'programa', 'agenda']"
+2034,evaluation,evaluación,['evaluación']
+1942,puzzle,rompecabezas,"['puzle', 'dejar perplejo', 'enigma', 'rompecabezas', 'desconcertar', 'intrigar']"
+496,conference,conferencia,['conferencia']
+799,fear,miedo,"['tener miedo de', 'respeto', 'miedo', 'temor', 'pavor', 'temer']"
+2184,flame,flama,"['llama', 'flama']"
+960,revenue,recaudación,"['retorno', 'rédito', 'recaudación']"
+2,game,juego,"['juego', 'caza']"
+262,produce,frutas y verduras,"['realizar', 'producto', 'frutas y verduras', 'producir']"
+574,distribution,distribución,['distribución']
+2305,crush,aplastamiento,"['estar encaprichado', 'machacar', 'estar colado', 'aplastamiento', 'estar embobado', 'aplastar', 'subyugar']"
+2571,concussion,conmoción cerebral,"['concusión', 'conmoción cerebral']"
+1915,abortion,aborto,"['aborto', 'aborto involuntario', 'engendro', 'aborto inducido']"
+2415,meditation,meditación,['meditación']
+305,engine,motor,"['locomotora', 'motor']"
+2424,worry,preocupación,"['preocupar', 'zozobra', 'inquietarse', 'inquietar', 'estar preocupado', 'preocuparse', 'preocupación']"
+731,legislation,legislación,['legislación']
+458,infantry,infantería,"['regimiento de infantería', 'tercio', 'infantería']"
+1982,aggression,agresión,['agresión']
+1460,cooperation,cooperación,['cooperación']

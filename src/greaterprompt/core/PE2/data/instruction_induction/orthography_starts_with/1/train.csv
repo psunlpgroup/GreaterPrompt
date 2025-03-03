@@ -1,0 +1,101 @@
+,input,output,sentence,letter,words,source
+105,The three sunbathers went swimming. [t],the three,The three sunbathers went swimming.,t,"['The', 'three']",train
+939,We asked him not to try to call us again. [n],not,We asked him not to try to call us again.,n,['not'],train
+153,Anybody who ever swears at me better watch his step. [s],swears step,Anybody who ever swears at me better watch his step.,s,"['swears', 'step']",train
+2405,I wonder has Mary worked for Microsoft. [w],wonder worked,I wonder has Mary worked for Microsoft.,w,"['wonder', 'worked']",train
+2604,Was the piano bought for Jane by Frank? [b],bought by,Was the piano bought for Jane by Frank?,b,"['bought', 'by']",train
+994,Mary always has preferred lemons to limes. [p],preferred,Mary always has preferred lemons to limes.,p,['preferred'],train
+1314,Sonatas are easy to play on this violin. [a],are,Sonatas are easy to play on this violin.,a,['are'],train
+389,Being honest is not an easy task. [i],is,Being honest is not an easy task.,i,['is'],train
+6,Mary likes herself. [l],likes,Mary likes herself.,l,['likes'],train
+1784,John asks which book by his father he read. [r],read,John asks which book by his father he read.,r,['read'],train
+2202,Was the child in the school? [c],child,Was the child in the school?,c,['child'],train
+2681,I bought you a ticket for . [t],ticket,I bought you a ticket for .,t,['ticket'],train
+1928,The man whose car I hit last week sued me. [h],hit,The man whose car I hit last week sued me.,h,['hit'],train
+2453,John sent her to Seoul. [h],her,John sent her to Seoul.,h,['her'],train
+2355,It was John and Bill that were waiting at the restaurant. [r],restaurant,It was John and Bill that were waiting at the restaurant.,r,['restaurant'],train
+1229,Nathan received the cloak from Benjamin [n],nathan,Nathan received the cloak from Benjamin,n,['Nathan'],train
+2122,John convinced Bill to visit Mary. [j],john,John convinced Bill to visit Mary.,j,['John'],train
+1417,I pushed against the table. [i],i,I pushed against the table.,i,['I'],train
+2615,Bob proved this set is recursive. [p],proved,Bob proved this set is recursive.,p,['proved'],train
+1977,"In the book, he talks about his ups and downs at school. [t]",the talks,"In the book, he talks about his ups and downs at school.",t,"['the', 'talks']",train
+2937,Karen asked where to put the chairs. [c],chairs,Karen asked where to put the chairs.,c,['chairs'],train
+1573,The king loved peanut butter cookies. [l],loved,The king loved peanut butter cookies.,l,['loved'],train
+88,I ran an old man down. [m],man,I ran an old man down.,m,['man'],train
+478,Jill threw the ball from home plate to third base. [f],from,Jill threw the ball from home plate to third base.,f,['from'],train
+615,That Bill tried to discover which drawer Alice put the money in made us realize that we should have left him in Seoul. [w],which we,That Bill tried to discover which drawer Alice put the money in made us realize that we should have left him in Seoul.,w,"['which', 'we']",train
+1048,I intended for Jenny to be present. [b],be,I intended for Jenny to be present.,b,['be'],train
+2138,He seems intelligent enough for you. [e],enough,He seems intelligent enough for you.,e,['enough'],train
+2333,That Plato loved Aster proved to be his undoing. [l],loved,That Plato loved Aster proved to be his undoing.,l,['loved'],train
+1095,My pastor says I ate too much cake. [c],cake,My pastor says I ate too much cake.,c,['cake'],train
+1277,Her mother wants Mary to be such an eminent woman that everyone will respect her. [m],mother mary,Her mother wants Mary to be such an eminent woman that everyone will respect her.,m,"['mother', 'Mary']",train
+26,It is not true that that it would confuse the guards for Herschel to throw a fit was obvious. [w],would was,It is not true that that it would confuse the guards for Herschel to throw a fit was obvious.,w,"['would', 'was']",train
+2832,The hardest that it ever snowed was last January th. [w],was,The hardest that it ever snowed was last January th.,w,['was'],train
+2568,The medal was given to the soldier by Phillip. [m],medal,The medal was given to the soldier by Phillip.,m,['medal'],train
+2993,We drove all the way to Buenos Aires. [w],we way,We drove all the way to Buenos Aires.,w,"['We', 'way']",train
+2756,Romeo conceded that he and Juliet were going steady. [g],going,Romeo conceded that he and Juliet were going steady.,g,['going'],train
+549,The biggest man in the room said that John danced an Irish jig from County Kerry to County Tipperary on Thursday. [k],kerry,The biggest man in the room said that John danced an Irish jig from County Kerry to County Tipperary on Thursday.,k,['Kerry'],train
+2819,Miss Bates can chatter on for hours. [b],bates,Miss Bates can chatter on for hours.,b,['Bates'],train
+2409,The one who broke the window was Mr. Kim. [m],mr,The one who broke the window was Mr. Kim.,m,['Mr'],train
+1121,There are strangers in that garden. [a],are,There are strangers in that garden.,a,['are'],train
+36,Philippa cried her eyes dry. [p],philippa,Philippa cried her eyes dry.,p,['Philippa'],train
+2839,I doubt that Mary reads mysteries. [i],i,I doubt that Mary reads mysteries.,i,['I'],train
+2231,Such a scholar as you were speaking of just now is here. [s],such scholar speaking,Such a scholar as you were speaking of just now is here.,s,"['Such', 'scholar', 'speaking']",train
+2797,More caviar than mush is eaten by Jack. [c],caviar,More caviar than mush is eaten by Jack.,c,['caviar'],train
+156,The wealthy young man bought his secret fianc e that piano. [w],wealthy,The wealthy young man bought his secret fianc e that piano.,w,['wealthy'],train
+777,To my friends Mike talked about politics yesterday. [p],politics,To my friends Mike talked about politics yesterday.,p,['politics'],train
+2497,The guy who is wearing the red hat just hit me! [m],me,The guy who is wearing the red hat just hit me!,m,['me'],train
+1376,Lora buttered the toast with unsalted butter. [t],the toast,Lora buttered the toast with unsalted butter.,t,"['the', 'toast']",train
+1817,Tom hid the manuscript in the cupboard. [i],in,Tom hid the manuscript in the cupboard.,i,['in'],train
+505,Helen sent a scarf to Jim for Margaret. [f],for,Helen sent a scarf to Jim for Margaret.,f,['for'],train
+1843,Either Dana or Lee is going to lead the parade. [t],to the,Either Dana or Lee is going to lead the parade.,t,"['to', 'the']",train
+429,The kennel in which Mary keeps drugs and Fido sleeps has been stolen. [m],mary,The kennel in which Mary keeps drugs and Fido sleeps has been stolen.,m,['Mary'],train
+322,"The tall, handsome man kicked the ball. [m]",man,"The tall, handsome man kicked the ball.",m,['man'],train
+1073,John got the book from Bill. [b],book bill,John got the book from Bill.,b,"['book', 'Bill']",train
+2799,What did Bill allege that Roger had eaten? [w],what,What did Bill allege that Roger had eaten?,w,['What'],train
+633,He gave me more of his marbles than I wanted. [g],gave,He gave me more of his marbles than I wanted.,g,['gave'],train
+2655,The concert started when the bell rang. [w],when,The concert started when the bell rang.,w,['when'],train
+1698,"This bribe will cost the government , to prove that Senator Jones accepted. [s]",senator,"This bribe will cost the government , to prove that Senator Jones accepted.",s,['Senator'],train
+604,"When Lydia went to Brighton, she eloped with Wickham. [l]",lydia,"When Lydia went to Brighton, she eloped with Wickham.",l,['Lydia'],train
+1692,"John hummed, and Mary sang, the same tune. [h]",hummed,"John hummed, and Mary sang, the same tune.",h,['hummed'],train
+2619,What Tom said Al thought you wanted me to make Jack put on was this hat. [o],on,What Tom said Al thought you wanted me to make Jack put on was this hat.,o,['on'],train
+2783,John tagged Lewis with a regulation baseball on Tuesday. [w],with,John tagged Lewis with a regulation baseball on Tuesday.,w,['with'],train
+509,Many of the people were dying of thirst. [m],many,Many of the people were dying of thirst.,m,['Many'],train
+127,It will rain tomorrow. [i],it,It will rain tomorrow.,i,['It'],train
+2214,We persuaded the dentist to examine us. [w],we,We persuaded the dentist to examine us.,w,['We'],train
+1330,Michael accidentally broke the glass. [t],the,Michael accidentally broke the glass.,t,['the'],train
+2249,Mickey pointed out that Gary had left. [p],pointed,Mickey pointed out that Gary had left.,p,['pointed'],train
+2143,John asks which book by his father he read. [w],which,John asks which book by his father he read.,w,['which'],train
+2890,Whose car is blocking the entrance to the store? [s],store,Whose car is blocking the entrance to the store?,s,['store'],train
+1291,Rarely is any lion majestic. [a],any,Rarely is any lion majestic.,a,['any'],train
+32,"As John eats more, keep your mouth shut tighter, OK? [o]",ok,"As John eats more, keep your mouth shut tighter, OK?",o,['OK'],train
+1159,He was arrested for being drunk. [b],being,He was arrested for being drunk.,b,['being'],train
+928,We peered around the room. [a],around,We peered around the room.,a,['around'],train
+1782,John sang a song and danced to the music. [m],music,John sang a song and danced to the music.,m,['music'],train
+2842,Doug blew up the building. [t],the,Doug blew up the building.,t,['the'],train
+2865,This large parcel is very heavy. [l],large,This large parcel is very heavy.,l,['large'],train
+2653,Would you mind taking out the garbage? [y],you,Would you mind taking out the garbage?,y,['you'],train
+2529,I prefer for the girl to put a picture there. [t],the to there,I prefer for the girl to put a picture there.,t,"['the', 'to', 'there']",train
+680,Genie intoned that she was tired [g],genie,Genie intoned that she was tired,g,['Genie'],train
+2940,"Joe will go to the store, even though Fred already has. [f]",fred,"Joe will go to the store, even though Fred already has.",f,['Fred'],train
+1274,Bill left when it is certain that no one else was awake. [c],certain,Bill left when it is certain that no one else was awake.,c,['certain'],train
+2195,I have getting into college to consider. [c],college consider,I have getting into college to consider.,c,"['college', 'consider']",train
+1298,She goes and buys some whiskey. [s],she some,She goes and buys some whiskey.,s,"['She', 'some']",train
+2723,Zeke cooked and ate the chili. [c],cooked chili,Zeke cooked and ate the chili.,c,"['cooked', 'chili']",train
+480,It was an explosion that you heard. [e],explosion,It was an explosion that you heard.,e,['explosion'],train
+2331,Ad agencies call young people Generation X ers. [a],ad agencies,Ad agencies call young people Generation X ers.,a,"['Ad', 'agencies']",train
+1760,It is this hat that I believe that he was wearing. [i],it is i,It is this hat that I believe that he was wearing.,i,"['It', 'is', 'I']",train
+1481,I cycled around France. [f],france,I cycled around France.,f,['France'],train
+942,Amanda carried the package from Boston to New York. [b],boston,Amanda carried the package from Boston to New York.,b,['Boston'],train
+2169,We found out that very lucrative jobs were in jeopardy. [v],very,We found out that very lucrative jobs were in jeopardy.,v,['very'],train
+2868,Each child should have a daily glass of milk. [g],glass,Each child should have a daily glass of milk.,g,['glass'],train
+197,Three relatives of mine inherited a house. [m],mine,Three relatives of mine inherited a house.,m,['mine'],train
+2368,Medea might have given Jason a poisoned robe just treat a poisoned robe as an NP [m],medea might,Medea might have given Jason a poisoned robe just treat a poisoned robe as an NP,m,"['Medea', 'might']",train
+2176,John is as tall as that man. [i],is,John is as tall as that man.,i,['is'],train
+1932,The foxes seem compatible with the chickens. [f],foxes,The foxes seem compatible with the chickens.,f,['foxes'],train
+2184,I asked what John kissed. [i],i,I asked what John kissed.,i,['I'],train
+215,John said Mary went to the store quickly. [w],went,John said Mary went to the store quickly.,w,['went'],train
+2663,Who do you think will question Seamus first? [w],who will,Who do you think will question Seamus first?,w,"['Who', 'will']",train
+2070,Robert is eager to do his homework. [t],to,Robert is eager to do his homework.,t,['to'],train
+923,You is the only person that I can rely on. [y],you,You is the only person that I can rely on.,y,['You'],train
+428,"Reagan, whom the Republicans nominated in , lived most of his life in California. [w]",whom,"Reagan, whom the Republicans nominated in , lived most of his life in California.",w,['whom'],train

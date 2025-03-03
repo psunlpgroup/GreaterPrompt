@@ -1,0 +1,101 @@
+,input,output,possible_translations
+856,teacher,professeur,"['professeur', ""maître d'école""]"
+616,principal,principal,"['proviseur', 'directrice', 'principal', 'proviseure', 'directeur']"
+71,control,contrôle,"['contrôle', 'de contrôle', 'contrôler']"
+353,weather,temps,"['temps', 'intempéries']"
+119,army,armée,['armée']
+125,rock,rocher,"['caillou', 'assurer', 'gérer', 'roc', 'rock', 'remuer', ""sucre d'orge"", 'bercer', 'rocher', 'secousse', 'secouer', 'bouleverser', 'roche', 'faire tanguer', 'diam']"
+1932,farmer,agriculteur,"['agriculteur', 'cultivateur', 'fermier', 'agricultrice', 'fermière', 'cultivatrice']"
+299,rule,règle,"['gouverner', 'règle', 'régler']"
+1997,coral,corail,['corail']
+1692,blame,coupabilité,"['blâme', 'reprocher', 'blâmer', 'coupabilité']"
+1490,kiss,baiser,"[""s'embrasser"", 'bisou', 'embrasser', 'effleurer', 'bise', 'baiser', 'bec', 'bécot']"
+1683,finger,doigt,"['doigter', 'tripoter', 'doigt', 'pointer']"
+1527,stance,position,"['posture', 'attitude', 'position']"
+703,category,catégorie,['catégorie']
+2799,algae,algues,['algues']
+2651,stud,clou,"[""boucle d'oreille"", 'étalon', 'clou']"
+2590,swift,martinet,"['martinet', 'rapide']"
+105,law,loi,"['loi', 'théorème', 'droit']"
+1947,isotope,isotope,['isotope']
+537,safety,sécurité,"['sécurité', 'sûreté']"
+1710,spur,ergot,"['ergot', 'éperonner', 'éperon']"
+1666,fault,défaut,"['défaut', 'faute', 'faille']"
+1031,duo,duo,['duo']
+428,boat,bateau,['bateau']
+2428,reconciliation,réconciliation,"['réconciliation', 'rapprochement']"
+2250,flotilla,flottille,['flottille']
+649,youth,jeunesse,"['jeunesse', 'jeune', 'les jeunes', 'jeune homme']"
+619,debate,débat,"['débattre', 'discussion', 'débat']"
+183,percent,pour cent,"['pour cent', 'pourcent']"
+568,candidate,candidat,"['candidate', 'candidat']"
+1554,celebrity,célébrité,['célébrité']
+2530,literacy,littératie,"['littérisme', 'alphabétisme', 'littératie']"
+1455,whale,baleine,['baleine']
+1363,vegetation,végétation,['végétation']
+11,team,équipe,['équipe']
+1055,swimming,natation,['natation']
+307,portion,part,"['part', 'portion']"
+2235,symphony,symphonie,['symphonie']
+2046,modification,modification,['modification']
+157,election,élection,['élection']
+794,convention,convention,['convention']
+34,world,La Terre,"['univers', 'terre', 'monde', 'La Terre']"
+1958,resource,ressource,['ressource']
+2342,module,module,['module']
+1449,shopping,shopping,"['courses', 'shopping']"
+2576,birthplace,lieu de naissance,['lieu de naissance']
+2256,pupil,élève,"['pupille', 'prunelle', 'élève']"
+705,plane,avion,"['planer', 'plan', 'platane', 'plat', 'avion', 'rabot']"
+1019,withdrawal,retrait,"['retrait', 'coït interrompu', 'manque', 'sevrage']"
+830,card,carte,"['carde', 'fiche', 'carte', 'carder']"
+118,wife,femme,"['femme', 'épouse']"
+1123,stream,flot,"['flot', ""cours d'eau"", 'courant', 'groupe de niveau', 'ruisseau', 'torrent']"
+16,music,musique,"['musique', 'partition']"
+515,strike,strike,"['biffer', 'frappe', 'grève', 'strike', 'battre', 'frapper', 'coup']"
+1598,runway,piste,"['podium', ""piste d'atterrissage"", 'piste', 'passerelle']"
+779,stock,jas,"['violier', 'giroflée des jardins', 'bétail', 'jas', 'pioche', 'réserve', 'stock', 'action', 'matthiole', 'crosse']"
+996,danger,danger,['danger']
+924,comparison,comparaison,"['comparaison', 'degrés de comparaison']"
+676,vehicle,véhicule,['véhicule']
+1984,jacket,veste,"['veste', 'jaquette', 'couverture']"
+2236,hierarchy,hiérarchie,['hiérarchie']
+1571,nobility,noblesse,['noblesse']
+813,address,discours,"['adresse', 'habileté', 'discours']"
+2018,hunter,chasseur,"['chercheuse', 'chien de chasse', 'chercheur', 'cheval de chasse', 'chasseur']"
+218,effect,effet,"['effet', 'effectuer', 'effets']"
+688,inspiration,inspiration,['inspiration']
+2669,semifinal,demi-finale,['demi-finale']
+1574,bench,banc,['banc']
+1904,submission,soumission,['soumission']
+228,child,enfant,['enfant']
+2680,stallion,étalon,['étalon']
+2571,prostitution,prostitution,['prostitution']
+1711,imagination,imagination,['imagination']
+1680,fraud,fraude,"['charlatan', 'imposteur', 'fraude', 'fraudeur']"
+1842,spore,spore,['spore']
+290,combat,combat,"['bataille', 'lutte', 'combattre', 'combat']"
+1212,fortress,forteresse,['forteresse']
+1109,wish,souhait,"['souhait', 'espérer', 'souhaiter']"
+1463,leaf,feuille,"['rallonge', 'feuille', 'battant']"
+197,past,passé,"['dernier', 'après', 'passé', 'passée', 'dernière']"
+303,engine,moteur,"['locomotive', 'moteur']"
+484,computer,ordinateur,['ordinateur']
+2088,disappearance,disparition,['disparition']
+1985,pianist,pianiste,['pianiste']
+1739,controller,contrôleur,"['contrôleur', 'contrôleuse']"
+2348,homeland,patrie,['patrie']
+911,repair,réparation,"['réparer', 'réparation']"
+547,mouth,embouchure,"['bouche', 'embouchure']"
+853,balance,balance,"['balance', 'équilibre', 'solde', 'apurer']"
+362,equipment,équipement,['équipement']
+583,investigation,investigation,['investigation']
+2128,sulfur,soufre,['soufre']
+1479,gear,engrenage,"['engrenage', 'passer ses vitesses', 'vitesse']"
+1734,emotion,émotion,['émotion']
+1006,remix,remix,['remix']
+2317,breakfast,petit déjeuner,"['déjeuner', 'prendre le petit-déjeuner', 'petit déjeuner']"
+2570,antiquity,Antiquité,"['antiquité', 'Antiquité']"
+2157,seizure,attaque,"['attaque', 'saisie', 'crise']"
+2483,gust,souffle,"['coup de vent', 'bourrasque', 'rafale', 'souffle']"
+1281,metric,métrique,['métrique']

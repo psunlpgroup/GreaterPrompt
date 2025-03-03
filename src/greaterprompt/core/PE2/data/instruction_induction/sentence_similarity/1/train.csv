@@ -1,0 +1,101 @@
+,input,output
+2926,Sentence 1: Apple shares hit hard on iPhone disappointment Sentence 2: Apple stock plunges 11% after earnings disappointment,3 - probably
+1093,"Sentence 1: A man stands in front of a train. Sentence 2: A man is standing in front of a raised statue,.",2 - possibly
+3383,Sentence 1: Egypt court sentences 10 Brotherhood supporters to death - sources Sentence 2: Turkish PM tells supporters to prepare for rallies,0 - definitely not
+1938,Sentence 1: Woman dies after abortion refusal Sentence 2: Woman dies after cliff collapses in Dorset,1 - probably not
+1129,Sentence 1: A close-up of a black train engine. Sentence 2: Close up of a white sheep with a black head.,0 - definitely not
+420,"Sentence 1: A couple are running towards the ocean. Sentence 2: A man and and woman are running together, holding hands.",3 - probably
+3077,"Sentence 1: Shooting, protests mar Thai voting Sentence 2: Thai protesters disrupt advance voting",4 - almost perfectly
+3216,Sentence 1: Anthony Weiner slips to fourth place in new poll Sentence 2: Weiner falls to fourth in new NYC mayoral poll,5 - perfectly
+2398,"Sentence 1: U.S. orders non-essential staff to leave Sudan, Tunisia Sentence 2: US orders non-essential staff to leave Tunisia, Sudan",4 - almost perfectly
+3109,Sentence 1: James Gandolfini dies aged 51 Sentence 2: Nelson Mandela dies aged 95,0 - definitely not
+3502,Sentence 1: Israel Carrying Out Ground Offensive In Gaza Sentence 2: Israel Launches Ground Offensive In Gaza,5 - perfectly
+1883,Sentence 1: 3 suspected extremists were released on bail. Sentence 2: 1 suspected extremist was provisionally released without bail.,2 - possibly
+223,Sentence 1: A woman is drinking vodka. Sentence 2: A woman is exercising.,0 - definitely not
+2067,Sentence 1: Head of CIA resigns over affair Sentence 2: Hall of Fame beckons for Capriati,0 - definitely not
+1716,Sentence 1: Red October standing by. Sentence 2: Red Fox standing by.,2 - possibly
+23,Sentence 1: A woman peels a potato. Sentence 2: A woman is peeling a potato.,5 - perfectly
+2506,Sentence 1: North Korea blocks Kaesong access Sentence 2: North Korea vows to restart nuclear facilities,1 - probably not
+2673,Sentence 1: Syria opposition threatens to quit talks Sentence 2: Syria opposition agrees to talks,2 - possibly
+1456,Sentence 1: A woman holding a newspaper. Sentence 2: A man rollerblading on a metal bar.,0 - definitely not
+1834,Sentence 1: bae systems is the uk's largest defense company. Sentence 2: bae systems is the uk's largest military,3 - probably
+3577,Sentence 1: Quake of 6.2 magnitude strikes off Indonesia's Sumatra - USGS Sentence 2: Earthquake of 6.9 magnitude strikes off Indonesia island,3 - probably
+633,Sentence 1: The lady put the baby int a trashcan. Sentence 2: A woman puts a baby in a trash can.,5 - perfectly
+567,Sentence 1: A woman is swimming. Sentence 2: A man is singing.,0 - definitely not
+852,Sentence 1: The man played haki sak in the office. Sentence 2: The man is seasoning the vegetables.,0 - definitely not
+622,Sentence 1: A man is eating a bowl of cereal. Sentence 2: The man is eating cereal.,4 - almost perfectly
+2135,"Sentence 1: Full Episode: Nightline 6/29: Katie Holmes, Tom Cruise to Divorce Sentence 2: Custody, images at stake in Cruise-Holmes divorce",1 - probably not
+515,Sentence 1: Women are talking. Sentence 2: The men are talking.,3 - probably
+2385,Sentence 1: IDF to deploy Iron Dome in Central Israel Sentence 2: Major snowstorm barrels down on Central Plains,0 - definitely not
+3100,Sentence 1: Chinese News Agency Slams Delays in Search for Jet Sentence 2: Ten Chinese vessels on standby for jet search,3 - probably
+3490,Sentence 1: Police fire teargas on Venezuelan vote protesters Sentence 2: Chavez heir Maduro wins Venezuela's presidency,1 - probably not
+1548,Sentence 1: Can he really make mone from google ad sense. Sentence 2: Who makes money off google ad sense?,3 - probably
+3512,Sentence 1: Russia claims to have foiled possible terror act Sentence 2: Russia says ballistic 'objects' fired in Mediterranean,1 - probably not
+2821,Sentence 1: Israel advances plan to build 900 settlement homes Sentence 2: Israel unveils plans for new settler homes,4 - almost perfectly
+1036,"Sentence 1: Red double decker bus. Sentence 2: A red, double-decker bus.",5 - perfectly
+1189,Sentence 1: A subway train pulling into the station. Sentence 2: A white train pulling into a station.,4 - almost perfectly
+3208,Sentence 1: Judge OKs force-feeding California inmates Sentence 2: U.S. judge approves force-feeding Californian inmates on hunger strik,5 - perfectly
+2431,Sentence 1: Newark mayor saves neighbor from fire Sentence 2: Newark mayor rescues neighbor from burning house,4 - almost perfectly
+3148,Sentence 1: Philippines defers comment on Taiwan fisher attack Sentence 2: Bin Laden's continuing sway shown in Kenya mall attack,0 - definitely not
+1540,Sentence 1: It's not imposing morals. Sentence 2: It's imposing a law.,1 - probably not
+2569,Sentence 1: 6.3-magnitude earthquake hits Taiwan Sentence 2: 7.7-magnitude earthquake hits SW Pakistan,1 - probably not
+1876,Sentence 1: india and pakistan remain outside the treaty. Sentence 2: israel remains outside the treaty.,2 - possibly
+3226,Sentence 1: Colourful support at World Cup in Brazil Sentence 2: Merkel to attend World Cup final,1 - probably not
+2133,Sentence 1: China trade returns to surplus in March Sentence 2: Tense calm returns to south Tel Aviv,0 - definitely not
+1094,Sentence 1: A double decker red United bus on a city street. Sentence 2: A doubly decker red bus driving down the road.,4 - almost perfectly
+1995,Sentence 1: Rupert Murdoch: I was the victim of a cover up Sentence 2: Rupert Murdoch set for second day of grilling,1 - probably not
+2180,Sentence 1: Polls close in Egyptian presidential election Sentence 2: Press Releases: Yemeni Presidential Election,1 - probably not
+2400,Sentence 1: Assad says mercenaries are behind Syria unrest Sentence 2: Assad Accuses US of Fueling Syrian Uprising,3 - probably
+1013,Sentence 1: Sail boat sailing on the water. Sentence 2: Sail boat floating on the blue water.,4 - almost perfectly
+974,Sentence 1: Two Eagles perched on a branch. Sentence 2: Two bald eagles perched on a branch.,4 - almost perfectly
+1192,Sentence 1: Long-haired black dog standing in grassy field. Sentence 2: A blue jay standing in a grassy field.,1 - probably not
+3682,"Sentence 1: Nepal earthquake death toll surpasses 7,000 Sentence 2: Death toll in Nepal earthquake tops 8,000",3 - probably
+2661,"Sentence 1: Blizzard brings US northeast to a halt Sentence 2: Blizzard wallops US Northeast, closes roads",4 - almost perfectly
+3051,Sentence 1: Death toll in Lebanon bombings rises to 47 Sentence 2: 1 suspect arrested after Lebanon car bombings kill 45,3 - probably
+1316,Sentence 1: A brown dog running through the woods. Sentence 2: A brown dog runs through the grass.,3 - probably
+1391,Sentence 1: a black dog swimming through a river. Sentence 2: a black dog digging through the snow.,1 - probably not
+3621,Sentence 1: No winners in a war of sanctions Sentence 2: The impact of sanctions on Russia,1 - probably not
+426,Sentence 1: A man is cutting bread. Sentence 2: A man is doing tricks with a soccer ball.,1 - probably not
+722,Sentence 1: A woman is peeling an orange. Sentence 2: A man is playing a flute.,0 - definitely not
+3073,Sentence 1: Four Morsi supporters killed in Egypt clashes Sentence 2: Thousands of Morsi supporters gather in Egypt,2 - possibly
+3439,Sentence 1: Margaret Thatcher dies after stroke Sentence 2: Margaret Thatcher dies at 87,4 - almost perfectly
+1887,Sentence 1: SC dismisses govt's review plea in Vodafone tax case Sentence 2: SC dismisses govt's review petition on Vodafone tax verdict,4 - almost perfectly
+1203,Sentence 1: White cat sitting inside of a sink. Sentence 2: Grey and white cat sitting in bathroom sink.,3 - probably
+2967,Sentence 1: ISAF soldier killed in Afghan 'insider attack' Sentence 2: British soldier shot dead in Afghan ‘insider attack’,4 - almost perfectly
+906,Sentence 1: A man is chopping butter into a container. Sentence 2: A woman is cutting shrimps.,1 - probably not
+3379,Sentence 1: Israel's Peres urges return to peace talks Sentence 2: Gonsalves keeps up pressure on Dom Rep,0 - definitely not
+551,Sentence 1: A woman is cutting a tomato. Sentence 2: A woman is slicing a potato.,1 - probably not
+444,Sentence 1: A cat is drinking some water. Sentence 2: A truck is going down a hill.,0 - definitely not
+892,Sentence 1: A man is lifting heavy weights. Sentence 2: A wallaby is licking a woman's hand.,0 - definitely not
+2565,Sentence 1: USA expels Venezuela diplomats in row Sentence 2: U.S. expels Venezuelan diplomats,4 - almost perfectly
+2122,Sentence 1: Mali's President Hands in Resignation Sentence 2: Mali's President Formally Resigns,5 - perfectly
+1527,Sentence 1: More expensive homes. Sentence 2: More expensive cars.,1 - probably not
+596,Sentence 1: A woman is dancing in a cage. Sentence 2: A woman is dancing.,3 - probably
+1635,Sentence 1: He's not wealthy because he's successful. Sentence 2: Why hate people because they are successful?,1 - probably not
+2078,Sentence 1: Sheryl Crow says has benign brain tumor Sentence 2: Sheryl Crow Has a Benign Brain Tumor,5 - perfectly
+3256,Sentence 1: East Harlem explosion death toll rises Sentence 2: Mexico storm death toll continues to rise,0 - definitely not
+328,Sentence 1: A woman is dancing with other women. Sentence 2: A woman is shredding chicken.,0 - definitely not
+2836,Sentence 1: Israeli forces detain 5 Palestinians in West Bank Sentence 2: Israeli Forces Arrest Five Palestinians across West Bank,5 - perfectly
+2070,"Sentence 1: 12 killed in Gaza in Israeli airstrikes Sentence 2: Ictu, Ibec in move on airline strike",0 - definitely not
+1752,"Sentence 1: There is no ""WAR"" in the middle east. Sentence 2: There is no war in the Middle east.",5 - perfectly
+980,Sentence 1: The seagull is floating on the water. Sentence 2: A little bird floating in the water.,4 - almost perfectly
+2901,Sentence 1: US Senate confirms Yellen as Fed's next chair Sentence 2: US Senate Confirms Janet Yellen as New Central Bank Chief,4 - almost perfectly
+2287,"Sentence 1: Storm delays start of Republican convention Sentence 2: Storm lashes Florida, delaying Republican convention",4 - almost perfectly
+2582,Sentence 1: Turkish PM urges to end protests in Istanbul Sentence 2: Turkish police fire teargas at protesters in Istanbul,3 - probably
+928,Sentence 1: A young woman is playing a guitar. Sentence 2: A woman cuts up some meat.,1 - probably not
+2151,Sentence 1: EU slaps sanctions on Assad family Sentence 2: EU sanctions Assad's wife; mortars hit Homs,3 - probably
+3299,"Sentence 1: Prime Minister to seek nuclear deal, investments during Japan visit Sentence 2: Manmohan hopes to clinch nuclear deal with Japan",3 - probably
+1229,Sentence 1: Two cows standing in a large field. Sentence 2: The cow is grazing in a field.,3 - probably
+2189,Sentence 1: AP Source: Redskins to trade for No. 2 pick Sentence 2: Redskins trade for No. 2 pick,4 - almost perfectly
+232,Sentence 1: A woman is dancing by a fire. Sentence 2: A woman is taking a bath.,1 - probably not
+2024,"Sentence 1: 9 killed, 168 injured in latest Cairo clashes Sentence 2: 10 killed, 12 injured in E. Afghan airport suicide blast",1 - probably not
+3140,"Sentence 1: Volcano erupts in Indonesia -100,000 evacuated and airports closed Sentence 2: Volcanic eruption closes 3 airports",3 - probably
+1551,"Sentence 1: What is your definition of ""life""? Sentence 2: What's your definition of nature?",1 - probably not
+2927,Sentence 1: EU renews sanctions against Zimbabwe Sentence 2: EU lifts diamond sanctions against Zimbabwe,3 - probably
+1798,"Sentence 1: Cisco pared spending to compensate for sluggish sales. Sentence 2: In response to sluggish sales, Cisco pared spending.",5 - perfectly
+3130,Sentence 1: East Ukraine Separatists Ask to Join Russia Sentence 2: Crimean Parliament Votes to Join Russia,3 - probably
+841,Sentence 1: A young woman is playing the flute. Sentence 2: A woman is washing off the top of a freezer.,0 - definitely not
+2516,Sentence 1: Asteroid zips between Earth and satellites Sentence 2: Asteroid passes Earth in fly-by,4 - almost perfectly
+3169,Sentence 1: Egypt poll: 98 per cent vote 'yes' for new constitution Sentence 2: Egypt holding key vote on constitution,2 - possibly
+2822,Sentence 1: Miss New York wins Miss America crown Sentence 2: Miss New York is crowned Miss America,5 - perfectly
+1136,Sentence 1: Two women posing with a baby. Sentence 2: A woman poses with a baby.,2 - possibly

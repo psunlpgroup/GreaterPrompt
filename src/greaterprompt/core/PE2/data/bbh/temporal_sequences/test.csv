@@ -1,0 +1,694 @@
+,input,label
+230,"Today, Anthony went to the dance studio. Between what times could they have gone?
+We know that:
+Anthony woke up at 7am.
+Kimberly saw Anthony walking in the garden from 7am to 9am.
+Linda saw Anthony waiting at the train station from 10am to 1pm.
+Susan saw Anthony attending class at the school from 1pm to 4pm.
+David saw Anthony fixing their computer at the electronic store from 4pm to 7pm.
+Tiffany saw Anthony reading at the library from 7pm to 8pm.
+The dance studio was closed after 8pm.
+Between what times could Anthony have gone to the dance studio?
+Options:
+(A) 7am to 9am
+(B) 4pm to 7pm
+(C) 9am to 10am
+(D) 7pm to 8pm",(C)
+63,"Today, Samantha went to the coffee shop. Between what times could they have gone?
+We know that:
+Samantha woke up at 6am.
+Richard saw Samantha watching a movie at the theater from 6am to 10am.
+Mark saw Samantha driving to the water park from 10am to 11am.
+John saw Samantha stretching at a yoga studio from 11am to 6pm.
+The coffee shop was closed after 8pm.
+Between what times could Samantha have gone to the coffee shop?
+Options:
+(A) 11am to 6pm
+(B) 10am to 11am
+(C) 6am to 10am
+(D) 6pm to 8pm",(D)
+54,"Today, Emily went to the bakery. Between what times could they have gone?
+We know that:
+Emily woke up at 5am.
+Nancy saw Emily sitting on a rooftop from 6am to 7am.
+Betty saw Emily reading at the library from 7am to 8am.
+Jason saw Emily buying lunch at the deli from 8am to 6pm.
+David saw Emily attending class at the school from 6pm to 7pm.
+Samantha saw Emily driving to the water park from 7pm to 10pm.
+The bakery was closed after 10pm.
+Between what times could Emily have gone to the bakery?
+Options:
+(A) 5am to 6am
+(B) 8am to 6pm
+(C) 6pm to 7pm
+(D) 7am to 8am",(A)
+107,"Today, Hannah went to the bakery. Between what times could they have gone?
+We know that:
+Hannah woke up at 5am.
+Hannah saw Hannah buying a phone at the electronics store from 11am to 2pm.
+Ashley saw Hannah taking photos near the Eiffel Tower from 2pm to 3pm.
+Nancy saw Hannah buying clothes at the mall from 3pm to 5pm.
+The bakery was closed after 5pm.
+Between what times could Hannah have gone to the bakery?
+Options:
+(A) 2pm to 3pm
+(B) 5am to 11am
+(C) 3pm to 5pm
+(D) 11am to 2pm",(B)
+50,"Today, Tiffany went to the clothing store. Between what times could they have gone?
+We know that:
+Tiffany woke up at 6am.
+Michael saw Tiffany buying lunch at the deli from 12pm to 5pm.
+Andrew saw Tiffany playing tennis at the tennis court from 5pm to 6pm.
+John saw Tiffany driving to the water park from 6pm to 8pm.
+Sarah saw Tiffany watching a movie at the theater from 8pm to 10pm.
+The clothing store was closed after 10pm.
+Between what times could Tiffany have gone to the clothing store?
+Options:
+(A) 5pm to 6pm
+(B) 6pm to 8pm
+(C) 6am to 12pm
+(D) 8pm to 10pm",(C)
+239,"Today, John went to the coffee shop. Between what times could they have gone?
+We know that:
+John woke up at 5am.
+David saw John sitting on a rooftop from 5am to 8am.
+Sean saw John watching a movie at the theater from 8am to 11am.
+Tiffany saw John stretching at a yoga studio from 4pm to 5pm.
+Michael saw John buying a phone at the electronics store from 5pm to 7pm.
+The coffee shop was closed after 7pm.
+Between what times could John have gone to the coffee shop?
+Options:
+(A) 5am to 8am
+(B) 8am to 11am
+(C) 5pm to 7pm
+(D) 11am to 4pm",(D)
+174,"Today, Thomas went to the construction site. Between what times could they have gone?
+We know that:
+Thomas woke up at 6am.
+William saw Thomas working out at the gym from 8am to 11am.
+David saw Thomas stretching at a yoga studio from 11am to 3pm.
+Steven saw Thomas watching a movie at the theater from 3pm to 6pm.
+Emily saw Thomas taking photos near the Leaning Tower of Pisa from 6pm to 7pm.
+The construction site was closed after 7pm.
+Between what times could Thomas have gone to the construction site?
+Options:
+(A) 6pm to 7pm
+(B) 11am to 3pm
+(C) 8am to 11am
+(D) 6am to 8am",(D)
+208,"Today, James went to the coffee shop. Between what times could they have gone?
+We know that:
+James woke up at 7am.
+Elizabeth saw James waiting at the airport from 7am to 8am.
+Kimberly saw James reading at the library from 1pm to 3pm.
+Ashley saw James taking photos near the Eiffel Tower from 3pm to 7pm.
+Sean saw James stretching at a yoga studio from 7pm to 9pm.
+William saw James attending class at the school from 9pm to 10pm.
+The coffee shop was closed after 10pm.
+Between what times could James have gone to the coffee shop?
+Options:
+(A) 9pm to 10pm
+(B) 7pm to 9pm
+(C) 8am to 1pm
+(D) 3pm to 7pm",(C)
+189,"Today, Sarah went to the clothing store. Between what times could they have gone?
+We know that:
+Sarah woke up at 5am.
+Ashley saw Sarah taking photos near the Eiffel Tower from 5am to 11am.
+Michael saw Sarah walking in the garden from 11am to 12pm.
+Emily saw Sarah buying cookies at a bakery from 12pm to 2pm.
+Richard saw Sarah buying a phone at the electronics store from 2pm to 3pm.
+The clothing store was closed after 7pm.
+Between what times could Sarah have gone to the clothing store?
+Options:
+(A) 3pm to 7pm
+(B) 2pm to 3pm
+(C) 12pm to 2pm
+(D) 11am to 12pm",(A)
+246,"Today, Lisa went to the art show. Between what times could they have gone?
+We know that:
+Lisa woke up at 10am.
+Lisa saw Lisa driving to the water park from 12pm to 2pm.
+Hannah saw Lisa waiting at the airport from 2pm to 3pm.
+Thomas saw Lisa buying a phone at the electronics store from 3pm to 4pm.
+The art show was closed after 4pm.
+Between what times could Lisa have gone to the art show?
+Options:
+(A) 3pm to 4pm
+(B) 12pm to 2pm
+(C) 10am to 12pm
+(D) 2pm to 3pm",(C)
+207,"Today, Susan went to the art studio. Between what times could they have gone?
+We know that:
+Susan woke up at 6am.
+Susan saw Susan buying a bike at the bike shop from 11am to 12pm.
+William saw Susan stretching at a yoga studio from 12pm to 4pm.
+David saw Susan taking photos near the Eiffel Tower from 4pm to 8pm.
+The art studio was closed after 8pm.
+Between what times could Susan have gone to the art studio?
+Options:
+(A) 11am to 12pm
+(B) 12pm to 4pm
+(C) 6am to 11am
+(D) 4pm to 8pm",(C)
+221,"Today, Betty went to the coffee shop. Between what times could they have gone?
+We know that:
+Betty woke up at 8am.
+Emily saw Betty buying a bike at the bike shop from 8am to 10am.
+Susan saw Betty walking in the garden from 10am to 12pm.
+John saw Betty working at the office from 1pm to 3pm.
+Lisa saw Betty buying cookies at a bakery from 3pm to 4pm.
+Mark saw Betty taking photos near the Eiffel Tower from 4pm to 5pm.
+The coffee shop was closed after 5pm.
+Between what times could Betty have gone to the coffee shop?
+Options:
+(A) 1pm to 3pm
+(B) 8am to 10am
+(C) 10am to 12pm
+(D) 12pm to 1pm",(D)
+169,"Today, Hannah went to the soccer field. Between what times could they have gone?
+We know that:
+Hannah woke up at 5am.
+Jessica saw Hannah buying clothes at the mall from 5am to 6am.
+Kimberly saw Hannah watching a movie at the theater from 6am to 11am.
+Sarah saw Hannah getting a coffee at the cafe from 11am to 1pm.
+Steven saw Hannah working at the office from 1pm to 3pm.
+Hannah saw Hannah waiting at the airport from 3pm to 5pm.
+The soccer field was closed after 6pm.
+Between what times could Hannah have gone to the soccer field?
+Options:
+(A) 3pm to 5pm
+(B) 11am to 1pm
+(C) 5pm to 6pm
+(D) 1pm to 3pm",(C)
+58,"Today, Richard went to the amusement park. Between what times could they have gone?
+We know that:
+Richard woke up at 5am.
+Mary saw Richard buying a phone at the electronics store from 11am to 6pm.
+Leslie saw Richard working out at the gym from 6pm to 8pm.
+Kimberly saw Richard attending class at the school from 8pm to 9pm.
+Nancy saw Richard buying cookies at a bakery from 9pm to 10pm.
+The amusement park was closed after 10pm.
+Between what times could Richard have gone to the amusement park?
+Options:
+(A) 6pm to 8pm
+(B) 5am to 11am
+(C) 11am to 6pm
+(D) 8pm to 9pm",(B)
+48,"Today, Thomas went to the clothing store. Between what times could they have gone?
+We know that:
+Thomas woke up at 6am.
+James saw Thomas walking in the garden from 6am to 9am.
+Andrew saw Thomas buying lunch at the deli from 12pm to 7pm.
+Sarah saw Thomas watching a movie at the theater from 7pm to 8pm.
+The clothing store was closed after 8pm.
+Between what times could Thomas have gone to the clothing store?
+Options:
+(A) 7pm to 8pm
+(B) 9am to 12pm
+(C) 6am to 9am
+(D) 12pm to 7pm",(B)
+88,"Today, Sean went to the swimming pool. Between what times could they have gone?
+We know that:
+Sean woke up at 6am.
+Anthony saw Sean buying cookies at a bakery from 7am to 8am.
+Mark saw Sean working out at the gym from 8am to 3pm.
+Leslie saw Sean taking photos near the Leaning Tower of Pisa from 3pm to 5pm.
+Emily saw Sean walking in the garden from 5pm to 6pm.
+William saw Sean fixing their computer at the electronic store from 6pm to 7pm.
+The swimming pool was closed after 7pm.
+Between what times could Sean have gone to the swimming pool?
+Options:
+(A) 6am to 7am
+(B) 3pm to 5pm
+(C) 7am to 8am
+(D) 6pm to 7pm",(A)
+21,"Today, Betty went to the bookstore. Between what times could they have gone?
+We know that:
+Betty woke up at 8am.
+Nancy saw Betty waiting at the airport from 8am to 10am.
+Tiffany saw Betty stretching at a yoga studio from 10am to 2pm.
+James saw Betty reading at the library from 2pm to 4pm.
+Steven saw Betty buying a bike at the bike shop from 4pm to 5pm.
+Mary saw Betty taking photos near the Leaning Tower of Pisa from 5pm to 6pm.
+The bookstore was closed after 8pm.
+Between what times could Betty have gone to the bookstore?
+Options:
+(A) 2pm to 4pm
+(B) 10am to 2pm
+(C) 8am to 10am
+(D) 6pm to 8pm",(D)
+57,"Today, Michael went to the football field. Between what times could they have gone?
+We know that:
+Michael woke up at 10am.
+John saw Michael taking photos near the Eiffel Tower from 12pm to 2pm.
+Samantha saw Michael watching a movie at the theater from 2pm to 4pm.
+Thomas saw Michael sitting on a rooftop from 4pm to 8pm.
+The football field was closed after 8pm.
+Between what times could Michael have gone to the football field?
+Options:
+(A) 12pm to 2pm
+(B) 10am to 12pm
+(C) 2pm to 4pm
+(D) 4pm to 8pm",(B)
+203,"Today, Leslie went to the soccer field. Between what times could they have gone?
+We know that:
+Leslie woke up at 5am.
+Sarah saw Leslie waiting at the train station from 5am to 12pm.
+Hannah saw Leslie sitting on a rooftop from 12pm to 2pm.
+Elizabeth saw Leslie buying a bike at the bike shop from 3pm to 4pm.
+Emily saw Leslie working at the office from 4pm to 10pm.
+The soccer field was closed after 10pm.
+Between what times could Leslie have gone to the soccer field?
+Options:
+(A) 12pm to 2pm
+(B) 2pm to 3pm
+(C) 4pm to 10pm
+(D) 5am to 12pm",(B)
+160,"Today, Ashley went to the dance studio. Between what times could they have gone?
+We know that:
+Ashley woke up at 5am.
+Ashley saw Ashley taking photos near the Leaning Tower of Pisa from 5am to 6am.
+James saw Ashley buying cookies at a bakery from 6am to 11am.
+Anthony saw Ashley walking in the garden from 11am to 12pm.
+Samantha saw Ashley taking photos near the Eiffel Tower from 6pm to 10pm.
+The dance studio was closed after 10pm.
+Between what times could Ashley have gone to the dance studio?
+Options:
+(A) 12pm to 6pm
+(B) 11am to 12pm
+(C) 6am to 11am
+(D) 6pm to 10pm",(A)
+242,"Today, Thomas went to the orchestra hall. Between what times could they have gone?
+We know that:
+Thomas woke up at 10am.
+William saw Thomas driving to the water park from 1pm to 4pm.
+Sarah saw Thomas working at the office from 4pm to 6pm.
+Betty saw Thomas buying a bike at the bike shop from 6pm to 9pm.
+The orchestra hall was closed after 9pm.
+Between what times could Thomas have gone to the orchestra hall?
+Options:
+(A) 6pm to 9pm
+(B) 10am to 1pm
+(C) 1pm to 4pm
+(D) 4pm to 6pm",(B)
+187,"Today, Ashley went to the construction site. Between what times could they have gone?
+We know that:
+Ashley woke up at 5am.
+James saw Ashley working at the office from 5am to 9am.
+Richard saw Ashley buying a phone at the electronics store from 4pm to 7pm.
+David saw Ashley playing tennis at the tennis court from 7pm to 8pm.
+William saw Ashley watching a movie at the theater from 8pm to 10pm.
+The construction site was closed after 10pm.
+Between what times could Ashley have gone to the construction site?
+Options:
+(A) 4pm to 7pm
+(B) 5am to 9am
+(C) 9am to 4pm
+(D) 8pm to 10pm",(C)
+191,"Today, Anthony went to the basketball court. Between what times could they have gone?
+We know that:
+Anthony woke up at 5am.
+Sarah saw Anthony buying clothes at the mall from 5am to 7am.
+Tiffany saw Anthony buying lunch at the deli from 7am to 12pm.
+Sean saw Anthony watching a movie at the theater from 12pm to 2pm.
+Emily saw Anthony buying a phone at the electronics store from 2pm to 4pm.
+The basketball court was closed after 9pm.
+Between what times could Anthony have gone to the basketball court?
+Options:
+(A) 5am to 7am
+(B) 12pm to 2pm
+(C) 4pm to 9pm
+(D) 7am to 12pm",(C)
+129,"Today, Leslie went to the beach. Between what times could they have gone?
+We know that:
+Leslie woke up at 5am.
+Emily saw Leslie attending class at the school from 5am to 9am.
+Anthony saw Leslie watching a movie at the theater from 9am to 11am.
+Thomas saw Leslie buying cookies at a bakery from 11am to 4pm.
+Ashley saw Leslie fixing their computer at the electronic store from 4pm to 5pm.
+Susan saw Leslie walking towards the Statue of Liberty from 9pm to 10pm.
+The beach was closed after 10pm.
+Between what times could Leslie have gone to the beach?
+Options:
+(A) 5pm to 9pm
+(B) 9am to 11am
+(C) 9pm to 10pm
+(D) 4pm to 5pm",(A)
+37,"Today, James went to the dance studio. Between what times could they have gone?
+We know that:
+James woke up at 7am.
+Thomas saw James taking photos near the Eiffel Tower from 7am to 12pm.
+Mark saw James driving to the water park from 12pm to 2pm.
+Anthony saw James buying a phone at the electronics store from 2pm to 4pm.
+Sarah saw James buying lunch at the deli from 5pm to 6pm.
+The dance studio was closed after 6pm.
+Between what times could James have gone to the dance studio?
+Options:
+(A) 2pm to 4pm
+(B) 7am to 12pm
+(C) 4pm to 5pm
+(D) 12pm to 2pm",(C)
+157,"Today, Emily went to the orchestra hall. Between what times could they have gone?
+We know that:
+Emily woke up at 5am.
+Linda saw Emily waiting at the airport from 5am to 6am.
+David saw Emily buying cookies at a bakery from 2pm to 7pm.
+Michael saw Emily buying clothes at the mall from 7pm to 8pm.
+Thomas saw Emily working out at the gym from 8pm to 10pm.
+The orchestra hall was closed after 10pm.
+Between what times could Emily have gone to the orchestra hall?
+Options:
+(A) 5am to 6am
+(B) 2pm to 7pm
+(C) 8pm to 10pm
+(D) 6am to 2pm",(D)
+235,"Today, Mark went to the clothing store. Between what times could they have gone?
+We know that:
+Mark woke up at 5am.
+Andrew saw Mark taking photos near the Eiffel Tower from 5am to 6am.
+William saw Mark waiting at the train station from 9am to 6pm.
+Ashley saw Mark buying a bike at the bike shop from 6pm to 10pm.
+The clothing store was closed after 10pm.
+Between what times could Mark have gone to the clothing store?
+Options:
+(A) 5am to 6am
+(B) 6am to 9am
+(C) 9am to 6pm
+(D) 6pm to 10pm",(B)
+1,"Today, Emily went to the soccer field. Between what times could they have gone?
+We know that:
+Emily woke up at 10am.
+Linda saw Emily waiting at the train station from 10am to 12pm.
+Ashley saw Emily fixing their computer at the electronic store from 12pm to 1pm.
+John saw Emily walking towards the Statue of Liberty from 1pm to 2pm.
+The soccer field was closed after 8pm.
+Between what times could Emily have gone to the soccer field?
+Options:
+(A) 12pm to 1pm
+(B) 10am to 12pm
+(C) 2pm to 8pm
+(D) 1pm to 2pm",(C)
+52,"Today, Leslie went to the beach. Between what times could they have gone?
+We know that:
+Leslie woke up at 7am.
+Ashley saw Leslie stretching at a yoga studio from 7am to 9am.
+Andrew saw Leslie playing tennis at the tennis court from 9am to 11am.
+Jason saw Leslie walking towards the Statue of Liberty from 11am to 4pm.
+The beach was closed after 8pm.
+Between what times could Leslie have gone to the beach?
+Options:
+(A) 9am to 11am
+(B) 4pm to 8pm
+(C) 7am to 9am
+(D) 11am to 4pm",(B)
+149,"Today, David went to the art show. Between what times could they have gone?
+We know that:
+David woke up at 5am.
+Samantha saw David working at the office from 5am to 7am.
+Mary saw David taking photos near the Eiffel Tower from 7am to 1pm.
+Leslie saw David driving to the water park from 3pm to 8pm.
+The art show was closed after 8pm.
+Between what times could David have gone to the art show?
+Options:
+(A) 7am to 1pm
+(B) 3pm to 8pm
+(C) 5am to 7am
+(D) 1pm to 3pm",(D)
+130,"Today, Mary went to the amusement park. Between what times could they have gone?
+We know that:
+Mary woke up at 1pm.
+Richard saw Mary stretching at a yoga studio from 1pm to 3pm.
+Jessica saw Mary taking photos near the Leaning Tower of Pisa from 3pm to 4pm.
+Samantha saw Mary fixing their computer at the electronic store from 4pm to 6pm.
+Sean saw Mary getting a coffee at the cafe from 6pm to 7pm.
+Kimberly saw Mary working at the office from 9pm to 10pm.
+The amusement park was closed after 10pm.
+Between what times could Mary have gone to the amusement park?
+Options:
+(A) 9pm to 10pm
+(B) 1pm to 3pm
+(C) 3pm to 4pm
+(D) 7pm to 9pm",(D)
+151,"Today, Anthony went to the dance studio. Between what times could they have gone?
+We know that:
+Anthony woke up at 8am.
+William saw Anthony driving to the water park from 10am to 12pm.
+David saw Anthony sitting on a rooftop from 12pm to 1pm.
+Richard saw Anthony buying a phone at the electronics store from 1pm to 4pm.
+The dance studio was closed after 4pm.
+Between what times could Anthony have gone to the dance studio?
+Options:
+(A) 12pm to 1pm
+(B) 1pm to 4pm
+(C) 8am to 10am
+(D) 10am to 12pm",(C)
+103,"Today, Emily went to the dance studio. Between what times could they have gone?
+We know that:
+Emily woke up at 5am.
+Thomas saw Emily reading at the library from 5am to 7am.
+Tiffany saw Emily walking towards the Statue of Liberty from 7am to 11am.
+John saw Emily playing tennis at the tennis court from 11am to 12pm.
+Sean saw Emily taking photos near the Eiffel Tower from 12pm to 8pm.
+Jason saw Emily waiting at the train station from 9pm to 10pm.
+The dance studio was closed after 10pm.
+Between what times could Emily have gone to the dance studio?
+Options:
+(A) 5am to 7am
+(B) 8pm to 9pm
+(C) 9pm to 10pm
+(D) 11am to 12pm",(B)
+99,"Today, Sarah went to the clothing store. Between what times could they have gone?
+We know that:
+Sarah woke up at 5am.
+Thomas saw Sarah taking photos near the Leaning Tower of Pisa from 5am to 7am.
+Betty saw Sarah sitting on a rooftop from 10am to 4pm.
+William saw Sarah buying lunch at the deli from 4pm to 9pm.
+Kimberly saw Sarah getting a coffee at the cafe from 9pm to 10pm.
+The clothing store was closed after 10pm.
+Between what times could Sarah have gone to the clothing store?
+Options:
+(A) 4pm to 9pm
+(B) 9pm to 10pm
+(C) 7am to 10am
+(D) 10am to 4pm",(C)
+116,"Today, William went to the soccer field. Between what times could they have gone?
+We know that:
+William woke up at 1pm.
+Sarah saw William working at the office from 1pm to 2pm.
+Mary saw William waiting at the train station from 2pm to 4pm.
+Susan saw William taking photos near the Eiffel Tower from 8pm to 10pm.
+The soccer field was closed after 10pm.
+Between what times could William have gone to the soccer field?
+Options:
+(A) 8pm to 10pm
+(B) 1pm to 2pm
+(C) 2pm to 4pm
+(D) 4pm to 8pm",(D)
+87,"Today, Mark went to the art show. Between what times could they have gone?
+We know that:
+Mark woke up at 10am.
+Betty saw Mark buying a bike at the bike shop from 10am to 11am.
+Ashley saw Mark watching a movie at the theater from 1pm to 2pm.
+Linda saw Mark working out at the gym from 2pm to 4pm.
+Leslie saw Mark buying a phone at the electronics store from 4pm to 9pm.
+Michael saw Mark waiting at the airport from 9pm to 10pm.
+The art show was closed after 10pm.
+Between what times could Mark have gone to the art show?
+Options:
+(A) 11am to 1pm
+(B) 4pm to 9pm
+(C) 10am to 11am
+(D) 2pm to 4pm",(A)
+202,"Today, Kimberly went to the construction site. Between what times could they have gone?
+We know that:
+Kimberly woke up at 6am.
+Hannah saw Kimberly buying cookies at a bakery from 7am to 8am.
+Thomas saw Kimberly fixing their computer at the electronic store from 8am to 10am.
+John saw Kimberly buying a phone at the electronics store from 10am to 11am.
+David saw Kimberly playing tennis at the tennis court from 11am to 2pm.
+Mark saw Kimberly watching a movie at the theater from 2pm to 3pm.
+The construction site was closed after 3pm.
+Between what times could Kimberly have gone to the construction site?
+Options:
+(A) 6am to 7am
+(B) 8am to 10am
+(C) 10am to 11am
+(D) 11am to 2pm",(A)
+74,"Today, James went to the physics classroom. Between what times could they have gone?
+We know that:
+James woke up at 8am.
+Emily saw James buying clothes at the mall from 8am to 9am.
+Lisa saw James buying a phone at the electronics store from 9am to 4pm.
+Steven saw James driving to the water park from 5pm to 6pm.
+The physics classroom was closed after 6pm.
+Between what times could James have gone to the physics classroom?
+Options:
+(A) 8am to 9am
+(B) 9am to 4pm
+(C) 5pm to 6pm
+(D) 4pm to 5pm",(D)
+214,"Today, Jason went to the physics classroom. Between what times could they have gone?
+We know that:
+Jason woke up at 5am.
+Leslie saw Jason buying a bike at the bike shop from 5am to 9am.
+James saw Jason stretching at a yoga studio from 1pm to 8pm.
+William saw Jason taking photos near the Leaning Tower of Pisa from 8pm to 9pm.
+Richard saw Jason getting a coffee at the cafe from 9pm to 10pm.
+The physics classroom was closed after 10pm.
+Between what times could Jason have gone to the physics classroom?
+Options:
+(A) 5am to 9am
+(B) 9am to 1pm
+(C) 1pm to 8pm
+(D) 8pm to 9pm",(B)
+210,"Today, Andrew went to the basketball court. Between what times could they have gone?
+We know that:
+Andrew woke up at 6am.
+Jessica saw Andrew stretching at a yoga studio from 6am to 11am.
+Elizabeth saw Andrew walking in the garden from 11am to 6pm.
+Emily saw Andrew watching a movie at the theater from 8pm to 9pm.
+The basketball court was closed after 9pm.
+Between what times could Andrew have gone to the basketball court?
+Options:
+(A) 11am to 6pm
+(B) 8pm to 9pm
+(C) 6am to 11am
+(D) 6pm to 8pm",(D)
+121,"Today, David went to the physics classroom. Between what times could they have gone?
+We know that:
+David woke up at 9am.
+Sean saw David fixing their computer at the electronic store from 9am to 11am.
+Thomas saw David walking towards the Statue of Liberty from 11am to 12pm.
+James saw David taking photos near the Leaning Tower of Pisa from 12pm to 8pm.
+The physics classroom was closed after 10pm.
+Between what times could David have gone to the physics classroom?
+Options:
+(A) 11am to 12pm
+(B) 12pm to 8pm
+(C) 9am to 11am
+(D) 8pm to 10pm",(D)
+249,"Today, Kimberly went to the swimming pool. Between what times could they have gone?
+We know that:
+Kimberly woke up at 8am.
+Emily saw Kimberly working out at the gym from 8am to 12pm.
+Betty saw Kimberly walking in the garden from 12pm to 4pm.
+James saw Kimberly buying lunch at the deli from 5pm to 8pm.
+Samantha saw Kimberly walking towards the Statue of Liberty from 8pm to 9pm.
+The swimming pool was closed after 9pm.
+Between what times could Kimberly have gone to the swimming pool?
+Options:
+(A) 5pm to 8pm
+(B) 8am to 12pm
+(C) 8pm to 9pm
+(D) 4pm to 5pm",(D)
+20,"Today, Tiffany went to the market. Between what times could they have gone?
+We know that:
+Tiffany woke up at 6am.
+Sarah saw Tiffany reading at the library from 6am to 9am.
+Betty saw Tiffany driving to the water park from 9am to 10am.
+Linda saw Tiffany buying a phone at the electronics store from 12pm to 6pm.
+Mary saw Tiffany working out at the gym from 6pm to 10pm.
+The market was closed after 10pm.
+Between what times could Tiffany have gone to the market?
+Options:
+(A) 6am to 9am
+(B) 10am to 12pm
+(C) 6pm to 10pm
+(D) 12pm to 6pm",(B)
+188,"Today, Ashley went to the gas station. Between what times could they have gone?
+We know that:
+Ashley woke up at 5am.
+Nancy saw Ashley buying cookies at a bakery from 6am to 7am.
+David saw Ashley working at the office from 7am to 1pm.
+Tiffany saw Ashley buying a phone at the electronics store from 1pm to 3pm.
+Mary saw Ashley getting a coffee at the cafe from 3pm to 4pm.
+Lisa saw Ashley buying lunch at the deli from 4pm to 10pm.
+The gas station was closed after 10pm.
+Between what times could Ashley have gone to the gas station?
+Options:
+(A) 3pm to 4pm
+(B) 6am to 7am
+(C) 7am to 1pm
+(D) 5am to 6am",(D)
+71,"Today, James went to the swimming pool. Between what times could they have gone?
+We know that:
+James woke up at 12pm.
+John saw James taking photos near the Leaning Tower of Pisa from 2pm to 4pm.
+William saw James buying a bike at the bike shop from 4pm to 5pm.
+Jennifer saw James getting a coffee at the cafe from 5pm to 8pm.
+The swimming pool was closed after 8pm.
+Between what times could James have gone to the swimming pool?
+Options:
+(A) 4pm to 5pm
+(B) 5pm to 8pm
+(C) 12pm to 2pm
+(D) 2pm to 4pm",(C)
+106,"Today, William went to the swimming pool. Between what times could they have gone?
+We know that:
+William woke up at 5am.
+Jennifer saw William walking in the garden from 7am to 5pm.
+Mary saw William reading at the library from 5pm to 6pm.
+William saw William buying lunch at the deli from 6pm to 10pm.
+The swimming pool was closed after 10pm.
+Between what times could William have gone to the swimming pool?
+Options:
+(A) 5pm to 6pm
+(B) 6pm to 10pm
+(C) 5am to 7am
+(D) 7am to 5pm",(C)
+14,"Today, Leslie went to the clothing store. Between what times could they have gone?
+We know that:
+Leslie woke up at 5am.
+Richard saw Leslie buying a phone at the electronics store from 5am to 7am.
+Jason saw Leslie waiting at the airport from 11am to 6pm.
+David saw Leslie attending class at the school from 6pm to 10pm.
+The clothing store was closed after 10pm.
+Between what times could Leslie have gone to the clothing store?
+Options:
+(A) 11am to 6pm
+(B) 5am to 7am
+(C) 7am to 11am
+(D) 6pm to 10pm",(C)
+92,"Today, James went to the market. Between what times could they have gone?
+We know that:
+James woke up at 7am.
+David saw James taking photos near the Eiffel Tower from 7am to 8am.
+John saw James playing tennis at the tennis court from 10am to 1pm.
+Elizabeth saw James waiting at the airport from 1pm to 3pm.
+William saw James reading at the library from 3pm to 5pm.
+The market was closed after 5pm.
+Between what times could James have gone to the market?
+Options:
+(A) 10am to 1pm
+(B) 7am to 8am
+(C) 3pm to 5pm
+(D) 8am to 10am",(D)
+179,"Today, Leslie went to the physics classroom. Between what times could they have gone?
+We know that:
+Leslie woke up at 5am.
+Betty saw Leslie walking towards the Statue of Liberty from 5am to 7am.
+Mary saw Leslie working out at the gym from 9am to 10am.
+Hannah saw Leslie fixing their computer at the electronic store from 10am to 5pm.
+Mark saw Leslie attending class at the school from 5pm to 9pm.
+The physics classroom was closed after 9pm.
+Between what times could Leslie have gone to the physics classroom?
+Options:
+(A) 5am to 7am
+(B) 5pm to 9pm
+(C) 7am to 9am
+(D) 9am to 10am",(C)
+102,"Today, Jessica went to the restaurant. Between what times could they have gone?
+We know that:
+Jessica woke up at 6am.
+Lisa saw Jessica waiting at the train station from 6am to 12pm.
+Linda saw Jessica getting a coffee at the cafe from 12pm to 2pm.
+Sarah saw Jessica walking towards the Statue of Liberty from 2pm to 6pm.
+The restaurant was closed after 7pm.
+Between what times could Jessica have gone to the restaurant?
+Options:
+(A) 6pm to 7pm
+(B) 6am to 12pm
+(C) 12pm to 2pm
+(D) 2pm to 6pm",(A)

@@ -1,0 +1,21 @@
+,input,output
+2288,Sentence 1: At least two Nato killed in Afghanistan helicopter crash: military Sentence 2: At least 18 killed in Afghan bomb attacks: officials,1 - probably not
+455,Sentence 1: A man is smoking. Sentence 2: The man sat in his suit and smoked.,4 - almost perfectly
+1810,Sentence 1: spain currently holds the rotating presidency of the osce. Sentence 2: spain currently holds the osce's presidency.,4 - almost perfectly
+1733,Sentence 1: So answer the question. Sentence 2: Stop avoiding the question.,3 - probably
+909,Sentence 1: Someoen is cooking onions. Sentence 2: A man is swinging nunchucks.,0 - definitely not
+3613,Sentence 1: George Zimmerman found not guilty of Trayvon Martin murder Sentence 2: George Zimmerman Verdict Propels Cable News Into Talkradio Mode,1 - probably not
+2104,Sentence 1: No problem if Mulayam forms Third Front: Congress Sentence 2: No problem if Mulayam forms third front: Digvijay,3 - probably
+935,Sentence 1: a bus driving in a street. Sentence 2: Red double decker bus driving down street.,4 - almost perfectly
+424,Sentence 1: The rhino grazed on the grass. Sentence 2: A rhino is grazing in a field.,4 - almost perfectly
+265,Sentence 1: A woman is filing her fingernails with an emery board. Sentence 2: A woman is feeding her baby with a bottle.,0 - definitely not
+2152,Sentence 1: Air Force Instructor Faces Sentencing for Rape Sentence 2: Women testify at Air Force instructor's sentencing,2 - possibly
+3644,Sentence 1: China on high alert for typhoon Kalmaegi Sentence 2: China issues yellow alert for typhoon Kalmaegi,4 - almost perfectly
+3222,Sentence 1: More rain hampers Indian flood rescue Sentence 2: US tourist gang-raped in northern India: Police,0 - definitely not
+575,Sentence 1: A man is shooting a gun. Sentence 2: A man is slicing a bun.,1 - probably not
+1793,"Sentence 1: Druce will face murder charges, Conte said. Sentence 2: Conte said Druce will be charged with murder.",5 - perfectly
+2866,Sentence 1: 7 killed in monster truck crash Sentence 2: 6 killed in Mexico ‘monster truck’ crash,3 - probably
+2130,Sentence 1: China stocks close mixed Friday Sentence 2: Chinese stocks close higher midday Friday,3 - probably
+2855,Sentence 1: Top judge Mansour sworn in as Egypt interim president Sentence 2: Justice Adly Mansour sworn in as Egypt interim president,4 - almost perfectly
+1072,Sentence 1: A cat reclines on an office chair. Sentence 2: A ginger cat sitting on an office chair.,4 - almost perfectly
+864,Sentence 1: A man is adding pork chops to a pan. Sentence 2: A woman is peeling a potato.,1 - probably not

@@ -1,0 +1,1 @@
+You are a chess player. Given an opening, determine whether the opening is legal. The opening doesn't need to be a good opening. Answer "legal" if all moves are legal. Answer "illegal" if the opening violates any rules of chess.

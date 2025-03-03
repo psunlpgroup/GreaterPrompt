@@ -1,0 +1,101 @@
+,input,output
+1,Sentence 1: the man is catching a ball Sentence 2: A man is kicking a ball.,3 - probably
+2,Sentence 1: A man is cutting a potato. Sentence 2: A woman plays an electric guitar.,0 - definitely not
+3,Sentence 1: A woman is carrying a boy. Sentence 2: A woman is carrying her baby.,2 - possibly
+4,Sentence 1: A woman is riding a horse along a perimeter. Sentence 2: A dog is riding a skateboard.,1 - probably not
+5,Sentence 1: At least 38 Morsi supporters die in clashes Sentence 2: Dozens of Morsi supporters killed in Egypt clashes,4 - almost perfectly
+6,Sentence 1: A man plays the violin. Sentence 2: A man is playing violin.,5 - perfectly
+7,Sentence 1: A girl is riding a horse. Sentence 2: The girl trotted the horse.,4 - almost perfectly
+8,Sentence 1: A man and a woman walk through the woods. Sentence 2: The man and woman are walking.,3 - probably
+9,Sentence 1: This dog is jumping through the water. Sentence 2: Two dogs running through the water on a beach.,2 - possibly
+10,Sentence 1: A smiling woman holding a small baby. Sentence 2: Two smiling women holding a baby.,3 - probably
+11,Sentence 1: A man is climbing a rope. Sentence 2: A man climbs a rope.,5 - perfectly
+12,Sentence 1: A band is performing on a stage. Sentence 2: A band is playing onstage.,5 - perfectly
+13,Sentence 1: The girl sang into a microphone. Sentence 2: The lady sang into the microphone.,2 - possibly
+14,Sentence 1: A dog and a red ball in the air. Sentence 2: A dog digs a hole in a yard.,1 - probably not
+15,Sentence 1: House blaze kills 7 in northern Pakistan Sentence 2: US drone strike kills 8 in NW Pakistan,1 - probably not
+16,Sentence 1: Australia cuts rates to record low Sentence 2: Australia cuts interest rates to record low,5 - perfectly
+17,"Sentence 1: Spanish jobless rate soars past 25 per cent Sentence 2: US jobless rate seen rising, offering Obama no relief",1 - probably not
+18,Sentence 1: Attack kills 12 in Afghanistan Sentence 2: NATO: 3 troops killed in Afghanistan attack,2 - possibly
+19,Sentence 1: Colorado shooting suspect was in therapy Sentence 2: Lawyers: Colo. shooting suspect is mentally ill,4 - almost perfectly
+20,Sentence 1: A man is playing the drums. Sentence 2: A man is playing guitar.,2 - possibly
+21,Sentence 1: A woman is putting her baby in a waste bin. Sentence 2: The woman is poking holes in the potato.,0 - definitely not
+22,Sentence 1: A puppy is trying to come out from the sink. Sentence 2: The puppy tried to get out of the tub.,3 - probably
+23,Sentence 1: A woman is peeling an orange. Sentence 2: A woman cuts off a small piece of lemon rind.,2 - possibly
+24,Sentence 1: The man is playing the guitar. Sentence 2: A man is playing a guitar.,5 - perfectly
+25,Sentence 1: Breivik complains of 'ridicule' Sentence 2: Breivik: Jail term 'ridiculous',2 - possibly
+26,Sentence 1: Five dead in Pakistan suicide blast Sentence 2: Over 120 dead in Pakistan factory blaze,1 - probably not
+27,Sentence 1: Two people sitting on a large motorcycle. Sentence 2: Two eagles sitting on a long branch.,0 - definitely not
+28,Sentence 1: A plane rides on a road. Sentence 2: An airplane moves along a runway.,3 - probably
+29,Sentence 1: Motorists killed after Japanese tunnel collapses Sentence 2: Cars trapped in tunnel collapse outside Tokyo,2 - possibly
+30,Sentence 1: South Africa train crash kills at least 19 Sentence 2: South Africa train crash kills 26,4 - almost perfectly
+31,Sentence 1: One man is breaking cement on another man's chest. Sentence 2: A man breaks cinder blocks on another man.,4 - almost perfectly
+32,Sentence 1: Libya asks UN Security Council for help Sentence 2: Kerry Calls On UN Security Council to Act on Syria,2 - possibly
+33,Sentence 1: The cook is kneading the flour. Sentence 2: A woman is kneading tortilla dough.,3 - probably
+34,Sentence 1: Roadside bomb kills 10 Afghan civilians: police Sentence 2: Roadside bomb kills 5 Afghan policemen,3 - probably
+35,Sentence 1: Nelson Mandela undergoes surgery Sentence 2: ‘Nelson Mandela is recovering’,2 - possibly
+36,Sentence 1: A man is drilling a hole in a board. Sentence 2: Someone is drilling a hole in a piece of wood.,4 - almost perfectly
+37,Sentence 1: A woman equestrian riding a horse. Sentence 2: The woman is riding on the brown horse.,4 - almost perfectly
+38,"Sentence 1: The Note's Must-Reads for Friday, December 6, 2013 Sentence 2: The Note's Must-Reads for Friday, July 12, 2013",2 - possibly
+39,Sentence 1: A man plays a keyboard. Sentence 2: A person is playing the keyboard.,4 - almost perfectly
+40,Sentence 1: Two dogs are running in a grassy field Sentence 2: Two dogs running through a grassy field.,5 - perfectly
+41,Sentence 1: Barack Obama's personal evolution on same-sex marriage Sentence 2: Obama backs same-sex marriage,3 - probably
+42,Sentence 1: New UN peacekeeping chief named for Central African Republic Sentence 2: UN takes over peacekeeping in Central African Republic,2 - possibly
+43,Sentence 1: Four children looking at barn animals. Sentence 2: Children looking a sheep.,3 - probably
+44,"Sentence 1: Pakistani Taliban chief Hakimullah Mehsud killed in drone strike Sentence 2: Pakistani Taliban 'elect new chief', vow 'unprecedented' revenge",1 - probably not
+45,Sentence 1: A baby eats his food. Sentence 2: A baby is being fed peas.,3 - probably
+46,Sentence 1: Coty launches $10 billion bid for rival Avon Sentence 2: Coty bids $10 billion for Avon,5 - perfectly
+47,Sentence 1: 2 dead in Bangladesh clashes over Jamaat leader’s execution Sentence 2: Bangladesh Islamist leader executed,2 - possibly
+48,Sentence 1: A man is speaking. Sentence 2: A man is spitting.,1 - probably not
+49,Sentence 1: Juror: Sandusky appeared to accept his fate Sentence 2: Jerry Sandusky convicted of child sexual abuse,2 - possibly
+50,Sentence 1: The woman is dicing onions. Sentence 2: A woman is dancing in railway station.,0 - definitely not
+51,Sentence 1: A woman is cutting an onion. Sentence 2: A man is cutting onions.,3 - probably
+52,Sentence 1: Three dogs playing in the snow. Sentence 2: Three dogs run in the snow.,4 - almost perfectly
+53,Sentence 1: A woman is hitting a man. Sentence 2: A woman is taking a bath.,0 - definitely not
+54,Sentence 1: Syrian troops kill 35 in Damascus suburb Sentence 2: Activists: Syrian troops kill dozens near Damascus,4 - almost perfectly
+55,Sentence 1: A woman is bungee jumping. Sentence 2: A girl is bungee jumping.,4 - almost perfectly
+56,Sentence 1: The man is playing the keyboards. Sentence 2: A man is playing guitar.,2 - possibly
+57,Sentence 1: A man is playing a guitar. Sentence 2: A man is eating a banana.,1 - probably not
+58,Sentence 1: A woman is slicing some tuna. Sentence 2: A woman is cutting raw fish.,3 - probably
+59,Sentence 1: US Senator McCain meets opposition leaders in Ukraine Sentence 2: SFG meeting reviews situation in Mali,0 - definitely not
+60,Sentence 1: EU Set for New Sanctions on Iran Sentence 2: EU plans major new sanctions against Iran,4 - almost perfectly
+61,Sentence 1: A woman is slicing a big pepper. Sentence 2: A person is cutting a green pepper.,3 - probably
+62,Sentence 1: Five kittens are eating out of five dishes. Sentence 2: Kittens are eating food on trays.,3 - probably
+63,Sentence 1: North Korea Nuclear Test Sparks Worry Sentence 2: North Korea nuclear test,2 - possibly
+64,Sentence 1: The baby laughed in his car seat. Sentence 2: A baby is laughing.,3 - probably
+65,Sentence 1: Israel 'bombs' Syria as envoy presses peace talks bid Sentence 2: Fierce clashes in east Syria as US pushes peace talks,2 - possibly
+66,Sentence 1: An animal is biting a persons finger. Sentence 2: A slow loris is biting a persons finger.,3 - probably
+67,Sentence 1: Maldives begins to vote in controversy-ridden presidential poll Sentence 2: Crisis-hit Maldives holds new presidential poll,3 - probably
+68,Sentence 1: The lady stirred up raw eggs in the bowl. Sentence 2: A woman is pouring eyes into a bowl.,1 - probably not
+69,Sentence 1: Fire in Russian psychiatric hospital kills 38 Sentence 2: 38 feared dead in Russian psychiatric hospital fire,4 - almost perfectly
+70,Sentence 1: A man is eating a pizza. Sentence 2: A man is eating a food.,4 - almost perfectly
+71,"Sentence 1: A man eating an apple, sitting in public. Sentence 2: A man sits in a public place eating an apple.",5 - perfectly
+72,Sentence 1: Greece votes in crucial election Sentence 2: Greece looks set for repeat election,2 - possibly
+73,Sentence 1: A plane is landing. Sentence 2: A animated airplane is landing.,3 - probably
+74,Sentence 1: The man and woman are resting on a couch. Sentence 2: A man and woman are asleep on the couch.,4 - almost perfectly
+75,Sentence 1: An AeroMexico jet taxing along a runway. Sentence 2: A silver AreoMexico Jet Liner sitting on the tarmac.,3 - probably
+76,Sentence 1: A panda is climbing. Sentence 2: A man is climbing a rope.,2 - possibly
+77,Sentence 1: A man is playing the piano. Sentence 2: A man is playing a wooden flute.,1 - probably not
+78,Sentence 1: A white plane on the runway. Sentence 2: A white Swiss airplane approaches the runway.,4 - almost perfectly
+79,Sentence 1: A man is playing a guitar. Sentence 2: The girl is playing the guitar.,2 - possibly
+80,Sentence 1: A blue scooter parked on a sidewalk. Sentence 2: A blue moped parked on the sidewalk.,4 - almost perfectly
+81,Sentence 1: Brooks pleads not guilty to hacking charges Sentence 2: Dave Lee Travis pleads not guilty to all charges,1 - probably not
+82,Sentence 1: Suicide bomber kills 4 near NATO's Afghan HQ Sentence 2: Suicide bomber kills 23 at Afghan wedding,2 - possibly
+83,Sentence 1: Kids are dancing on stage. Sentence 2: Some people are dancing on stage.,3 - probably
+84,Sentence 1: Queen pays tribute to Nelson Mandela Sentence 2: US presidents pay tribute to Mandela,2 - possibly
+85,Sentence 1: man on steps Sentence 2: A man sits on steps.,4 - almost perfectly
+86,Sentence 1: A family is playing on the beach with their dog. Sentence 2: A naked little girl being thrown into the air.,0 - definitely not
+87,Sentence 1: Egypt's Coptic Pope Shenuda III dies Sentence 2: Egypt prepares to bury Coptic Pope Shenuda III,4 - almost perfectly
+88,Sentence 1: A man is riding a bicycle on a dirt path. Sentence 2: Two dogs running along dirt path.,2 - possibly
+89,Sentence 1: Scientists prove there is water on Mars Sentence 2: Has Nasa discovered water on Mars?,2 - possibly
+90,Sentence 1: Syrians trade blame over blasts Sentence 2: Israel braces for Arab protests,0 - definitely not
+91,Sentence 1: US drone strike kills 8 militants Sentence 2: US drone strike kills four in NWA: officials,2 - possibly
+92,Sentence 1: The man is riding a horse. Sentence 2: A woman is using a hoe.,0 - definitely not
+93,Sentence 1: Egyptian president moves into Mubarak's old office Sentence 2: Egypt's President-Elect Morsi Starts to Form Government,2 - possibly
+94,Sentence 1: A man is riding on a horse. Sentence 2: A woman is riding an elephant.,2 - possibly
+95,Sentence 1: Blond woman in a tunnel. Sentence 2: The couple kissing is near a blond woman.,2 - possibly
+96,Sentence 1: Residents near Gaza instructed to stay near shelter Sentence 2: Best’s great day brings West Indies cheer,0 - definitely not
+97,Sentence 1: The gate is blue. Sentence 2: The gate is yellow.,2 - possibly
+98,Sentence 1: A grey house with a red door. Sentence 2: House with a red door.,3 - probably
+99,Sentence 1: A man jumping his dirt bike. Sentence 2: A man on a bike jumping through the air.,4 - almost perfectly
+100,Sentence 1: A small dog laying on the bed. Sentence 2: A small dog is laying on a bed.,5 - perfectly

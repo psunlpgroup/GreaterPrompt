@@ -1,0 +1,101 @@
+,input,output,sentence,letter,words,source
+16,Mary gets depressed and she listens to the Grateful Dead. [l],listens,Mary gets depressed and she listens to the Grateful Dead.,l,['listens'],train
+764,I am removing the shovel from the shed. [s],shovel shed,I am removing the shovel from the shed.,s,"['shovel', 'shed']",train
+911,There is any book you could imagine in this library. [i],is imagine in,There is any book you could imagine in this library.,i,"['is', 'imagine', 'in']",train
+183,Every man who said he would buy some salmon did. [d],did,Every man who said he would buy some salmon did.,d,['did'],train
+2168,Benjamin gave the cloak and sent the book to Lee [g],gave,Benjamin gave the cloak and sent the book to Lee,g,['gave'],train
+2903,A large flag fluttered. [f],flag fluttered,A large flag fluttered.,f,"['flag', 'fluttered']",train
+2125,What Mary offered to him is unclear. [w],what,What Mary offered to him is unclear.,w,['What'],train
+2932,"John hummed, and Mary sang, at equal volumes. [s]",sang,"John hummed, and Mary sang, at equal volumes.",s,['sang'],train
+1273,Which pictures of Bill did she put on your desk. [d],did desk,Which pictures of Bill did she put on your desk.,d,"['did', 'desk']",train
+874,I was hunting. [w],was,I was hunting.,w,['was'],train
+116,John promised Bill to leave. [j],john,John promised Bill to leave.,j,['John'],train
+2527,I asked if Medea poisoned Jason. [i],i if,I asked if Medea poisoned Jason.,i,"['I', 'if']",train
+1673,Dana is longing for a sunny day. [i],is,Dana is longing for a sunny day.,i,['is'],train
+2501,She does not see him. [n],not,She does not see him.,n,['not'],train
+1047,Did John wonder who would win the game? [g],game,Did John wonder who would win the game?,g,['game'],train
+596,Kim regrets not having seen the movie. [s],seen,Kim regrets not having seen the movie.,s,['seen'],train
+563,Paula spanked the naughty child with her right hand. [w],with,Paula spanked the naughty child with her right hand.,w,['with'],train
+197,Three relatives of mine inherited a house. [m],mine,Three relatives of mine inherited a house.,m,['mine'],train
+1871,There are fewer trucks on the motorway this winter. [m],motorway,There are fewer trucks on the motorway this winter.,m,['motorway'],train
+346,Who has drunk the poison? [t],the,Who has drunk the poison?,t,['the'],train
+1983,The roof is leaking. [l],leaking,The roof is leaking.,l,['leaking'],train
+975,The writers did so believe the boy. [s],so,The writers did so believe the boy.,s,['so'],train
+1483,"I demand that the more John eats, the more he pays. [p]",pays,"I demand that the more John eats, the more he pays.",p,['pays'],train
+379,"I often send Mary home drunk, and she gets there just fine. [g]",gets,"I often send Mary home drunk, and she gets there just fine.",g,['gets'],train
+789,I have never put the book. [b],book,I have never put the book.,b,['book'],train
+2128,"Enrico, and he is the smartest of us all, got the answer in seven seconds. [a]",and all answer,"Enrico, and he is the smartest of us all, got the answer in seven seconds.",a,"['and', 'all', 'answer']",train
+2460,The drooling dog kissed the big boy. [k],kissed,The drooling dog kissed the big boy.,k,['kissed'],train
+2750,The cat shot into the kitchen on Sunday morning carrying a dead mouse. [o],on,The cat shot into the kitchen on Sunday morning carrying a dead mouse.,o,['on'],train
+866,Susan wanted Jane to study German. [g],german,Susan wanted Jane to study German.,g,['German'],train
+1607,I saw these dancers and those musicians smoking something. [t],these those,I saw these dancers and those musicians smoking something.,t,"['these', 'those']",train
+1491,Bill cried himself to sleep. [c],cried,Bill cried himself to sleep.,c,['cried'],train
+1219,I gave the charity. [t],the,I gave the charity.,t,['the'],train
+779,John promised Bill to leave tomorrow morning. [t],to tomorrow,John promised Bill to leave tomorrow morning.,t,"['to', 'tomorrow']",train
+1774,Springfield would have built a police station with the federal grant. [t],the,Springfield would have built a police station with the federal grant.,t,['the'],train
+2852,I detest taking a bath. [d],detest,I detest taking a bath.,d,['detest'],train
+13,This girl in the red coat will eat her breakfast and will put a picture of Bill on your desk before tomorrow. [i],in,This girl in the red coat will eat her breakfast and will put a picture of Bill on your desk before tomorrow.,i,['in'],train
+2407,"If you take a dry match and strike it, it lights. [t]",take,"If you take a dry match and strike it, it lights.",t,['take'],train
+314,John intends to review the book. [b],book,John intends to review the book.,b,['book'],train
+1292,A man just came in and a woman went out who hate each other like poison and always have. [h],hate have,A man just came in and a woman went out who hate each other like poison and always have.,h,"['hate', 'have']",train
+1620,Pauline smiled her thanks. [s],smiled,Pauline smiled her thanks.,s,['smiled'],train
+2786,I know who is mad at John. [i],i is,I know who is mad at John.,i,"['I', 'is']",train
+1313,I hunted game in the woods. [h],hunted,I hunted game in the woods.,h,['hunted'],train
+1985,Gilgamesh perhaps should be leaving. [s],should,Gilgamesh perhaps should be leaving.,s,['should'],train
+2464,Dana longs for a sunny day. [l],longs,Dana longs for a sunny day.,l,['longs'],train
+489,John heard their criticism of each other. [c],criticism,John heard their criticism of each other.,c,['criticism'],train
+1755,John remained a student. [j],john,John remained a student.,j,['John'],train
+2312,Everyone hopes to sleep. [t],to,Everyone hopes to sleep.,t,['to'],train
+2002,I sent Mary money. [m],mary money,I sent Mary money.,m,"['Mary', 'money']",train
+2322,No student who scored or more in the exam was ever failed. [s],student scored,No student who scored or more in the exam was ever failed.,s,"['student', 'scored']",train
+78,The plucky platypus kicked a can of soup from New York to Tucson. [a],a,The plucky platypus kicked a can of soup from New York to Tucson.,a,['a'],train
+1730,The contract is subject to approval by my committee. [m],my,The contract is subject to approval by my committee.,m,['my'],train
+2512,Bill kissed himself. [k],kissed,Bill kissed himself.,k,['kissed'],train
+1138,That Anne was in conversation with Mr Elliott dismayed Captain. [d],dismayed,That Anne was in conversation with Mr Elliott dismayed Captain.,d,['dismayed'],train
+499,To behave oneself in public is expected. [e],expected,To behave oneself in public is expected.,e,['expected'],train
+1747,Carol carved the marble with a chisel. [m],marble,Carol carved the marble with a chisel.,m,['marble'],train
+2757,Carol cut at the bread. [b],bread,Carol cut at the bread.,b,['bread'],train
+1244,"The cops spoke to the janitor about it yesterday, that robbery. [i]",it,"The cops spoke to the janitor about it yesterday, that robbery.",i,['it'],train
+923,You is the only person that I can rely on. [y],you,You is the only person that I can rely on.,y,['You'],train
+51,John hit the stone against the wall. [j],john,John hit the stone against the wall.,j,['John'],train
+517,I asked which king invaded which city. [a],asked,I asked which king invaded which city.,a,['asked'],train
+2106,I dried the clothes in the sun. [d],dried,I dried the clothes in the sun.,d,['dried'],train
+374,This theorem will take only five minutes to prove. [m],minutes,This theorem will take only five minutes to prove.,m,['minutes'],train
+339,I will force you to marry no one. [o],one,I will force you to marry no one.,o,['one'],train
+964,Linguistics students like phonetics tutorials. [p],phonetics,Linguistics students like phonetics tutorials.,p,['phonetics'],train
+1169,"Fluffy is sick, which nobody knows. [w]",which,"Fluffy is sick, which nobody knows.",w,['which'],train
+769,Sharon shivered at the thought of the cold sea. [c],cold,Sharon shivered at the thought of the cold sea.,c,['cold'],train
+315,Rory will eat the muffins. [m],muffins,Rory will eat the muffins.,m,['muffins'],train
+2474,What the thing which I ate cost almost broke me. [c],cost,What the thing which I ate cost almost broke me.,c,['cost'],train
+1299,Lopez says that he has done more than simply give a fresh coat of paint to the site. [m],more,Lopez says that he has done more than simply give a fresh coat of paint to the site.,m,['more'],train
+2022,Chris was handed a note. [w],was,Chris was handed a note.,w,['was'],train
+1718,John persuaded Mary to kiss him. [j],john,John persuaded Mary to kiss him.,j,['John'],train
+573,The cat shot into the kitchen on Sunday morning carrying a dead mouse. [i],into,The cat shot into the kitchen on Sunday morning carrying a dead mouse.,i,['into'],train
+887,John persuaded Stephen to be more careful. [m],more,John persuaded Stephen to be more careful.,m,['more'],train
+522,Objection was taken to the length of our skirts. [o],objection of our,Objection was taken to the length of our skirts.,o,"['Objection', 'of', 'our']",train
+1856,I called almost all of the men from Boston up. [o],of,I called almost all of the men from Boston up.,o,['of'],train
+1994,Dina posed as a lawyer. [p],posed,Dina posed as a lawyer.,p,['posed'],train
+283,Who bought that piano for his secret fianc e? [e],e,Who bought that piano for his secret fianc e?,e,['e'],train
+2064,The door hinges squeaked. [t],the,The door hinges squeaked.,t,['The'],train
+1499,The ball rolled from the bush to the tree. [b],ball bush,The ball rolled from the bush to the tree.,b,"['ball', 'bush']",train
+1637,the book of poems by Robert Burns from Blackwell with a red cover takes a very long time to read. [b],book by burns blackwell,the book of poems by Robert Burns from Blackwell with a red cover takes a very long time to read.,b,"['book', 'by', 'Burns', 'Blackwell']",train
+2243,Each student speaks two languages. [t],two,Each student speaks two languages.,t,['two'],train
+2663,Who do you think will question Seamus first? [w],who will,Who do you think will question Seamus first?,w,"['Who', 'will']",train
+220,The monkeys approved of their leader. [m],monkeys,The monkeys approved of their leader.,m,['monkeys'],train
+2391,Mary will play the violin soon. [w],will,Mary will play the violin soon.,w,['will'],train
+1835,Jessica squirted water at me. [s],squirted,Jessica squirted water at me.,s,['squirted'],train
+2745,John put the book on the table with a pair of tongs. [o],on of,John put the book on the table with a pair of tongs.,o,"['on', 'of']",train
+565,This truck spread less salt than that one. [o],one,This truck spread less salt than that one.,o,['one'],train
+913,"John is more embarrassed, the more pictures of him appear in the news. [j]",john,"John is more embarrassed, the more pictures of him appear in the news.",j,['John'],train
+2591,Press the pad with the stamp completely. [c],completely,Press the pad with the stamp completely.,c,['completely'],train
+1770,What I believe that he was wearing is this hat. [t],that this,What I believe that he was wearing is this hat.,t,"['that', 'this']",train
+2308,Fred gave flowers to his sweetie because Frank had. [s],sweetie,Fred gave flowers to his sweetie because Frank had.,s,['sweetie'],train
+273,This girl in the red coat will put it and a picture of Bill on your desk before tomorrow. [b],bill before,This girl in the red coat will put it and a picture of Bill on your desk before tomorrow.,b,"['Bill', 'before']",train
+441,I had hoped that it was true that Rosa Luxemburg had actually defected to Iceland for many years. [f],for,I had hoped that it was true that Rosa Luxemburg had actually defected to Iceland for many years.,f,['for'],train
+1614,John may leave. [m],may,John may leave.,m,['may'],train
+2668,There are three Davids in my class. [c],class,There are three Davids in my class.,c,['class'],train
+2107,I see stars. [s],see stars,I see stars.,s,"['see', 'stars']",train
+1310,That the clown had a red nose amused the children. [a],a amused,That the clown had a red nose amused the children.,a,"['a', 'amused']",train
+1746,Linda winked. [w],winked,Linda winked.,w,['winked'],train
+1657,"The more that pictures of him appear in the news, the more embarrassed John becomes. [o]",of,"The more that pictures of him appear in the news, the more embarrassed John becomes.",o,['of'],train
+2210,Alison ran [r],ran,Alison ran,r,['ran'],train

@@ -1,0 +1,101 @@
+,input,output,other_rhymes,rhyme_group
+1,compete,neat,"['eat', 'sweet', 'street', 'meet', 'meat', 'complete', 'seat', 'heat', 'beat', 'defeat', 'compete', 'greet', 'sheet', 'delete', 'neat']",IY T
+2,ice,rice,"['rice', 'price', 'ice', 'twice', 'slice', 'spice']",AY S
+3,day,gay,"['pay', 'gray', 'stay', 'play', 'day', 'they', 'say', 'away', 'way', 'may', 'delay', 'hey', 'pray', 'bay', 'gay', 'display', 'weigh']",EY
+4,weigh,may,"['pay', 'gray', 'stay', 'play', 'day', 'they', 'say', 'away', 'way', 'may', 'delay', 'hey', 'pray', 'bay', 'gay', 'display', 'weigh']",EY
+5,sheet,heat,"['eat', 'sweet', 'street', 'meet', 'meat', 'complete', 'seat', 'heat', 'beat', 'defeat', 'compete', 'greet', 'sheet', 'delete', 'neat']",IY T
+6,laugh,calf,"['half', 'staff', 'calf', 'laugh', 'giraffe']",AE F
+7,thief,leaf,"['beef', 'thief', 'leaf', 'brief']",IY F
+8,happy,unhappy,"['happy', 'unhappy']",AE P IY
+9,gay,way,"['pay', 'gray', 'stay', 'play', 'day', 'they', 'say', 'away', 'way', 'may', 'delay', 'hey', 'pray', 'bay', 'gay', 'display', 'weigh']",EY
+10,gray,way,"['pay', 'gray', 'stay', 'play', 'day', 'they', 'say', 'away', 'way', 'may', 'delay', 'hey', 'pray', 'bay', 'gay', 'display', 'weigh']",EY
+11,street,defeat,"['eat', 'sweet', 'street', 'meet', 'meat', 'complete', 'seat', 'heat', 'beat', 'defeat', 'compete', 'greet', 'sheet', 'delete', 'neat']",IY T
+12,eat,defeat,"['eat', 'sweet', 'street', 'meet', 'meat', 'complete', 'seat', 'heat', 'beat', 'defeat', 'compete', 'greet', 'sheet', 'delete', 'neat']",IY T
+13,neat,complete,"['eat', 'sweet', 'street', 'meet', 'meat', 'complete', 'seat', 'heat', 'beat', 'defeat', 'compete', 'greet', 'sheet', 'delete', 'neat']",IY T
+14,smart,apart,"['part', 'start', 'heart', 'art', 'smart', 'depart', 'apart']",AA R T
+15,defeat,seat,"['eat', 'sweet', 'street', 'meet', 'meat', 'complete', 'seat', 'heat', 'beat', 'defeat', 'compete', 'greet', 'sheet', 'delete', 'neat']",IY T
+16,they,away,"['pay', 'gray', 'stay', 'play', 'day', 'they', 'say', 'away', 'way', 'may', 'delay', 'hey', 'pray', 'bay', 'gay', 'display', 'weigh']",EY
+17,myself,herself,"['myself', 'itself', 'shelf', 'himself', 'herself']",EH L F
+18,stage,page,"['page', 'age', 'stage', 'wage', 'cage']",EY JH
+19,heat,beat,"['eat', 'sweet', 'street', 'meet', 'meat', 'complete', 'seat', 'heat', 'beat', 'defeat', 'compete', 'greet', 'sheet', 'delete', 'neat']",IY T
+20,play,stay,"['pay', 'gray', 'stay', 'play', 'day', 'they', 'say', 'away', 'way', 'may', 'delay', 'hey', 'pray', 'bay', 'gay', 'display', 'weigh']",EY
+21,crop,pop,"['stop', 'shop', 'pop', 'crop']",AA P
+22,may,play,"['pay', 'gray', 'stay', 'play', 'day', 'they', 'say', 'away', 'way', 'may', 'delay', 'hey', 'pray', 'bay', 'gay', 'display', 'weigh']",EY
+23,seat,compete,"['eat', 'sweet', 'street', 'meet', 'meat', 'complete', 'seat', 'heat', 'beat', 'defeat', 'compete', 'greet', 'sheet', 'delete', 'neat']",IY T
+24,wool,bull,"['pull', 'full', 'wool', 'bull']",UH L
+25,meat,street,"['eat', 'sweet', 'street', 'meet', 'meat', 'complete', 'seat', 'heat', 'beat', 'defeat', 'compete', 'greet', 'sheet', 'delete', 'neat']",IY T
+26,spoon,afternoon,"['afternoon', 'noon', 'balloon', 'cartoon', 'soon', 'spoon']",UW N
+27,car,far,"['car', 'guitar', 'star', 'bar', 'far', 'jar']",AA R
+28,away,delay,"['pay', 'gray', 'stay', 'play', 'day', 'they', 'say', 'away', 'way', 'may', 'delay', 'hey', 'pray', 'bay', 'gay', 'display', 'weigh']",EY
+29,beef,leaf,"['beef', 'thief', 'leaf', 'brief']",IY F
+30,rice,price,"['rice', 'price', 'ice', 'twice', 'slice', 'spice']",AY S
+31,part,start,"['part', 'start', 'heart', 'art', 'smart', 'depart', 'apart']",AA R T
+32,complete,compete,"['eat', 'sweet', 'street', 'meet', 'meat', 'complete', 'seat', 'heat', 'beat', 'defeat', 'compete', 'greet', 'sheet', 'delete', 'neat']",IY T
+33,beat,sheet,"['eat', 'sweet', 'street', 'meet', 'meat', 'complete', 'seat', 'heat', 'beat', 'defeat', 'compete', 'greet', 'sheet', 'delete', 'neat']",IY T
+34,pop,crop,"['stop', 'shop', 'pop', 'crop']",AA P
+35,lock,sock,"['clock', 'sock', 'block', 'rock', 'knock', 'shock', 'lock']",AA K
+36,say,bay,"['pay', 'gray', 'stay', 'play', 'day', 'they', 'say', 'away', 'way', 'may', 'delay', 'hey', 'pray', 'bay', 'gay', 'display', 'weigh']",EY
+37,slice,twice,"['rice', 'price', 'ice', 'twice', 'slice', 'spice']",AY S
+38,bar,guitar,"['car', 'guitar', 'star', 'bar', 'far', 'jar']",AA R
+39,block,clock,"['clock', 'sock', 'block', 'rock', 'knock', 'shock', 'lock']",AA K
+40,meet,street,"['eat', 'sweet', 'street', 'meet', 'meat', 'complete', 'seat', 'heat', 'beat', 'defeat', 'compete', 'greet', 'sheet', 'delete', 'neat']",IY T
+41,pray,gay,"['pay', 'gray', 'stay', 'play', 'day', 'they', 'say', 'away', 'way', 'may', 'delay', 'hey', 'pray', 'bay', 'gay', 'display', 'weigh']",EY
+42,spice,twice,"['rice', 'price', 'ice', 'twice', 'slice', 'spice']",AY S
+43,piece,peace,"['police', 'piece', 'niece', 'peace']",IY S
+44,pay,may,"['pay', 'gray', 'stay', 'play', 'day', 'they', 'say', 'away', 'way', 'may', 'delay', 'hey', 'pray', 'bay', 'gay', 'display', 'weigh']",EY
+45,hey,pay,"['pay', 'gray', 'stay', 'play', 'day', 'they', 'say', 'away', 'way', 'may', 'delay', 'hey', 'pray', 'bay', 'gay', 'display', 'weigh']",EY
+46,bay,may,"['pay', 'gray', 'stay', 'play', 'day', 'they', 'say', 'away', 'way', 'may', 'delay', 'hey', 'pray', 'bay', 'gay', 'display', 'weigh']",EY
+47,wage,page,"['page', 'age', 'stage', 'wage', 'cage']",EY JH
+48,sweet,beat,"['eat', 'sweet', 'street', 'meet', 'meat', 'complete', 'seat', 'heat', 'beat', 'defeat', 'compete', 'greet', 'sheet', 'delete', 'neat']",IY T
+49,age,cage,"['page', 'age', 'stage', 'wage', 'cage']",EY JH
+50,knock,clock,"['clock', 'sock', 'block', 'rock', 'knock', 'shock', 'lock']",AA K
+51,pull,wool,"['pull', 'full', 'wool', 'bull']",UH L
+52,start,part,"['part', 'start', 'heart', 'art', 'smart', 'depart', 'apart']",AA R T
+53,cage,page,"['page', 'age', 'stage', 'wage', 'cage']",EY JH
+54,man,van,"['man', 'fan', 'plan', 'pan', 'van']",AE N
+55,far,bar,"['car', 'guitar', 'star', 'bar', 'far', 'jar']",AA R
+56,stay,bay,"['pay', 'gray', 'stay', 'play', 'day', 'they', 'say', 'away', 'way', 'may', 'delay', 'hey', 'pray', 'bay', 'gay', 'display', 'weigh']",EY
+57,guitar,bar,"['car', 'guitar', 'star', 'bar', 'far', 'jar']",AA R
+58,heart,start,"['part', 'start', 'heart', 'art', 'smart', 'depart', 'apart']",AA R T
+59,sock,knock,"['clock', 'sock', 'block', 'rock', 'knock', 'shock', 'lock']",AA K
+60,sandal,handle,"['handle', 'candle', 'sandal']",AE N D AH L
+61,staff,giraffe,"['half', 'staff', 'calf', 'laugh', 'giraffe']",AE F
+62,way,gay,"['pay', 'gray', 'stay', 'play', 'day', 'they', 'say', 'away', 'way', 'may', 'delay', 'hey', 'pray', 'bay', 'gay', 'display', 'weigh']",EY
+63,exist,insist,"['list', 'insist', 'exist']",IH S T
+64,shop,stop,"['stop', 'shop', 'pop', 'crop']",AA P
+65,soon,spoon,"['afternoon', 'noon', 'balloon', 'cartoon', 'soon', 'spoon']",UW N
+66,calf,half,"['half', 'staff', 'calf', 'laugh', 'giraffe']",AE F
+67,plan,van,"['man', 'fan', 'plan', 'pan', 'van']",AE N
+68,fan,man,"['man', 'fan', 'plan', 'pan', 'van']",AE N
+69,greet,complete,"['eat', 'sweet', 'street', 'meet', 'meat', 'complete', 'seat', 'heat', 'beat', 'defeat', 'compete', 'greet', 'sheet', 'delete', 'neat']",IY T
+70,art,heart,"['part', 'start', 'heart', 'art', 'smart', 'depart', 'apart']",AA R T
+71,star,far,"['car', 'guitar', 'star', 'bar', 'far', 'jar']",AA R
+72,rock,knock,"['clock', 'sock', 'block', 'rock', 'knock', 'shock', 'lock']",AA K
+73,page,wage,"['page', 'age', 'stage', 'wage', 'cage']",EY JH
+74,stop,shop,"['stop', 'shop', 'pop', 'crop']",AA P
+75,apart,depart,"['part', 'start', 'heart', 'art', 'smart', 'depart', 'apart']",AA R T
+76,delay,pray,"['pay', 'gray', 'stay', 'play', 'day', 'they', 'say', 'away', 'way', 'may', 'delay', 'hey', 'pray', 'bay', 'gay', 'display', 'weigh']",EY
+77,police,piece,"['police', 'piece', 'niece', 'peace']",IY S
+78,display,bay,"['pay', 'gray', 'stay', 'play', 'day', 'they', 'say', 'away', 'way', 'may', 'delay', 'hey', 'pray', 'bay', 'gay', 'display', 'weigh']",EY
+79,delete,sheet,"['eat', 'sweet', 'street', 'meet', 'meat', 'complete', 'seat', 'heat', 'beat', 'defeat', 'compete', 'greet', 'sheet', 'delete', 'neat']",IY T
+80,clock,block,"['clock', 'sock', 'block', 'rock', 'knock', 'shock', 'lock']",AA K
+81,sightseeing,skiing,"['skiing', 'sightseeing']",IY IH NG
+82,pump,jump,"['jump', 'pump']",AH M P
+83,balloon,afternoon,"['afternoon', 'noon', 'balloon', 'cartoon', 'soon', 'spoon']",UW N
+84,itself,myself,"['myself', 'itself', 'shelf', 'himself', 'herself']",EH L F
+85,jar,bar,"['car', 'guitar', 'star', 'bar', 'far', 'jar']",AA R
+86,only,lonely,"['only', 'lonely']",OW N L IY
+87,herself,shelf,"['myself', 'itself', 'shelf', 'himself', 'herself']",EH L F
+88,leaf,beef,"['beef', 'thief', 'leaf', 'brief']",IY F
+89,joke,smoke,"['smoke', 'joke', 'folk']",OW K
+90,price,ice,"['rice', 'price', 'ice', 'twice', 'slice', 'spice']",AY S
+91,impossible,possible,"['possible', 'impossible']",AA S AH B AH L
+92,shock,rock,"['clock', 'sock', 'block', 'rock', 'knock', 'shock', 'lock']",AA K
+93,dog,blog,"['dog', 'blog']",AO G
+94,himself,herself,"['myself', 'itself', 'shelf', 'himself', 'herself']",EH L F
+95,van,pan,"['man', 'fan', 'plan', 'pan', 'van']",AE N
+96,peace,police,"['police', 'piece', 'niece', 'peace']",IY S
+97,giraffe,calf,"['half', 'staff', 'calf', 'laugh', 'giraffe']",AE F
+98,cartoon,afternoon,"['afternoon', 'noon', 'balloon', 'cartoon', 'soon', 'spoon']",UW N
+99,uncomfortable,comfortable,"['comfortable', 'uncomfortable']",AH M F ER T AH B AH L
+100,smoke,joke,"['smoke', 'joke', 'folk']",OW K

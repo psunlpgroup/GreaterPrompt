@@ -1,0 +1,101 @@
+,input,output
+3503,Sentence 1: Brahimi apologises to Syria over lack of peace progress Sentence 2: Mediator apologizes to Syrians for lack of peace progress,4 - almost perfectly
+843,Sentence 1: A person is adding chili powder to chili with beans. Sentence 2: The man is adding seasoning to the beans.,4 - almost perfectly
+322,Sentence 1: A man is breaking water jugs. Sentence 2: A woman is peeling garlic.,0 - definitely not
+2352,Sentence 1: Dozens killed in Nigerian riots Sentence 2: Dozens killed in Kenyan clashes,1 - probably not
+1393,Sentence 1: Two little girls are playing on a trampoline. Sentence 2: Two little boys are playing on a playground.,1 - probably not
+1418,Sentence 1: A dog running through snow. Sentence 2: A dog runs in the snow.,5 - perfectly
+3132,Sentence 1: Moon rocks indicate earth's orb born of collision Sentence 2: Indian minister killed in head-on collision,0 - definitely not
+658,Sentence 1: A person is walking down a stone path. Sentence 2: A man is walking down a sidewalk.,4 - almost perfectly
+94,Sentence 1: Two boys are driving. Sentence 2: Two bays are dancing.,1 - probably not
+2818,Sentence 1: Brazilian leader holds crisis talks on street protests Sentence 2: Brazil leader promises reform vote,2 - possibly
+1351,Sentence 1: A black and white dog runs with its mouth open. Sentence 2: A black and white dog swims in blue water.,2 - possibly
+110,Sentence 1: A woman is playing flute. Sentence 2: A woman plays on a flute.,5 - perfectly
+1704,"Sentence 1: I thought that was mostly just the Dutch. Sentence 2: In fact, it's just the Dutch.",3 - probably
+3646,Sentence 1: Mali hunts jihadist nightclub killers Sentence 2: Militants attack UN as Mali hunts jihadist nightclub killers,3 - probably
+1722,"Sentence 1: @Frank Apisa, Frank, I observe and perceive. Sentence 2: @cicerone imposter, Frank, I observe and perceive.",4 - almost perfectly
+991,Sentence 1: A couple posing for a picture on a couch. Sentence 2: Young couple sitting on couch.,4 - almost perfectly
+1176,Sentence 1: a close up of a small cactus in a pot. Sentence 2: a close up of a woman holding a white puppy.,1 - probably not
+1794,Sentence 1: The notification was first reported Friday by MSNBC. Sentence 2: MSNBC.com first reported the CIA request on Friday.,3 - probably
+409,Sentence 1: The turtle followed the fish. Sentence 2: A sea turtle is hunting for fish.,3 - probably
+3608,"Sentence 1: Mandela remembered by family, as stadium memorial service is planned Sentence 2: Mandela's family thanks nation and world for support",1 - probably not
+2365,Sentence 1: Syrian govt wont stop attacks Sentence 2: Syrian opposition reports 'massacre',1 - probably not
+230,Sentence 1: A woman is frying something. Sentence 2: A woman is riding a horse.,1 - probably not
+858,Sentence 1: A woman is brushing her feet. Sentence 2: The sun is rising behind trees.,0 - definitely not
+3536,Sentence 1: South Korean President Sorry For Ferry Response Sentence 2: S. Korean president 'sorry' for ferry disaster,5 - perfectly
+1004,Sentence 1: Four people are rowing a boat near the shore. Sentence 2: four people are on a boat on green water.,3 - probably
+3597,Sentence 1: Napolitano elected for second term as Italy president Sentence 2: Italian President Napolitano elected for second term,5 - perfectly
+806,Sentence 1: A person is riding a jetski in the waves. Sentence 2: A woman is riding a seadoo.,2 - possibly
+735,Sentence 1: A woman covers a piece of meat with flour. Sentence 2: A woman is seasoning a piece of meat.,3 - probably
+150,Sentence 1: A man pours oil on some tomatos. Sentence 2: The man poured oil on the cut tomatoes.,4 - almost perfectly
+1423,Sentence 1: A little boy clowns with a colander on his head. Sentence 2: A boy with a metal colander on his head.,4 - almost perfectly
+2443,Sentence 1: Unrest in tense Nigeria leaves at least 95 dead Sentence 2: Southwest China quakes kill at least 50,0 - definitely not
+1012,Sentence 1: Tan cow with ear tags on a grassy field. Sentence 2: Many sheep standing on a green hill.,0 - definitely not
+2759,Sentence 1: Pakistani Taliban names new leader after drone strike Sentence 2: Pakistani Taleban chief killed in US drone strike,2 - possibly
+415,Sentence 1: A woman is mincing some garlic. Sentence 2: A person is cleaning a disk.,0 - definitely not
+1090,Sentence 1: Two birds flying towards water feeder. Sentence 2: Two birds flying near bird feeders.,4 - almost perfectly
+3287,Sentence 1: China sets Bo Xilai trial date Sentence 2: China Bo Xilai trial in fourth day,3 - probably
+2911,Sentence 1: Snowden thanks Russia for asylum Sentence 2: Snowden thanks Russia for granting asylum,5 - perfectly
+1243,Sentence 1: A close-up view of a horse's head. Sentence 2: A close-up of a brown horse's head.,4 - almost perfectly
+2554,Sentence 1: Snowden asks to stay in Russia Sentence 2: Snowden releases first Russia video,1 - probably not
+3368,"Sentence 1: Three bomb attacks kill six soldiers, one civilian Sentence 2: School bomb attack kills two in southern Thailand",1 - probably not
+33,Sentence 1: A man is pouring oil into a pan. Sentence 2: A man is pouring oil into a skillet.,4 - almost perfectly
+2753,"Sentence 1: More than 1,000 inmates escape from Libya's al-Kweifiya prison Sentence 2: 1000 prisoners escape from Libyan jail",4 - almost perfectly
+3195,Sentence 1: Colorado wildfire destroys more than 90 homes as winds worsen Sentence 2: Colorado wildfire may be biggest property destroyer in state history,4 - almost perfectly
+908,Sentence 1: The girl is tiding up her bed. Sentence 2: A woman is making a bed.,2 - possibly
+369,Sentence 1: A woman is adding pasta to a pot of water. Sentence 2: A woman is making noodles.,4 - almost perfectly
+3495,Sentence 1: 7 killed in attacks in Iraq Sentence 2: 16 killed in series of attacks in Iraq,3 - probably
+444,Sentence 1: A cat is drinking some water. Sentence 2: A truck is going down a hill.,0 - definitely not
+884,Sentence 1: The women are sitiing down. Sentence 2: Two women are sitting close to each other and talking.,3 - probably
+2811,Sentence 1: China quake: Death toll rises Sentence 2: China flu death toll rises to six,1 - probably not
+1903,Sentence 1: Jerry Sandusky found guilty in child sex abuse trial Sentence 2: Sandusky found guilty in child sex abuse trial,4 - almost perfectly
+2842,Sentence 1: West hails Syria opposition vote to join peace talks Sentence 2: Syrian opposition to name delegation for talks,3 - probably
+906,Sentence 1: A man is chopping butter into a container. Sentence 2: A woman is cutting shrimps.,1 - probably not
+15,Sentence 1: The polar bear is sliding on the snow. Sentence 2: A polar bear is sliding across the snow.,5 - perfectly
+2948,Sentence 1: Car Bomb Wounds 15 in Hezbollah Stronghold in Lebanon Sentence 2: Car bomb rocks Hezbollah stronghold in Lebanon,3 - probably
+1076,Sentence 1: A yellow and blue airplane is flying in the sky. Sentence 2: Nine red and white aircraft flying in formation trailing smoke.,1 - probably not
+3118,Sentence 1: Israeli teens missing in West Bank Sentence 2: Israel finds bodies of three missing teens in West Bank,3 - probably
+257,Sentence 1: A man walks down a path. Sentence 2: A man walks across a tight rope.,1 - probably not
+2971,Sentence 1: Swiss tourist gang-raped in India Sentence 2: Swiss tourist gang-raped in India,5 - perfectly
+1256,Sentence 1: The two dogs are running through the grass. Sentence 2: Three dogs run in the snow.,2 - possibly
+2303,Sentence 1: Syrian fighter pilot defects to Jordan Sentence 2: Syrian PM defects to Jordan,1 - probably not
+1923,Sentence 1: Malawi Officially Confirms President's Death Sentence 2: Malawi confirms President Mutharika's death,4 - almost perfectly
+2403,"Sentence 1: Navy jet crashes into Virginia buildings, injuring six Sentence 2: Navy jet crashes into Virginia apartments,9 hurt",3 - probably
+416,Sentence 1: Two teams are playing soccer. Sentence 2: Different sets of teams are playing football on a field.,2 - possibly
+1074,Sentence 1: A group of people having a drink. Sentence 2: A row of locomotives on a siding in a field.,0 - definitely not
+1957,Sentence 1: Tsunami warning issued for southern Alaska Sentence 2: Tsunami warning after Canada quake,2 - possibly
+1118,Sentence 1: A multi-colored train on a track. Sentence 2: A mostly black train on a track.,3 - probably
+3564,"Sentence 1: North Korea Warns Foreigners in South, Advising Evacuation Sentence 2: North Korea warns foreigners in South to evacuate",5 - perfectly
+1172,Sentence 1: A lone cow sits in the cold of the yard. Sentence 2: a black and white cow standing in the field.,2 - possibly
+1129,Sentence 1: A close-up of a black train engine. Sentence 2: Close up of a white sheep with a black head.,0 - definitely not
+403,Sentence 1: An explosion is booming in the desert. Sentence 2: A nuclear weapon explodes in a desert.,3 - probably
+2670,Sentence 1: Tony Abbott sworn in as new Australian PM Sentence 2: Tony Abbott Sworn In As Australia PM,5 - perfectly
+2565,Sentence 1: USA expels Venezuela diplomats in row Sentence 2: U.S. expels Venezuelan diplomats,4 - almost perfectly
+2836,Sentence 1: Israeli forces detain 5 Palestinians in West Bank Sentence 2: Israeli Forces Arrest Five Palestinians across West Bank,5 - perfectly
+394,Sentence 1: A man is carrying another man. Sentence 2: A man sprays another man with water from a hose.,1 - probably not
+1117,Sentence 1: Red double decker bus taking on passengers. Sentence 2: Red double decker bus with hood up.,2 - possibly
+18,Sentence 1: The man is riding a horse. Sentence 2: A man is riding on a horse.,5 - perfectly
+555,Sentence 1: Two boys on a couch are playing video games. Sentence 2: Two boys are playing a video game.,4 - almost perfectly
+3703,Sentence 1: Hong Kong officials resume work as protests thin Sentence 2: Hong Kong student leaders mull protest retreat,2 - possibly
+1906,"Sentence 1: Annan warns talks of Syria risks Sentence 2: Putin, Annan meet on Syria crisis",2 - possibly
+3086,Sentence 1: Syrian army retakes Crusader castle from rebels Sentence 2: Syrian army retakes historic Crusader castle,5 - perfectly
+367,Sentence 1: The man is putting chicken into the container. Sentence 2: A man is putting foods in a box.,2 - possibly
+1736,Sentence 1: The people had awakened. Sentence 2: Because the people had awakened.,4 - almost perfectly
+953,Sentence 1: A school bus is driving uphill on a rural road. Sentence 2: A race care driving along a dirt road.,1 - probably not
+3450,Sentence 1: FTSE Bursa Malaysia update: 11.30am Sentence 2: FTSE Bursa Malaysia update: 3.00pm,3 - probably
+3227,Sentence 1: Mandela remains in hospital Sentence 2: Mandela remains in 'intensive care',4 - almost perfectly
+264,Sentence 1: The man is shooting an automatic rifle. Sentence 2: A man is shooting a gun.,4 - almost perfectly
+411,Sentence 1: A man is tying his shoe. Sentence 2: A dog is riding on a bicyclists shoulders.,0 - definitely not
+185,Sentence 1: A girl is singing and playing a guitar. Sentence 2: A young man is singing while playing the guitar.,2 - possibly
+323,Sentence 1: A man is playing a guitar. Sentence 2: A woman is cutting vegetable.,0 - definitely not
+316,Sentence 1: A bear is running from two dogs. Sentence 2: A bear is fighting wolves.,1 - probably not
+2862,Sentence 1: Three freed in centre abuse probe Sentence 2: Three storey building collapses in Ebute Meta,0 - definitely not
+464,Sentence 1: A man and a woman are kissing each other. Sentence 2: A man and a woman are talking to each other.,1 - probably not
+1133,Sentence 1: A black train moves down the tracks. Sentence 2: A train traveling down the tracks.,4 - almost perfectly
+2131,Sentence 1: 43 killed in bus crash Sentence 2: 15 killed in crash in India,2 - possibly
+1718,Sentence 1: Stone notified Captain Lord. Sentence 2: He too notified Captain Lord.,3 - probably
+1950,"Sentence 1: 18 killed, 108 wounded in wave of bombings in Iraq Sentence 2: 9 killed, 31 wounded in car bombs in Iraq's Kirkuk",1 - probably not
+1823,Sentence 1: china is an important force for safeguarding world peace. Sentence 2: china is an important force for promoting world development.,3 - probably
+180,Sentence 1: A cheetah is running. Sentence 2: A cheetah is running across a field.,4 - almost perfectly
+2114,Sentence 1: Chinese stocks close higher Thursday Sentence 2: Chinese stocks open mixed Wednesday,1 - probably not
+1175,Sentence 1: Boy feeding a sheep. Sentence 2: A boy feeding a sheep hay.,4 - almost perfectly

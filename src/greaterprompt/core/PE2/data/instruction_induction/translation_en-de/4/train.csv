@@ -1,0 +1,101 @@
+,input,output,possible_translations
+2804,rigging,Takelage,['Takelage']
+2035,columnist,Kolumnist,"['Kolumnist', 'Kolumnistin']"
+887,exit,Abtritt,"['Abwanderung', 'Ausfahrt', 'Ausgang', 'aussteigen', 'Tod', 'Abtritt', 'abgehen', 'Exitus', 'Austritt', 'sterben', 'Ausweg', 'hinausgehen', 'verschwinden', 'Ausstieg', 'ausgehen']"
+2518,stealth,Heimlichkeit,['Heimlichkeit']
+2394,vault,Gewölbe,"['Gruft', 'Gewölbe', 'Tresor']"
+704,cap,Mütze,"['Hut', 'Mütze']"
+639,measure,Maß,"['Maßnahme', 'abmessen', 'Maß', 'Messung', 'messen']"
+1339,rotation,Umdrehung,"['Umdrehung', 'Rotation']"
+1602,subsidiary,Tochterunternehmen,"['Tochterunternehmen', 'Tochtergesellschaft', 'ergänzend']"
+172,money,Geld,"['Reichtum', 'Bargeld', 'Vermögen', 'Geld']"
+2442,encouragement,Ermutigung,['Ermutigung']
+1473,editing,Bearbeitung,['Bearbeitung']
+675,breed,Rasse,"['Rasse', 'züchten', 'Sorte', 'hervorrufen', 'aufziehen', 'erzeugen', 'verursachen', 'brüten', 'sich paaren']"
+943,philosophy,Philosophie,['Philosophie']
+2463,brake,Bremse,"['Bremse', 'bremsen']"
+1147,doubt,Zweifel,"['bezweifeln', 'Zweifel', 'zweifeln']"
+188,cut,Schnitt,"['einschneiden', 'geschnitten', 'schneiden', 'klappe', 'geschliffen', 'beschneiden', 'Schnitt', 'trennen', 'schwänzen']"
+1219,chemistry,Chemie,['Chemie']
+2689,conscription,Wehrpflicht,['Wehrpflicht']
+133,hurricane,Orkan,"['Hurrikane', 'Hurrikan', 'Orkan']"
+853,benefit,Vorteil,"['profitieren', 'Benefizkonzert', 'von Vorteil sein', 'Vorteil', 'Leistung', 'Benefizveranstaltung']"
+1995,bag,Beutel,"['Tüte', 'Sack', 'Beutel', 'Tasche']"
+69,track,Spurweite,"['Spurweite', 'Fußspur']"
+863,wedding,Hochzeit,['Hochzeit']
+1481,cooperation,Zusammenarbeit,"['Zusammenarbeit', 'Mitarbeit', 'Kooperation']"
+1260,clock,Taktsignal,"['Tacho', 'Taktsignal', 'Tachometer', 'Uhr']"
+1522,monitor,Bildschirm,"['überprüfen', 'Monitor', 'kontrollieren', 'Tutor', 'aufpassen', 'Bildschirm', 'Aufpasser', 'überwachen', 'Wächter', 'abhören']"
+997,meter,Messgerät,['Messgerät']
+2298,emblem,Emblem,['Emblem']
+1009,announcement,Ankündigung,['Ankündigung']
+2193,gesture,Geste,"['Geste', 'Gebärde', 'gestikulieren', 'Attitüde']"
+1518,suburb,Vorstadt,"['Vorort', 'Vorstadt']"
+1324,cruise,Kreuzfahrt,['Kreuzfahrt']
+262,competition,Konkurrenz,"['Konkurrenz', 'Wettbewerb']"
+34,world,Welt,"['Welt', 'Erde']"
+923,armament,Ausrüstung,"['Rüstung', 'Kriegsstärke', 'Ausrüstung']"
+1156,legend,Legende,['Legende']
+13,work,Arbeit,"['funktionieren', 'arbeiten', 'Werk', 'Arbeit', 'wirken']"
+1805,instructor,Ausbilder,"['Ausbilder', 'Lehrer']"
+1814,kilometre,Kilometer,['Kilometer']
+2148,curtain,Vorhang,"['Gardine', 'Vorhang']"
+1794,aesthetic,Ästhetik,"['Ästhetik', 'ästhetisch']"
+789,shell,Schale,"['Hülse', 'Granate', 'Muschel', 'Eierschale', 'Hülle', 'Schalentier', 'Schale', 'Shell']"
+2079,athletics,Athletik,['Athletik']
+161,sea,Meer,"['Meer', 'See']"
+899,alliance,Allianz,"['Verbund', 'Allianz', 'Zusammenschluss', 'Bund', 'Verbündeten', 'Bündnis']"
+2725,brightness,Helligkeit,"['Aufgewecktheit', 'Helligkeit']"
+2787,whistle,Pfeifen,"['pfeifen', 'Pfiff', 'Pfeifen', 'flöten', 'Trillerpfeife', 'Flöte', 'Pfeife']"
+991,concentration,Konzentration,['Konzentration']
+2273,fundraising,Fundraising,"['Fundraising', 'Mittelakquisition', 'Mittelbeschaffung']"
+1896,membrane,Membran,"['Membran', 'Membrane', 'Häutchen']"
+517,strike,Strike,"['schlagen', 'prägen', 'Streik', 'streiken', 'die Fahne streichen', 'scheinen', 'streichen', 'Strike']"
+834,card,Karte,['Karte']
+1713,nucleus,Zellkern,"['Atomkern', 'Kern', 'Nukleus', 'Zellkern']"
+2169,metaphor,Metapher,['Metapher']
+435,data,Daten,['Daten']
+1860,humour,Humor,"['nachgeben', 'Schmäh', 'Witz', 'Humor', 'Stimmung', 'Laune']"
+1691,finger,Finger,['Finger']
+1824,filling,Füllung,"['Füllung', 'sättigend', 'mächtig']"
+1908,tobacco,Tabakpflanze,"['Tabakpflanze', 'Tabak']"
+1815,senator,Senator,['Senator']
+1788,opener,Öffner,['Öffner']
+964,revenue,Einkommen,"['Einnahmen', 'Einkommen']"
+1741,discrimination,Diskriminierung,"['Unterscheidung', 'Diskriminierung', 'Schlechterstellung']"
+1288,jet,Strahl,"['Strahl', 'jetten']"
+947,protest,Demonstration,"['Einspruch erheben', 'Protest', 'protestieren', 'demonstrieren', 'Demonstration', 'Einwände äußern']"
+641,demand,Nachfrage,"['Nachfrage', 'verlangen', 'bestehen']"
+68,father,Vater,"['zeugen', 'Vater']"
+1136,guide,Reiseleiter,"['Reiseleiterin', 'Reiseleiter', 'Fremdenführer', 'führen', 'Fremdenführerin']"
+2807,courtesy,Höflichkeit,['Höflichkeit']
+339,captain,Stabshauptmann,"['Flugkapitän', 'Kapitän', 'Stabshauptmann', 'Kapitän zur See', 'Mannschaftskapitän', 'Hauptmann']"
+1744,emotion,Gefühl,"['Empfindung Emotion', 'Gefühl']"
+1505,conjunction,Konjunktion,"['Konjunktion', 'Bindewort']"
+209,course,Kurs,"['Strecke', 'Kurs', 'Lauf', 'fließen', 'verfolgen', 'Bahn', 'Gang']"
+732,retirement,Rente,"['Rente', 'Abgeschiedenheit', 'Ruhestand']"
+1985,novelist,Novellist,"['Novellist', 'Romancier']"
+2438,dictator,Diktator,['Diktator']
+894,tunnel,Tunnel,"['Stollen', 'Tunnel']"
+270,access,Zugang,"['Zutritt', 'Zugang haben', 'Zugriff', 'Ausbruch', 'Anfall', 'Gefühlsausbruch', 'Eingang', 'Zugang', 'Umgangsrecht']"
+1327,tune,Melodie,"['stimmen', 'Melodie']"
+993,baby,mein Süßer,"['Kleinkind', 'Schätzchen', 'meine Süße', 'mein Süßer', 'Baby', 'Säugling', 'mein Schatz']"
+357,student,Student,"['Studierender', 'Studentin', 'Studierende', 'Hochschüler', 'Student', 'Hochschülerin']"
+591,trip,Reise,"['Drogenrausch', 'Reise', 'stolpern', 'Trip']"
+2637,envelope,Hülle,"['Umschlag', 'Hülle', 'Hüllkurve', 'Briefumschlag']"
+984,organ,Organ,"['Orgel', 'Organ']"
+1461,whale,Wal,['Wal']
+898,preparation,Vorbereitung,['Vorbereitung']
+1747,civilization,Zivilisiertwerden,"['Kultur', 'Zivilisiertwerden', 'Zivilisation']"
+2596,stripe,Streifen,['Streifen']
+159,coast,Küste,"['Ufer', 'Strand', 'Küstenland', 'Küste']"
+757,shark,Hai,"['Hai', 'Haifisch']"
+1050,employment,Gebrauch,"['Gebrauch', 'Beschäftigung', 'Anstellung', 'Benützung', 'Erwerbstätigkeit', 'Arbeit']"
+2143,laser,Laser,['Laser']
+1957,isotope,Isotop,['Isotop']
+352,wing,Flügel,"['Schwinge', 'Flügel', 'improvisieren']"
+542,existence,Existenz,"['Sein', 'Existenz']"
+685,segment,Segment,"['segmentieren', 'Segment']"
+1671,plastic,Plastik,"['Plastik-', 'plastisch', 'Kunststoff', 'Plastik', 'Plastikgeld']"
+2685,blunt,Blunt,"['stumpf', 'ungehobelt', 'abstumpfen', 'abgestumpft', 'unverblümt', 'Blunt']"
+1106,shoulder,Schulter,"['Schulter', 'Standstreifen', 'schultern']"

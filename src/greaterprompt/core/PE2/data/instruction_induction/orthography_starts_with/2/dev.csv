@@ -1,0 +1,21 @@
+,input,output,sentence,letter,words,source
+2018,Carol cut the bread. [t],the,Carol cut the bread.,t,['the'],train
+239,Tom ran the soles off his shoes. [o],off,Tom ran the soles off his shoes.,o,['off'],train
+515,I will eat spaghetti on Sunday with Marco. [o],on,I will eat spaghetti on Sunday with Marco.,o,['on'],train
+1350,The employees staffed the store. [e],employees,The employees staffed the store.,e,['employees'],train
+1355,I know a man who saw Bill and liked Mary. [s],saw,I know a man who saw Bill and liked Mary.,s,['saw'],train
+2638,We are aware of the existing problems. [t],the,We are aware of the existing problems.,t,['the'],train
+2358,So eminent a scholar as Dr. Lucille Hein was here. [e],eminent,So eminent a scholar as Dr. Lucille Hein was here.,e,['eminent'],train
+2179,Which celebrity did he mention that he had run into? [t],that,Which celebrity did he mention that he had run into?,t,['that'],train
+2758,Duty made them never miss the weekly meetings. [t],them the,Duty made them never miss the weekly meetings.,t,"['them', 'the']",train
+2365,"One of the Jewish children is a spunky girl, who gave a black eye to the kid with the German roots before the start of the war. [i]",is,"One of the Jewish children is a spunky girl, who gave a black eye to the kid with the German roots before the start of the war.",i,['is'],train
+2098,Ellen told a story to Helen. [e],ellen,Ellen told a story to Helen.,e,['Ellen'],train
+1553,Strings have been pulled many times to get students into that university. [b],been,Strings have been pulled many times to get students into that university.,b,['been'],train
+1033,John felt proud that his son won the game. [g],game,John felt proud that his son won the game.,g,['game'],train
+2843,The very young child walked from school to the store. [v],very,The very young child walked from school to the store.,v,['very'],train
+1566,Who is Kim eager to recommend? [i],is,Who is Kim eager to recommend?,i,['is'],train
+2768,Whom did Bill leave. [w],whom,Whom did Bill leave.,w,['Whom'],train
+2331,Ad agencies call young people Generation X ers. [a],ad agencies,Ad agencies call young people Generation X ers.,a,"['Ad', 'agencies']",train
+1678,What I said was that we would go. [g],go,What I said was that we would go.,g,['go'],train
+1423,John can go to the market on his bike on a truck. [h],his,John can go to the market on his bike on a truck.,h,['his'],train
+628,Wanda taught the students French. [t],taught the,Wanda taught the students French.,t,"['taught', 'the']",train

@@ -1,0 +1,101 @@
+,input,output
+547,Sentence 1: A man is running. Sentence 2: A man is dancing.,1 - probably not
+2330,Sentence 1: Woman killed by falling debris Sentence 2: When an ally declines,0 - definitely not
+862,Sentence 1: A boy plays violin on stage. Sentence 2: A boy is onstage playing the violin.,4 - almost perfectly
+1825,Sentence 1: a spokesman for stockwell day was not immediately available for Sentence 2: chinese authorities were not immediately available for comment.,1 - probably not
+1071,Sentence 1: A woman pets a dog in a fenced area. Sentence 2: A woman pets a dog in a gated yard.,5 - perfectly
+474,Sentence 1: A woman is frying a food. Sentence 2: A woman is deep frying food.,4 - almost perfectly
+2619,Sentence 1: Gunmen Kill 11 Foreign Tourists in Pakistan Sentence 2: Gunmen kill 11 foreign climbers in Pakistan,4 - almost perfectly
+568,Sentence 1: A Woman is eating. Sentence 2: A animal is eating.,2 - possibly
+2620,Sentence 1: N Korea to halt work at joint industrial zone Sentence 2: North Korea blocks access to joint industrial zone,4 - almost perfectly
+3594,Sentence 1: German ambassador's Athens residence shot at Sentence 2: Shots fired at German ambassador's residence in Athens,5 - perfectly
+636,Sentence 1: A woman is adding ingredients to a bowl. Sentence 2: A woman is cracking three eggs into a bowl.,2 - possibly
+46,Sentence 1: A man is cutting up a potato. Sentence 2: A man is cutting up carrots.,2 - possibly
+3227,Sentence 1: Mandela remains in hospital Sentence 2: Mandela remains in 'intensive care',4 - almost perfectly
+437,Sentence 1: A man is riding a bike. Sentence 2: A panda bear is eating.,0 - definitely not
+249,Sentence 1: A man is buttering a piece of bread. Sentence 2: A man is applying butter to bread.,5 - perfectly
+539,Sentence 1: A man and a woman are riding on their bicycles. Sentence 2: A man and woman are riding a motorcycle.,2 - possibly
+1185,Sentence 1: A black and white cat lying on a blanket. Sentence 2: A black and white cat sleeps on a purple blanket.,4 - almost perfectly
+1709,Sentence 1: I think he'd be better for American business interests overall. Sentence 2: Would he be better for American society?,2 - possibly
+3077,"Sentence 1: Shooting, protests mar Thai voting Sentence 2: Thai protesters disrupt advance voting",4 - almost perfectly
+999,Sentence 1: Red double decker bus on side of street. Sentence 2: A red double decker bus on a city street.,4 - almost perfectly
+3520,Sentence 1: Israeli government authorises new settlements ahead of talks Sentence 2: Israel Approves New Settlement Homes Ahead of Peace Talks,5 - perfectly
+2696,Sentence 1: Suicide bomber kills 9 at Pakistan political rally Sentence 2: Suicide bomber kills guard at US embassy in Turkey,2 - possibly
+1698,"Sentence 1: What was the ""answer"" in Chicago? Sentence 2: What will be the response in California?",1 - probably not
+2927,Sentence 1: EU renews sanctions against Zimbabwe Sentence 2: EU lifts diamond sanctions against Zimbabwe,3 - probably
+2378,Sentence 1: Chinese stocks fall after RRR cut - May 14 Sentence 2: Chinese stocks gain at midday Monday,2 - possibly
+3162,Sentence 1: No update on Nelson Mandela's condition Sentence 2: Nelson Mandela's condition improves,2 - possibly
+2049,Sentence 1: Another rocket hits Eshkol; no injuries Sentence 2: 2 rockets hit Eshkol; none injured,3 - probably
+2701,"Sentence 1: Pakistani Taliban chief Hakimullah Mehsud killed in drone strike Sentence 2: Pakistan Taliban vows revenge, to repay Hakimullah's killing in bloodshed",3 - probably
+2793,Sentence 1: Imran to contest from four NA seats Sentence 2: Imran Khan to contest elections from four NA seats,5 - perfectly
+3572,Sentence 1: Woman dies while riding roller coaster in Texas Sentence 2: Woman dies riding roller coaster at Texas amusement park,4 - almost perfectly
+1888,Sentence 1: Explosion hits oil pipeline in Syria's Homs Sentence 2: Explosion hits pipeline as Assad attacks cities,3 - probably
+1119,Sentence 1: A white and red bus traveling on the street. Sentence 2: The red bus is on the street.,2 - possibly
+2932,"Sentence 1: Palestinians, Jordan coordinate stances on peace talks Sentence 2: Hamas senior denies Gaza, PA coordinated on peace talks",2 - possibly
+3062,Sentence 1: Coronation Street's Bill Roache Arrested Sentence 2: Coronation Street stars hail 'amazing' new set,1 - probably not
+1378,Sentence 1: A man climbing a cliff face. Sentence 2: A man climbs a sheer cliff face.,5 - perfectly
+3320,Sentence 1: Hot-Air Balloon Catches Fire in Virginia Sentence 2: Hot Air Balloon 'Catches Fire And Crashes',3 - probably
+3123,"Sentence 1: Deaf customers sue Starbucks, say they're mocked Sentence 2: Deaf NY Starbucks patrons sue, say they're mocked",5 - perfectly
+600,Sentence 1: A cat stares into the camera. Sentence 2: A cat addresses the camera.,3 - probably
+2965,Sentence 1: Spanish train crash driver to be questioned Sentence 2: Spanish train driver Garzon to be questioned by judge,4 - almost perfectly
+453,Sentence 1: Two cartoon rabbits are kissing. Sentence 2: A rabbit is kissing another rabbit.,4 - almost perfectly
+1318,Sentence 1: A brown dog in running on grass. Sentence 2: A brown dog runs through the grass.,5 - perfectly
+3626,Sentence 1: Malaysia Airlines plane crashes on Ukraine-Russia border - live Sentence 2: US: Russia Massing Troops on Ukraine Border,0 - definitely not
+3607,Sentence 1: N. Korea Deports Elderly American Sentence 2: North Korea deports detained US war veteran,2 - possibly
+2989,Sentence 1: Egypt ministry again urges end to pro-Morsi protests Sentence 2: Egypt: Child killed in Cairo clashes after pro-Morsi protest,3 - probably
+1186,Sentence 1: A black and white photo of a love seat. Sentence 2: A black and white photo of a bicycle.,2 - possibly
+215,Sentence 1: A man is swimming. Sentence 2: A woman is slicing meat.,0 - definitely not
+89,Sentence 1: A man rides off on a motorcycle. Sentence 2: A man is riding on a motorcycle.,4 - almost perfectly
+3211,"Sentence 1: Israel, Palestinians seek another meeting Monday: U.S. official Sentence 2: Palestinians: We Don't Want Kerry Mission to Fail",1 - probably not
+3451,Sentence 1: Glasgow Helicopter Crash Search Ends Sentence 2: Glasgow Helicopter Crash: Woman PC Is Victim,3 - probably
+3435,Sentence 1: China ‚Äėwill protect interests‚Äô of foreign business Sentence 2: Obama in ‚Äėdirect‚Äô confrontation with Putin on Ukraine,0 - definitely not
+254,Sentence 1: A black horse is running around. Sentence 2: The horse is running.,4 - almost perfectly
+1364,Sentence 1: a brown dog running through the dirty muddy grass Sentence 2: The large brown dog is running outside in the dirt.,4 - almost perfectly
+1101,Sentence 1: There are several sheared sheep in a pen. Sentence 2: Three white sheep in an enclosure.,2 - possibly
+3248,Sentence 1: Egypt policeman killed in Sinai attack Sentence 2: Egyptian soldiers killed in Sinai attack,3 - probably
+502,Sentence 1: A woman is chopping broccoli. Sentence 2: A woman is chopping garlic.,3 - probably
+1117,Sentence 1: Red double decker bus taking on passengers. Sentence 2: Red double decker bus with hood up.,2 - possibly
+2657,"Sentence 1: Libya abruptly closes its borders with four countries Sentence 2: Libya closes borders, declares martial law in south",3 - probably
+2149,Sentence 1: Putin Declares Victory In Russian Presidential Vote Sentence 2: Putin 'wins' Russia's presidential election,4 - almost perfectly
+2689,Sentence 1: Hushen 300 Index closes higher -- Oct. 14 Sentence 2: Hushen 300 Index closes lower -- March 12,2 - possibly
+689,Sentence 1: A man is mowing a lawn. Sentence 2: A man is mixing.,1 - probably not
+3680,"Sentence 1: Libya: UN orders investigation into Libya rights abuses Sentence 2: India's top court orders investigation into job scam, deaths",0 - definitely not
+1701,Sentence 1: Genetic predisposition to cancer resistance is superior genetics. Sentence 2: Genetic predisposition to Alzheimer is inferior genetics.,1 - probably not
+2742,Sentence 1: Apple app directs drivers to Alaska airport runway Sentence 2: Apple app sends drivers to airport,4 - almost perfectly
+3317,Sentence 1: Washington Pot Shops Prepare for Historic Sales Sentence 2: Washington pot shops prepare for historic sales,5 - perfectly
+2020,"Sentence 1: Donna Summer, the queen of disco Sentence 2: Donna Summer, Queen of Disco, Dies at 63",2 - possibly
+2792,Sentence 1: Death toll from west Chinas violence rises to 35 Sentence 2: Urgent: Death toll from NE China fire rises to 112,1 - probably not
+1526,Sentence 1: It still makes no sense. Sentence 2: It's you who makes no sense.,1 - probably not
+1429,Sentence 1: A dog jumps in midair to catch a Frisbee. Sentence 2: The brown dog jumps for a pink Frisbee.,4 - almost perfectly
+1959,"Sentence 1: Cash-rich Apple to pay dividend, buy back shares Sentence 2: Apple to pay $2.65/share dividend, buy back $10B stock",4 - almost perfectly
+2995,Sentence 1: Feds move to require car-to-car safety communication Sentence 2: Guatemala overturns former dictator's genocide conviction,0 - definitely not
+1397,Sentence 1: Brown dog running on grass. Sentence 2: The dog is running on grass.,4 - almost perfectly
+118,Sentence 1: A man is riding a bike. Sentence 2: A man is riding on a horse.,2 - possibly
+3453,Sentence 1: Philip leaves hospital after 11 days Sentence 2: Mandela leaves hospital after 10 days,2 - possibly
+1377,Sentence 1: Two dogs running down a beach. Sentence 2: two dogs running on the beach,5 - perfectly
+1889,Sentence 1: NATO Soldier Killed In Afghan Attack Sentence 2: NATO soldier killed in S. Afghanistan,4 - almost perfectly
+3154,Sentence 1: China manufacturing index at 11-month low: HSBC Sentence 2: China manufacturing expands in September,1 - probably not
+1633,"Sentence 1: If they were Jews, I would call them Jews. Sentence 2: If they were Catholics, I would call them Catholics.",2 - possibly
+468,Sentence 1: A man is cutting a potato. Sentence 2: A woman is cutting a tomato.,1 - probably not
+419,Sentence 1: A man lays on the ground and aims a rifle. Sentence 2: A man is spreading butter on a tortilla.,0 - definitely not
+1372,Sentence 1: A dog running across the sand Sentence 2: A dog running through the water.,3 - probably
+1099,Sentence 1: A guy on a white horse. Sentence 2: A man riding a white horse in an arena.,3 - probably
+1663,Sentence 1: I hope everything is ok! Sentence 2: I hope your LO is ok.,2 - possibly
+1924,Sentence 1: Mali's Tuareg rebels declare independence Sentence 2: Mali rebels declare independent 'Azawad',4 - almost perfectly
+1391,Sentence 1: a black dog swimming through a river. Sentence 2: a black dog digging through the snow.,1 - probably not
+1102,Sentence 1: The black dog is lying in the grass. Sentence 2: A black dog lies on the grass.,5 - perfectly
+2125,Sentence 1: HRW: Jordan biased against Palestinians from Syria Sentence 2: Jordan biased over Palestinians from Syria,4 - almost perfectly
+2896,Sentence 1: Myanmar’s Suu Kyi urges party unity amid squabbles Sentence 2: Suu Kyi urges party unity amid squabbles,5 - perfectly
+1765,Sentence 1: It wouldn't stop joke marriages. Sentence 2: And I don't fight for marriage.,1 - probably not
+3690,Sentence 1: Govt. to hold talks with FTII students Sentence 2: Cameron to hold talks with Sturgeon on UK future,0 - definitely not
+3573,Sentence 1: Nobel author Doris Lessing dies at 94 Sentence 2: Nobel Prize winning author Doris Lessing dies,4 - almost perfectly
+2527,Sentence 1: Police attacked in Belfast flag protests Sentence 2: Politicians in flag violence talks,1 - probably not
+225,Sentence 1: A man is rinsing a steak. Sentence 2: A man is playing a guitar.,1 - probably not
+2658,Sentence 1: 6.0-magnitude quake hits Greece -- USGS Sentence 2: 5.0-magnitude quake jolts Japan,1 - probably not
+2089,Sentence 1: Space legend Neil Armstrong dies Sentence 2: First man on moon Neil Armstrong dies at 82,4 - almost perfectly
+582,Sentence 1: A boy whacks a man with a sword. Sentence 2: A boy spanks a man with a plastic sword.,3 - probably
+521,Sentence 1: A woman is slicing an onion. Sentence 2: Someone is slicing a onion.,3 - probably
+1868,Sentence 1: 88 percent of the liberal democratic party supports economic sanctions. Sentence 2: 80 percent of the opposition democratic party supports economic sanctions.,4 - almost perfectly
+1237,Sentence 1: Several people on motorcycles in a market square. Sentence 2: People ride mopeds in an urban setting.,2 - possibly
+3347,Sentence 1: Egyptian military spokesman denounces incitement against army Sentence 2: Labor ministry announcement due on Monday,0 - definitely not
+1128,Sentence 1: A sheep standing on a table at auction. Sentence 2: Woolly sheep at auction house.,4 - almost perfectly

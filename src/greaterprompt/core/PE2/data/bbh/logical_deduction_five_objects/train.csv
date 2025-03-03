@@ -1,0 +1,701 @@
+,input,label
+142,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a black book, a purple book, a yellow book, an orange book, and a red book. The yellow book is the rightmost. The black book is to the left of the orange book. The orange book is to the left of the purple book. The black book is the second from the left.
+Options:
+(A) The black book is the second from the left
+(B) The purple book is the second from the left
+(C) The yellow book is the second from the left
+(D) The orange book is the second from the left
+(E) The red book is the second from the left",(A)
+6,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are five vehicles: a convertible, a bus, a minivan, a truck, and a sedan. The convertible is newer than the truck. The minivan is the newest. The bus is the third-newest. The truck is newer than the sedan.
+Options:
+(A) The convertible is the newest
+(B) The bus is the newest
+(C) The minivan is the newest
+(D) The truck is the newest
+(E) The sedan is the newest",(C)
+97,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: oranges, cantaloupes, peaches, loquats, and kiwis. The peaches are more expensive than the oranges. The cantaloupes are more expensive than the peaches. The kiwis are the third-most expensive. The loquats are the second-cheapest.
+Options:
+(A) The oranges are the cheapest
+(B) The cantaloupes are the cheapest
+(C) The peaches are the cheapest
+(D) The loquats are the cheapest
+(E) The kiwis are the cheapest",(A)
+60,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: a cardinal, a robin, a blue jay, a quail, and a raven. The robin is to the right of the raven. The cardinal is the leftmost. The raven is to the right of the blue jay. The blue jay is the third from the left.
+Options:
+(A) The cardinal is the leftmost
+(B) The robin is the leftmost
+(C) The blue jay is the leftmost
+(D) The quail is the leftmost
+(E) The raven is the leftmost",(A)
+112,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a black book, a purple book, a yellow book, an orange book, and a red book. The yellow book is the rightmost. The black book is to the left of the orange book. The orange book is to the left of the purple book. The black book is the second from the left.
+Options:
+(A) The black book is the rightmost
+(B) The purple book is the rightmost
+(C) The yellow book is the rightmost
+(D) The orange book is the rightmost
+(E) The red book is the rightmost",(C)
+181,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: an owl, a crow, a raven, a robin, and a cardinal. The raven is to the right of the owl. The raven is the second from the left. The robin is to the left of the crow. The robin is the second from the right.
+Options:
+(A) The owl is the second from the right
+(B) The crow is the second from the right
+(C) The raven is the second from the right
+(D) The robin is the second from the right
+(E) The cardinal is the second from the right",(D)
+197,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a white book, an orange book, a yellow book, a blue book, and a red book. The yellow book is to the left of the white book. The red book is to the right of the blue book. The yellow book is to the right of the orange book. The blue book is to the right of the white book.
+Options:
+(A) The white book is the leftmost
+(B) The orange book is the leftmost
+(C) The yellow book is the leftmost
+(D) The blue book is the leftmost
+(E) The red book is the leftmost",(B)
+184,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: watermelons, apples, kiwis, cantaloupes, and mangoes. The cantaloupes are the second-cheapest. The mangoes are more expensive than the watermelons. The kiwis are less expensive than the apples. The kiwis are more expensive than the mangoes.
+Options:
+(A) The watermelons are the most expensive
+(B) The apples are the most expensive
+(C) The kiwis are the most expensive
+(D) The cantaloupes are the most expensive
+(E) The mangoes are the most expensive",(B)
+9,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are five vehicles: a convertible, a sedan, a tractor, a minivan, and a limousine. The tractor is newer than the minivan. The tractor is older than the limousine. The convertible is older than the sedan. The convertible is the second-newest.
+Options:
+(A) The convertible is the second-oldest
+(B) The sedan is the second-oldest
+(C) The tractor is the second-oldest
+(D) The minivan is the second-oldest
+(E) The limousine is the second-oldest",(C)
+104,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a blue book, a red book, a purple book, a gray book, and a white book. The white book is to the right of the gray book. The blue book is the leftmost. The red book is to the left of the gray book. The red book is the third from the left.
+Options:
+(A) The blue book is the leftmost
+(B) The red book is the leftmost
+(C) The purple book is the leftmost
+(D) The gray book is the leftmost
+(E) The white book is the leftmost",(A)
+200,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Joe, Mya, Eve, Amy, and Ana. Eve finished below Joe. Ana finished below Amy. Eve finished above Amy. Mya finished above Joe.
+Options:
+(A) Joe finished second
+(B) Mya finished second
+(C) Eve finished second
+(D) Amy finished second
+(E) Ana finished second",(A)
+216,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Eve, Amy, Ada, Rob, and Joe. Amy finished second-to-last. Rob finished below Eve. Ada finished above Joe. Joe finished second.
+Options:
+(A) Eve finished second
+(B) Amy finished second
+(C) Ada finished second
+(D) Rob finished second
+(E) Joe finished second",(E)
+236,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a brown book, a yellow book, an orange book, a green book, and a gray book. The green book is to the left of the gray book. The brown book is the third from the left. The gray book is the second from the right. The yellow book is to the left of the green book.
+Options:
+(A) The brown book is the leftmost
+(B) The yellow book is the leftmost
+(C) The orange book is the leftmost
+(D) The green book is the leftmost
+(E) The gray book is the leftmost",(B)
+240,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: kiwis, pears, peaches, loquats, and apples. The loquats are more expensive than the kiwis. The pears are more expensive than the peaches. The apples are more expensive than the loquats. The apples are less expensive than the peaches.
+Options:
+(A) The kiwis are the third-most expensive
+(B) The pears are the third-most expensive
+(C) The peaches are the third-most expensive
+(D) The loquats are the third-most expensive
+(E) The apples are the third-most expensive",(E)
+67,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: an owl, a robin, a blue jay, a hawk, and a hummingbird. The owl is the second from the right. The robin is the second from the left. The robin is to the right of the blue jay. The hummingbird is to the right of the hawk.
+Options:
+(A) The owl is the second from the right
+(B) The robin is the second from the right
+(C) The blue jay is the second from the right
+(D) The hawk is the second from the right
+(E) The hummingbird is the second from the right",(A)
+224,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: a falcon, a raven, a cardinal, a hawk, and a crow. The cardinal is the second from the right. The hawk is to the right of the falcon. The raven is the second from the left. The crow is the rightmost.
+Options:
+(A) The falcon is the second from the right
+(B) The raven is the second from the right
+(C) The cardinal is the second from the right
+(D) The hawk is the second from the right
+(E) The crow is the second from the right",(C)
+194,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: a robin, a quail, an owl, a crow, and a hawk. The hawk is the third from the left. The hawk is to the right of the crow. The quail is to the left of the crow. The robin is to the right of the owl.
+Options:
+(A) The robin is the rightmost
+(B) The quail is the rightmost
+(C) The owl is the rightmost
+(D) The crow is the rightmost
+(E) The hawk is the rightmost",(A)
+15,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a yellow book, a gray book, a red book, a black book, and a white book. The gray book is to the left of the yellow book. The white book is to the left of the red book. The black book is to the right of the red book. The black book is to the left of the gray book.
+Options:
+(A) The yellow book is the rightmost
+(B) The gray book is the rightmost
+(C) The red book is the rightmost
+(D) The black book is the rightmost
+(E) The white book is the rightmost",(A)
+177,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a green book, a blue book, a white book, a purple book, and a yellow book. The blue book is to the right of the yellow book. The white book is to the left of the yellow book. The blue book is the second from the right. The purple book is the second from the left.
+Options:
+(A) The green book is the rightmost
+(B) The blue book is the rightmost
+(C) The white book is the rightmost
+(D) The purple book is the rightmost
+(E) The yellow book is the rightmost",(A)
+24,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a yellow book, a brown book, a gray book, a black book, and a purple book. The yellow book is to the right of the purple book. The black book is to the left of the purple book. The black book is the third from the left. The brown book is the leftmost.
+Options:
+(A) The yellow book is the third from the left
+(B) The brown book is the third from the left
+(C) The gray book is the third from the left
+(D) The black book is the third from the left
+(E) The purple book is the third from the left",(D)
+247,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: watermelons, oranges, loquats, plums, and kiwis. The plums are less expensive than the kiwis. The plums are more expensive than the watermelons. The loquats are more expensive than the kiwis. The oranges are the most expensive.
+Options:
+(A) The watermelons are the third-most expensive
+(B) The oranges are the third-most expensive
+(C) The loquats are the third-most expensive
+(D) The plums are the third-most expensive
+(E) The kiwis are the third-most expensive",(E)
+19,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Rob, Amy, Joe, Eve, and Dan. Rob finished below Dan. Joe finished second. Joe finished above Eve. Eve finished above Dan.
+Options:
+(A) Rob finished second
+(B) Amy finished second
+(C) Joe finished second
+(D) Eve finished second
+(E) Dan finished second",(C)
+114,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are five vehicles: a station wagon, a sedan, a tractor, a motorcyle, and a limousine. The tractor is newer than the motorcyle. The motorcyle is newer than the sedan. The limousine is the oldest. The station wagon is the newest.
+Options:
+(A) The station wagon is the second-oldest
+(B) The sedan is the second-oldest
+(C) The tractor is the second-oldest
+(D) The motorcyle is the second-oldest
+(E) The limousine is the second-oldest",(B)
+68,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are five vehicles: a sedan, a convertible, a station wagon, a bus, and a motorcyle. The sedan is the second-newest. The station wagon is newer than the convertible. The sedan is older than the motorcyle. The bus is the oldest.
+Options:
+(A) The sedan is the oldest
+(B) The convertible is the oldest
+(C) The station wagon is the oldest
+(D) The bus is the oldest
+(E) The motorcyle is the oldest",(D)
+176,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Rob, Eve, Eli, Amy, and Dan. Dan finished second. Amy finished below Eve. Dan finished above Eve. Amy finished above Eli.
+Options:
+(A) Rob finished last
+(B) Eve finished last
+(C) Eli finished last
+(D) Amy finished last
+(E) Dan finished last",(C)
+45,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: a cardinal, a crow, a falcon, a robin, and a blue jay. The robin is to the right of the cardinal. The cardinal is to the right of the blue jay. The blue jay is the second from the left. The crow is the rightmost.
+Options:
+(A) The cardinal is the rightmost
+(B) The crow is the rightmost
+(C) The falcon is the rightmost
+(D) The robin is the rightmost
+(E) The blue jay is the rightmost",(B)
+55,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: an owl, a hawk, a robin, a crow, and a raven. The hawk is to the left of the owl. The raven is the second from the right. The robin is to the left of the raven. The owl is the second from the left.
+Options:
+(A) The owl is the rightmost
+(B) The hawk is the rightmost
+(C) The robin is the rightmost
+(D) The crow is the rightmost
+(E) The raven is the rightmost",(D)
+10,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: kiwis, pears, peaches, loquats, and apples. The loquats are more expensive than the kiwis. The pears are more expensive than the peaches. The apples are more expensive than the loquats. The apples are less expensive than the peaches.
+Options:
+(A) The kiwis are the second-cheapest
+(B) The pears are the second-cheapest
+(C) The peaches are the second-cheapest
+(D) The loquats are the second-cheapest
+(E) The apples are the second-cheapest",(D)
+30,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: a quail, a hummingbird, a blue jay, a hawk, and a robin. The robin is the second from the left. The quail is the leftmost. The blue jay is to the left of the hummingbird. The hawk is the third from the left.
+Options:
+(A) The quail is the rightmost
+(B) The hummingbird is the rightmost
+(C) The blue jay is the rightmost
+(D) The hawk is the rightmost
+(E) The robin is the rightmost",(B)
+120,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a yellow book, a brown book, a gray book, a black book, and a purple book. The yellow book is to the right of the purple book. The black book is to the left of the purple book. The black book is the third from the left. The brown book is the leftmost.
+Options:
+(A) The yellow book is the second from the right
+(B) The brown book is the second from the right
+(C) The gray book is the second from the right
+(D) The black book is the second from the right
+(E) The purple book is the second from the right",(E)
+201,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Rob, Amy, Joe, Eve, and Dan. Rob finished below Dan. Joe finished second. Joe finished above Eve. Eve finished above Dan.
+Options:
+(A) Rob finished last
+(B) Amy finished last
+(C) Joe finished last
+(D) Eve finished last
+(E) Dan finished last",(A)
+33,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a gray book, a red book, a yellow book, a blue book, and an orange book. The gray book is to the right of the yellow book. The orange book is to the right of the red book. The blue book is the rightmost. The gray book is to the left of the red book.
+Options:
+(A) The gray book is the second from the left
+(B) The red book is the second from the left
+(C) The yellow book is the second from the left
+(D) The blue book is the second from the left
+(E) The orange book is the second from the left",(A)
+141,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: mangoes, kiwis, plums, pears, and watermelons. The kiwis are less expensive than the plums. The pears are the third-most expensive. The kiwis are the second-cheapest. The watermelons are the most expensive.
+Options:
+(A) The mangoes are the cheapest
+(B) The kiwis are the cheapest
+(C) The plums are the cheapest
+(D) The pears are the cheapest
+(E) The watermelons are the cheapest",(A)
+219,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a green book, an orange book, a brown book, a yellow book, and a blue book. The orange book is to the right of the yellow book. The green book is the rightmost. The yellow book is to the right of the blue book. The orange book is the third from the left.
+Options:
+(A) The green book is the third from the left
+(B) The orange book is the third from the left
+(C) The brown book is the third from the left
+(D) The yellow book is the third from the left
+(E) The blue book is the third from the left",(B)
+25,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: watermelons, loquats, pears, plums, and apples. The pears are the second-cheapest. The loquats are more expensive than the pears. The plums are the second-most expensive. The watermelons are the most expensive.
+Options:
+(A) The watermelons are the third-most expensive
+(B) The loquats are the third-most expensive
+(C) The pears are the third-most expensive
+(D) The plums are the third-most expensive
+(E) The apples are the third-most expensive",(B)
+111,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are five vehicles: a minivan, a hatchback, a bus, a convertible, and a motorcyle. The hatchback is newer than the convertible. The bus is newer than the hatchback. The bus is older than the motorcyle. The minivan is the newest.
+Options:
+(A) The minivan is the third-newest
+(B) The hatchback is the third-newest
+(C) The bus is the third-newest
+(D) The convertible is the third-newest
+(E) The motorcyle is the third-newest",(C)
+18,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Mel, Dan, Amy, Joe, and Eve. Amy finished below Dan. Mel finished first. Joe finished above Dan. Eve finished last.
+Options:
+(A) Mel finished first
+(B) Dan finished first
+(C) Amy finished first
+(D) Joe finished first
+(E) Eve finished first",(A)
+196,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a gray book, a red book, a yellow book, a blue book, and an orange book. The gray book is to the right of the yellow book. The orange book is to the right of the red book. The blue book is the rightmost. The gray book is to the left of the red book.
+Options:
+(A) The gray book is the third from the left
+(B) The red book is the third from the left
+(C) The yellow book is the third from the left
+(D) The blue book is the third from the left
+(E) The orange book is the third from the left",(B)
+180,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Rob, Amy, Eve, Mya, and Ana. Mya finished below Rob. Ana finished below Eve. Amy finished second. Eve finished below Mya.
+Options:
+(A) Rob finished third
+(B) Amy finished third
+(C) Eve finished third
+(D) Mya finished third
+(E) Ana finished third",(D)
+159,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a green book, a blue book, a brown book, a gray book, and a red book. The green book is to the left of the brown book. The gray book is to the left of the blue book. The green book is to the right of the blue book. The red book is the leftmost.
+Options:
+(A) The green book is the leftmost
+(B) The blue book is the leftmost
+(C) The brown book is the leftmost
+(D) The gray book is the leftmost
+(E) The red book is the leftmost",(E)
+118,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a white book, a gray book, a purple book, a yellow book, and a black book. The yellow book is to the left of the white book. The black book is to the left of the yellow book. The purple book is the rightmost. The white book is to the left of the gray book.
+Options:
+(A) The white book is the second from the left
+(B) The gray book is the second from the left
+(C) The purple book is the second from the left
+(D) The yellow book is the second from the left
+(E) The black book is the second from the left",(D)
+96,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: a falcon, a raven, a cardinal, a hawk, and a crow. The cardinal is the second from the right. The hawk is to the right of the falcon. The raven is the second from the left. The crow is the rightmost.
+Options:
+(A) The falcon is the leftmost
+(B) The raven is the leftmost
+(C) The cardinal is the leftmost
+(D) The hawk is the leftmost
+(E) The crow is the leftmost",(A)
+108,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: an owl, a cardinal, a robin, a hummingbird, and a crow. The hummingbird is to the left of the owl. The hummingbird is to the right of the cardinal. The crow is to the left of the robin. The owl is to the left of the crow.
+Options:
+(A) The owl is the second from the right
+(B) The cardinal is the second from the right
+(C) The robin is the second from the right
+(D) The hummingbird is the second from the right
+(E) The crow is the second from the right",(E)
+185,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a black book, a purple book, a yellow book, an orange book, and a red book. The yellow book is the rightmost. The black book is to the left of the orange book. The orange book is to the left of the purple book. The black book is the second from the left.
+Options:
+(A) The black book is the third from the left
+(B) The purple book is the third from the left
+(C) The yellow book is the third from the left
+(D) The orange book is the third from the left
+(E) The red book is the third from the left",(D)
+222,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a blue book, a red book, a purple book, a gray book, and a white book. The white book is to the right of the gray book. The blue book is the leftmost. The red book is to the left of the gray book. The red book is the third from the left.
+Options:
+(A) The blue book is the second from the left
+(B) The red book is the second from the left
+(C) The purple book is the second from the left
+(D) The gray book is the second from the left
+(E) The white book is the second from the left",(C)
+16,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are five vehicles: a hatchback, a convertible, a tractor, a truck, and a limousine. The tractor is newer than the hatchback. The limousine is the second-newest. The truck is older than the hatchback. The convertible is the second-oldest.
+Options:
+(A) The hatchback is the second-oldest
+(B) The convertible is the second-oldest
+(C) The tractor is the second-oldest
+(D) The truck is the second-oldest
+(E) The limousine is the second-oldest",(B)
+146,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: mangoes, pears, cantaloupes, watermelons, and loquats. The mangoes are more expensive than the loquats. The cantaloupes are more expensive than the mangoes. The watermelons are more expensive than the cantaloupes. The pears are the cheapest.
+Options:
+(A) The mangoes are the second-most expensive
+(B) The pears are the second-most expensive
+(C) The cantaloupes are the second-most expensive
+(D) The watermelons are the second-most expensive
+(E) The loquats are the second-most expensive",(C)
+69,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: apples, mangoes, oranges, plums, and pears. The oranges are more expensive than the mangoes. The plums are the cheapest. The apples are less expensive than the mangoes. The pears are more expensive than the oranges.
+Options:
+(A) The apples are the second-cheapest
+(B) The mangoes are the second-cheapest
+(C) The oranges are the second-cheapest
+(D) The plums are the second-cheapest
+(E) The pears are the second-cheapest",(A)
+173,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a blue book, a red book, a brown book, a yellow book, and an orange book. The red book is to the left of the brown book. The yellow book is to the right of the orange book. The brown book is the second from the left. The yellow book is to the left of the blue book.
+Options:
+(A) The blue book is the rightmost
+(B) The red book is the rightmost
+(C) The brown book is the rightmost
+(D) The yellow book is the rightmost
+(E) The orange book is the rightmost",(A)
+38,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Joe, Eve, Mya, Rob, and Dan. Joe finished below Dan. Mya finished first. Dan finished below Rob. Eve finished above Rob.
+Options:
+(A) Joe finished third
+(B) Eve finished third
+(C) Mya finished third
+(D) Rob finished third
+(E) Dan finished third",(D)
+132,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a blue book, a purple book, a yellow book, a red book, and a gray book. The yellow book is to the right of the gray book. The purple book is to the left of the gray book. The red book is to the right of the blue book. The purple book is the third from the left.
+Options:
+(A) The blue book is the second from the right
+(B) The purple book is the second from the right
+(C) The yellow book is the second from the right
+(D) The red book is the second from the right
+(E) The gray book is the second from the right",(E)
+225,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: mangoes, kiwis, watermelons, oranges, and apples. The oranges are the cheapest. The kiwis are less expensive than the mangoes. The watermelons are more expensive than the apples. The watermelons are less expensive than the kiwis.
+Options:
+(A) The mangoes are the second-most expensive
+(B) The kiwis are the second-most expensive
+(C) The watermelons are the second-most expensive
+(D) The oranges are the second-most expensive
+(E) The apples are the second-most expensive",(B)
+238,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: a robin, an owl, a quail, a hummingbird, and a crow. The crow is to the right of the robin. The quail is the leftmost. The hummingbird is to the right of the owl. The crow is the third from the left.
+Options:
+(A) The robin is the second from the right
+(B) The owl is the second from the right
+(C) The quail is the second from the right
+(D) The hummingbird is the second from the right
+(E) The crow is the second from the right",(B)
+119,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Eve, Amy, Ada, Rob, and Joe. Amy finished second-to-last. Rob finished below Eve. Ada finished above Joe. Joe finished second.
+Options:
+(A) Eve finished last
+(B) Amy finished last
+(C) Ada finished last
+(D) Rob finished last
+(E) Joe finished last",(D)
+136,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Rob, Amy, Joe, Eve, and Dan. Rob finished below Dan. Joe finished second. Joe finished above Eve. Eve finished above Dan.
+Options:
+(A) Rob finished second-to-last
+(B) Amy finished second-to-last
+(C) Joe finished second-to-last
+(D) Eve finished second-to-last
+(E) Dan finished second-to-last",(E)
+66,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are five vehicles: a tractor, a station wagon, a minivan, a sedan, and a hatchback. The minivan is older than the sedan. The tractor is older than the hatchback. The minivan is the third-newest. The station wagon is the second-newest.
+Options:
+(A) The tractor is the oldest
+(B) The station wagon is the oldest
+(C) The minivan is the oldest
+(D) The sedan is the oldest
+(E) The hatchback is the oldest",(A)
+217,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: mangoes, kiwis, plums, pears, and watermelons. The kiwis are less expensive than the plums. The pears are the third-most expensive. The kiwis are the second-cheapest. The watermelons are the most expensive.
+Options:
+(A) The mangoes are the second-most expensive
+(B) The kiwis are the second-most expensive
+(C) The plums are the second-most expensive
+(D) The pears are the second-most expensive
+(E) The watermelons are the second-most expensive",(C)
+154,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are five vehicles: a convertible, a sedan, a station wagon, a bus, and a limousine. The sedan is newer than the station wagon. The limousine is the newest. The bus is the second-newest. The convertible is the second-oldest.
+Options:
+(A) The convertible is the second-newest
+(B) The sedan is the second-newest
+(C) The station wagon is the second-newest
+(D) The bus is the second-newest
+(E) The limousine is the second-newest",(D)
+168,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are five vehicles: a bus, a truck, a motorcyle, a sedan, and a hatchback. The sedan is the second-oldest. The hatchback is newer than the motorcyle. The motorcyle is newer than the sedan. The hatchback is older than the truck.
+Options:
+(A) The bus is the third-newest
+(B) The truck is the third-newest
+(C) The motorcyle is the third-newest
+(D) The sedan is the third-newest
+(E) The hatchback is the third-newest",(C)
+229,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: apples, mangoes, oranges, plums, and pears. The oranges are more expensive than the mangoes. The plums are the cheapest. The apples are less expensive than the mangoes. The pears are more expensive than the oranges.
+Options:
+(A) The apples are the most expensive
+(B) The mangoes are the most expensive
+(C) The oranges are the most expensive
+(D) The plums are the most expensive
+(E) The pears are the most expensive",(E)
+233,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: oranges, cantaloupes, peaches, loquats, and kiwis. The peaches are more expensive than the oranges. The cantaloupes are more expensive than the peaches. The kiwis are the third-most expensive. The loquats are the second-cheapest.
+Options:
+(A) The oranges are the second-most expensive
+(B) The cantaloupes are the second-most expensive
+(C) The peaches are the second-most expensive
+(D) The loquats are the second-most expensive
+(E) The kiwis are the second-most expensive",(C)
+156,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are five vehicles: a convertible, a bus, a minivan, a truck, and a sedan. The convertible is newer than the truck. The minivan is the newest. The bus is the third-newest. The truck is newer than the sedan.
+Options:
+(A) The convertible is the third-newest
+(B) The bus is the third-newest
+(C) The minivan is the third-newest
+(D) The truck is the third-newest
+(E) The sedan is the third-newest",(B)
+117,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: a raven, an owl, a cardinal, a hummingbird, and a robin. The cardinal is the rightmost. The raven is to the left of the owl. The robin is to the right of the hummingbird. The hummingbird is the third from the left.
+Options:
+(A) The raven is the second from the right
+(B) The owl is the second from the right
+(C) The cardinal is the second from the right
+(D) The hummingbird is the second from the right
+(E) The robin is the second from the right",(E)
+84,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are five vehicles: a tractor, a station wagon, a bus, a motorcyle, and a minivan. The minivan is older than the motorcyle. The bus is the newest. The tractor is the third-newest. The station wagon is the second-oldest.
+Options:
+(A) The tractor is the second-newest
+(B) The station wagon is the second-newest
+(C) The bus is the second-newest
+(D) The motorcyle is the second-newest
+(E) The minivan is the second-newest",(D)
+125,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: kiwis, pears, peaches, loquats, and apples. The loquats are more expensive than the kiwis. The pears are more expensive than the peaches. The apples are more expensive than the loquats. The apples are less expensive than the peaches.
+Options:
+(A) The kiwis are the second-most expensive
+(B) The pears are the second-most expensive
+(C) The peaches are the second-most expensive
+(D) The loquats are the second-most expensive
+(E) The apples are the second-most expensive",(C)
+167,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Ana, Amy, Dan, Mya, and Eve. Ana finished below Mya. Dan finished above Amy. Mya finished second-to-last. Eve finished below Amy.
+Options:
+(A) Ana finished second-to-last
+(B) Amy finished second-to-last
+(C) Dan finished second-to-last
+(D) Mya finished second-to-last
+(E) Eve finished second-to-last",(D)
+245,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Ana, Amy, Dan, Mya, and Eve. Ana finished below Mya. Dan finished above Amy. Mya finished second-to-last. Eve finished below Amy.
+Options:
+(A) Ana finished first
+(B) Amy finished first
+(C) Dan finished first
+(D) Mya finished first
+(E) Eve finished first",(C)
+109,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are five vehicles: a station wagon, a tractor, a truck, a hatchback, and a minivan. The station wagon is newer than the tractor. The truck is older than the tractor. The minivan is newer than the hatchback. The hatchback is the second-newest.
+Options:
+(A) The station wagon is the second-oldest
+(B) The tractor is the second-oldest
+(C) The truck is the second-oldest
+(D) The hatchback is the second-oldest
+(E) The minivan is the second-oldest",(B)
+172,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: oranges, cantaloupes, peaches, loquats, and kiwis. The peaches are more expensive than the oranges. The cantaloupes are more expensive than the peaches. The kiwis are the third-most expensive. The loquats are the second-cheapest.
+Options:
+(A) The oranges are the second-cheapest
+(B) The cantaloupes are the second-cheapest
+(C) The peaches are the second-cheapest
+(D) The loquats are the second-cheapest
+(E) The kiwis are the second-cheapest",(D)
+234,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: a crow, a robin, a quail, a blue jay, and a falcon. The robin is to the left of the quail. The falcon is the third from the left. The crow is to the left of the falcon. The blue jay is the leftmost.
+Options:
+(A) The crow is the leftmost
+(B) The robin is the leftmost
+(C) The quail is the leftmost
+(D) The blue jay is the leftmost
+(E) The falcon is the leftmost",(D)
+73,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are five vehicles: a convertible, a sedan, a station wagon, a bus, and a limousine. The sedan is newer than the station wagon. The limousine is the newest. The bus is the second-newest. The convertible is the second-oldest.
+Options:
+(A) The convertible is the newest
+(B) The sedan is the newest
+(C) The station wagon is the newest
+(D) The bus is the newest
+(E) The limousine is the newest",(E)
+158,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: mangoes, kiwis, plums, pears, and watermelons. The kiwis are less expensive than the plums. The pears are the third-most expensive. The kiwis are the second-cheapest. The watermelons are the most expensive.
+Options:
+(A) The mangoes are the second-cheapest
+(B) The kiwis are the second-cheapest
+(C) The plums are the second-cheapest
+(D) The pears are the second-cheapest
+(E) The watermelons are the second-cheapest",(B)
+115,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: loquats, peaches, pears, plums, and watermelons. The watermelons are the most expensive. The peaches are more expensive than the loquats. The plums are the second-cheapest. The pears are the third-most expensive.
+Options:
+(A) The loquats are the cheapest
+(B) The peaches are the cheapest
+(C) The pears are the cheapest
+(D) The plums are the cheapest
+(E) The watermelons are the cheapest",(A)
+75,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: mangoes, pears, cantaloupes, watermelons, and loquats. The mangoes are more expensive than the loquats. The cantaloupes are more expensive than the mangoes. The watermelons are more expensive than the cantaloupes. The pears are the cheapest.
+Options:
+(A) The mangoes are the second-cheapest
+(B) The pears are the second-cheapest
+(C) The cantaloupes are the second-cheapest
+(D) The watermelons are the second-cheapest
+(E) The loquats are the second-cheapest",(E)
+237,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: apples, mangoes, oranges, plums, and pears. The oranges are more expensive than the mangoes. The plums are the cheapest. The apples are less expensive than the mangoes. The pears are more expensive than the oranges.
+Options:
+(A) The apples are the third-most expensive
+(B) The mangoes are the third-most expensive
+(C) The oranges are the third-most expensive
+(D) The plums are the third-most expensive
+(E) The pears are the third-most expensive",(B)
+82,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: watermelons, apples, mangoes, pears, and cantaloupes. The watermelons are more expensive than the cantaloupes. The mangoes are less expensive than the pears. The apples are the second-cheapest. The watermelons are less expensive than the mangoes.
+Options:
+(A) The watermelons are the third-most expensive
+(B) The apples are the third-most expensive
+(C) The mangoes are the third-most expensive
+(D) The pears are the third-most expensive
+(E) The cantaloupes are the third-most expensive",(A)
+29,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Mel, Dan, Amy, Joe, and Eve. Amy finished below Dan. Mel finished first. Joe finished above Dan. Eve finished last.
+Options:
+(A) Mel finished second
+(B) Dan finished second
+(C) Amy finished second
+(D) Joe finished second
+(E) Eve finished second",(D)
+126,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Amy, Eve, Mel, Mya, and Rob. Eve finished last. Rob finished above Mel. Amy finished above Rob. Mya finished third.
+Options:
+(A) Amy finished second
+(B) Eve finished second
+(C) Mel finished second
+(D) Mya finished second
+(E) Rob finished second",(E)
+79,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: a quail, a hummingbird, a blue jay, a hawk, and a robin. The robin is the second from the left. The quail is the leftmost. The blue jay is to the left of the hummingbird. The hawk is the third from the left.
+Options:
+(A) The quail is the third from the left
+(B) The hummingbird is the third from the left
+(C) The blue jay is the third from the left
+(D) The hawk is the third from the left
+(E) The robin is the third from the left",(D)
+86,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are five vehicles: a station wagon, a sedan, a tractor, a motorcyle, and a limousine. The tractor is newer than the motorcyle. The motorcyle is newer than the sedan. The limousine is the oldest. The station wagon is the newest.
+Options:
+(A) The station wagon is the newest
+(B) The sedan is the newest
+(C) The tractor is the newest
+(D) The motorcyle is the newest
+(E) The limousine is the newest",(A)
+5,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a white book, a green book, a brown book, a gray book, and an orange book. The gray book is to the right of the orange book. The green book is the second from the right. The brown book is to the right of the white book. The brown book is to the left of the orange book.
+Options:
+(A) The white book is the third from the left
+(B) The green book is the third from the left
+(C) The brown book is the third from the left
+(D) The gray book is the third from the left
+(E) The orange book is the third from the left",(E)
+56,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Amy, Dan, Mya, Eli, and Mel. Amy finished above Mel. Mya finished first. Amy finished below Eli. Dan finished last.
+Options:
+(A) Amy finished third
+(B) Dan finished third
+(C) Mya finished third
+(D) Eli finished third
+(E) Mel finished third",(A)
+186,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a blue book, a purple book, a yellow book, a black book, and a green book. The purple book is the third from the left. The yellow book is to the left of the black book. The green book is to the left of the purple book. The blue book is to the left of the green book.
+Options:
+(A) The blue book is the rightmost
+(B) The purple book is the rightmost
+(C) The yellow book is the rightmost
+(D) The black book is the rightmost
+(E) The green book is the rightmost",(D)
+231,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: cantaloupes, kiwis, oranges, mangoes, and peaches. The kiwis are less expensive than the mangoes. The peaches are less expensive than the oranges. The oranges are the second-most expensive. The mangoes are the second-cheapest.
+Options:
+(A) The cantaloupes are the most expensive
+(B) The kiwis are the most expensive
+(C) The oranges are the most expensive
+(D) The mangoes are the most expensive
+(E) The peaches are the most expensive",(A)
+170,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: a blue jay, a robin, a cardinal, a hawk, and a falcon. The blue jay is the rightmost. The robin is to the right of the falcon. The cardinal is to the left of the hawk. The falcon is to the right of the hawk.
+Options:
+(A) The blue jay is the leftmost
+(B) The robin is the leftmost
+(C) The cardinal is the leftmost
+(D) The hawk is the leftmost
+(E) The falcon is the leftmost",(C)
+65,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a brown book, a yellow book, an orange book, a green book, and a gray book. The green book is to the left of the gray book. The brown book is the third from the left. The gray book is the second from the right. The yellow book is to the left of the green book.
+Options:
+(A) The brown book is the second from the right
+(B) The yellow book is the second from the right
+(C) The orange book is the second from the right
+(D) The green book is the second from the right
+(E) The gray book is the second from the right",(E)
+140,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: a blue jay, a cardinal, a hawk, a hummingbird, and a quail. The quail is to the left of the blue jay. The cardinal is the third from the left. The quail is the second from the left. The blue jay is to the left of the hummingbird.
+Options:
+(A) The blue jay is the second from the right
+(B) The cardinal is the second from the right
+(C) The hawk is the second from the right
+(D) The hummingbird is the second from the right
+(E) The quail is the second from the right",(A)
+124,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Dan, Ana, Eli, Mya, and Amy. Amy finished above Eli. Ana finished above Amy. Mya finished below Eli. Dan finished last.
+Options:
+(A) Dan finished second
+(B) Ana finished second
+(C) Eli finished second
+(D) Mya finished second
+(E) Amy finished second",(E)
+213,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Amy, Eve, Mel, Mya, and Rob. Eve finished last. Rob finished above Mel. Amy finished above Rob. Mya finished third.
+Options:
+(A) Amy finished second-to-last
+(B) Eve finished second-to-last
+(C) Mel finished second-to-last
+(D) Mya finished second-to-last
+(E) Rob finished second-to-last",(C)
+148,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Joe, Mya, Eve, Amy, and Ana. Eve finished below Joe. Ana finished below Amy. Eve finished above Amy. Mya finished above Joe.
+Options:
+(A) Joe finished last
+(B) Mya finished last
+(C) Eve finished last
+(D) Amy finished last
+(E) Ana finished last",(E)
+31,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: a quail, an owl, a raven, a falcon, and a robin. The owl is the leftmost. The robin is to the left of the raven. The quail is the rightmost. The raven is the third from the left.
+Options:
+(A) The quail is the third from the left
+(B) The owl is the third from the left
+(C) The raven is the third from the left
+(D) The falcon is the third from the left
+(E) The robin is the third from the left",(C)
+12,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a brown book, a yellow book, an orange book, a green book, and a gray book. The green book is to the left of the gray book. The brown book is the third from the left. The gray book is the second from the right. The yellow book is to the left of the green book.
+Options:
+(A) The brown book is the third from the left
+(B) The yellow book is the third from the left
+(C) The orange book is the third from the left
+(D) The green book is the third from the left
+(E) The gray book is the third from the left",(A)
+35,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a green book, a blue book, a brown book, a gray book, and a red book. The green book is to the left of the brown book. The gray book is to the left of the blue book. The green book is to the right of the blue book. The red book is the leftmost.
+Options:
+(A) The green book is the second from the left
+(B) The blue book is the second from the left
+(C) The brown book is the second from the left
+(D) The gray book is the second from the left
+(E) The red book is the second from the left",(D)
+28,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Amy, Mel, Rob, Joe, and Ada. Joe finished second. Joe finished below Amy. Mel finished second-to-last. Ada finished last.
+Options:
+(A) Amy finished first
+(B) Mel finished first
+(C) Rob finished first
+(D) Joe finished first
+(E) Ada finished first",(A)
+42,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: an owl, a cardinal, a robin, a hummingbird, and a crow. The hummingbird is to the left of the owl. The hummingbird is to the right of the cardinal. The crow is to the left of the robin. The owl is to the left of the crow.
+Options:
+(A) The owl is the rightmost
+(B) The cardinal is the rightmost
+(C) The robin is the rightmost
+(D) The hummingbird is the rightmost
+(E) The crow is the rightmost",(C)
+218,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: apples, loquats, cantaloupes, watermelons, and kiwis. The watermelons are more expensive than the loquats. The watermelons are less expensive than the kiwis. The loquats are more expensive than the apples. The cantaloupes are the cheapest.
+Options:
+(A) The apples are the most expensive
+(B) The loquats are the most expensive
+(C) The cantaloupes are the most expensive
+(D) The watermelons are the most expensive
+(E) The kiwis are the most expensive",(E)
+22,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Ana, Rob, Amy, Dan, and Joe. Rob finished below Dan. Joe finished below Ana. Joe finished above Amy. Dan finished below Amy.
+Options:
+(A) Ana finished last
+(B) Rob finished last
+(C) Amy finished last
+(D) Dan finished last
+(E) Joe finished last",(B)
+93,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Rob, Ada, Dan, Joe, and Mel. Ada finished above Mel. Mel finished above Dan. Joe finished below Dan. Ada finished second.
+Options:
+(A) Rob finished third
+(B) Ada finished third
+(C) Dan finished third
+(D) Joe finished third
+(E) Mel finished third",(E)
+212,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: apples, loquats, cantaloupes, watermelons, and kiwis. The watermelons are more expensive than the loquats. The watermelons are less expensive than the kiwis. The loquats are more expensive than the apples. The cantaloupes are the cheapest.
+Options:
+(A) The apples are the third-most expensive
+(B) The loquats are the third-most expensive
+(C) The cantaloupes are the third-most expensive
+(D) The watermelons are the third-most expensive
+(E) The kiwis are the third-most expensive",(B)
+101,"The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are five vehicles: a truck, a station wagon, a motorcyle, a limousine, and a hatchback. The motorcyle is the second-newest. The truck is newer than the limousine. The motorcyle is older than the station wagon. The limousine is newer than the hatchback.
+Options:
+(A) The truck is the third-newest
+(B) The station wagon is the third-newest
+(C) The motorcyle is the third-newest
+(D) The limousine is the third-newest
+(E) The hatchback is the third-newest",(A)

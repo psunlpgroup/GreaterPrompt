@@ -1,0 +1,101 @@
+,input,output,sentence,letter,words,source
+1802,Benjamin gave the cloak and sent the book to Lee [a],and,Benjamin gave the cloak and sent the book to Lee,a,['and'],train
+1191,Phillip gave the soldier the medal. [g],gave,Phillip gave the soldier the medal.,g,['gave'],train
+1818,They painted their house a hideous shade of green. [h],house hideous,They painted their house a hideous shade of green.,h,"['house', 'hideous']",train
+252,They promised me to leave. [l],leave,They promised me to leave.,l,['leave'],train
+2506,John felt proud that his son won the game. [h],his,John felt proud that his son won the game.,h,['his'],train
+1118,The jockey rides the horse. [r],rides,The jockey rides the horse.,r,['rides'],train
+1412,Bill pushed Harry along the trail. [b],bill,Bill pushed Harry along the trail.,b,['Bill'],train
+2114,Nathan showed Benjamin himself in the mirror. [n],nathan,Nathan showed Benjamin himself in the mirror.,n,['Nathan'],train
+409,Nora sent books to children. [n],nora,Nora sent books to children.,n,['Nora'],train
+2580,These fields were marched over by all the armies of Europe. [f],fields,These fields were marched over by all the armies of Europe.,f,['fields'],train
+2255,He repeated his claim that the people backed his action. [a],action,He repeated his claim that the people backed his action.,a,['action'],train
+53,Gloria dozed. [g],gloria,Gloria dozed.,g,['Gloria'],train
+645,The men would not all have been working. [w],would working,The men would not all have been working.,w,"['would', 'working']",train
+1764,Did you drink the poison? [p],poison,Did you drink the poison?,p,['poison'],train
+2777,Did John find the solution? [f],find,Did John find the solution?,f,['find'],train
+901,Jean was given a prize. [w],was,Jean was given a prize.,w,['was'],train
+1074,I reported having kissed Mary. [i],i,I reported having kissed Mary.,i,['I'],train
+473,"Sue moved, and Mary also transferred, her business to a different location. [t]",transferred to,"Sue moved, and Mary also transferred, her business to a different location.",t,"['transferred', 'to']",train
+2739,Did you believe him to ever have made an effort to talk to the student? [y],you,Did you believe him to ever have made an effort to talk to the student?,y,['you'],train
+2547,There appeared a ship on the horizon. [s],ship,There appeared a ship on the horizon.,s,['ship'],train
+45,It occurred to Pat that Chris knew the answer. [t],to that the,It occurred to Pat that Chris knew the answer.,t,"['to', 'that', 'the']",train
+290,Susan rode a bright blue train from New York. [y],york,Susan rode a bright blue train from New York.,y,['York'],train
+913,"John is more embarrassed, the more pictures of him appear in the news. [j]",john,"John is more embarrassed, the more pictures of him appear in the news.",j,['John'],train
+2084,Gilgamesh is in the dungeon. [g],gilgamesh,Gilgamesh is in the dungeon.,g,['Gilgamesh'],train
+1361,John laid the book on the table. [o],on,John laid the book on the table.,o,['on'],train
+2896,"To find a new mate, go to a dating service. [s]",service,"To find a new mate, go to a dating service.",s,['service'],train
+2604,Was the piano bought for Jane by Frank? [b],bought by,Was the piano bought for Jane by Frank?,b,"['bought', 'by']",train
+1227,Ellen talked with Helen about the problem. [t],talked the,Ellen talked with Helen about the problem.,t,"['talked', 'the']",train
+297,I stalked the woods for game. [w],woods,I stalked the woods for game.,w,['woods'],train
+1242,I wonder who and whose friends he handed over to the FBI. [w],wonder who whose,I wonder who and whose friends he handed over to the FBI.,w,"['wonder', 'who', 'whose']",train
+1006,The monkey seems despondent that it is in a cage. [c],cage,The monkey seems despondent that it is in a cage.,c,['cage'],train
+1666,Never had Sir Thomas been so offended. [h],had,Never had Sir Thomas been so offended.,h,['had'],train
+747,Briana showed Justin himself. [s],showed,Briana showed Justin himself.,s,['showed'],train
+2852,I detest taking a bath. [d],detest,I detest taking a bath.,d,['detest'],train
+292,We would like John to win. [t],to,We would like John to win.,t,['to'],train
+782,It was John on whom the sheriff placed the blame. [i],it,It was John on whom the sheriff placed the blame.,i,['It'],train
+2145,What Jason asked was whether the potion was ready [r],ready,What Jason asked was whether the potion was ready,r,['ready'],train
+323,Smith threw the first baseman the ball. [f],first,Smith threw the first baseman the ball.,f,['first'],train
+299,The president Fred voted for has resigned. [p],president,The president Fred voted for has resigned.,p,['president'],train
+1299,Lopez says that he has done more than simply give a fresh coat of paint to the site. [m],more,Lopez says that he has done more than simply give a fresh coat of paint to the site.,m,['more'],train
+195,Mary expected John to fix the computer. [j],john,Mary expected John to fix the computer.,j,['John'],train
+64,Rarely is any lion majestic. [m],majestic,Rarely is any lion majestic.,m,['majestic'],train
+394,Who do you think Mary said John likes? [d],do,Who do you think Mary said John likes?,d,['do'],train
+728,The fly fell into the soup. [i],into,The fly fell into the soup.,i,['into'],train
+1584,The president that Fred voted for dislikes his opponents. [o],opponents,The president that Fred voted for dislikes his opponents.,o,['opponents'],train
+1548,Jim was chopping logs when Margaret left and was still at it when she got back. [i],it,Jim was chopping logs when Margaret left and was still at it when she got back.,i,['it'],train
+2426,He made a statement everyone thought was interesting and important. [a],a and,He made a statement everyone thought was interesting and important.,a,"['a', 'and']",train
+15,We sleep five people in each room. [p],people,We sleep five people in each room.,p,['people'],train
+2568,The medal was given to the soldier by Phillip. [m],medal,The medal was given to the soldier by Phillip.,m,['medal'],train
+1601,The big man from NY has often said that he gave peanuts to elephants. [b],big,The big man from NY has often said that he gave peanuts to elephants.,b,['big'],train
+1091,We loaded ourselves onto the bus. [w],we,We loaded ourselves onto the bus.,w,['We'],train
+2112,Mary will complete her exam within an hour. [c],complete,Mary will complete her exam within an hour.,c,['complete'],train
+204,Who did he believe that he would one day meet? [w],who would,Who did he believe that he would one day meet?,w,"['Who', 'would']",train
+2419,For him to win the race would surprise them. [f],for,For him to win the race would surprise them.,f,['For'],train
+153,Anybody who ever swears at me better watch his step. [s],swears step,Anybody who ever swears at me better watch his step.,s,"['swears', 'step']",train
+2902,This is the book which the teacher recommended. [b],book,This is the book which the teacher recommended.,b,['book'],train
+1360,The jeweller decorated the ring with the name. [w],with,The jeweller decorated the ring with the name.,w,['with'],train
+773,I wonder whether Mary has worked for Microsoft. [i],i,I wonder whether Mary has worked for Microsoft.,i,['I'],train
+2679,John bought a book for the student. [j],john,John bought a book for the student.,j,['John'],train
+1002,"I was surprised that he stole the watch, in as far as that was a daring thing to do. [d]",daring do,"I was surprised that he stole the watch, in as far as that was a daring thing to do.",d,"['daring', 'do']",train
+719,I explained it to Bill that she was lying. [e],explained,I explained it to Bill that she was lying.,e,['explained'],train
+613,My nephew could write letters to his parents with a fountain pen with your help. [y],your,My nephew could write letters to his parents with a fountain pen with your help.,y,['your'],train
+843,"The higher the stakes are, the lower his expectations are. [s]",stakes,"The higher the stakes are, the lower his expectations are.",s,['stakes'],train
+267,Andy gives freely of his time. [o],of,Andy gives freely of his time.,o,['of'],train
+52,Lucy seems to have been mugged. [m],mugged,Lucy seems to have been mugged.,m,['mugged'],train
+1196,At p.m. I saw John lecturing to everyone who was near him. [p],p,At p.m. I saw John lecturing to everyone who was near him.,p,['p'],train
+1271,The prisoner must have been being interrogated when the supervisor walked into the room and saw what was going on and put a stop to it. [g],going,The prisoner must have been being interrogated when the supervisor walked into the room and saw what was going on and put a stop to it.,g,['going'],train
+1492,Paula swatted the fly with a cloth. [a],a,Paula swatted the fly with a cloth.,a,['a'],train
+1583,The children like to berry in the summer. [l],like,The children like to berry in the summer.,l,['like'],train
+522,Objection was taken to the length of our skirts. [o],objection of our,Objection was taken to the length of our skirts.,o,"['Objection', 'of', 'our']",train
+1695,Dana is longing for a sunny day. [f],for,Dana is longing for a sunny day.,f,['for'],train
+2664,John will have been eating cake enthusiastically. [b],been,John will have been eating cake enthusiastically.,b,['been'],train
+2749,The sheriff denied that gangsters had bribed him. [g],gangsters,The sheriff denied that gangsters had bribed him.,g,['gangsters'],train
+1922,What did you buy at the supermarket? [t],the,What did you buy at the supermarket?,t,['the'],train
+103,Cynthia gobbled the pizza down . [p],pizza,Cynthia gobbled the pizza down .,p,['pizza'],train
+696,We all thought him to be unhappy [u],unhappy,We all thought him to be unhappy,u,['unhappy'],train
+2333,That Plato loved Aster proved to be his undoing. [l],loved,That Plato loved Aster proved to be his undoing.,l,['loved'],train
+2725,Jennifer baked Idaho potatoes. [b],baked,Jennifer baked Idaho potatoes.,b,['baked'],train
+2273,John is easy to please and to love. [i],is,John is easy to please and to love.,i,['is'],train
+2483,Whether to win is a question Mary never considered. [q],question,Whether to win is a question Mary never considered.,q,['question'],train
+1843,Either Dana or Lee is going to lead the parade. [t],to the,Either Dana or Lee is going to lead the parade.,t,"['to', 'the']",train
+1831,When can we register for graduation? [c],can,When can we register for graduation?,c,['can'],train
+795,The dentist was persuaded to examine Pat. [w],was,The dentist was persuaded to examine Pat.,w,['was'],train
+1821,Birds sang in the trees. [t],the trees,Birds sang in the trees.,t,"['the', 'trees']",train
+2002,I sent Mary money. [m],mary money,I sent Mary money.,m,"['Mary', 'money']",train
+145,Burn letters to him! [t],to,Burn letters to him!,t,['to'],train
+2526,He blew up the building. [h],he,He blew up the building.,h,['He'],train
+1331,The ball lies in the box. [b],ball box,The ball lies in the box.,b,"['ball', 'box']",train
+2478,"His analysis, I never liked. [h]",his,"His analysis, I never liked.",h,['His'],train
+2882,That anybody ever left at all is not known. [t],that,That anybody ever left at all is not known.,t,['That'],train
+322,"The tall, handsome man kicked the ball. [m]",man,"The tall, handsome man kicked the ball.",m,['man'],train
+1262,Bill sold Tom a car. [t],tom,Bill sold Tom a car.,t,['Tom'],train
+2415,Pat is likely to be examined by the dentist. [i],is,Pat is likely to be examined by the dentist.,i,['is'],train
+1270,Bill gave me . [m],me,Bill gave me .,m,['me'],train
+1761,She will put a picture of Bill on your desk before tomorrow. [w],will,She will put a picture of Bill on your desk before tomorrow.,w,['will'],train
+417,This book is easy to read. [b],book,This book is easy to read.,b,['book'],train
+2632,No boys will put a picture of Bill on your desk before tomorrow. [p],put picture,No boys will put a picture of Bill on your desk before tomorrow.,p,"['put', 'picture']",train
+2292,I am not certain about when he will come. [i],i,I am not certain about when he will come.,i,['I'],train
+175,The bed was unmade. [t],the,The bed was unmade.,t,['The'],train
+1726,We felled the murder with this chainsaw. [t],the this,We felled the murder with this chainsaw.,t,"['the', 'this']",train

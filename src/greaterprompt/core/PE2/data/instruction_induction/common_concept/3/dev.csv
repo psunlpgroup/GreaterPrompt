@@ -1,0 +1,10 @@
+,concept,items,all_common_concepts
+3,can be used for repairs.,"['sewing', 'wrenches', 'glue', 'surgery']","['can help repair something.', 'can be used for repairs.']"
+10,involve drilling.,"['dentistry', 'construction', 'oil']",['involve drilling.']
+17,relate to bells.,"['normal distribution', 'Pavlov', 'carillon']",['relate to bells.']
+5,involve flushes.,"['poker', 'displays of embarrassment', 'toilets']",['involve flushes.']
+8,go on top of something.,"['boats', 'tablecloths', 'crowns']",['go on top of something.']
+11,the largest of their kind.,"['blue whales', 'Jupiter', 'top quarks', 'Mt. Everest']",['the largest of their kind.']
+13,use specialized shoes.,"['ballet', 'snow', 'running', 'snorkeling']",['use specialized shoes.']
+4,involve spins.,"['magnetic resonance imaging', 'propaganda', 'figure skating']",['involve spins.']
+7,involve frames.,"['picture', 'issue', 'reference']",['involve frames.']

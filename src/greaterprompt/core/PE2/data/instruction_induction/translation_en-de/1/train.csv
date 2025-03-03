@@ -1,0 +1,101 @@
+,input,output,possible_translations
+1121,conservation,Schutz,"['Erhaltung', 'Bewahrung', 'Konservierung', 'Schutz']"
+660,regiment,Regiment,['Regiment']
+677,cruiser,Kreuzer,['Kreuzer']
+739,rescue,Rettung,"['retten', 'Rettung']"
+900,orbit,Umlaufbahn,"['Orbit', 'Umlaufbahn', 'in Umlaufbahn bringen', 'umkreisen']"
+215,feature,Besonderheit,"['in der Hauptrolle mitspielen', 'besonders herausstellen', 'Funktion', 'Eigenschaft', 'Eigentümlichkeit', 'aufweisen', 'darbieten', 'bieten', 'Feature', 'Charakteristikum', 'Besonderheit', 'Merkmal', 'Feuilleton', 'Sonderbeitrag']"
+1057,swimming,Schwimmen,['Schwimmen']
+851,survey,Untersuchung,['Untersuchung']
+1216,gate,Tor,"['Flugsteig', 'Schlagbaum', 'Gate', 'Tor']"
+168,magazine,Magazin,"['Magazin', 'Munitionslager', 'Journal', 'Zeitschrift']"
+2749,topography,Topografie,['Topografie']
+1950,carriage,Wagen,"['Haltung', 'Kutsche', 'Wagon', 'Wagen', 'Gang']"
+2686,camping,Camping,['Camping']
+2272,cycling,radfahren,['radfahren']
+1569,arcade,Spielhalle,"['Spielhalle', 'Arkade']"
+2432,advocacy,Fürsprache,"['Befürwortung', 'Fürsprache']"
+575,independence,Unabhängigkeit,"['Selbständigkeit', 'Unabhängigkeit']"
+2301,portal,Portal,['Portal']
+1233,uniform,Uniform,"['gleichförmig', 'einheitlich', 'Uniform']"
+424,draft,Musterung,"['abkommandieren', 'auswählen', 'einberufen', 'zeichnen', 'entwerfen', 'vom Fass', 'Musterung', 'Zugluft', 'Entwurf', 'Tiefgang']"
+1814,kilometre,Kilometer,['Kilometer']
+1578,liver,Leber,['Leber']
+445,committee,Komitee,"['Ausschuß', 'Komitee']"
+2203,thunderstorm,Gewitter,['Gewitter']
+287,cyclone,Zyklon,"['Zyklone', 'Zyklon']"
+302,yard,Hof,['Hof']
+221,face,Gesicht,"['etwas anlehnen', 'Gesicht', 'Fläche', 'Facette', 'sich ausrichten', 'stellen', 'Visage', 'Antlitz', 'Angesicht', 'Gesichtsausdruck']"
+562,knowledge,Wissen,"['Kenntnis', 'Wissen']"
+1673,trilogy,Trilogie,['Trilogie']
+1801,clause,Nebensatz,"['Teilsatz', 'Klausel', 'Nebensatz']"
+1645,countryside,Land,['Land']
+848,occupation,Beschäftigung,"['Okkupation', 'Beschäftigung', 'Besetzung', 'Beruf']"
+1576,colonel,Oberst,['Oberst']
+428,personnel,Personal,['Personal']
+1028,constitution,Verfassung,"['Konstitution', 'Verfassung', 'Verfassen', 'Grundgesetz']"
+707,contest,Wettkampf,"['Wettstreit', 'Wettkampf', 'Wettbewerb']"
+1231,net,Netz,"['mit einem Netz fangen', 'Netz', 'netto verdienen', 'Netto', 'Netto-']"
+2753,toe,Zeh,"['Zeh', 'Zehe', 'Vorspur']"
+831,drawing,Auslosung,"['Auslosung', 'Zeichnung', 'Bild', 'Ziehung']"
+777,arm,Arm,"['Bewaffnung', 'Oberarm', 'rüsten', 'bewaffnen', 'Waffe', 'Unterarm', 'Arm', 'Rüstung']"
+1404,cat,Säbelzahnkatze,"['Feliden', 'Pantherinae', 'Katzenartige', 'Felidae', 'Kleinkatze', 'Katze', 'Machairodontine', 'Feliformia', 'Pantherinen', 'Großkatze', 'Machairodontinae', 'Machairodontinen', 'Felinen', 'Säbelzahnkatze', 'Grosskatze', 'Felide', 'Pantherine', 'Felinae', 'Katzenartigen', 'Feloidea', 'Feline']"
+220,voice,Stimme,"['Diathese', 'Genus verbi', 'Stimme']"
+290,metal,Metall,['Metall']
+965,bombing,Bombardierung,"['Bombenanschlag', 'Bombenanschläge', 'Bombardierung']"
+2495,limb,Gliedmaße,"['Glied', 'zergliedern', 'Gliedmaße', 'Extremitäten', 'Gliedmaßen']"
+84,style,Stil,['Stil']
+610,price,Preis,"['schätzen', 'Preis', 'den Preis festsetzen']"
+2167,inception,Beginn,"['Beginn', 'Anfang', 'Einführung']"
+868,concrete,Beton,"['bestimmt', 'einbetonieren', 'aus Beton', 'Beton', 'Beton-', 'genau', 'konkretisieren', 'betonieren', 'konkret']"
+2356,pulp,Fruchtfleisch,"['Pulpa', 'Fleisch', 'Fruchtfleisch']"
+1705,recommendation,Empfehlung,['Empfehlung']
+2060,disagreement,Streit,['Streit']
+463,battalion,Bataillon,['Bataillon']
+2286,salmon,lachsfarben,"['lachsfarben', 'lachsrot', 'Lachs', 'lachsfarbig', 'lachsrosa']"
+1526,grain,Körnchen,"['Körnchen', 'Maserung', 'Getreide', 'Korn']"
+1394,curve,Kurve,"['biegen', 'Kurve', 'verbiegen', 'Linie']"
+357,student,Student,"['Studierender', 'Studentin', 'Studierende', 'Hochschüler', 'Student', 'Hochschülerin']"
+1006,quarterback,Quarterback,['Quarterback']
+2801,imitation,Imitation,"['Imitation', 'Nachahmung', 'Imitat', 'Kopie']"
+2795,classroom,Klassenzimmer,"['Klassenzimmer', 'Klassenraum']"
+1353,consequence,Konsequenz,"['Konsequenz', 'Folge']"
+712,scheme,Schema,['Schema']
+1097,voting,Abstimmung,['Abstimmung']
+451,comedy,Komödie,['Komödie']
+2526,valve,Ventil,"['Ventil', 'Klappe']"
+2208,apology,Entschuldigung,"['Entschuldigung', 'Apologie']"
+376,heart,Herz,"['Kern', 'Herzchen', 'Herz']"
+2371,aluminium,Aluminium,['Aluminium']
+880,household,Haushalt,['Haushalt']
+551,request,Bitte,"['Bitte', 'Gesuch', 'Begehren', 'Wunsch', 'Antrag', 'Begehr', 'Ersuchen', 'Nachfrage', 'Eingabe', 'anfordern', 'verlangen nach', 'bitten um', 'Ansinnen', 'erwünschen', 'erbitten', 'begehren', 'Anfrage', 'ersuchen']"
+682,reality,Wirklichkeit,"['Wirklichkeit', 'Realität']"
+1082,scholar,Gelehrte,['Gelehrte']
+360,district,Bezirk,"['Bezirk', 'Stadtviertel', 'Kreis', 'Stadtteil']"
+2161,measurement,Messung,"['Maß', 'Messung']"
+2606,diabetes,Diabetes,"['Zuckerkrankheit', 'Zucker', 'Diabetes']"
+2210,parachute,Fallschirm,"['Fallschirm', 'mit dem Fallschirm abspringen']"
+2360,niece,Nichte,['Nichte']
+604,opera,Oper,"['Oper', 'Opernhaus']"
+2655,eclipse,Finsternis,"['Finsternis', 'Eklipse', 'Sonnenfinsternis', 'Mondfinsternis']"
+981,elevation,Erhebung,"['Aufriss', 'Erhebung', 'Elevation', 'Hebung', 'Erheben', 'Höhenwinkel', 'Höhe']"
+1747,civilization,Zivilisiertwerden,"['Kultur', 'Zivilisiertwerden', 'Zivilisation']"
+1154,neighborhood,Nachbarschaft,"['Umgebung', 'ungefähr', 'Nachbarschaft', 'im Bereich von', 'Quartier', 'Kiez', 'Viertel', 'Stadtteil']"
+507,economy,Wirtschaft,"['Binnenwirtschaft', 'Wirtschaft', 'Ökonomie']"
+1953,reunion,Treffen,"['Wiedervereinigung', 'Zusammenkunft', 'Treffen']"
+1196,streak,Schliere,"['schlieren', 'flitzen', 'Schliere']"
+1543,scrap,Altmaterial,"['abwracken', 'Schrott', 'Speisereste', 'Stückchen', 'Fetzen', 'Essensreste', 'verschrotten', 'Abfall', 'Reste', 'Altmaterial', 'wegwerfen', 'Altmetall']"
+998,sub,U-Boot,"['U-Boot', 'Atom-U-Boot']"
+2684,neighbourhood,Nachbarschaft,"['Umgebung', 'Nachbarschaft']"
+102,stage,Bühne,"['Brettl', 'Stufe', 'Bühne', 'inszenieren']"
+2033,mercury,Quecksilber,['Quecksilber']
+105,law,Gesetz,"['Gesetz', 'Recht']"
+1363,outcome,Ergebnis,"['Ergebnis', 'Ausgang']"
+2247,voltage,Spannung,['Spannung']
+2061,fixture,Fassung,['Fassung']
+2442,encouragement,Ermutigung,['Ermutigung']
+1151,drummer,Schlagzeuger,"['Schlagzeugerin', 'Trommlerin', 'Schlagzeuger', 'Trommler']"
+2193,gesture,Geste,"['Geste', 'Gebärde', 'gestikulieren', 'Attitüde']"
+676,association,Verein,"['Vereinigung', 'Assoziation', 'Verband', 'Verein']"
+1406,requirement,Anforderung,['Anforderung']
+2700,chip,Chip,"['Chip', 'Fritte', 'Kartoffelchip', 'Pommes', 'Pommes frites']"

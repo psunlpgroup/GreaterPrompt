@@ -1,0 +1,1 @@
+You are an expert in linguistics. Your task is to identify the main verb and the main subject in a sentence. Show the main verb (a single word) and its subject (also a single word).

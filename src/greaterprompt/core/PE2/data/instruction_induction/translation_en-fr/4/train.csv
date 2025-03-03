@@ -1,0 +1,101 @@
+,input,output,possible_translations
+1828,enzyme,enzyme,['enzyme']
+433,data,données,"['donnée', 'données']"
+1562,accuracy,exactitude,"['précision', 'exactitude']"
+133,hurricane,ouragan,['ouragan']
+159,coast,côte,"['côte', 'caboter']"
+402,capacity,capacité,['capacité']
+1612,tendency,tendance,['tendance']
+1819,log,bûche,"['inscrire un évènement dans un journal', 'tronc', 'ajouter un évènement dans un journal', 'souche', 'couper', 'abattre', 'billot', 'bûche']"
+568,candidate,candidat,"['candidate', 'candidat']"
+1655,businessman,homme d'affaires,"['businessman', ""homme d'affaires""]"
+1000,sub,sandwich sous-marin,['sandwich sous-marin']
+2794,nationality,nationalité,['nationalité']
+2642,sailor,matelot,"['marin', 'matelot']"
+1531,citizen,citoyen,"['habitant', 'citoyen', 'civil', 'résident', 'civile', 'citoyenne']"
+116,office,office,"['bureau', 'bons offices', 'bon office', 'office']"
+2646,shelf,étagère,"['tablard', 'étagère', 'rayonnage', 'rayon']"
+933,palace,palais,['palais']
+2149,hymn,hymne,['hymne']
+2606,injection,injection,['injection']
+183,percent,pour cent,"['pour cent', 'pourcent']"
+1660,complement,complète,"['complète', 'compléter', 'complémenter']"
+1961,abortion,avortement,"['interruption volontaire de grossesse', 'avorton', 'fausse couche', 'avortement', 'IVG']"
+596,importance,importance,['importance']
+2220,collaborator,collaborateur,"['collaborateur', 'collaboratrice']"
+288,morning,matin,"['matinée', 'matin']"
+2768,computing,computation,"['informatique', ""utilisation d'un ordinateur"", 'computation']"
+2509,guess,conjecture,"['deviner', 'conjecture', 'supposer', 'déduire']"
+615,rail,rail,"['rails', 'rail', 'râle']"
+1215,gate,porte logique,"['grille', 'porte logique', 'porte', 'portail']"
+1979,wage,salaire,"['salaire', 'mener']"
+2261,blade,lame,['lame']
+1839,abundance,abondance,['abondance']
+220,woman,femme,['femme']
+2197,motivation,motivation,['motivation']
+1328,creature,créature,"['créature', 'être']"
+1232,cable,câble,['câble']
+34,world,La Terre,"['univers', 'terre', 'monde', 'La Terre']"
+1009,announcement,annonce,['annonce']
+430,ring,anneau,"['ring', 'sonner', 'bague', 'piste', 'manège', 'cercle', 'anneau']"
+13,work,travail,"['travail', 'se travailler', 'actionner', 'œuvre', 'broder', 'fonctionner', 'bosser', 'création', 'marcher', 'travailler']"
+1140,salary,salaire,['salaire']
+452,genus,genre,['genre']
+1934,accent,accent,"['accent', 'accentuer']"
+1777,patent,brevet,['brevet']
+2056,corpse,cadavre,['cadavre']
+209,staff,personnel,"['personnel', 'doter en personnel', 'canne', 'staff', 'portée', 'bâton']"
+1976,novelist,romancier,['romancier']
+2630,ceasefire,cessez-le-feu,"['trêve', 'cessez-le-feu']"
+1149,significance,importance signification,"['signification', 'importance signification']"
+1053,translation,traduction,"['transmission', 'translation', 'traduction']"
+2110,turbine,turbine,['turbine']
+2074,pen,cygne femelle,"['plume', 'cellule', 'stylo', 'écrire', 'cygne femelle', 'enclos']"
+1851,integration,intégration,['intégration']
+369,matter,matière,"['affaire', 'importer', 'matière']"
+516,technology,technologie,['technologie']
+1026,density,densité,['densité']
+1806,resemblance,ressemblance,"['comparaison', 'probabilité', 'ressemblance']"
+952,context,contexte,['contexte']
+2517,affinity,affinité,['affinité']
+634,measure,mesure,"['mesurer', 'mesures', 'mesure']"
+1047,birthday,anniversaire,"['date de naissance', 'anniversaire', 'fête']"
+69,track,voie,"['voie', 'piste', 'sillon', 'chemin', 'marque', 'trace', 'sentier', 'route', 'empreinte']"
+1273,humanity,humanité,['humanité']
+2107,cultivation,culture,['culture']
+1106,uranium,uranium,['uranium']
+2796,titanium,titane,['titane']
+2663,elbow,coude,"['coude', 'jouer des coudes']"
+748,step,pas,"['marche', 'faire un pas', 'pas', 'marcher']"
+219,leader,chef,"['leader', 'chef', 'dirigeant']"
+2806,destiny,destinée,"['destinée', 'destin']"
+68,father,père,"['papa', 'père', 'paterner']"
+1491,operator,opérateur,"['téléphoniste', 'opérateur']"
+1041,basin,bassin,"['bassin', 'lavabo', 'cuvette', 'bassine']"
+1310,publicity,publicité,['publicité']
+575,camera,appareil photo,"['caméra', 'appareil photo']"
+1415,variant,variante,['variante']
+577,appeal,appel,"['attrait', 'plaire', 'faire appel', 'interjeter appel', 'appeler', 'appel']"
+1171,presentation,exposé,"['exposé', 'présentation']"
+2150,cheese,fromage,"['ouistiti', 'fromage', 'fric']"
+2061,allegiance,fidélité,"['allégeance', 'fidélité', 'loyauté']"
+2622,neglect,négligence,"['négligence', 'négliger']"
+582,evening,crépuscule,"['soir', 'crépuscule']"
+233,act,acte,"['se comporter', 'acte', 'édit', 'agir', 'faire', 'loi', 'réagir', 'action', 'jouer']"
+339,account,compte,"['compte', 'rapport']"
+805,mix,mélange,"['mélanger', 'mélange', 'mixer']"
+866,map,plan,"['plan', 'carte']"
+2488,meditation,méditation,['méditation']
+1208,divorce,divorce,"['divorcer', 'divorce']"
+2634,inventor,inventeur,"['inventrice', 'inventeur']"
+1548,disappointment,déception,['déception']
+1689,galaxy,galaxie,['galaxie']
+2194,innocence,innocence,['innocence']
+2477,capitalism,capitalisme,['capitalisme']
+2169,precision,précision,['précision']
+1539,layout,plan,"['structure', 'plan', 'disposition', 'schéma', 'mise en page maquette']"
+331,job,tâche,"['tâche', 'travail', 'emploi', '-plastie', 'métier', 'plastie', 'job', 'poste', 'boulot']"
+1671,fever,fièvre,['fièvre']
+2508,staple,agrafe,"['agrafer', 'agrafe']"
+1868,recall,rappel,"['se rappeler', 'se remémorer', 'rappeler', 'se souvenir', 'rappel']"
+232,cause,cause,"['cause', 'raison', 'causer']"

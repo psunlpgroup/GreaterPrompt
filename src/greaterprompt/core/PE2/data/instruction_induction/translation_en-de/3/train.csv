@@ -1,0 +1,101 @@
+,input,output,possible_translations
+1540,item,Stück,"['Element', 'Stück', 'Artikel', 'Ding']"
+2348,mast,Mast,['Mast']
+2374,canvas,Leinwand,"['Leinwand', 'Leinen']"
+1488,rapper,Rapper,['Rapper']
+1098,trough,Trog,"['Trog', 'Dachrinne', 'Futtertrog', 'Mulden', 'Wellental']"
+2272,cycling,radfahren,['radfahren']
+566,rain,Regen,"['Regen', 'regnen']"
+1701,enthusiasm,Begeisterung,"['Begeisterung', 'Enthusiasmus', 'Schwärmerei']"
+2231,noon,Mittag,['Mittag']
+1691,finger,Finger,['Finger']
+1261,exile,Exilant,"['Exilant', 'exilieren', 'ins Exil schicken', 'Exil']"
+2224,glee,Rundgesang,"['Rundgesang', 'Freude', 'Fröhlichkeit']"
+1544,layout,Einteilung,"['Struktur', 'Anordnung', 'Einteilung', 'Layout', 'Gestaltung']"
+1863,collector,Kollektor,"['Sammlerin', 'Sammler', 'Kollektor', 'Kassierer']"
+508,edge,Kante,"['Seite', 'Klinge', 'Kante', 'Vorsprung', 'Rand']"
+1284,metric,Metrik,"['Kriterium', 'Maß', 'Messgröße', 'Metrik', 'Kenngröße', 'metrisch', 'Indikator', 'Kennzahl']"
+369,quarter,Vierteldollar,"['Quartal', 'Kwartier', 'vierteln', 'Vierteljahr', 'quartieren', 'unterbringen', 'einquartieren', 'Viertel', 'Stadtteil', 'Vierteldollar']"
+1358,proportion,Proportion,['Proportion']
+1100,parody,Parodie,"['parodieren', 'Parodie']"
+2137,mantle,Mantel,"['Mantel', 'Hülle', 'Erdmantel', 'Hirnrinde', 'short: Rinde', 'Umhüllung', 'short: Mantel', 'Glühstrumpf']"
+928,jazz,Jazz,['Jazz']
+1147,doubt,Zweifel,"['bezweifeln', 'Zweifel', 'zweifeln']"
+1024,exposure,Belichtung,"['Lage', 'Witterung', 'Belichtung', 'Einwirkung', 'Kontakt']"
+963,merchant,Kaufmann,"['Kauffrau', 'Kaufmann']"
+1615,freshman,Neuling,['Neuling']
+197,type,Typ,"['Typ', 'tippen', 'Typus', 'Letter', 'Type', 'Art']"
+1134,waste,Verfall,"['Müll', 'Einöde', 'wüst', 'Verschwendung', 'Verfall', 'öde', 'verfallen', 'verschwenden', 'töten', 'überflüssig', 'verwüsten']"
+766,concern,Betroffenheit,"['Konzern', 'Sorge', 'Besorgnis', 'Betroffenheit']"
+1011,fantasy,Fantasie,"['Fantasy', 'Fantasie']"
+1339,rotation,Umdrehung,"['Umdrehung', 'Rotation']"
+595,religion,Religion,['Religion']
+1269,sleep,Schlaf,"['Schläfchen', 'unterbringen', 'schlafen', 'Schlaf', 'Nachtruhe']"
+240,fight,Kampf,"['Schlacht', 'Prügelei', 'Kampfgeist', 'kämpfen', 'streiten', 'Streit', 'Keilerei', 'fechten', 'bekämpfen', 'Kampf']"
+863,wedding,Hochzeit,['Hochzeit']
+1375,presidency,Präsidentschaft,['Präsidentschaft']
+1875,reactor,Reagenz,"['Atommeiler', 'Meiler', 'Atomreaktor', 'Reagenz', 'Reaktor']"
+2010,autonomy,Autonomie,['Autonomie']
+142,recording,Aufnahme,['Aufnahme']
+1104,ruler,Lineal,"['Lineal', 'Herrscher']"
+1809,alert,Alarm,"['wachsam', 'verständigen', 'Alarm', 'aufmerksam']"
+2684,neighbourhood,Nachbarschaft,"['Umgebung', 'Nachbarschaft']"
+1509,roller,Racke,"['Orientalische Rollertaube', 'Racke', 'Rollertaube', 'Roller', 'Orientalischer Roller']"
+1518,suburb,Vorstadt,"['Vorort', 'Vorstadt']"
+2514,bubble,Blase,"['Blase', 'blubbern']"
+1611,perception,Wahrnehmung,['Wahrnehmung']
+569,assault,Anschlag,"['angreifen', 'Anschlag', 'überfallen']"
+859,column,Spalte,"['Kolumne', 'Spalte', 'Säule', 'Kolonne']"
+789,shell,Schale,"['Hülse', 'Granate', 'Muschel', 'Eierschale', 'Hülle', 'Schalentier', 'Schale', 'Shell']"
+760,successor,Nachfolger,"['Nachfolgerin', 'Nachfolger']"
+1929,plug,Stecker,"['Stecker', 'Stöpsel']"
+1763,nurse,Schwester,"['pflegen', 'Kinderfrau', 'Krankenschwester', 'Pfleger', 'Schwester', 'Krankenpfleger', 'Krankenpflegerin', 'saugen', 'Kindermädchen', 'Pflegerin', 'stillen', 'dated: nähren', 'hegen', 'hätscheln']"
+2804,rigging,Takelage,['Takelage']
+2181,lineage,Geschlecht,['Geschlecht']
+1707,clearing,Klärung,"['Rodung', 'Aufklärung', 'Lichtung', 'Klärung']"
+791,convoy,Konvoi,"['Geleitzug', 'Konvoi', 'geleiten', 'eskortieren']"
+510,motion,Bewegung,['Bewegung']
+545,branch,Branche,"['Zweig', 'Filiale', 'abzweigen', 'springen', 'Ast', 'Zweigstelle', 'Branche', 'verzweigen']"
+179,center,Zentrum,"['Zentrum', 'Mittelpunkt', 'konzenterieren', 'sammeln', 'ansammeln', 'zentrieren', 'Mitte', 'ausmitteln', 'Stürmer', 'Zenterspieler', 'konzentrieren', 'zenterieren', 'Drehpunkt']"
+1845,counterpart,Gegenstück,"['Duplikat', 'Kopie', 'Gegenstück', 'Ebenbild', 'Pendant']"
+1223,census,Zensus,"['Bevölkerungszählung', 'Zensus', 'Zählung', 'Befragung', 'Volkszählung']"
+773,chapter,Verband,"['Abschnitt', 'Verband', 'Kapitel', 'Ortsverband', 'Sektion']"
+499,prison,Haft,"['Zuchthaus', 'Kerker', 'Haft', 'Gefangenschaft', 'Gefängnis']"
+1381,consciousness,Bewusstsein,['Bewusstsein']
+2114,dish,Gericht,"['Geschirr', 'Gericht', 'Schüssel', 'Teller', 'Parabolantenne', 'Satellitenschüssel']"
+332,job,Job,"['Stelle', 'Beruf', 'Arbeit', 'jobben', 'Auftrag', 'Anstellung', 'arbeiten', 'Aufgabe', 'Job']"
+325,today,Heute,"['heute', 'Heute', 'heutzutage']"
+1162,journal,Tagebuch,"['Logbuch', 'Tagebuch', 'Zeitschrift', 'Journal']"
+966,fund,Kapital,"['Kapital', 'Fonds', 'finanzieren']"
+533,height,Höhe,"['Größe', 'Höhe']"
+1757,torture,Folter,"['Tortur', 'Folter', 'foltern']"
+1407,acceptance,Akzeptanz,"['Akzeptanz', 'Vertrag', 'Annahme']"
+2233,physicist,Physiker,"['Physiker', 'Physikerin']"
+613,extension,Ausdehnung,"['Erweiterung', 'Verlängerung', 'Durchwahl', 'Ausdehnung']"
+1771,tackle,der Flaschenzug,"['der Flaschenzug', 'Tackling', 'in Angriff nehmen']"
+415,contrast,Kontrast,"['Kontrast', 'kontrastieren', 'gegenüberstellen']"
+1866,boxing,Boxen,['Boxen']
+2432,advocacy,Fürsprache,"['Befürwortung', 'Fürsprache']"
+1045,portrayal,Abbild,['Abbild']
+606,entry,Eintrag,"['Eintrag', 'Flur', 'Zutritt', 'Eingang', 'Element', 'Eintritt']"
+1836,realism,Realismus,['Realismus']
+880,household,Haushalt,['Haushalt']
+1619,inquiry,Anfrage,"['Erkundigung', 'Anfrage']"
+33,ship,Schiff,"['verschiffen', 'versenden', 'verschicken', 'Schiff']"
+2467,citadel,Zitadelle,['Zitadelle']
+68,father,Vater,"['zeugen', 'Vater']"
+846,appointment,Ernennung,"['Termin', 'Berufung', 'Verabredung', 'Ernennung']"
+2680,masculine,Maskulinum,"['maskulin', 'Maskulinum', 'männlich']"
+1843,drunk,Trinker,"['betrunken', 'besoffen', 'Trinker']"
+1114,minority,Minderheit,['Minderheit']
+411,newspaper,Zeitungspapier,"['Zeitung', 'Zeitungspapier']"
+784,poetry,Poesie,"['Dichtung', 'Dichtkunst', 'Poesie']"
+2520,affinity,Affinität,"['Verwandtschaft', 'Affinität']"
+1991,jacket,Jackett,"['Jacke', 'Jackett']"
+1787,starter,Anlasser,"['Starter', 'Vorspeise', 'Vorgericht', 'Anlasser']"
+680,classification,Klassifikation,['Klassifikation']
+1725,trout,Forelle,['Forelle']
+2384,textile,Textilie,['Textilie']
+2361,ecosystem,Ökosystem,['Ökosystem']
+1617,domain,Domäne,"['Wissensgebiet', 'Gebiet', 'Domain', 'Domains', 'Bezirk', 'Definitionsbereich', 'Bereich', 'Domänen', 'Domäne']"
+2752,hormone,Hormon,['Hormon']

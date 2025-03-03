@@ -1,0 +1,21 @@
+,input,output,words,category_items,other_categories,num_category_items,num_others
+2018,"shirt, ice cream, donkey, tiger, engineer, rabbit, sheep","donkey, rabbit, tiger, sheep","['shirt', 'ice cream', 'donkey', 'tiger', 'engineer', 'rabbit', 'sheep']","['donkey', 'rabbit', 'tiger', 'sheep']","['profession', 'food', 'clothing']",4,3
+239,"actor, bee, panda, swimsuit, green, monkey","bee, monkey, panda","['actor', 'bee', 'panda', 'swimsuit', 'green', 'monkey']","['bee', 'monkey', 'panda']","['profession', 'color', 'clothing']",3,3
+515,"rabbit, glove, donkey, orange, duck, belt, fly","duck, donkey, rabbit, fly","['rabbit', 'glove', 'donkey', 'orange', 'duck', 'belt', 'fly']","['duck', 'donkey', 'rabbit', 'fly']","['color', 'clothing']",4,3
+1350,"tiger, car, hippo, bee, sausage","hippo, tiger, bee","['tiger', 'car', 'hippo', 'bee', 'sausage']","['hippo', 'tiger', 'bee']","['food', 'vehicle']",3,2
+1355,"bat, meatballs, spaceship, snake, butterfly, glove","bat, snake, butterfly","['bat', 'meatballs', 'spaceship', 'snake', 'butterfly', 'glove']","['bat', 'snake', 'butterfly']","['food', 'vehicle', 'clothing']",3,3
+2638,"frog, pink, tortoise, whale, orange, truck","frog, whale, tortoise","['frog', 'pink', 'tortoise', 'whale', 'orange', 'truck']","['frog', 'whale', 'tortoise']","['vehicle', 'color']",3,3
+2358,"purple, bat, mango, monkey, bean, dolphin, penguin","penguin, bat, monkey, dolphin","['purple', 'bat', 'mango', 'monkey', 'bean', 'dolphin', 'penguin']","['penguin', 'bat', 'monkey', 'dolphin']","['food', 'color']",4,3
+2179,"penguin, engineer, dolphin, teacher, bee, shoe","dolphin, bee, penguin","['penguin', 'engineer', 'dolphin', 'teacher', 'bee', 'shoe']","['dolphin', 'bee', 'penguin']","['profession', 'clothing']",3,3
+2758,"snail, tortoise, bee, journalist, teacher","tortoise, snail, bee","['snail', 'tortoise', 'bee', 'journalist', 'teacher']","['tortoise', 'snail', 'bee']",['profession'],3,2
+2365,"teacher, jellyfish, snake, pineapple, elephant, green","elephant, jellyfish, snake","['teacher', 'jellyfish', 'snake', 'pineapple', 'elephant', 'green']","['elephant', 'jellyfish', 'snake']","['profession', 'food', 'color']",3,3
+2098,"monkey, penguin, white, banana, elephant","monkey, elephant, penguin","['monkey', 'penguin', 'white', 'banana', 'elephant']","['monkey', 'elephant', 'penguin']","['food', 'color']",3,2
+1553,"orange, rabbit, octopus, businesswoman, gold, lion","octopus, rabbit, lion","['orange', 'rabbit', 'octopus', 'businesswoman', 'gold', 'lion']","['octopus', 'rabbit', 'lion']","['profession', 'color']",3,3
+1033,"butter, snake, carrot, lizard, snail","snail, snake, lizard","['butter', 'snake', 'carrot', 'lizard', 'snail']","['snail', 'snake', 'lizard']",['food'],3,2
+2843,"jellyfish, zebra, cat, sausage, onion","cat, zebra, jellyfish","['jellyfish', 'zebra', 'cat', 'sausage', 'onion']","['cat', 'zebra', 'jellyfish']",['food'],3,2
+1566,"rabbit, penguin, camel, spaceship, trousers","penguin, camel, rabbit","['rabbit', 'penguin', 'camel', 'spaceship', 'trousers']","['penguin', 'camel', 'rabbit']","['vehicle', 'clothing']",3,2
+2768,"tiger, blue, monkey, chicken, designer, red, giraffe","tiger, monkey, chicken, giraffe","['tiger', 'blue', 'monkey', 'chicken', 'designer', 'red', 'giraffe']","['tiger', 'monkey', 'chicken', 'giraffe']","['profession', 'color']",4,3
+2331,"tortoise, butterfly, goat, engineer, shoe","tortoise, goat, butterfly","['tortoise', 'butterfly', 'goat', 'engineer', 'shoe']","['tortoise', 'goat', 'butterfly']","['profession', 'clothing']",3,2
+1678,"businessman, parrot, horse, sock, hippo","hippo, parrot, horse","['businessman', 'parrot', 'horse', 'sock', 'hippo']","['hippo', 'parrot', 'horse']","['profession', 'clothing']",3,2
+1423,"doctor, frog, spider, purple, whale","spider, whale, frog","['doctor', 'frog', 'spider', 'purple', 'whale']","['spider', 'whale', 'frog']","['profession', 'color']",3,2
+628,"shoe, photographer, gray, butterfly, frog, rabbit, parrot","rabbit, parrot, butterfly, frog","['shoe', 'photographer', 'gray', 'butterfly', 'frog', 'rabbit', 'parrot']","['rabbit', 'parrot', 'butterfly', 'frog']","['profession', 'color', 'clothing']",4,3

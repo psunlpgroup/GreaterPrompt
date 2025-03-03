@@ -1,0 +1,21 @@
+,input,output,words,category_items,other_categories,num_category_items,num_others
+2176,"donkey, dress, spider, truck, duck","spider, donkey, duck","['donkey', 'dress', 'spider', 'truck', 'duck']","['spider', 'donkey', 'duck']","['vehicle', 'clothing']",3,2
+46,"glove, pink, snail, snake, penguin, donkey","snail, donkey, snake, penguin","['glove', 'pink', 'snail', 'snake', 'penguin', 'donkey']","['snail', 'donkey', 'snake', 'penguin']","['color', 'clothing']",4,2
+686,"lizard, tiger, scarf, mechanic, whale","tiger, whale, lizard","['lizard', 'tiger', 'scarf', 'mechanic', 'whale']","['tiger', 'whale', 'lizard']","['profession', 'clothing']",3,2
+1608,"sock, dolphin, skirt, giraffe, shark, rabbit","dolphin, shark, rabbit, giraffe","['sock', 'dolphin', 'skirt', 'giraffe', 'shark', 'rabbit']","['dolphin', 'shark', 'rabbit', 'giraffe']",['clothing'],4,2
+1232,"actor, blue, tiger, tortoise, dentist, fly","tortoise, tiger, fly","['actor', 'blue', 'tiger', 'tortoise', 'dentist', 'fly']","['tortoise', 'tiger', 'fly']","['profession', 'color']",3,3
+863,"sock, horse, frog, chocolate, bat, dress","bat, horse, frog","['sock', 'horse', 'frog', 'chocolate', 'bat', 'dress']","['bat', 'horse', 'frog']","['food', 'clothing']",3,3
+1966,"sheep, tractor, trousers, fly, potato, lion, horse","sheep, horse, lion, fly","['sheep', 'tractor', 'trousers', 'fly', 'potato', 'lion', 'horse']","['sheep', 'horse', 'lion', 'fly']","['food', 'vehicle', 'clothing']",4,3
+332,"sheep, cook, red, lizard, spider","sheep, lizard, spider","['sheep', 'cook', 'red', 'lizard', 'spider']","['sheep', 'lizard', 'spider']","['profession', 'color']",3,2
+94,"horse, dolphin, gray, penguin, car, strawberry","horse, penguin, dolphin","['horse', 'dolphin', 'gray', 'penguin', 'car', 'strawberry']","['horse', 'penguin', 'dolphin']","['vehicle', 'food', 'color']",3,3
+1642,"sheep, shark, yoghurt, tiger, pasta, snake","tiger, sheep, shark, snake","['sheep', 'shark', 'yoghurt', 'tiger', 'pasta', 'snake']","['tiger', 'sheep', 'shark', 'snake']",['food'],4,2
+2987,"plane, orange, train, hippo, tiger, cat","hippo, cat, tiger","['plane', 'orange', 'train', 'hippo', 'tiger', 'cat']","['hippo', 'cat', 'tiger']","['vehicle', 'color']",3,3
+507,"whale, purple, bee, chicken, cook, strawberry, giraffe","giraffe, bee, whale, chicken","['whale', 'purple', 'bee', 'chicken', 'cook', 'strawberry', 'giraffe']","['giraffe', 'bee', 'whale', 'chicken']","['profession', 'food', 'color']",4,3
+2910,"actor, red, tiger, lizard, horse, brown","lizard, horse, tiger","['actor', 'red', 'tiger', 'lizard', 'horse', 'brown']","['lizard', 'horse', 'tiger']","['profession', 'color']",3,3
+2046,"rice, blue, pear, monkey, frog, elephant, sheep","elephant, frog, sheep, monkey","['rice', 'blue', 'pear', 'monkey', 'frog', 'elephant', 'sheep']","['elephant', 'frog', 'sheep', 'monkey']","['food', 'color']",4,3
+496,"waiter, belt, tractor, elephant, shark, giraffe, lizard","elephant, lizard, shark, giraffe","['waiter', 'belt', 'tractor', 'elephant', 'shark', 'giraffe', 'lizard']","['elephant', 'lizard', 'shark', 'giraffe']","['profession', 'vehicle', 'clothing']",4,3
+2133,"rabbit, snail, sweater, gray, snake, chicken, pajamas","snail, rabbit, snake, chicken","['rabbit', 'snail', 'sweater', 'gray', 'snake', 'chicken', 'pajamas']","['snail', 'rabbit', 'snake', 'chicken']","['color', 'clothing']",4,3
+1,"jacket, tortoise, chicken, taxi, pineapple, spider","chicken, spider, tortoise","['jacket', 'tortoise', 'chicken', 'taxi', 'pineapple', 'spider']","['chicken', 'spider', 'tortoise']","['food', 'vehicle', 'clothing']",3,3
+315,"designer, swan, taxi, lion, ambulance, horse","horse, lion, swan","['designer', 'swan', 'taxi', 'lion', 'ambulance', 'horse']","['horse', 'lion', 'swan']","['profession', 'vehicle']",3,3
+1273,"journalist, sheep, panda, monkey, gray, bee","monkey, bee, sheep, panda","['journalist', 'sheep', 'panda', 'monkey', 'gray', 'bee']","['monkey', 'bee', 'sheep', 'panda']","['profession', 'color']",4,2
+1942,"nurse, parrot, bat, tiger, duck, potato","bat, parrot, tiger, duck","['nurse', 'parrot', 'bat', 'tiger', 'duck', 'potato']","['bat', 'parrot', 'tiger', 'duck']","['profession', 'food']",4,2

@@ -1,0 +1,101 @@
+,input,output,other_rhymes,rhyme_group
+16,die,pie,"['die', 'eye', 'buy', 'my', 'bye', 'goodbye', 'fly', 'hi', 'by', 'sky', 'high', 'guy', 'lie', 'try', 'cry', 'tie', 'dry', 'pie', 'spy', 'apply', 'fry', 'shy', 'nearby']",AY
+764,tell,well,"['hotel', 'well', 'tell', 'spell', 'sell', 'smell', 'bell', 'unwell']",EH L
+911,kill,pill,"['until', 'bill', 'fill', 'till', 'hill', 'kill', 'still', 'skill', 'grill', 'pill', 'spill']",IH L
+183,cake,mistake,"['make', 'cake', 'take', 'break', 'steak', 'snake', 'bake', 'lake', 'mistake', 'awake', 'shake', 'ache', 'brake']",EY K
+2168,peach,teach,"['beach', 'each', 'teach', 'peach', 'speech', 'reach']",IY CH
+2903,station,presentation,"['station', 'vacation', 'conversation', 'invitation', 'examination', 'occupation', 'identification', 'information', 'preparation', 'operation', 'generation', 'celebration', 'situation', 'imagination', 'animation', 'relaxation', 'population', 'punctuation', 'reservation', 'presentation', 'location', 'transportation', 'registration', 'application', 'explanation', 'communication', 'relation', 'organization', 'immigration']",EY SH AH N
+2125,sky,tie,"['die', 'eye', 'buy', 'my', 'bye', 'goodbye', 'fly', 'hi', 'by', 'sky', 'high', 'guy', 'lie', 'try', 'cry', 'tie', 'dry', 'pie', 'spy', 'apply', 'fry', 'shy', 'nearby']",AY
+2932,weak,peak,"['speak', 'week', 'weak', 'technique', 'cheek', 'peak', 'antique']",IY K
+1273,blame,same,"['same', 'game', 'name', 'aim', 'frame', 'blame']",EY M
+874,explanation,station,"['station', 'vacation', 'conversation', 'invitation', 'examination', 'occupation', 'identification', 'information', 'preparation', 'operation', 'generation', 'celebration', 'situation', 'imagination', 'animation', 'relaxation', 'population', 'punctuation', 'reservation', 'presentation', 'location', 'transportation', 'registration', 'application', 'explanation', 'communication', 'relation', 'organization', 'immigration']",EY SH AH N
+116,view,do,"['too', 'who', 'you', 'do', 'zoo', 'blue', 'shoe', 'view', 'shampoo', 'through', 'flu', 'review', 'crew', 'kangaroo', 'few']",UW
+2527,application,explanation,"['station', 'vacation', 'conversation', 'invitation', 'examination', 'occupation', 'identification', 'information', 'preparation', 'operation', 'generation', 'celebration', 'situation', 'imagination', 'animation', 'relaxation', 'population', 'punctuation', 'reservation', 'presentation', 'location', 'transportation', 'registration', 'application', 'explanation', 'communication', 'relation', 'organization', 'immigration']",EY SH AH N
+1673,celebration,imagination,"['station', 'vacation', 'conversation', 'invitation', 'examination', 'occupation', 'identification', 'information', 'preparation', 'operation', 'generation', 'celebration', 'situation', 'imagination', 'animation', 'relaxation', 'population', 'punctuation', 'reservation', 'presentation', 'location', 'transportation', 'registration', 'application', 'explanation', 'communication', 'relation', 'organization', 'immigration']",EY SH AH N
+2501,conversation,vacation,"['station', 'vacation', 'conversation', 'invitation', 'examination', 'occupation', 'identification', 'information', 'preparation', 'operation', 'generation', 'celebration', 'situation', 'imagination', 'animation', 'relaxation', 'population', 'punctuation', 'reservation', 'presentation', 'location', 'transportation', 'registration', 'application', 'explanation', 'communication', 'relation', 'organization', 'immigration']",EY SH AH N
+1047,test,suggest,"['best', 'test', 'dressed', 'rest', 'guest', 'west', 'northwest', 'stressed', 'arrest', 'breast', 'depressed', 'southwest', 'suggest']",EH S T
+596,might,despite,"['invite', 'light', 'night', 'right', 'write', 'flight', 'bright', 'kite', 'polite', 'quite', 'site', 'might', 'fight', 'despite', 'overnight', 'tight', 'bite', 'sight', 'height']",AY T
+563,hair,fare,"['pair', 'chair', 'their', 'wear', 'hair', 'there', 'fair', 'prepare', 'share', 'square', 'repair', 'pear', 'bear', 'air', 'declare', 'questionnaire', 'spare', 'rare', 'fare', 'care', 'compare']",EH R
+197,priest,east,"['east', 'priest', 'northeast', 'least', 'southeast']",IY S T
+1871,station,communication,"['station', 'vacation', 'conversation', 'invitation', 'examination', 'occupation', 'identification', 'information', 'preparation', 'operation', 'generation', 'celebration', 'situation', 'imagination', 'animation', 'relaxation', 'population', 'punctuation', 'reservation', 'presentation', 'location', 'transportation', 'registration', 'application', 'explanation', 'communication', 'relation', 'organization', 'immigration']",EY SH AH N
+346,composition,ambition,"['competition', 'condition', 'permission', 'position', 'politician', 'composition', 'ambition', 'intermission', 'expedition', 'musician', 'exhibition']",IH SH AH N
+1983,hair,share,"['pair', 'chair', 'their', 'wear', 'hair', 'there', 'fair', 'prepare', 'share', 'square', 'repair', 'pear', 'bear', 'air', 'declare', 'questionnaire', 'spare', 'rare', 'fare', 'care', 'compare']",EH R
+975,kill,bill,"['until', 'bill', 'fill', 'till', 'hill', 'kill', 'still', 'skill', 'grill', 'pill', 'spill']",IH L
+1483,cigarette,net,"['pet', 'yet', 'wet', 'set', 'cigarette', 'vet', 'let', 'jet', 'net']",EH T
+379,zone,stone,"['phone', 'alone', 'own', 'unknown', 'bone', 'stone', 'postpone', 'loan', 'zone']",OW N
+789,we,she,"['she', 'me', 'he', 'tea', 'key', 'we', 'see', 'tree', 'sea', 'agree', 'degree', 'free', 'disagree', 'fee', 'bee', 'ski', 'pea', 'knee']",IY
+2128,fry,nearby,"['die', 'eye', 'buy', 'my', 'bye', 'goodbye', 'fly', 'hi', 'by', 'sky', 'high', 'guy', 'lie', 'try', 'cry', 'tie', 'dry', 'pie', 'spy', 'apply', 'fry', 'shy', 'nearby']",AY
+2460,map,cap,"['rap', 'cap', 'map', 'wrap', 'clap']",AE P
+2750,form,perform,"['warm', 'storm', 'form', 'perform', 'inform']",AO R M
+866,location,generation,"['station', 'vacation', 'conversation', 'invitation', 'examination', 'occupation', 'identification', 'information', 'preparation', 'operation', 'generation', 'celebration', 'situation', 'imagination', 'animation', 'relaxation', 'population', 'punctuation', 'reservation', 'presentation', 'location', 'transportation', 'registration', 'application', 'explanation', 'communication', 'relation', 'organization', 'immigration']",EY SH AH N
+1607,conversation,preparation,"['station', 'vacation', 'conversation', 'invitation', 'examination', 'occupation', 'identification', 'information', 'preparation', 'operation', 'generation', 'celebration', 'situation', 'imagination', 'animation', 'relaxation', 'population', 'punctuation', 'reservation', 'presentation', 'location', 'transportation', 'registration', 'application', 'explanation', 'communication', 'relation', 'organization', 'immigration']",EY SH AH N
+1491,compare,repair,"['pair', 'chair', 'their', 'wear', 'hair', 'there', 'fair', 'prepare', 'share', 'square', 'repair', 'pear', 'bear', 'air', 'declare', 'questionnaire', 'spare', 'rare', 'fare', 'care', 'compare']",EH R
+1219,declare,pair,"['pair', 'chair', 'their', 'wear', 'hair', 'there', 'fair', 'prepare', 'share', 'square', 'repair', 'pear', 'bear', 'air', 'declare', 'questionnaire', 'spare', 'rare', 'fare', 'care', 'compare']",EH R
+779,immigration,preparation,"['station', 'vacation', 'conversation', 'invitation', 'examination', 'occupation', 'identification', 'information', 'preparation', 'operation', 'generation', 'celebration', 'situation', 'imagination', 'animation', 'relaxation', 'population', 'punctuation', 'reservation', 'presentation', 'location', 'transportation', 'registration', 'application', 'explanation', 'communication', 'relation', 'organization', 'immigration']",EY SH AH N
+1774,thick,click,"['quick', 'kick', 'click', 'sick', 'trick', 'pick', 'stick', 'thick']",IH K
+2852,year,appear,"['near', 'dear', 'beer', 'year', 'clear', 'engineer', 'fear', 'souvenir', 'career', 'appear']",IH R
+13,stand,land,"['hand', 'band', 'understand', 'stand', 'land', 'sand', 'demand']",AE N D
+2407,cover,lover,"['cover', 'recover', 'discover', 'lover']",AH V ER
+314,reach,each,"['beach', 'each', 'teach', 'peach', 'speech', 'reach']",IY CH
+1292,care,square,"['pair', 'chair', 'their', 'wear', 'hair', 'there', 'fair', 'prepare', 'share', 'square', 'repair', 'pear', 'bear', 'air', 'declare', 'questionnaire', 'spare', 'rare', 'fare', 'care', 'compare']",EH R
+1620,quite,height,"['invite', 'light', 'night', 'right', 'write', 'flight', 'bright', 'kite', 'polite', 'quite', 'site', 'might', 'fight', 'despite', 'overnight', 'tight', 'bite', 'sight', 'height']",AY T
+2786,bike,like,"['like', 'bike', 'alike', 'dislike', 'strike']",AY K
+1313,ambition,expedition,"['competition', 'condition', 'permission', 'position', 'politician', 'composition', 'ambition', 'intermission', 'expedition', 'musician', 'exhibition']",IH SH AH N
+1985,collect,select,"['correct', 'collect', 'incorrect', 'select', 'expect', 'connect', 'protect']",EH K T
+2464,disease,please,"['please', 'these', 'cheese', 'freeze', 'disease', 'breeze']",IY Z
+489,bat,fat,"['bat', 'fat', 'at', 'hat', 'cat', 'rat', 'chat', 'flat']",AE T
+1755,grill,kill,"['until', 'bill', 'fill', 'till', 'hill', 'kill', 'still', 'skill', 'grill', 'pill', 'spill']",IH L
+2312,exact,attract,"['fact', 'attract', 'exact', 'act']",AE K T
+2002,vacation,situation,"['station', 'vacation', 'conversation', 'invitation', 'examination', 'occupation', 'identification', 'information', 'preparation', 'operation', 'generation', 'celebration', 'situation', 'imagination', 'animation', 'relaxation', 'population', 'punctuation', 'reservation', 'presentation', 'location', 'transportation', 'registration', 'application', 'explanation', 'communication', 'relation', 'organization', 'immigration']",EY SH AH N
+2322,fair,spare,"['pair', 'chair', 'their', 'wear', 'hair', 'there', 'fair', 'prepare', 'share', 'square', 'repair', 'pear', 'bear', 'air', 'declare', 'questionnaire', 'spare', 'rare', 'fare', 'care', 'compare']",EH R
+78,sew,slow,"['no', 'snow', 'go', 'slow', 'oh', 'know', 'show', 'toe', 'throw', 'grow', 'ago', 'so', 'low', 'sew', 'blow', 'row', 'owe']",OW
+1730,pet,set,"['pet', 'yet', 'wet', 'set', 'cigarette', 'vet', 'let', 'jet', 'net']",EH T
+2512,immigration,animation,"['station', 'vacation', 'conversation', 'invitation', 'examination', 'occupation', 'identification', 'information', 'preparation', 'operation', 'generation', 'celebration', 'situation', 'imagination', 'animation', 'relaxation', 'population', 'punctuation', 'reservation', 'presentation', 'location', 'transportation', 'registration', 'application', 'explanation', 'communication', 'relation', 'organization', 'immigration']",EY SH AH N
+1138,hit,bit,"['sit', 'hit', 'fit', 'quit', 'admit', 'knit', 'bit', 'kit']",IH T
+499,unknown,stone,"['phone', 'alone', 'own', 'unknown', 'bone', 'stone', 'postpone', 'loan', 'zone']",OW N
+1747,less,stress,"['dress', 'yes', 'chess', 'guess', 'less', 'mess', 'press', 'undress', 'success', 'stress']",EH S
+2757,operation,occupation,"['station', 'vacation', 'conversation', 'invitation', 'examination', 'occupation', 'identification', 'information', 'preparation', 'operation', 'generation', 'celebration', 'situation', 'imagination', 'animation', 'relaxation', 'population', 'punctuation', 'reservation', 'presentation', 'location', 'transportation', 'registration', 'application', 'explanation', 'communication', 'relation', 'organization', 'immigration']",EY SH AH N
+1244,kind,blind,"['behind', 'find', 'kind', 'blind', 'unkind', 'mind', 'remind']",AY N D
+923,tea,bee,"['she', 'me', 'he', 'tea', 'key', 'we', 'see', 'tree', 'sea', 'agree', 'degree', 'free', 'disagree', 'fee', 'bee', 'ski', 'pea', 'knee']",IY
+51,might,invite,"['invite', 'light', 'night', 'right', 'write', 'flight', 'bright', 'kite', 'polite', 'quite', 'site', 'might', 'fight', 'despite', 'overnight', 'tight', 'bite', 'sight', 'height']",AY T
+517,skate,state,"['late', 'plate', 'date', 'wait', 'great', 'straight', 'hate', 'skate', 'gate', 'state', 'create', 'weight']",EY T
+2106,blood,flood,"['blood', 'flood']",AH D
+374,registration,communication,"['station', 'vacation', 'conversation', 'invitation', 'examination', 'occupation', 'identification', 'information', 'preparation', 'operation', 'generation', 'celebration', 'situation', 'imagination', 'animation', 'relaxation', 'population', 'punctuation', 'reservation', 'presentation', 'location', 'transportation', 'registration', 'application', 'explanation', 'communication', 'relation', 'organization', 'immigration']",EY SH AH N
+339,add,mad,"['sad', 'ad', 'dad', 'bad', 'glad', 'mad', 'add']",AE D
+964,no,slow,"['no', 'snow', 'go', 'slow', 'oh', 'know', 'show', 'toe', 'throw', 'grow', 'ago', 'so', 'low', 'sew', 'blow', 'row', 'owe']",OW
+1169,rare,square,"['pair', 'chair', 'their', 'wear', 'hair', 'there', 'fair', 'prepare', 'share', 'square', 'repair', 'pear', 'bear', 'air', 'declare', 'questionnaire', 'spare', 'rare', 'fare', 'care', 'compare']",EH R
+769,musician,politician,"['competition', 'condition', 'permission', 'position', 'politician', 'composition', 'ambition', 'intermission', 'expedition', 'musician', 'exhibition']",IH SH AH N
+315,spill,kill,"['until', 'bill', 'fill', 'till', 'hill', 'kill', 'still', 'skill', 'grill', 'pill', 'spill']",IH L
+2474,rug,bug,"['mug', 'hug', 'bug', 'rug', 'plug']",AH G
+1299,souvenir,near,"['near', 'dear', 'beer', 'year', 'clear', 'engineer', 'fear', 'souvenir', 'career', 'appear']",IH R
+2022,situation,animation,"['station', 'vacation', 'conversation', 'invitation', 'examination', 'occupation', 'identification', 'information', 'preparation', 'operation', 'generation', 'celebration', 'situation', 'imagination', 'animation', 'relaxation', 'population', 'punctuation', 'reservation', 'presentation', 'location', 'transportation', 'registration', 'application', 'explanation', 'communication', 'relation', 'organization', 'immigration']",EY SH AH N
+1718,bat,hat,"['bat', 'fat', 'at', 'hat', 'cat', 'rat', 'chat', 'flat']",AE T
+573,steak,brake,"['make', 'cake', 'take', 'break', 'steak', 'snake', 'bake', 'lake', 'mistake', 'awake', 'shake', 'ache', 'brake']",EY K
+887,mess,less,"['dress', 'yes', 'chess', 'guess', 'less', 'mess', 'press', 'undress', 'success', 'stress']",EH S
+522,chin,pin,"['begin', 'violin', 'thin', 'win', 'skin', 'pin', 'twin', 'chin']",IH N
+1856,fur,per,"['her', 'per', 'sir', 'stir', 'fur']",ER
+1994,fold,gold,"['cold', 'old', 'hold', 'gold', 'fold']",OW L D
+283,tip,ship,"['trip', 'ship', 'tip', 'slip', 'lip']",IH P
+2064,hotel,bell,"['hotel', 'well', 'tell', 'spell', 'sell', 'smell', 'bell', 'unwell']",EH L
+1499,least,northeast,"['east', 'priest', 'northeast', 'least', 'southeast']",IY S T
+1637,speech,each,"['beach', 'each', 'teach', 'peach', 'speech', 'reach']",IY CH
+2243,book,look,"['look', 'book', 'cook']",UH K
+2663,presentation,relation,"['station', 'vacation', 'conversation', 'invitation', 'examination', 'occupation', 'identification', 'information', 'preparation', 'operation', 'generation', 'celebration', 'situation', 'imagination', 'animation', 'relaxation', 'population', 'punctuation', 'reservation', 'presentation', 'location', 'transportation', 'registration', 'application', 'explanation', 'communication', 'relation', 'organization', 'immigration']",EY SH AH N
+220,enjoy,annoy,"['boy', 'enjoy', 'toy', 'destroy', 'annoy']",OY
+2391,involve,solve,"['involve', 'solve']",AA L V
+1835,hair,care,"['pair', 'chair', 'their', 'wear', 'hair', 'there', 'fair', 'prepare', 'share', 'square', 'repair', 'pear', 'bear', 'air', 'declare', 'questionnaire', 'spare', 'rare', 'fare', 'care', 'compare']",EH R
+2745,see,pea,"['she', 'me', 'he', 'tea', 'key', 'we', 'see', 'tree', 'sea', 'agree', 'degree', 'free', 'disagree', 'fee', 'bee', 'ski', 'pea', 'knee']",IY
+565,key,agree,"['she', 'me', 'he', 'tea', 'key', 'we', 'see', 'tree', 'sea', 'agree', 'degree', 'free', 'disagree', 'fee', 'bee', 'ski', 'pea', 'knee']",IY
+913,quit,admit,"['sit', 'hit', 'fit', 'quit', 'admit', 'knit', 'bit', 'kit']",IH T
+2591,tent,cent,"['rent', 'cent', 'tent', 'percent', 'invent']",EH N T
+1770,snake,shake,"['make', 'cake', 'take', 'break', 'steak', 'snake', 'bake', 'lake', 'mistake', 'awake', 'shake', 'ache', 'brake']",EY K
+2308,go,ago,"['no', 'snow', 'go', 'slow', 'oh', 'know', 'show', 'toe', 'throw', 'grow', 'ago', 'so', 'low', 'sew', 'blow', 'row', 'owe']",OW
+273,try,eye,"['die', 'eye', 'buy', 'my', 'bye', 'goodbye', 'fly', 'hi', 'by', 'sky', 'high', 'guy', 'lie', 'try', 'cry', 'tie', 'dry', 'pie', 'spy', 'apply', 'fry', 'shy', 'nearby']",AY
+441,invite,height,"['invite', 'light', 'night', 'right', 'write', 'flight', 'bright', 'kite', 'polite', 'quite', 'site', 'might', 'fight', 'despite', 'overnight', 'tight', 'bite', 'sight', 'height']",AY T
+1614,we,disagree,"['she', 'me', 'he', 'tea', 'key', 'we', 'see', 'tree', 'sea', 'agree', 'degree', 'free', 'disagree', 'fee', 'bee', 'ski', 'pea', 'knee']",IY
+2668,knit,kit,"['sit', 'hit', 'fit', 'quit', 'admit', 'knit', 'bit', 'kit']",IH T
+2107,free,sea,"['she', 'me', 'he', 'tea', 'key', 'we', 'see', 'tree', 'sea', 'agree', 'degree', 'free', 'disagree', 'fee', 'bee', 'ski', 'pea', 'knee']",IY
+1310,high,cry,"['die', 'eye', 'buy', 'my', 'bye', 'goodbye', 'fly', 'hi', 'by', 'sky', 'high', 'guy', 'lie', 'try', 'cry', 'tie', 'dry', 'pie', 'spy', 'apply', 'fry', 'shy', 'nearby']",AY
+1746,presentation,population,"['station', 'vacation', 'conversation', 'invitation', 'examination', 'occupation', 'identification', 'information', 'preparation', 'operation', 'generation', 'celebration', 'situation', 'imagination', 'animation', 'relaxation', 'population', 'punctuation', 'reservation', 'presentation', 'location', 'transportation', 'registration', 'application', 'explanation', 'communication', 'relation', 'organization', 'immigration']",EY SH AH N
+1657,brochure,tour,"['sure', 'tour', 'brochure', 'pure']",UH R
+2210,transportation,presentation,"['station', 'vacation', 'conversation', 'invitation', 'examination', 'occupation', 'identification', 'information', 'preparation', 'operation', 'generation', 'celebration', 'situation', 'imagination', 'animation', 'relaxation', 'population', 'punctuation', 'reservation', 'presentation', 'location', 'transportation', 'registration', 'application', 'explanation', 'communication', 'relation', 'organization', 'immigration']",EY SH AH N

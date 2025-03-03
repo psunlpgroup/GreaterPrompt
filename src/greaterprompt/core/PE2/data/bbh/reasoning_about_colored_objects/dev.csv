@@ -1,0 +1,1535 @@
+,input,label
+51,"On the nightstand, I see a purple pencil, a brown booklet, a grey keychain, and a magenta pair of sunglasses. Is the pair of sunglasses pink?
+Options:
+(A) yes
+(B) no",(B)
+95,"On the nightstand, there is a yellow notebook, a blue jug, a red keychain, an orange pencil, and a purple fidget spinner. How many objects are neither purple nor blue?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(D)
+143,"On the desk, you see the following things arranged in a row: a blue pen, a burgundy notebook, and a pink stress ball. How many non-brown things do you see to the left of the burgundy thing?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(B)
+199,"On the floor, you see a bunch of objects arranged in a row: a fuchsia jug, a black teddy bear, a blue envelope, a silver paperclip, a teal pencil, and a yellow keychain. What is the color of the object furthest from the silver object?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(H)
+76,"On the table, you see a bunch of things arranged in a row: a yellow pair of sunglasses, a brown fidget spinner, a silver cup, and a mauve teddy bear. How many non-yellow things do you see to the right of the silver thing?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(B)
+41,"On the desk, there is a purple pen, a blue bracelet, a red cat toy, a green plate, and a yellow envelope. How many items are neither orange nor brown?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(F)
+113,"On the table, I see a yellow cup, a purple paperclip, a brown textbook, and a pink crayon. Is the textbook gold?
+Options:
+(A) yes
+(B) no",(B)
+152,"On the desk, I see a purple necklace, a gold scrunchiephone charger, and a red stress ball. Is the stress ball red?
+Options:
+(A) yes
+(B) no",(A)
+78,"On the table, I see two fuchsia scrunchiephone chargers, three burgundy keychains, three burgundy cat toys, three fuchsia keychains, two burgundy cups, and two burgundy scrunchiephone chargers. If I remove all the keychains from the table, how many fuchsia items remain on it?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six
+(H) seven
+(I) eight
+(J) nine
+(K) ten
+(L) eleven
+(M) twelve
+(N) thirteen
+(O) fourteen
+(P) fifteen
+(Q) sixteen",(C)
+147,"On the nightstand, you see the following things arranged in a row: a pink cup, an orange booklet, a turquoise necklace, and a mauve textbook. How many non-magenta things do you see to the left of the necklace?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(C)
+26,"On the desk, you see several things arranged in a row: a fuchsia pencil, a mauve stress ball, a blue teddy bear, and a gold necklace. What is the color of the thing directly to the right of the mauve thing?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(E)
+241,"On the floor, you see a green cat toy, a silver fidget spinner, and a purple necklace. What color is the necklace?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(Q)
+164,"On the table, you see three brown paperclips, two brown pens, and two orange paperclips. If I remove all the orange things from the table, how many pens remain on it?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six
+(H) seven
+(I) eight
+(J) nine
+(K) ten
+(L) eleven
+(M) twelve
+(N) thirteen
+(O) fourteen
+(P) fifteen
+(Q) sixteen",(C)
+243,"On the desk, you see two burgundy bracelets, two red paperclips, three orange plates, one fuchsia plate, one burgundy plate, one red plate, one orange paperclip, and three orange bracelets. If I remove all the plates from the desk, how many fuchsia items remain on it?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six
+(H) seven
+(I) eight
+(J) nine
+(K) ten
+(L) eleven
+(M) twelve
+(N) thirteen
+(O) fourteen
+(P) fifteen
+(Q) sixteen",(A)
+137,"On the nightstand, you see a yellow mug, a pink pair of sunglasses, a blue pencil, a green crayon, and a purple puzzle. Is the pair of sunglasses silver?
+Options:
+(A) yes
+(B) no",(B)
+0,"On the floor, there is one mauve cat toy, two purple cat toys, three grey cat toys, two mauve notebooks, three grey notebooks, three burgundy cat toys, and one purple notebook. If I remove all the notebooks from the floor, how many grey objects remain on it?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six
+(H) seven
+(I) eight
+(J) nine
+(K) ten
+(L) eleven
+(M) twelve
+(N) thirteen
+(O) fourteen
+(P) fifteen
+(Q) sixteen",(D)
+2,"On the nightstand, you see a set of items arranged in a row: a gold plate, a silver stress ball, a fuchsia notebook, a mauve bracelet, a green jug, and a yellow fidget spinner. What is the color of the item directly to the left of the jug?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(I)
+77,"On the nightstand, you see a silver teddy bear, a gold crayon, and an orange scrunchiephone charger. Is the teddy bear mauve?
+Options:
+(A) yes
+(B) no",(B)
+46,"On the floor, there is a purple pencil, a green cat toy, and a mauve booklet. Is the booklet mauve?
+Options:
+(A) yes
+(B) no",(A)
+100,"On the desk, you see several things arranged in a row: a burgundy bracelet, a grey mug, a green necklace, and a magenta textbook. What is the color of the thing directly to the left of the necklace?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(P)
+127,"On the floor, there is one yellow textbook, one teal necklace, three yellow puzzles, three teal puzzles, two purple textbooks, two magenta pencils, one yellow pencil, two yellow necklaces, and one purple necklace. If I remove all the magenta things from the floor, how many puzzles remain on it?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six
+(H) seven
+(I) eight
+(J) nine
+(K) ten
+(L) eleven
+(M) twelve
+(N) thirteen
+(O) fourteen
+(P) fifteen
+(Q) sixteen",(G)
+150,"On the table, there are two green pencils, one green fidget spinner, three teal fidget spinners, one green stress ball, two teal cat toys, and three green cat toys. If I remove all the fidget spinners from the table, how many green objects remain on it?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six
+(H) seven
+(I) eight
+(J) nine
+(K) ten
+(L) eleven
+(M) twelve
+(N) thirteen
+(O) fourteen
+(P) fifteen
+(Q) sixteen",(G)
+248,"On the table, you see the following things arranged in a row: a fuchsia cup, a magenta stress ball, a mauve envelope, a yellow notebook, a blue paperclip, and a silver pen. What is the color of the thing directly to the right of the notebook?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(E)
+90,"On the floor, you see a blue mug, a green teddy bear, a silver scrunchiephone charger, a brown dog leash, a mauve sheet of paper, and a fuchsia envelope. What color is the scrunchiephone charger?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(M)
+85,"On the desk, there is one blue jug, two burgundy necklaces, one blue necklace, three blue keychains, three blue teddy bears, and two burgundy jugs. If I remove all the burgundy items from the desk, how many necklaces remain on it?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six
+(H) seven
+(I) eight
+(J) nine
+(K) ten
+(L) eleven
+(M) twelve
+(N) thirteen
+(O) fourteen
+(P) fifteen
+(Q) sixteen",(B)
+175,"On the floor, you see a set of things arranged in a row: a grey pen, a burgundy dog leash, a gold pencil, a pink plate, and a black envelope. How many non-purple things do you see to the right of the grey thing?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(E)
+195,"On the nightstand, you see a bunch of objects arranged in a row: a teal puzzle, a yellow cat toy, a blue fidget spinner, an orange notebook, and a pink envelope. What is the color of the right-most object?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(R)
+98,"On the nightstand, you see one green necklace, two green textbooks, and two blue textbooks. If I remove all the textbooks from the nightstand, how many green items remain on it?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six
+(H) seven
+(I) eight
+(J) nine
+(K) ten
+(L) eleven
+(M) twelve
+(N) thirteen
+(O) fourteen
+(P) fifteen
+(Q) sixteen",(B)
+36,"On the floor, you see the following items arranged in a row: an orange scrunchiephone charger, a pink pencil, a green booklet, a brown mug, and a purple paperclip. What is the color of the item directly to the right of the scrunchiephone charger?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(R)
+61,"On the desk, you see a set of things arranged in a row: a magenta sheet of paper, a pink fidget spinner, a turquoise keychain, and a green pen. How many non-turquoise things do you see to the left of the sheet of paper?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(A)
+162,"On the nightstand, you see one yellow sheet of paper, three brown pencils, and three brown textbooks. If I remove all the yellow objects from the nightstand, how many sheets of paper remain on it?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six
+(H) seven
+(I) eight
+(J) nine
+(K) ten
+(L) eleven
+(M) twelve
+(N) thirteen
+(O) fourteen
+(P) fifteen
+(Q) sixteen",(A)
+139,"On the desk, you see a set of items arranged in a row: an orange pen, a turquoise pair of sunglasses, a gold scrunchiephone charger, a yellow envelope, and a fuchsia bracelet. What is the color of the left-most item?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(B)
+11,"On the table, you see several objects arranged in a row: a gold pen, a mauve mug, a teal envelope, a red keychain, and a turquoise fidget spinner. What is the color of the object directly to the left of the teal object?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(I)
+244,"On the floor, you see several items arranged in a row: a silver plate, a magenta pen, a pink fidget spinner, and a mauve jug. How many non-black items do you see to the right of the mauve item?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(A)
+198,"On the floor, you see several objects arranged in a row: a green fidget spinner, a yellow textbook, a gold teddy bear, a red keychain, a magenta cup, and a turquoise plate. What is the color of the object directly to the right of the teddy bear?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(A)
+27,"On the table, you see several things arranged in a row: a blue plate, a grey cup, a pink envelope, a burgundy paperclip, a mauve booklet, and a gold keychain. How many non-burgundy things do you see to the right of the booklet?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(B)
+155,"On the table, I see three black stress balls, one orange stress ball, two purple keychains, one black dog leash, one orange keychain, three orange cat toys, one black keychain, and one purple stress ball. If I remove all the cat toys from the table, how many orange items remain on it?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six
+(H) seven
+(I) eight
+(J) nine
+(K) ten
+(L) eleven
+(M) twelve
+(N) thirteen
+(O) fourteen
+(P) fifteen
+(Q) sixteen",(C)
+4,"On the desk, you see a bunch of things arranged in a row: a mauve plate, an orange jug, a burgundy pair of sunglasses, a green pen, and a purple stress ball. What is the color of the thing directly to the left of the burgundy thing?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(B)
+122,"On the table, you see several objects arranged in a row: a silver pencil, a brown bracelet, a green plate, and a blue pen. How many non-green objects do you see to the right of the pen?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(A)
+32,"On the nightstand, you see the following things arranged in a row: a silver dog leash, a mauve bracelet, a pink textbook, and a fuchsia pencil. What is the color of the right-most thing?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(H)
+144,"On the desk, you see several items arranged in a row: a fuchsia cup, a red pen, a turquoise fidget spinner, a teal paperclip, and a silver teddy bear. How many non-yellow items do you see to the right of the fidget spinner?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(C)
+178,"On the floor, you see a bunch of items arranged in a row: a blue keychain, a pink fidget spinner, a turquoise jug, a mauve textbook, a brown paperclip, and a teal envelope. What is the color of the left-most item?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(E)
+138,"On the floor, you see a bunch of objects arranged in a row: a teal plate, a black mug, a brown stress ball, and a pink dog leash. How many non-magenta objects do you see to the right of the brown object?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(B)
+62,"On the nightstand, there is a silver jug, a blue pair of sunglasses, a fuchsia stress ball, and a purple sheet of paper. What color is the stress ball?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(H)
+135,"On the desk, I see a black notebook, a pink pen, a burgundy pair of sunglasses, a gold crayon, and a green keychain. Is the crayon turquoise?
+Options:
+(A) yes
+(B) no",(B)
+128,"On the table, I see a teal mug, a brown paperclip, a silver fidget spinner, a black pair of sunglasses, a yellow teddy bear, and a gold plate. What color is the fidget spinner?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(M)
+226,"On the desk, you see a set of items arranged in a row: a black paperclip, a gold keychain, and a silver necklace. What is the color of the item furthest from the paperclip?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(M)
+205,"On the desk, there is a blue textbook, a grey dog leash, a burgundy paperclip, a black crayon, a teal envelope, and a purple puzzle. What color is the dog leash?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(P)
+70,"On the nightstand, there is a red cup, a pink sheet of paper, and a silver keychain. Is the cup red?
+Options:
+(A) yes
+(B) no",(A)
+192,"On the nightstand, I see one green scrunchiephone charger, one silver scrunchiephone charger, three magenta scrunchiephone chargers, three brown scrunchiephone chargers, two brown dog leashes, three magenta jugs, and three green jugs. If I remove all the scrunchiephone chargers from the nightstand, how many magenta objects remain on it?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six
+(H) seven
+(I) eight
+(J) nine
+(K) ten
+(L) eleven
+(M) twelve
+(N) thirteen
+(O) fourteen
+(P) fifteen
+(Q) sixteen",(D)
+64,"On the nightstand, you see the following things arranged in a row: a teal stress ball, a purple paperclip, a gold scrunchiephone charger, and a black dog leash. What is the color of the thing directly to the right of the teal thing?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(Q)
+44,"On the desk, you see a bunch of items arranged in a row: a purple puzzle, a black envelope, and a blue textbook. What is the color of the item furthest from the puzzle?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(E)
+165,"On the nightstand, you see a brown mug, a green scrunchiephone charger, and a yellow teddy bear. How many items are neither purple nor black?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(D)
+40,"On the floor, you see one yellow plate, three turquoise plates, three turquoise textbooks, two yellow textbooks, one burgundy plate, and three burgundy textbooks. If I remove all the plates from the floor, how many yellow items remain on it?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six
+(H) seven
+(I) eight
+(J) nine
+(K) ten
+(L) eleven
+(M) twelve
+(N) thirteen
+(O) fourteen
+(P) fifteen
+(Q) sixteen",(C)
+123,"On the floor, you see a purple bracelet and a red scrunchiephone charger. How many things are neither red nor purple?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(A)
+153,"On the floor, you see a set of objects arranged in a row: a teal teddy bear, a brown jug, and a purple pencil. What is the color of the object directly to the left of the jug?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(J)
+23,"On the table, you see a green pencil and a mauve dog leash. What color is the pencil?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(D)
+211,"On the table, you see a silver pen, a teal pencil, a red booklet, a black puzzle, and an orange cat toy. Is the booklet red?
+Options:
+(A) yes
+(B) no",(A)
+183,"On the desk, you see a set of objects arranged in a row: a pink envelope, a red paperclip, a burgundy puzzle, an orange dog leash, a green fidget spinner, and a mauve crayon. What is the color of the right-most object?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(I)
+81,"On the nightstand, you see a set of things arranged in a row: a brown pair of sunglasses, a silver teddy bear, and a magenta notebook. What is the color of the thing directly to the right of the brown thing?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(M)
+39,"On the nightstand, you see a brown notebook, a yellow keychain, an orange fidget spinner, a purple pen, and a blue bracelet. How many items are neither red nor brown?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(E)
+209,"On the nightstand, you see several items arranged in a row: a turquoise scrunchiephone charger, a red bracelet, a grey keychain, and a gold mug. How many non-teal items do you see to the left of the scrunchiephone charger?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(A)
+47,"On the table, you see a set of items arranged in a row: a gold mug, a teal paperclip, a blue plate, and an orange notebook. What is the color of the left-most item?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(N)
+94,"On the desk, there are three grey dog leashes, two grey notebooks, two gold dog leashes, one gold notebook, three grey pencils, two grey booklets, one gold booklet, and three gold pencils. If I remove all the dog leashes from the desk, how many gold objects remain on it?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six
+(H) seven
+(I) eight
+(J) nine
+(K) ten
+(L) eleven
+(M) twelve
+(N) thirteen
+(O) fourteen
+(P) fifteen
+(Q) sixteen",(F)
+190,"On the desk, there are two turquoise fidget spinners, one red pair of sunglasses, three purple fidget spinners, and three turquoise pairs of sunglasses. If I remove all the turquoise things from the desk, how many pairs of sunglasses remain on it?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six
+(H) seven
+(I) eight
+(J) nine
+(K) ten
+(L) eleven
+(M) twelve
+(N) thirteen
+(O) fourteen
+(P) fifteen
+(Q) sixteen",(B)
+161,"On the floor, you see a set of things arranged in a row: a black jug, a green dog leash, a turquoise sheet of paper, a burgundy puzzle, and a pink necklace. What is the color of the thing directly to the right of the burgundy thing?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(R)
+43,"On the floor, there is a silver booklet, a pink teddy bear, a brown scrunchiephone charger, and a red bracelet. Is the teddy bear orange?
+Options:
+(A) yes
+(B) no",(B)
+145,"On the desk, I see two magenta mugs, one burgundy jug, two silver mugs, one teal jug, three magenta jugs, and one burgundy mug. If I remove all the silver items from the desk, how many mugs remain on it?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six
+(H) seven
+(I) eight
+(J) nine
+(K) ten
+(L) eleven
+(M) twelve
+(N) thirteen
+(O) fourteen
+(P) fifteen
+(Q) sixteen",(D)
+182,"On the floor, you see a bunch of things arranged in a row: a mauve pair of sunglasses, a blue booklet, a red paperclip, a gold cup, a burgundy stress ball, and a black bracelet. What is the color of the thing furthest from the blue thing?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(O)
+3,"On the table, you see several items arranged in a row: a fuchsia teddy bear, a red jug, a gold puzzle, a burgundy bracelet, and a green notebook. How many non-magenta items do you see to the right of the red item?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(D)
+105,"On the table, you see a bunch of items arranged in a row: a brown cat toy, a turquoise puzzle, a green envelope, a purple sheet of paper, a yellow necklace, and a mauve bracelet. What is the color of the item furthest from the purple item?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(F)
+53,"On the table, I see a red notebook, a purple dog leash, an orange jug, a brown crayon, and a yellow cup. How many items are neither yellow nor black?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(E)
+133,"On the table, you see several objects arranged in a row: a burgundy paperclip, a purple cup, a mauve pencil, a yellow keychain, and a silver teddy bear. What is the color of the object furthest from the teddy bear?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(L)
+227,"On the floor, you see a set of objects arranged in a row: an orange scrunchiephone charger, a blue cup, a turquoise dog leash, a yellow fidget spinner, a brown stress ball, and a burgundy textbook. How many non-grey objects do you see to the left of the blue object?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(B)
+193,"On the desk, you see a purple pencil, an orange envelope, a silver pair of sunglasses, and a magenta paperclip. What color is the paperclip?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(G)
+232,"On the table, you see a set of things arranged in a row: a turquoise plate, a brown scrunchiephone charger, an orange textbook, a magenta stress ball, a pink pair of sunglasses, and a silver keychain. How many non-fuchsia things do you see to the left of the keychain?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(F)
+49,"On the floor, you see a bunch of objects arranged in a row: a silver jug, a yellow scrunchiephone charger, a red plate, a purple fidget spinner, a fuchsia cup, and a pink pen. What is the color of the object furthest from the fidget spinner?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(M)
+163,"On the table, there is a black teddy bear, a green fidget spinner, a mauve scrunchiephone charger, and a yellow crayon. What color is the fidget spinner?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(D)
+80,"On the floor, you see a set of things arranged in a row: a purple scrunchiephone charger, a turquoise dog leash, a magenta keychain, a silver stress ball, and a blue crayon. What is the color of the thing directly to the left of the stress ball?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(G)
+34,"On the desk, there is a turquoise pencil, a blue pen, a mauve sheet of paper, a grey paperclip, and a pink textbook. What color is the sheet of paper?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(I)
+206,"On the floor, there is a brown jug, a black envelope, a silver stress ball, and a turquoise plate. What color is the plate?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(K)
+7,"On the floor, I see a turquoise envelope, a grey plate, a silver pencil, and a teal cup. What color is the envelope?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(K)
+171,"On the desk, you see two teal puzzles, two red puzzles, three grey jugs, two teal plates, two blue puzzles, three red jugs, two blue jugs, and two grey plates. If I remove all the blue items from the desk, how many puzzles remain on it?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six
+(H) seven
+(I) eight
+(J) nine
+(K) ten
+(L) eleven
+(M) twelve
+(N) thirteen
+(O) fourteen
+(P) fifteen
+(Q) sixteen",(E)
+110,"On the nightstand, you see a blue booklet, a brown necklace, a green cat toy, a burgundy cup, an orange keychain, and a magenta textbook. What color is the cat toy?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(D)
+91,"On the table, I see three teal bracelets and two grey dog leashes. If I remove all the dog leashes from the table, how many teal items remain on it?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six
+(H) seven
+(I) eight
+(J) nine
+(K) ten
+(L) eleven
+(M) twelve
+(N) thirteen
+(O) fourteen
+(P) fifteen
+(Q) sixteen",(D)
+83,"On the floor, I see a magenta pen and a mauve teddy bear. Is the pen magenta?
+Options:
+(A) yes
+(B) no",(A)
+223,"On the desk, you see the following items arranged in a row: a teal fidget spinner, a gold pair of sunglasses, a mauve scrunchiephone charger, and a brown notebook. What is the color of the item furthest from the scrunchiephone charger?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(J)
+228,"On the desk, you see a bunch of items arranged in a row: a red cat toy, a teal mug, a yellow crayon, a fuchsia booklet, a green necklace, and a mauve plate. How many non-brown items do you see to the left of the necklace?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(E)
+89,"On the table, you see a bunch of things arranged in a row: a pink crayon, a black pair of sunglasses, and an orange scrunchiephone charger. What is the color of the thing directly to the right of the crayon?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(O)
+8,"On the table, there is a red crayon, a pink notebook, a yellow jug, and a magenta mug. Is the mug grey?
+Options:
+(A) yes
+(B) no",(B)
+13,"On the desk, you see three magenta mugs, three red fidget spinners, three red keychains, and two magenta cups. If I remove all the red items from the desk, how many mugs remain on it?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six
+(H) seven
+(I) eight
+(J) nine
+(K) ten
+(L) eleven
+(M) twelve
+(N) thirteen
+(O) fourteen
+(P) fifteen
+(Q) sixteen",(D)
+59,"On the table, you see the following objects arranged in a row: a gold pencil, a red jug, a grey bracelet, and a mauve dog leash. What is the color of the object directly to the left of the bracelet?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(A)
+215,"On the nightstand, you see one gold notebook, one yellow notebook, two yellow keychains, two gold keychains, three yellow mugs, and one gold scrunchiephone charger. If I remove all the yellow objects from the nightstand, how many scrunchiephone chargers remain on it?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six
+(H) seven
+(I) eight
+(J) nine
+(K) ten
+(L) eleven
+(M) twelve
+(N) thirteen
+(O) fourteen
+(P) fifteen
+(Q) sixteen",(B)
+131,"On the desk, you see the following objects arranged in a row: a magenta crayon, a grey cat toy, a pink fidget spinner, a yellow booklet, and a gold jug. What is the color of the object furthest from the yellow object?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(G)
+17,"On the table, you see a bunch of objects arranged in a row: a yellow keychain, a silver envelope, a black booklet, and a teal plate. What is the color of the right-most object?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(J)
+166,"On the nightstand, I see a brown cat toy and a green bracelet. How many things are neither green nor brown?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(A)
+72,"On the table, there is a brown pair of sunglasses, a green jug, a purple textbook, a black booklet, a yellow envelope, and a red notebook. How many things are neither black nor green?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six",(E)
+220,"On the table, I see three burgundy paperclips, three magenta paperclips, one pink cat toy, three magenta pairs of sunglasses, two pink paperclips, two pink notebooks, one brown notebook, one magenta cat toy, three brown cat toys, three brown paperclips, three burgundy pairs of sunglasses, three burgundy notebooks, two burgundy cat toys, and three magenta notebooks. If I remove all the notebooks from the table, how many burgundy things remain on it?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six
+(H) seven
+(I) eight
+(J) nine
+(K) ten
+(L) eleven
+(M) twelve
+(N) thirteen
+(O) fourteen
+(P) fifteen
+(Q) sixteen",(I)
+134,"On the nightstand, there is one black jug and one teal scrunchiephone charger. If I remove all the jugs from the nightstand, how many black objects remain on it?
+Options:
+(A) zero
+(B) one
+(C) two
+(D) three
+(E) four
+(F) five
+(G) six
+(H) seven
+(I) eight
+(J) nine
+(K) ten
+(L) eleven
+(M) twelve
+(N) thirteen
+(O) fourteen
+(P) fifteen
+(Q) sixteen",(A)
+204,"On the table, you see a bunch of objects arranged in a row: a grey bracelet, a magenta fidget spinner, a green notebook, and an orange sheet of paper. What is the color of the object directly to the right of the notebook?
+Options:
+(A) red
+(B) orange
+(C) yellow
+(D) green
+(E) blue
+(F) brown
+(G) magenta
+(H) fuchsia
+(I) mauve
+(J) teal
+(K) turquoise
+(L) burgundy
+(M) silver
+(N) gold
+(O) black
+(P) grey
+(Q) purple
+(R) pink",(B)

@@ -1,0 +1,1 @@
+You are an expert in linguistics. Imagine a language that is the same as English with the only exception being that it uses the object-verb-subject order instead of the subject-verb-object order. Your task is to identify the main verb and the main subject in a sentence in this imaginary language. Show the main verb (a single word) and its subject (also a single word).

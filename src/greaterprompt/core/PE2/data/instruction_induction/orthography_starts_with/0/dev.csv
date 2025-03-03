@@ -1,0 +1,21 @@
+,input,output,sentence,letter,words,source
+2911,"John asked me to put the clothes in the cupboard, and to annoy him I stuffed them there. [i]",in i,"John asked me to put the clothes in the cupboard, and to annoy him I stuffed them there.",i,"['in', 'I']",train
+2739,Did you believe him to ever have made an effort to talk to the student? [y],you,Did you believe him to ever have made an effort to talk to the student?,y,['you'],train
+982,My friends wanted to quickly leave the party. [p],party,My friends wanted to quickly leave the party.,p,['party'],train
+1102,Which granny does Aunt Hattie want me to be nice and kiss? [m],me,Which granny does Aunt Hattie want me to be nice and kiss?,m,['me'],train
+264,Few doctors approve of our remedy. [a],approve,Few doctors approve of our remedy.,a,['approve'],train
+1107,That was a rude remark and in very bad taste. [i],in,That was a rude remark and in very bad taste.,i,['in'],train
+1763,They think she has too much independence. [h],has,They think she has too much independence.,h,['has'],train
+1260,Stacy came directly from linguistics class. [s],stacy,Stacy came directly from linguistics class.,s,['Stacy'],train
+996,Gilgamesh loved Ishtar and Aphrodite did too [a],and aphrodite,Gilgamesh loved Ishtar and Aphrodite did too,a,"['and', 'Aphrodite']",train
+2260,To behave oneself in public is expected. [i],in is,To behave oneself in public is expected.,i,"['in', 'is']",train
+1404,Show me the folder in which you stored the documents. [d],documents,Show me the folder in which you stored the documents.,d,['documents'],train
+1369,John mentioned to me that the question is an issue. [i],is issue,John mentioned to me that the question is an issue.,i,"['is', 'issue']",train
+1344,Mary managed to go abroad. [g],go,Mary managed to go abroad.,g,['go'],train
+2527,I asked if Medea poisoned Jason. [i],i if,I asked if Medea poisoned Jason.,i,"['I', 'if']",train
+1895,He might no could have done it [h],he have,He might no could have done it,h,"['He', 'have']",train
+1454,Jessica sprayed paint under the table. [t],the table,Jessica sprayed paint under the table.,t,"['the', 'table']",train
+2015,David wrote that you said that Anson thought that Julie had fainted [s],said,David wrote that you said that Anson thought that Julie had fainted,s,['said'],train
+1561,Jack sprayed the wall with paint. [j],jack,Jack sprayed the wall with paint.,j,['Jack'],train
+539,A review copy of the book was sent to her by the publisher. [h],her,A review copy of the book was sent to her by the publisher.,h,['her'],train
+1188,The day when Jim got fired was a sad day for everyone. [s],sad,The day when Jim got fired was a sad day for everyone.,s,['sad'],train

@@ -1,0 +1,101 @@
+,input,output,possible_translations
+1559,celebrity,berühmte Person,"['Celebrity', 'Prominente', 'Prominenter', 'Zelebrität', 'Star', 'berühmte Person', 'Promi', 'Berühmtheit']"
+92,air,Luft,"['Luft', 'ausstrahlen', 'Arie', 'lüften']"
+1664,businessman,Geschäftsmann,"['Geschäftsmann', 'Unternehmer']"
+1920,inspection,Inspektion,"['Prüfung', 'Inspektion']"
+2276,fission,Zellteilung,"['spalten', 'Kernspaltung', 'Zellteilung', 'Spaltung']"
+70,club,Klub,"['Schläger', 'Klub', 'zusammenlegen', 'Kreuz', 'Nachtlokal', 'Keule', 'Verein', 'schlagen', 'Nachtklub', 'Bengel']"
+2129,fence,Zaun ; Hag ; Fence ; Fenz,"['Mittelsmann', 'Zaun ; Hag ; Fence ; Fenz']"
+148,post,Stelle,"['Pfosten', 'Stelle', 'Posten', 'Post', 'schicken', 'Beitrag']"
+172,money,Geld,"['Reichtum', 'Bargeld', 'Vermögen', 'Geld']"
+1098,trough,Trog,"['Trog', 'Dachrinne', 'Futtertrog', 'Mulden', 'Wellental']"
+2117,competitor,Wettbewerbsteilnehmer,"['Wettbewerbsteilnehmer', 'Konkurrent']"
+1097,voting,Abstimmung,['Abstimmung']
+291,market,Markt,"['Markt', 'Markt-', 'vermarkten']"
+1088,destroyer,Zerstörer,['Zerstörer']
+590,proposal,Vorschlag,['Vorschlag']
+2490,legitimacy,Rechtmäßigkeit,"['Legitimität', 'Rechtmäßigkeit']"
+2458,connector,Verbinder,"['Steckverbinder', 'Verbinder', 'Verbindungsstecker']"
+1612,garage,Garage,['Garage']
+2417,dislike,Unbehagen,"['Unbehagen', 'ablehnen']"
+1340,pink,Nelke,"['Nelke', 'pink', 'Rosa', 'rosa']"
+1456,hunt,Jagd,"['Jagd', 'suchen', 'jagen']"
+2009,defendant,Angeklagter,"['Angeklagter', 'Angeklagte']"
+1551,diary,Tagebuch,['Tagebuch']
+1124,hole,Loch,['Loch']
+2254,sanctuary,Zuflucht,"['Herberge', 'Zuflucht', 'Asyl']"
+2032,customer,Kunde,"['Kunde', 'Käufer', 'Abnehmer']"
+950,gap,Spalt,"['Spalt', 'Spalte', 'Ritze', 'Ritz']"
+699,pattern,Muster,"['Schablone', 'Modell', 'Muster', 'Struktur', 'strukturieren']"
+1914,gambling,Glücksspiel,['Glücksspiel']
+1652,dominance,Herrschaft,"['Dominanz', 'Herrschaft']"
+2804,rigging,Takelage,['Takelage']
+279,network,Netzwerk,"['vernetzen', 'sich vernetzen', 'Netzwerk']"
+2134,sulfur,Schwefel,"['Schwefel', 'Sulfur']"
+2765,ribbon,Farbband,"['Farbband', 'Band']"
+1111,melody,Melodie,['Melodie']
+743,habitat,Habitat,['Habitat']
+1353,consequence,Konsequenz,"['Konsequenz', 'Folge']"
+2640,tumor,Tumor,['Tumor']
+247,hour,Zeit,"['Stunde', 'Uhr', 'Zeit']"
+409,weight,Gewicht,"['gewichten', 'beschweren', 'Gewicht', 'Masse']"
+2109,meal,Mehl,"['Mahl', 'Mehl']"
+160,person,Person,"['Person', 'Körper']"
+1736,manufacturer,Hersteller,['Hersteller']
+1538,speaker,Lautsprecher,"['Lautsprecher', 'Sprecher']"
+653,destruction,Zerstörung,"['Zerstörung', 'Vernichtung']"
+2491,meditation,Meditation,['Meditation']
+1035,magic,Magie,"['Magie', 'Zauber', 'Zauberei', 'magisch']"
+1514,topic,Thema,['Thema']
+845,load,ein Haufen,"['ein Haufen', 'laden']"
+620,lane,Spur,"['Route', 'Spur', 'Gasse', 'Gang']"
+1433,sheet,Blatt,"['Platte', 'Schicht', 'Blatt', 'Schot', 'Blech']"
+1930,liberty,Freiheit,['Freiheit']
+675,breed,Rasse,"['Rasse', 'züchten', 'Sorte', 'hervorrufen', 'aufziehen', 'erzeugen', 'verursachen', 'brüten', 'sich paaren']"
+1734,photographer,Fotograf,"['Photograph', 'Fotograf']"
+185,media,Medien,['Medien']
+1486,shirt,Hemd,['Hemd']
+1947,moisture,Feuchtigkeit,"['Nässe', 'Feuchtigkeit']"
+2257,airplane,Flugzeug,['Flugzeug']
+1714,pollution,Verunreinigung,"['Umweltverschmutzung', 'Verschmutzung', 'Pollution', 'Verunreinigung']"
+2727,remark,Bemerkung,['Bemerkung']
+1843,drunk,Trinker,"['betrunken', 'besoffen', 'Trinker']"
+333,chief,Chef,"['Chef', 'Boss', 'hauptsächlich', 'Häuptling', 'Oberhaupt', 'primär']"
+1474,tourism,Tourismus,['Tourismus']
+1742,breast,Brust,['Brust']
+1844,insect,Insekt,"['Insekt', 'Kerf', 'Kerbtier']"
+239,information,Information,"['Auskunft', 'Information']"
+2624,witchcraft,Hexerei,['Hexerei']
+8,song,Lied,"['Song', 'Lied', 'Gesang']"
+2179,affection,Zuneigung,"['Rührung', 'Zuneigung']"
+456,purpose,Intention,"['Intention', 'Thema', 'planen', 'beabsichtigen', 'Grund ; Zweck', 'Absicht', 'Ziel', 'Zweck']"
+118,wife,Ehefrau,"['Eheweib', 'Gattin', 'Weib', 'Ehefrau', 'Frau', 'Gemahlin']"
+1145,recovery,Wiedererlangung,"['Genesung', 'Gesundung', 'Wiederherstellung', 'Wiedererlangung', 'Zurückgewinnung', 'Wiedergewinnung', 'Erholung']"
+1399,choir,Chor,"['Chor', 'Engelschor']"
+1319,companion,Gefährte,"['Gefährtin', 'Kompagnon', 'Gefährte']"
+2056,supplement,Ergänzung,"['Nachtrag', 'Ergänzung']"
+1337,stuff,Material,"['Zeug', 'Sachen', 'Kram', 'Stoff', 'füllen', 'Material', 'ausstopfen']"
+1848,climax,Höhepunkt,"['Orgasmus', 'Höhepunkt']"
+1770,bedroom,Schlafzimmer,['Schlafzimmer']
+349,pilot,Pilot,"['Pilot', 'Flugzeugführer', 'Flugzeugführerin', 'lotsen', 'führen', 'Lotse']"
+24,group,Gruppe,"['Gruppe', 'Benutzergruppe', 'gruppieren']"
+628,departure,Abfahrt,"['Abreise', 'Abfahrt', 'Abflug']"
+1210,divorce,Scheidung,"['sich scheiden lassen', 'Scheidung', 'scheiden', 'Ehescheidung']"
+1437,airfield,Flugplatz,['Flugplatz']
+2783,fringe,Randgruppe,"['Randgruppe', 'Rand-', 'Pony', 'Rand']"
+1418,goddess,Göttin,['Göttin']
+80,fire,Feuer,"['Heizstrahler', 'abfeuern', 'schießen', 'kündigen', 'Ofen', 'Heizlüfter', 'Feuer', 'auslösen', 'feuern', 'Brand', 'brennen']"
+446,drama,Drama,"['Schauspiel', 'Drama']"
+195,fact,Faktum,"['Faktum', 'Fakt', 'Tatsache']"
+116,office,Amt,"['Dienst', 'Büro', 'Amt']"
+484,murder,Mord,"['mörderisch', 'Mord', 'umbringen', 'ermorden']"
+1042,assembly,Versammlung,"['Baugruppe', 'Versammlung']"
+2482,chorale,Chor,"['Chor', 'Choral']"
+2233,physicist,Physiker,"['Physiker', 'Physikerin']"
+1438,discipline,Disziplin,"['Bestrafung', 'Disziplin', 'disziplinieren', 'disziplinarisch bestrafen', 'Strafe']"
+2483,amusement,Amüsement,"['Unterhaltung', 'Vergnügen', 'Entertainment', 'Amüsement']"
+1983,cockpit,Cockpit,"['Cockpit', 'Pilotenkanzel']"
+1755,statute,Statut,['Statut']
+2613,localization,Lokalisieren,"['Lokalisieren', 'Lokalisierung']"
+2460,grip,Griff,"['festhalten', 'Griff', 'greifen']"
+391,problem,Problem,"['Übung', 'Problem']"

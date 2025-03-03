@@ -1,0 +1,501 @@
+,input,label
+51,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.
+Options:
+(A) The oranges are the cheapest
+(B) The mangoes are the cheapest
+(C) The plums are the cheapest",(A)
+95,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Amy, Eli, and Eve. Eve finished above Amy. Eli finished below Amy.
+Options:
+(A) Amy finished first
+(B) Eli finished first
+(C) Eve finished first",(C)
+143,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Joe, Eve, and Amy. Amy finished above Eve. Joe finished first.
+Options:
+(A) Joe finished first
+(B) Eve finished first
+(C) Amy finished first",(A)
+199,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a green book, a brown book, and an orange book. The brown book is to the left of the orange book. The green book is to the left of the brown book.
+Options:
+(A) The green book is the leftmost
+(B) The brown book is the leftmost
+(C) The orange book is the leftmost",(A)
+76,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Eli, Mya, and Eve. Eve finished below Eli. Eve finished above Mya.
+Options:
+(A) Eli finished last
+(B) Mya finished last
+(C) Eve finished last",(B)
+41,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: cantaloupes, oranges, and watermelons. The oranges are the most expensive. The cantaloupes are more expensive than the watermelons.
+Options:
+(A) The cantaloupes are the cheapest
+(B) The oranges are the cheapest
+(C) The watermelons are the cheapest",(C)
+113,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a motorcyle, a bus, and a tractor. The motorcyle is the oldest. The bus is newer than the tractor.
+Options:
+(A) The motorcyle is the oldest
+(B) The bus is the oldest
+(C) The tractor is the oldest",(A)
+152,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a convertible, a tractor, and a hatchback. The hatchback is older than the convertible. The tractor is the newest.
+Options:
+(A) The convertible is the oldest
+(B) The tractor is the oldest
+(C) The hatchback is the oldest",(C)
+78,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: apples, pears, and plums. The pears are less expensive than the plums. The pears are more expensive than the apples.
+Options:
+(A) The apples are the cheapest
+(B) The pears are the cheapest
+(C) The plums are the cheapest",(A)
+147,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a black book, an orange book, and a blue book. The blue book is to the right of the orange book. The orange book is to the right of the black book.
+Options:
+(A) The black book is the leftmost
+(B) The orange book is the leftmost
+(C) The blue book is the leftmost",(A)
+26,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: peaches, pears, and mangoes. The mangoes are less expensive than the peaches. The mangoes are more expensive than the pears.
+Options:
+(A) The peaches are the most expensive
+(B) The pears are the most expensive
+(C) The mangoes are the most expensive",(A)
+241,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a gray book, a purple book, and a red book. The purple book is to the left of the red book. The gray book is to the left of the purple book.
+Options:
+(A) The gray book is the second from the left
+(B) The purple book is the second from the left
+(C) The red book is the second from the left",(B)
+164,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a hummingbird, an owl, and a falcon. The falcon is to the right of the owl. The hummingbird is to the left of the owl.
+Options:
+(A) The hummingbird is the rightmost
+(B) The owl is the rightmost
+(C) The falcon is the rightmost",(C)
+243,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a red book, a gray book, and a white book. The white book is to the left of the gray book. The red book is the second from the left.
+Options:
+(A) The red book is the rightmost
+(B) The gray book is the rightmost
+(C) The white book is the rightmost",(B)
+137,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a hummingbird, a quail, and a crow. The crow is the second from the left. The hummingbird is to the left of the crow.
+Options:
+(A) The hummingbird is the rightmost
+(B) The quail is the rightmost
+(C) The crow is the rightmost",(B)
+0,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a blue jay, a quail, and a falcon. The falcon is to the right of the blue jay. The blue jay is to the right of the quail.
+Options:
+(A) The blue jay is the second from the left
+(B) The quail is the second from the left
+(C) The falcon is the second from the left",(A)
+2,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a blue book, an orange book, and a red book. The blue book is the rightmost. The orange book is the leftmost.
+Options:
+(A) The blue book is the second from the left
+(B) The orange book is the second from the left
+(C) The red book is the second from the left",(C)
+77,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a quail, an owl, and a hummingbird. The quail is to the left of the owl. The owl is to the left of the hummingbird.
+Options:
+(A) The quail is the leftmost
+(B) The owl is the leftmost
+(C) The hummingbird is the leftmost",(A)
+46,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, watermelons, and pears. The oranges are the second-most expensive. The pears are more expensive than the watermelons.
+Options:
+(A) The oranges are the most expensive
+(B) The watermelons are the most expensive
+(C) The pears are the most expensive",(C)
+100,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a hummingbird, an owl, and a falcon. The falcon is to the right of the owl. The hummingbird is to the left of the owl.
+Options:
+(A) The hummingbird is the leftmost
+(B) The owl is the leftmost
+(C) The falcon is the leftmost",(A)
+127,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a raven, and a quail. The quail is to the left of the robin. The robin is the second from the left.
+Options:
+(A) The robin is the second from the left
+(B) The raven is the second from the left
+(C) The quail is the second from the left",(A)
+150,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: kiwis, oranges, and watermelons. The oranges are more expensive than the kiwis. The oranges are less expensive than the watermelons.
+Options:
+(A) The kiwis are the second-most expensive
+(B) The oranges are the second-most expensive
+(C) The watermelons are the second-most expensive",(B)
+248,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a red book, a gray book, and a white book. The white book is to the left of the gray book. The red book is the second from the left.
+Options:
+(A) The red book is the second from the left
+(B) The gray book is the second from the left
+(C) The white book is the second from the left",(A)
+90,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Eli, Mya, and Eve. Eli finished last. Mya finished second.
+Options:
+(A) Eli finished first
+(B) Mya finished first
+(C) Eve finished first",(C)
+85,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a convertible, a limousine, and a bus. The limousine is older than the bus. The bus is older than the convertible.
+Options:
+(A) The convertible is the newest
+(B) The limousine is the newest
+(C) The bus is the newest",(A)
+175,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Joe, Eve, and Amy. Amy finished above Eve. Joe finished first.
+Options:
+(A) Joe finished second
+(B) Eve finished second
+(C) Amy finished second",(C)
+195,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a sedan, a convertible, and a truck. The truck is the newest. The sedan is older than the convertible.
+Options:
+(A) The sedan is the second-newest
+(B) The convertible is the second-newest
+(C) The truck is the second-newest",(B)
+98,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.
+Options:
+(A) The robin is the second from the left
+(B) The blue jay is the second from the left
+(C) The crow is the second from the left",(A)
+36,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: loquats, mangoes, and apples. The mangoes are more expensive than the apples. The loquats are more expensive than the mangoes.
+Options:
+(A) The loquats are the most expensive
+(B) The mangoes are the most expensive
+(C) The apples are the most expensive",(A)
+61,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: plums, apples, and loquats. The loquats are the cheapest. The plums are less expensive than the apples.
+Options:
+(A) The plums are the most expensive
+(B) The apples are the most expensive
+(C) The loquats are the most expensive",(B)
+162,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Ana, Amy, and Eli. Eli finished second. Eli finished below Amy.
+Options:
+(A) Ana finished second
+(B) Amy finished second
+(C) Eli finished second",(C)
+139,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a brown book, a yellow book, and an orange book. The yellow book is the leftmost. The orange book is to the right of the brown book.
+Options:
+(A) The brown book is the rightmost
+(B) The yellow book is the rightmost
+(C) The orange book is the rightmost",(C)
+11,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: peaches, mangoes, and apples. The peaches are more expensive than the apples. The mangoes are the cheapest.
+Options:
+(A) The peaches are the second-most expensive
+(B) The mangoes are the second-most expensive
+(C) The apples are the second-most expensive",(C)
+244,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a tractor, a convertible, and a minivan. The tractor is the second-newest. The minivan is newer than the convertible.
+Options:
+(A) The tractor is the oldest
+(B) The convertible is the oldest
+(C) The minivan is the oldest",(B)
+198,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Eve, Joe, and Amy. Eve finished below Amy. Eve finished above Joe.
+Options:
+(A) Eve finished second
+(B) Joe finished second
+(C) Amy finished second",(A)
+27,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a hatchback, a convertible, and a tractor. The convertible is older than the tractor. The hatchback is the second-newest.
+Options:
+(A) The hatchback is the oldest
+(B) The convertible is the oldest
+(C) The tractor is the oldest",(B)
+155,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a hatchback, a limousine, and a station wagon. The station wagon is older than the hatchback. The hatchback is the second-newest.
+Options:
+(A) The hatchback is the second-newest
+(B) The limousine is the second-newest
+(C) The station wagon is the second-newest",(A)
+4,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a green book, a red book, and a blue book. The red book is the rightmost. The blue book is to the right of the green book.
+Options:
+(A) The green book is the rightmost
+(B) The red book is the rightmost
+(C) The blue book is the rightmost",(B)
+122,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Eve, Rob, and Mel. Rob finished below Mel. Mel finished below Eve.
+Options:
+(A) Eve finished second
+(B) Rob finished second
+(C) Mel finished second",(C)
+32,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a motorcyle, a bus, and a tractor. The motorcyle is the oldest. The bus is newer than the tractor.
+Options:
+(A) The motorcyle is the second-newest
+(B) The bus is the second-newest
+(C) The tractor is the second-newest",(C)
+144,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a gray book, an orange book, and a brown book. The orange book is the leftmost. The gray book is to the right of the brown book.
+Options:
+(A) The gray book is the leftmost
+(B) The orange book is the leftmost
+(C) The brown book is the leftmost",(B)
+178,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a hawk, a cardinal, and a falcon. The hawk is to the left of the cardinal. The hawk is the second from the left.
+Options:
+(A) The hawk is the rightmost
+(B) The cardinal is the rightmost
+(C) The falcon is the rightmost",(B)
+138,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Ana, Rob, and Joe. Joe finished above Ana. Rob finished above Joe.
+Options:
+(A) Ana finished last
+(B) Rob finished last
+(C) Joe finished last",(A)
+62,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a gray book, an orange book, and a brown book. The orange book is the leftmost. The gray book is to the right of the brown book.
+Options:
+(A) The gray book is the second from the left
+(B) The orange book is the second from the left
+(C) The brown book is the second from the left",(C)
+135,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: apples, peaches, and mangoes. The mangoes are less expensive than the peaches. The apples are less expensive than the mangoes.
+Options:
+(A) The apples are the most expensive
+(B) The peaches are the most expensive
+(C) The mangoes are the most expensive",(B)
+128,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a crow, a falcon, and a raven. The crow is to the left of the raven. The falcon is to the right of the raven.
+Options:
+(A) The crow is the leftmost
+(B) The falcon is the leftmost
+(C) The raven is the leftmost",(A)
+226,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Ana, Amy, and Eli. Eli finished second. Eli finished below Amy.
+Options:
+(A) Ana finished first
+(B) Amy finished first
+(C) Eli finished first",(B)
+205,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: peaches, pears, and mangoes. The mangoes are less expensive than the peaches. The mangoes are more expensive than the pears.
+Options:
+(A) The peaches are the cheapest
+(B) The pears are the cheapest
+(C) The mangoes are the cheapest",(B)
+70,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a blue book, an orange book, and a green book. The green book is the leftmost. The orange book is to the left of the blue book.
+Options:
+(A) The blue book is the leftmost
+(B) The orange book is the leftmost
+(C) The green book is the leftmost",(C)
+192,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: watermelons, apples, and mangoes. The apples are less expensive than the mangoes. The mangoes are less expensive than the watermelons.
+Options:
+(A) The watermelons are the most expensive
+(B) The apples are the most expensive
+(C) The mangoes are the most expensive",(A)
+64,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a convertible, a tractor, and a hatchback. The hatchback is older than the convertible. The tractor is the newest.
+Options:
+(A) The convertible is the newest
+(B) The tractor is the newest
+(C) The hatchback is the newest",(B)
+44,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.
+Options:
+(A) The oranges are the second-most expensive
+(B) The mangoes are the second-most expensive
+(C) The plums are the second-most expensive",(C)
+165,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a sedan, a convertible, and a truck. The truck is the newest. The sedan is older than the convertible.
+Options:
+(A) The sedan is the oldest
+(B) The convertible is the oldest
+(C) The truck is the oldest",(A)
+40,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: loquats, mangoes, and apples. The mangoes are more expensive than the apples. The loquats are more expensive than the mangoes.
+Options:
+(A) The loquats are the second-most expensive
+(B) The mangoes are the second-most expensive
+(C) The apples are the second-most expensive",(B)
+123,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: an owl, a crow, and a cardinal. The crow is to the left of the owl. The owl is the second from the left.
+Options:
+(A) The owl is the leftmost
+(B) The crow is the leftmost
+(C) The cardinal is the leftmost",(B)
+153,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.
+Options:
+(A) The robin is the leftmost
+(B) The blue jay is the leftmost
+(C) The crow is the leftmost",(C)
+23,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: apples, peaches, and mangoes. The mangoes are less expensive than the peaches. The apples are less expensive than the mangoes.
+Options:
+(A) The apples are the cheapest
+(B) The peaches are the cheapest
+(C) The mangoes are the cheapest",(A)
+211,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a green book, a brown book, and an orange book. The brown book is to the left of the orange book. The green book is to the left of the brown book.
+Options:
+(A) The green book is the rightmost
+(B) The brown book is the rightmost
+(C) The orange book is the rightmost",(C)
+183,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a station wagon, a truck, and a motorcyle. The truck is newer than the station wagon. The motorcyle is the oldest.
+Options:
+(A) The station wagon is the oldest
+(B) The truck is the oldest
+(C) The motorcyle is the oldest",(C)
+81,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Amy, Ana, and Joe. Amy finished below Ana. Ana finished below Joe.
+Options:
+(A) Amy finished second
+(B) Ana finished second
+(C) Joe finished second",(B)
+39,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a brown book, a yellow book, and an orange book. The yellow book is the leftmost. The orange book is to the right of the brown book.
+Options:
+(A) The brown book is the leftmost
+(B) The yellow book is the leftmost
+(C) The orange book is the leftmost",(B)
+209,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a blue jay, a falcon, and a raven. The falcon is to the left of the blue jay. The falcon is to the right of the raven.
+Options:
+(A) The blue jay is the rightmost
+(B) The falcon is the rightmost
+(C) The raven is the rightmost",(A)
+47,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Ana, Mel, and Ada. Ada finished above Ana. Mel finished below Ana.
+Options:
+(A) Ana finished first
+(B) Mel finished first
+(C) Ada finished first",(C)
+94,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: an orange book, a white book, and a purple book. The orange book is to the left of the white book. The purple book is the rightmost.
+Options:
+(A) The orange book is the leftmost
+(B) The white book is the leftmost
+(C) The purple book is the leftmost",(A)
+190,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a falcon, an owl, and a raven. The raven is to the left of the owl. The falcon is the leftmost.
+Options:
+(A) The falcon is the leftmost
+(B) The owl is the leftmost
+(C) The raven is the leftmost",(A)
+161,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: kiwis, oranges, and watermelons. The oranges are more expensive than the kiwis. The oranges are less expensive than the watermelons.
+Options:
+(A) The kiwis are the most expensive
+(B) The oranges are the most expensive
+(C) The watermelons are the most expensive",(C)
+43,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: an owl, a crow, and a cardinal. The crow is to the left of the owl. The owl is the second from the left.
+Options:
+(A) The owl is the second from the left
+(B) The crow is the second from the left
+(C) The cardinal is the second from the left",(A)
+145,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Amy, Ada, and Joe. Joe finished below Ada. Amy finished above Ada.
+Options:
+(A) Amy finished last
+(B) Ada finished last
+(C) Joe finished last",(C)
+182,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Ana, Dan, and Mel. Dan finished second. Mel finished first.
+Options:
+(A) Ana finished last
+(B) Dan finished last
+(C) Mel finished last",(A)
+3,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, a blue jay, and a crow. The robin is to the right of the crow. The robin is to the left of the blue jay.
+Options:
+(A) The robin is the rightmost
+(B) The blue jay is the rightmost
+(C) The crow is the rightmost",(B)
+105,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Eve, Joe, and Amy. Eve finished below Amy. Eve finished above Joe.
+Options:
+(A) Eve finished last
+(B) Joe finished last
+(C) Amy finished last",(B)
+53,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a motorcyle, a minivan, and a tractor. The minivan is older than the tractor. The minivan is the second-newest.
+Options:
+(A) The motorcyle is the oldest
+(B) The minivan is the oldest
+(C) The tractor is the oldest",(A)
+133,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a blue jay, a falcon, and a raven. The falcon is to the left of the blue jay. The falcon is to the right of the raven.
+Options:
+(A) The blue jay is the second from the left
+(B) The falcon is the second from the left
+(C) The raven is the second from the left",(B)
+227,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: apples, pears, and plums. The pears are less expensive than the plums. The pears are more expensive than the apples.
+Options:
+(A) The apples are the most expensive
+(B) The pears are the most expensive
+(C) The plums are the most expensive",(C)
+193,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Amy, Ada, and Joe. Joe finished below Ada. Amy finished above Ada.
+Options:
+(A) Amy finished second
+(B) Ada finished second
+(C) Joe finished second",(B)
+232,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a hawk, a cardinal, and a falcon. The hawk is to the left of the cardinal. The hawk is the second from the left.
+Options:
+(A) The hawk is the leftmost
+(B) The cardinal is the leftmost
+(C) The falcon is the leftmost",(C)
+49,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a green book, a brown book, and an orange book. The brown book is to the left of the orange book. The green book is to the left of the brown book.
+Options:
+(A) The green book is the second from the left
+(B) The brown book is the second from the left
+(C) The orange book is the second from the left",(B)
+163,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: apples, pears, and plums. The pears are less expensive than the plums. The pears are more expensive than the apples.
+Options:
+(A) The apples are the second-most expensive
+(B) The pears are the second-most expensive
+(C) The plums are the second-most expensive",(B)
+80,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: cantaloupes, watermelons, and mangoes. The mangoes are the cheapest. The cantaloupes are the second-most expensive.
+Options:
+(A) The cantaloupes are the cheapest
+(B) The watermelons are the cheapest
+(C) The mangoes are the cheapest",(C)
+34,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a motorcyle, a minivan, and a tractor. The minivan is older than the tractor. The minivan is the second-newest.
+Options:
+(A) The motorcyle is the newest
+(B) The minivan is the newest
+(C) The tractor is the newest",(C)
+206,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a white book, a green book, and an orange book. The green book is to the right of the white book. The orange book is the rightmost.
+Options:
+(A) The white book is the rightmost
+(B) The green book is the rightmost
+(C) The orange book is the rightmost",(C)
+7,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Eve, Rob, and Mel. Rob finished below Mel. Mel finished below Eve.
+Options:
+(A) Eve finished first
+(B) Rob finished first
+(C) Mel finished first",(A)
+171,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a yellow book, a brown book, and a red book. The red book is to the left of the brown book. The yellow book is to the right of the brown book.
+Options:
+(A) The yellow book is the second from the left
+(B) The brown book is the second from the left
+(C) The red book is the second from the left",(B)
+110,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a hummingbird, a blue jay, and a raven. The blue jay is to the right of the hummingbird. The raven is the second from the left.
+Options:
+(A) The hummingbird is the leftmost
+(B) The blue jay is the leftmost
+(C) The raven is the leftmost",(A)
+91,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.
+Options:
+(A) The oranges are the most expensive
+(B) The mangoes are the most expensive
+(C) The plums are the most expensive",(B)
+83,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a convertible, a motorcyle, and a truck. The motorcyle is newer than the convertible. The convertible is newer than the truck.
+Options:
+(A) The convertible is the newest
+(B) The motorcyle is the newest
+(C) The truck is the newest",(B)
+223,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a motorcyle, a limousine, and a convertible. The motorcyle is newer than the limousine. The convertible is newer than the motorcyle.
+Options:
+(A) The motorcyle is the newest
+(B) The limousine is the newest
+(C) The convertible is the newest",(C)
+228,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Eli, Mya, and Eve. Eli finished last. Mya finished second.
+Options:
+(A) Eli finished last
+(B) Mya finished last
+(C) Eve finished last",(A)
+89,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a robin, an owl, and a hawk. The robin is to the right of the hawk. The owl is the leftmost.
+Options:
+(A) The robin is the leftmost
+(B) The owl is the leftmost
+(C) The hawk is the leftmost",(B)
+8,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: an orange book, a yellow book, and a blue book. The blue book is to the right of the yellow book. The orange book is the second from the left.
+Options:
+(A) The orange book is the second from the left
+(B) The yellow book is the second from the left
+(C) The blue book is the second from the left",(A)
+13,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a minivan, a bus, and a sedan. The minivan is newer than the sedan. The minivan is older than the bus.
+Options:
+(A) The minivan is the second-newest
+(B) The bus is the second-newest
+(C) The sedan is the second-newest",(A)
+59,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a motorcyle, a bus, and a tractor. The motorcyle is the oldest. The bus is newer than the tractor.
+Options:
+(A) The motorcyle is the newest
+(B) The bus is the newest
+(C) The tractor is the newest",(B)
+215,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a raven, a quail, and a crow. The quail is the leftmost. The raven is the rightmost.
+Options:
+(A) The raven is the leftmost
+(B) The quail is the leftmost
+(C) The crow is the leftmost",(B)
+131,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a purple book, a red book, and a yellow book. The purple book is to the right of the yellow book. The yellow book is to the right of the red book.
+Options:
+(A) The purple book is the second from the left
+(B) The red book is the second from the left
+(C) The yellow book is the second from the left",(C)
+17,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a blue book, an orange book, and a red book. The blue book is the rightmost. The orange book is the leftmost.
+Options:
+(A) The blue book is the rightmost
+(B) The orange book is the rightmost
+(C) The red book is the rightmost",(A)
+166,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Amy, Ana, and Joe. Amy finished below Ana. Ana finished below Joe.
+Options:
+(A) Amy finished last
+(B) Ana finished last
+(C) Joe finished last",(A)
+72,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: kiwis, loquats, and cantaloupes. The kiwis are less expensive than the loquats. The cantaloupes are less expensive than the kiwis.
+Options:
+(A) The kiwis are the most expensive
+(B) The loquats are the most expensive
+(C) The cantaloupes are the most expensive",(B)
+220,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a station wagon, a truck, and a motorcyle. The truck is newer than the station wagon. The motorcyle is the oldest.
+Options:
+(A) The station wagon is the newest
+(B) The truck is the newest
+(C) The motorcyle is the newest",(B)
+134,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: loquats, mangoes, and apples. The mangoes are more expensive than the apples. The loquats are more expensive than the mangoes.
+Options:
+(A) The loquats are the cheapest
+(B) The mangoes are the cheapest
+(C) The apples are the cheapest",(C)
+204,"The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: an orange book, a blue book, and a yellow book. The orange book is to the left of the blue book. The yellow book is to the right of the blue book.
+Options:
+(A) The orange book is the rightmost
+(B) The blue book is the rightmost
+(C) The yellow book is the rightmost",(C)

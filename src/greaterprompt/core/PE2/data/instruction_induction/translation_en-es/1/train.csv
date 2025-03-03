@@ -1,0 +1,101 @@
+,input,output,possible_translations
+843,suicide,suicidio,"['suicida', 'suicidio']"
+1195,stretch,elasticidad,"['elasticidad', 'trecho', 'estiramiento', 'estirón', 'estirarse', 'dar', 'extenderse', 'estirar', 'tramo']"
+2654,acceleration,aceleración,['aceleración']
+1650,lion,león,['león']
+708,champion,campeón,['campeón']
+823,carbon,carbono,"['copia con papel carbón', 'carbón', 'papel carbón', 'carbono']"
+2410,gust,ráfaga,['ráfaga']
+2656,topography,topografía,['topografía']
+84,style,tratamiento,"['gineceo', 'estilo', 'tratamiento', 'honorífico', 'pistilo', 'título']"
+446,sex,sexo,"['género', 'sexar', 'sexual', 'sexo', 'relaciones sexuales']"
+569,assault,asalto,"['acometimiento', 'asalto', 'atacar', 'asaltar']"
+389,guest,huésped,['huésped']
+476,intensity,intensidad,['intensidad']
+1738,boost,impulso,"['impulso', 'empujar', 'empuje', 'impulsar']"
+533,southeast,sureste,"['sureste', 'del sudeste', 'sudeste']"
+1412,wire,alambre,"['alambre', 'hilo']"
+1071,improvement,mejora,"['enmienda', 'mejora', 'mejoría', 'mejoramiento']"
+1323,rotation,rotación,['rotación']
+1095,wish,deseo,"['deseo', 'desear']"
+2435,bubble,burbuja,"['burbuja', 'burbujear', 'pompa']"
+1048,electricity,electricidad,['electricidad']
+795,crisis,crisis,['crisis']
+859,earth,tierra,"['madriguera', 'terreno', 'conectar a tierra', 'suelo', 'tierra']"
+1922,icon,icono,"['ícono', 'icono']"
+1121,medicine,medicina,"['medicamento', 'medicina']"
+688,cavalry,caballería,['caballería']
+2252,surf,marea,"['oleaje', 'surfear', 'marea']"
+1933,integrity,integridad,['integridad']
+2121,lineage,linaje,"['linaje', 'estirpe']"
+2089,hostage,rehén,['rehén']
+1917,constellation,constelación,['constelación']
+2250,pottery,alfarería,"['alfarería', 'cerámica', 'loza']"
+1082,photography,fotografía,['fotografía']
+1624,fortune,fortuna,['fortuna']
+233,minute,minuto,"['diminuto', 'minutar', 'minucioso', 'menudo', 'acta', 'momento', 'minuto']"
+221,gold,oro,"['oro', 'diana', 'medalla de oro', 'moneda de oro', 'dorado', 'de oro']"
+982,organ,órgano,"['órgano', 'publicación oficial']"
+1563,imprisonment,encarcelamiento,['encarcelamiento']
+2226,collar,collar,"['yugo', 'cuello', 'collar']"
+1415,flesh,carne,"['carne', 'pellejo']"
+1973,midst,centro,['centro']
+2686,nectar,néctar,['néctar']
+1254,sleep,sueño,"['chele', 'dormir', 'sueño', 'legaña', 'lagaña']"
+1032,bid,licitación,['licitación']
+1674,array,vector,"['arreglar', 'galas', 'vector', 'atavío', 'gama', 'arreglo']"
+1429,machinery,maquinaria,"['mecánica', 'máquinas', 'maquinaria']"
+1193,shock,choque,['choque']
+105,law,ley,"['ley', 'derecho']"
+1083,parody,parodia,"['parodiar', 'parodia']"
+593,duty,deber,"['arancel', 'obligación', 'deber']"
+450,comedy,comedia,['comedia']
+2582,pot,marihuana,"['olla', 'marihuana', 'marmita', 'pote']"
+1184,streak,trazo,"['geómetra', 'racha', 'toque', 'trazo', 'sarta', 'correr desnudo', 'rayarse', 'raya', 'rayar']"
+961,bombing,bombardeo,['bombardeo']
+2694,nationality,nacionalidad,['nacionalidad']
+543,introduction,introducción,['introducción']
+2658,mercy,misericordia,"['piedad', 'misericordia']"
+1698,platoon,peloton,['peloton']
+550,mouth,boca,"['desembocadura', 'boca', 'orificio', 'entrada']"
+2680,grape,uva,"['uva', 'parra', 'vid']"
+2131,luck,suerte,['suerte']
+507,brief,resumen,"['corto', 'sucinto', 'poner al tanto', 'breve', 'resumen', 'conciso']"
+1062,virus,virus,['virus']
+1812,complaint,problema,"['problema', 'queja']"
+2618,brood,nidada,['nidada']
+2031,confirmation,confirmación,['confirmación']
+505,temperature,fiebre,"['temperatura', 'fiebre']"
+116,office,oficina,['oficina']
+357,defense,defensa,['defensa']
+1103,sky,firmamento,"['cielos', 'cielo', 'firmamento']"
+1999,comfort,comodidad,"['comodidad', 'confortar', 'consuelo']"
+244,guitar,guitarra,"['jarana', 'guitarra']"
+168,issue,emisión,"['herederos', 'resultar', 'descendencia', 'extender', 'progenie', 'emitir', 'entregar', 'proceder', 'emisión', 'natar', 'cuestión', 'envío', 'recibir', 'lucrar', 'crecer', 'flujo', 'problema', 'preocupación']"
+2320,rage,rabia,['rabia']
+1549,colonel,coronel,['coronel']
+880,junction,juntura,['juntura']
+926,bed,cama,"['lecho', 'cama']"
+1945,anthology,antología,['antología']
+2102,seizure,apropiación,"['convulsión', 'apropiación']"
+707,adaptation,ajuste,"['versión', 'ajuste', 'adaptación', 'modificación']"
+1015,specimen,ejemplar,"['espécimen', 'ejemplar']"
+1034,regime,régimen,"['régimen', 'regímenes']"
+598,controversy,controversia,"['polémica', 'controversia']"
+2278,pirate,pirata,"['pirata', 'piratear']"
+1045,lawyer,abogado,"['notario', 'abogado', 'abogada']"
+1291,conspiracy,conspiración,['conspiración']
+2069,fence,cerca,"['cercar', 'reducidor', 'barda', 'valla', 'perista', 'cerca', 'seto', 'cerramiento']"
+1527,consent,consenso,"['consentir', 'consenso']"
+47,water,agua,"['vaso de agua', 'aguar', 'dar agua a', 'agua', 'regar', 'aguas menores', 'aguas', 'humor', 'botella de agua', 'fluidos corporales', 'fluido']"
+2218,explorer,explorador,['explorador']
+316,call,llamada,"['llamarse', 'visita', 'gritar', 'visitar', 'canto', 'convocatoria', 'llamada', 'llamar', 'grito']"
+939,poll,encuesta,"['encuesta', 'encuestas']"
+599,hall,pasillo,"['salón', 'pasillo']"
+2329,graph,grafo,"['gráfico', 'grafo']"
+1364,achievement,logro,"['logro', 'realización']"
+433,landing,rellano,"['rellano', 'aterrizaje', 'muelle', 'descansillo']"
+1287,wheel,pez gordo,"['rueda', 'volante', 'pez gordo', 'rodar', 'volar en círculos', 'llanta', 'circunvolar']"
+771,device,dispositivo,"['dispositivo', 'mecanismo']"
+949,context,contexto,"['contexto', 'marco']"
+793,hero,héroe,['héroe']

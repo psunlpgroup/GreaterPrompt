@@ -1,0 +1,21 @@
+,input,output,sentence,letter,words,source
+1952,Smith inscribed his name over the door. [s],smith,Smith inscribed his name over the door.,s,['Smith'],train
+424,Mary has more enemies than Bill has friends. [f],friends,Mary has more enemies than Bill has friends.,f,['friends'],train
+1869,No one can forgive you that comment. [n],no,No one can forgive you that comment.,n,['No'],train
+290,Susan rode a bright blue train from New York. [y],york,Susan rode a bright blue train from New York.,y,['York'],train
+787,It is believed to be obvious by everyone that Fred is crazy. [b],believed be by,It is believed to be obvious by everyone that Fred is crazy.,b,"['believed', 'be', 'by']",train
+2716,They wanted to leave tomorrow or on Tuesday. [l],leave,They wanted to leave tomorrow or on Tuesday.,l,['leave'],train
+2193,Paul had eighty eight billion sixty three million forty four thousand nine hundred at [n],nine,Paul had eighty eight billion sixty three million forty four thousand nine hundred at,n,['nine'],train
+2133,I am ashamed that I neglected you. [t],that,I am ashamed that I neglected you.,t,['that'],train
+84,The teacher who the reporters expected that the principal would fire is a crusty old jerk. [e],expected,The teacher who the reporters expected that the principal would fire is a crusty old jerk.,e,['expected'],train
+2126,Daniel became a blond. [d],daniel,Daniel became a blond.,d,['Daniel'],train
+420,Who did you think Mary saw? [w],who,Who did you think Mary saw?,w,['Who'],train
+658,This truck spread less salt than that one. [s],spread salt,This truck spread less salt than that one.,s,"['spread', 'salt']",train
+2317,John said Martha sang the aria with gusto. [t],the,John said Martha sang the aria with gusto.,t,['the'],train
+1237,"Sandy will read your reports, but Harold will not. [s]",sandy,"Sandy will read your reports, but Harold will not.",s,['Sandy'],train
+433,Are you prepared for school tomorrow? [t],tomorrow,Are you prepared for school tomorrow?,t,['tomorrow'],train
+1654,These are the books that we have gone most thoroughly over. [b],books,These are the books that we have gone most thoroughly over.,b,['books'],train
+670,Can anyone pledge ? [a],anyone,Can anyone pledge ?,a,['anyone'],train
+801,A large flag fluttered. [a],a,A large flag fluttered.,a,['A'],train
+1641,Who are you trying to get hold of? [a],are,Who are you trying to get hold of?,a,['are'],train
+2029,"They failed to tell me which problem the sooner I solve, the quicker the folks up at corporate headquarters. [s]",sooner solve,"They failed to tell me which problem the sooner I solve, the quicker the folks up at corporate headquarters.",s,"['sooner', 'solve']",train

@@ -1,0 +1,401 @@
+,input,label
+142,"If you follow these instructions, do you return to the starting point? Always face forward. Take 5 steps left. Take 7 steps left. Take 2 steps left.
+Options:
+- Yes
+- No",No
+6,"If you follow these instructions, do you return to the starting point? Always face forward. Take 6 steps right. Take 1 step forward. Take 10 steps left. Take 8 steps forward. Take 9 steps backward. Take 4 steps right.
+Options:
+- Yes
+- No",Yes
+97,"If you follow these instructions, do you return to the starting point? Always face forward. Take 9 steps right. Take 6 steps right. Take 10 steps backward. Take 9 steps left. Take 4 steps left.
+Options:
+- Yes
+- No",No
+60,"If you follow these instructions, do you return to the starting point? Take 6 steps. Take 2 steps. Take 6 steps.
+Options:
+- Yes
+- No",No
+112,"If you follow these instructions, do you return to the starting point? Take 8 steps. Take 9 steps. Turn around. Take 5 steps. Turn left.
+Options:
+- Yes
+- No",No
+181,"If you follow these instructions, do you return to the starting point? Take 10 steps. Take 4 steps. Take 7 steps. Take 1 step. Take 2 steps. Take 10 steps.
+Options:
+- Yes
+- No",No
+197,"If you follow these instructions, do you return to the starting point? Always face forward. Take 4 steps forward. Take 9 steps right. Take 6 steps right. Take 8 steps right.
+Options:
+- Yes
+- No",No
+184,"If you follow these instructions, do you return to the starting point? Always face forward. Take 4 steps forward. Take 5 steps left. Take 6 steps forward. Take 8 steps backward. Take 5 steps backward. Take 1 step backward. Take 1 step backward.
+Options:
+- Yes
+- No",No
+9,"If you follow these instructions, do you return to the starting point? Always face forward. Take 8 steps backward. Take 9 steps forward. Take 4 steps forward. Take 2 steps left. Take 4 steps forward. Take 6 steps forward. Take 10 steps backward. Take 8 steps right. Take 1 step left.
+Options:
+- Yes
+- No",No
+104,"If you follow these instructions, do you return to the starting point? Take 6 steps. Turn left. Take 4 steps. Take 4 steps.
+Options:
+- Yes
+- No",No
+200,"If you follow these instructions, do you return to the starting point? Always face forward. Take 9 steps left. Take 10 steps forward. Take 9 steps right. Take 10 steps backward.
+Options:
+- Yes
+- No",Yes
+216,"If you follow these instructions, do you return to the starting point? Take 10 steps. Turn around. Take 9 steps. Take 10 steps. Turn around. Take 3 steps. Take 6 steps.
+Options:
+- Yes
+- No",Yes
+236,"If you follow these instructions, do you return to the starting point? Turn around. Take 2 steps. Take 8 steps. Turn around. Take 10 steps. Turn around.
+Options:
+- Yes
+- No",Yes
+240,"If you follow these instructions, do you return to the starting point? Always face forward. Take 2 steps backward. Take 4 steps backward. Take 6 steps forward.
+Options:
+- Yes
+- No",Yes
+67,"If you follow these instructions, do you return to the starting point? Always face forward. Take 1 step right. Take 4 steps right. Take 5 steps left.
+Options:
+- Yes
+- No",Yes
+224,"If you follow these instructions, do you return to the starting point? Always face forward. Take 7 steps backward. Take 9 steps left.
+Options:
+- Yes
+- No",No
+194,"If you follow these instructions, do you return to the starting point? Always face forward. Take 10 steps left. Take 10 steps right.
+Options:
+- Yes
+- No",Yes
+15,"If you follow these instructions, do you return to the starting point? Turn left. Turn right. Turn around. Turn left. Take 4 steps. Turn left. Turn around. Take 3 steps.
+Options:
+- Yes
+- No",No
+177,"If you follow these instructions, do you return to the starting point? Always face forward. Take 8 steps backward. Take 8 steps forward. Take 10 steps forward. Take 8 steps backward. Take 8 steps right. Take 6 steps backward. Take 7 steps forward. Take 8 steps forward.
+Options:
+- Yes
+- No",No
+24,"If you follow these instructions, do you return to the starting point? Always face forward. Take 2 steps backward. Take 8 steps backward.
+Options:
+- Yes
+- No",No
+247,"If you follow these instructions, do you return to the starting point? Always face forward. Take 4 steps left. Take 5 steps backward. Take 2 steps forward.
+Options:
+- Yes
+- No",No
+19,"If you follow these instructions, do you return to the starting point? Take 8 steps. Turn left. Take 9 steps. Take 7 steps. Turn around.
+Options:
+- Yes
+- No",No
+114,"If you follow these instructions, do you return to the starting point? Always face forward. Take 10 steps left. Take 7 steps right. Take 4 steps right. Take 1 step left.
+Options:
+- Yes
+- No",Yes
+68,"If you follow these instructions, do you return to the starting point? Take 3 steps. Turn left. Turn left. Turn around. Take 5 steps. Turn around. Take 5 steps.
+Options:
+- Yes
+- No",No
+176,"If you follow these instructions, do you return to the starting point? Take 7 steps. Take 4 steps. Take 3 steps. Take 10 steps. Turn left. Turn around.
+Options:
+- Yes
+- No",No
+45,"If you follow these instructions, do you return to the starting point? Turn right. Take 9 steps. Turn around. Take 9 steps. Turn right.
+Options:
+- Yes
+- No",Yes
+55,"If you follow these instructions, do you return to the starting point? Always face forward. Take 9 steps left. Take 4 steps backward.
+Options:
+- Yes
+- No",No
+10,"If you follow these instructions, do you return to the starting point? Take 8 steps. Take 5 steps. Take 5 steps. Take 10 steps. Take 5 steps.
+Options:
+- Yes
+- No",No
+30,"If you follow these instructions, do you return to the starting point? Take 7 steps. Take 7 steps. Take 10 steps. Take 1 step. Turn left. Take 7 steps.
+Options:
+- Yes
+- No",No
+120,"If you follow these instructions, do you return to the starting point? Take 7 steps. Take 6 steps. Take 5 steps. Turn around. Take 5 steps. Take 3 steps. Take 4 steps. Take 6 steps.
+Options:
+- Yes
+- No",Yes
+201,"If you follow these instructions, do you return to the starting point? Take 4 steps. Turn around. Take 4 steps. Turn around. Turn right.
+Options:
+- Yes
+- No",Yes
+33,"If you follow these instructions, do you return to the starting point? Take 3 steps. Take 5 steps. Take 8 steps. Turn right. Turn right. Take 5 steps. Turn around. Take 2 steps. Take 4 steps.
+Options:
+- Yes
+- No",No
+141,"If you follow these instructions, do you return to the starting point? Take 5 steps. Take 10 steps. Turn around.
+Options:
+- Yes
+- No",No
+219,"If you follow these instructions, do you return to the starting point? Turn right. Take 1 step. Take 7 steps. Take 1 step. Take 5 steps.
+Options:
+- Yes
+- No",No
+25,"If you follow these instructions, do you return to the starting point? Take 9 steps. Take 6 steps. Take 9 steps. Take 6 steps. Take 2 steps. Turn left. Take 6 steps. Turn around. Take 8 steps.
+Options:
+- Yes
+- No",No
+111,"If you follow these instructions, do you return to the starting point? Always face forward. Take 5 steps left. Take 4 steps left. Take 1 step left. Take 2 steps left. Take 2 steps right. Take 3 steps left. Take 5 steps forward. Take 3 steps backward.
+Options:
+- Yes
+- No",No
+18,"If you follow these instructions, do you return to the starting point? Take 3 steps. Take 6 steps. Take 9 steps.
+Options:
+- Yes
+- No",No
+196,"If you follow these instructions, do you return to the starting point? Always face forward. Take 10 steps forward. Take 8 steps left. Take 3 steps backward. Take 7 steps right. Take 2 steps forward. Take 4 steps forward. Take 10 steps forward.
+Options:
+- Yes
+- No",No
+180,"If you follow these instructions, do you return to the starting point? Always face forward. Take 10 steps left. Take 7 steps right. Take 4 steps backward.
+Options:
+- Yes
+- No",No
+159,"If you follow these instructions, do you return to the starting point? Take 10 steps. Turn around. Take 1 step. Take 9 steps. Turn around.
+Options:
+- Yes
+- No",Yes
+118,"If you follow these instructions, do you return to the starting point? Always face forward. Take 4 steps backward. Take 8 steps forward. Take 10 steps backward. Take 2 steps forward. Take 4 steps forward.
+Options:
+- Yes
+- No",Yes
+96,"If you follow these instructions, do you return to the starting point? Take 6 steps. Turn right. Turn right. Take 7 steps. Turn around. Take 1 step.
+Options:
+- Yes
+- No",Yes
+108,"If you follow these instructions, do you return to the starting point? Take 5 steps. Take 8 steps. Take 2 steps. Turn right. Take 8 steps. Turn left. Take 6 steps. Take 6 steps.
+Options:
+- Yes
+- No",No
+185,"If you follow these instructions, do you return to the starting point? Take 2 steps. Take 3 steps. Turn around. Take 5 steps.
+Options:
+- Yes
+- No",Yes
+222,"If you follow these instructions, do you return to the starting point? Take 3 steps. Take 7 steps. Turn around. Take 10 steps.
+Options:
+- Yes
+- No",Yes
+16,"If you follow these instructions, do you return to the starting point? Always face forward. Take 9 steps forward. Take 1 step backward. Take 4 steps backward. Take 4 steps backward.
+Options:
+- Yes
+- No",Yes
+146,"If you follow these instructions, do you return to the starting point? Turn right. Turn around. Take 2 steps. Take 6 steps. Take 4 steps.
+Options:
+- Yes
+- No",No
+69,"If you follow these instructions, do you return to the starting point? Always face forward. Take 10 steps forward. Take 4 steps backward. Take 6 steps forward.
+Options:
+- Yes
+- No",No
+173,"If you follow these instructions, do you return to the starting point? Take 10 steps. Turn left. Turn around. Take 9 steps. Take 8 steps. Turn right. Turn around. Take 8 steps.
+Options:
+- Yes
+- No",No
+38,"If you follow these instructions, do you return to the starting point? Take 1 step. Take 5 steps. Turn around. Turn around. Turn around. Take 6 steps.
+Options:
+- Yes
+- No",Yes
+132,"If you follow these instructions, do you return to the starting point? Always face forward. Take 2 steps forward. Take 2 steps backward. Take 4 steps right. Take 7 steps right.
+Options:
+- Yes
+- No",No
+225,"If you follow these instructions, do you return to the starting point? Turn around. Take 4 steps. Turn around. Take 4 steps.
+Options:
+- Yes
+- No",Yes
+238,"If you follow these instructions, do you return to the starting point? Take 5 steps. Take 5 steps. Take 7 steps. Take 10 steps.
+Options:
+- Yes
+- No",No
+119,"If you follow these instructions, do you return to the starting point? Always face forward. Take 3 steps forward. Take 3 steps backward.
+Options:
+- Yes
+- No",Yes
+136,"If you follow these instructions, do you return to the starting point? Always face forward. Take 2 steps left. Take 4 steps backward. Take 10 steps right. Take 2 steps left. Take 3 steps left. Take 7 steps right.
+Options:
+- Yes
+- No",No
+66,"If you follow these instructions, do you return to the starting point? Take 5 steps. Turn around. Take 10 steps. Turn right. Take 10 steps.
+Options:
+- Yes
+- No",No
+217,"If you follow these instructions, do you return to the starting point? Take 7 steps. Take 9 steps. Turn around. Turn right.
+Options:
+- Yes
+- No",No
+154,"If you follow these instructions, do you return to the starting point? Always face forward. Take 10 steps right. Take 3 steps forward. Take 8 steps right. Take 2 steps right.
+Options:
+- Yes
+- No",No
+168,"If you follow these instructions, do you return to the starting point? Take 3 steps. Take 1 step. Take 10 steps.
+Options:
+- Yes
+- No",No
+229,"If you follow these instructions, do you return to the starting point? Take 3 steps. Take 10 steps. Take 4 steps. Take 1 step.
+Options:
+- Yes
+- No",No
+233,"If you follow these instructions, do you return to the starting point? Always face forward. Take 5 steps backward. Take 4 steps backward. Take 9 steps forward.
+Options:
+- Yes
+- No",Yes
+156,"If you follow these instructions, do you return to the starting point? Always face forward. Take 1 step backward. Take 4 steps left. Take 4 steps left.
+Options:
+- Yes
+- No",No
+117,"If you follow these instructions, do you return to the starting point? Take 6 steps. Turn left. Turn left. Take 1 step. Take 5 steps. Turn around.
+Options:
+- Yes
+- No",Yes
+84,"If you follow these instructions, do you return to the starting point? Always face forward. Take 1 step backward. Take 5 steps forward. Take 10 steps backward. Take 9 steps forward. Take 7 steps right.
+Options:
+- Yes
+- No",No
+125,"If you follow these instructions, do you return to the starting point? Turn right. Take 2 steps. Take 8 steps. Turn around.
+Options:
+- Yes
+- No",No
+167,"If you follow these instructions, do you return to the starting point? Take 4 steps. Take 5 steps. Take 9 steps. Take 3 steps. Turn right.
+Options:
+- Yes
+- No",No
+245,"If you follow these instructions, do you return to the starting point? Turn left. Take 9 steps. Take 3 steps. Turn right.
+Options:
+- Yes
+- No",No
+109,"If you follow these instructions, do you return to the starting point? Take 10 steps. Take 8 steps. Turn left. Take 3 steps. Take 1 step. Take 6 steps. Take 7 steps.
+Options:
+- Yes
+- No",No
+172,"If you follow these instructions, do you return to the starting point? Always face forward. Take 7 steps backward. Take 4 steps left. Take 7 steps left. Take 7 steps right. Take 8 steps forward.
+Options:
+- Yes
+- No",No
+234,"If you follow these instructions, do you return to the starting point? Always face forward. Take 5 steps left. Take 1 step backward. Take 4 steps right. Take 1 step backward. Take 8 steps left. Take 6 steps left.
+Options:
+- Yes
+- No",No
+73,"If you follow these instructions, do you return to the starting point? Always face forward. Take 4 steps forward. Take 2 steps backward. Take 10 steps backward.
+Options:
+- Yes
+- No",No
+158,"If you follow these instructions, do you return to the starting point? Take 5 steps. Turn around. Take 4 steps. Take 1 step. Turn left. Turn around. Turn left.
+Options:
+- Yes
+- No",Yes
+115,"If you follow these instructions, do you return to the starting point? Take 8 steps. Take 2 steps. Turn right. Turn right. Take 10 steps.
+Options:
+- Yes
+- No",Yes
+75,"If you follow these instructions, do you return to the starting point? Always face forward. Take 9 steps backward. Take 2 steps forward. Take 1 step backward. Take 8 steps forward.
+Options:
+- Yes
+- No",Yes
+237,"If you follow these instructions, do you return to the starting point? Always face forward. Take 6 steps forward. Take 4 steps forward. Take 9 steps backward. Take 1 step backward.
+Options:
+- Yes
+- No",Yes
+82,"If you follow these instructions, do you return to the starting point? Take 8 steps. Take 1 step. Turn left. Turn left. Take 9 steps.
+Options:
+- Yes
+- No",Yes
+29,"If you follow these instructions, do you return to the starting point? Always face forward. Take 5 steps forward. Take 7 steps backward. Take 10 steps backward.
+Options:
+- Yes
+- No",No
+126,"If you follow these instructions, do you return to the starting point? Always face forward. Take 6 steps backward. Take 8 steps left. Take 3 steps right. Take 7 steps forward. Take 3 steps right. Take 9 steps right. Take 1 step backward. Take 7 steps left.
+Options:
+- Yes
+- No",Yes
+79,"If you follow these instructions, do you return to the starting point? Always face forward. Take 10 steps forward. Take 4 steps forward. Take 7 steps backward. Take 7 steps backward.
+Options:
+- Yes
+- No",Yes
+86,"If you follow these instructions, do you return to the starting point? Always face forward. Take 10 steps left. Take 4 steps forward. Take 1 step left. Take 4 steps backward.
+Options:
+- Yes
+- No",No
+5,"If you follow these instructions, do you return to the starting point? Take 8 steps. Turn around. Take 8 steps.
+Options:
+- Yes
+- No",Yes
+56,"If you follow these instructions, do you return to the starting point? Take 9 steps. Turn left. Turn left. Take 5 steps. Take 4 steps. Turn left. Turn left.
+Options:
+- Yes
+- No",Yes
+186,"If you follow these instructions, do you return to the starting point? Take 2 steps. Take 10 steps. Take 8 steps.
+Options:
+- Yes
+- No",No
+231,"If you follow these instructions, do you return to the starting point? Always face forward. Take 10 steps right. Take 7 steps backward. Take 3 steps left. Take 8 steps backward. Take 3 steps backward. Take 8 steps right.
+Options:
+- Yes
+- No",No
+170,"If you follow these instructions, do you return to the starting point? Turn right. Take 10 steps. Turn around. Take 10 steps.
+Options:
+- Yes
+- No",Yes
+65,"If you follow these instructions, do you return to the starting point? Always face forward. Take 7 steps forward. Take 3 steps backward. Take 4 steps backward.
+Options:
+- Yes
+- No",Yes
+140,"If you follow these instructions, do you return to the starting point? Always face forward. Take 8 steps left. Take 8 steps right.
+Options:
+- Yes
+- No",Yes
+124,"If you follow these instructions, do you return to the starting point? Always face forward. Take 9 steps right. Take 10 steps left. Take 10 steps backward. Take 3 steps backward. Take 5 steps backward. Take 8 steps forward.
+Options:
+- Yes
+- No",No
+213,"If you follow these instructions, do you return to the starting point? Always face forward. Take 4 steps left. Take 3 steps forward. Take 1 step right.
+Options:
+- Yes
+- No",No
+148,"If you follow these instructions, do you return to the starting point? Take 1 step. Take 5 steps. Take 1 step. Turn left. Turn left. Take 9 steps.
+Options:
+- Yes
+- No",No
+31,"If you follow these instructions, do you return to the starting point? Always face forward. Take 4 steps forward. Take 5 steps right. Take 7 steps left.
+Options:
+- Yes
+- No",No
+12,"If you follow these instructions, do you return to the starting point? Take 3 steps. Turn around. Take 3 steps. Turn right.
+Options:
+- Yes
+- No",Yes
+35,"If you follow these instructions, do you return to the starting point? Always face forward. Take 7 steps forward. Take 4 steps backward. Take 4 steps backward. Take 5 steps forward. Take 7 steps forward. Take 10 steps backward. Take 1 step backward.
+Options:
+- Yes
+- No",Yes
+28,"If you follow these instructions, do you return to the starting point? Turn left. Take 5 steps. Turn around. Turn right.
+Options:
+- Yes
+- No",No
+42,"If you follow these instructions, do you return to the starting point? Always face forward. Take 7 steps left. Take 2 steps backward. Take 7 steps backward. Take 7 steps backward. Take 3 steps forward.
+Options:
+- Yes
+- No",No
+218,"If you follow these instructions, do you return to the starting point? Turn around. Take 1 step. Take 2 steps. Take 9 steps. Take 7 steps. Turn left.
+Options:
+- Yes
+- No",No
+22,"If you follow these instructions, do you return to the starting point? Always face forward. Take 1 step forward. Take 10 steps left. Take 4 steps forward.
+Options:
+- Yes
+- No",No
+93,"If you follow these instructions, do you return to the starting point? Take 7 steps. Turn around. Take 10 steps. Take 2 steps. Turn around. Take 5 steps. Turn left.
+Options:
+- Yes
+- No",Yes
+212,"If you follow these instructions, do you return to the starting point? Always face forward. Take 9 steps left. Take 10 steps left. Take 3 steps left. Take 1 step left. Take 3 steps backward. Take 6 steps left. Take 3 steps forward. Take 4 steps right.
+Options:
+- Yes
+- No",No
+101,"If you follow these instructions, do you return to the starting point? Turn around. Turn right. Take 7 steps. Turn right.
+Options:
+- Yes
+- No",No

@@ -1,0 +1,101 @@
+,input,label
+51,Question: Elanor tells the truth. Ka says Elanor lies. Delbert says Ka tells the truth. Michaela says Delbert lies. Sherrie says Michaela lies. Does Sherrie tell the truth?,No
+95,Question: Phoebe tells the truth. Helene says Phoebe lies. Sima says Helene lies. Alejandro says Sima tells the truth. Michaela says Alejandro lies. Does Michaela tell the truth?,No
+143,Question: Shalonda lies. Crista says Shalonda tells the truth. Yoland says Crista tells the truth. Ka says Yoland tells the truth. Michaela says Ka lies. Does Michaela tell the truth?,Yes
+199,Question: Kristian lies. Millie says Kristian lies. Amberly says Millie lies. Osvaldo says Amberly tells the truth. Kandi says Osvaldo tells the truth. Does Kandi tell the truth?,No
+76,Question: Conception tells the truth. Teressa says Conception lies. Sal says Teressa tells the truth. Fidel says Sal tells the truth. Shenna says Fidel lies. Does Shenna tell the truth?,Yes
+41,Question: Fidel tells the truth. Kandi says Fidel lies. Christie says Kandi tells the truth. Leda says Christie lies. Sima says Leda lies. Does Sima tell the truth?,No
+113,Question: Jim tells the truth. Alejandro says Jim lies. Phoebe says Alejandro lies. Shaunda says Phoebe tells the truth. Kandi says Shaunda lies. Does Kandi tell the truth?,No
+152,Question: Gwenn tells the truth. Millicent says Gwenn lies. Antwan says Millicent tells the truth. Teressa says Antwan lies. Shenna says Teressa lies. Does Shenna tell the truth?,No
+78,Question: Ryan lies. Christie says Ryan lies. Amberly says Christie tells the truth. Shenna says Amberly tells the truth. Jamey says Shenna lies. Does Jamey tell the truth?,No
+147,Question: Delfina lies. Teressa says Delfina lies. Amberly says Teressa tells the truth. Ryan says Amberly lies. Millie says Ryan lies. Does Millie tell the truth?,Yes
+26,Question: Leda tells the truth. Alexis says Leda lies. Sal says Alexis lies. Phoebe says Sal tells the truth. Gwenn says Phoebe tells the truth. Does Gwenn tell the truth?,Yes
+241,Question: Shaunda lies. Andree says Shaunda tells the truth. Jaymie says Andree lies. Inga says Jaymie lies. Millicent says Inga tells the truth. Does Millicent tell the truth?,No
+164,Question: Vernell tells the truth. Rashida says Vernell lies. Christie says Rashida tells the truth. Sherrie says Christie tells the truth. Jim says Sherrie lies. Does Jim tell the truth?,Yes
+243,Question: Jerry lies. Kandi says Jerry lies. Fletcher says Kandi lies. Ryan says Fletcher lies. Delfina says Ryan lies. Does Delfina tell the truth?,No
+137,Question: Jerry tells the truth. Raymond says Jerry tells the truth. Yoland says Raymond tells the truth. Elanor says Yoland tells the truth. Jamey says Elanor lies. Does Jamey tell the truth?,No
+0,Question: Sherrie tells the truth. Vernell says Sherrie tells the truth. Alexis says Vernell lies. Michaela says Alexis tells the truth. Elanor says Michaela tells the truth. Does Elanor tell the truth?,No
+2,Question: Vina tells the truth. Helene says Vina lies. Kandi says Helene tells the truth. Jamey says Kandi lies. Ka says Jamey lies. Does Ka tell the truth?,No
+77,Question: Ryan tells the truth. Helene says Ryan tells the truth. Kandi says Helene tells the truth. Inga says Kandi tells the truth. Delbert says Inga lies. Does Delbert tell the truth?,No
+46,Question: Millie tells the truth. Millicent says Millie tells the truth. Raymond says Millicent tells the truth. Crista says Raymond lies. Ka says Crista tells the truth. Does Ka tell the truth?,No
+100,Question: Michael lies. Leda says Michael lies. Delbert says Leda tells the truth. Tamika says Delbert tells the truth. Fidel says Tamika lies. Does Fidel tell the truth?,No
+127,Question: Christie lies. Jaymie says Christie lies. Lorine says Jaymie tells the truth. Bernita says Lorine tells the truth. Delfina says Bernita lies. Does Delfina tell the truth?,No
+150,Question: Elanor tells the truth. Crista says Elanor lies. Vernell says Crista lies. Shalonda says Vernell lies. Teressa says Shalonda lies. Does Teressa tell the truth?,Yes
+248,Question: Fletcher tells the truth. Alexis says Fletcher lies. Jerry says Alexis lies. Elanor says Jerry tells the truth. Jim says Elanor lies. Does Jim tell the truth?,No
+90,Question: Jamey lies. Gwenn says Jamey tells the truth. Yoland says Gwenn tells the truth. Kandi says Yoland tells the truth. Osvaldo says Kandi tells the truth. Does Osvaldo tell the truth?,No
+85,Question: Bernita tells the truth. Audrie says Bernita lies. Delfina says Audrie tells the truth. Vina says Delfina lies. Sal says Vina tells the truth. Does Sal tell the truth?,Yes
+175,Question: Sherrie lies. Gwenn says Sherrie lies. Sima says Gwenn lies. Tamika says Sima tells the truth. Millicent says Tamika tells the truth. Does Millicent tell the truth?,No
+195,Question: Shalonda tells the truth. Sal says Shalonda tells the truth. Helene says Sal tells the truth. Kandi says Helene lies. Lorine says Kandi tells the truth. Does Lorine tell the truth?,No
+98,Question: Millicent tells the truth. Alexis says Millicent lies. Jaymie says Alexis lies. Willian says Jaymie tells the truth. Leda says Willian lies. Does Leda tell the truth?,No
+36,Question: Fidel lies. Fletcher says Fidel tells the truth. Yoland says Fletcher lies. Raymond says Yoland lies. Leda says Raymond lies. Does Leda tell the truth?,Yes
+61,Question: Maybelle tells the truth. Bernita says Maybelle tells the truth. Inga says Bernita tells the truth. Tamika says Inga lies. Helene says Tamika tells the truth. Does Helene tell the truth?,No
+162,Question: Willian tells the truth. Shalonda says Willian tells the truth. Helene says Shalonda tells the truth. Millicent says Helene lies. Andree says Millicent lies. Does Andree tell the truth?,Yes
+139,Question: Willian tells the truth. Crista says Willian tells the truth. Vina says Crista lies. Fidel says Vina lies. Fletcher says Fidel lies. Does Fletcher tell the truth?,No
+11,Question: Audrie lies. Conception says Audrie lies. Teressa says Conception tells the truth. Delfina says Teressa lies. Helene says Delfina tells the truth. Does Helene tell the truth?,No
+244,Question: Shaunda tells the truth. Phoebe says Shaunda tells the truth. Ryan says Phoebe tells the truth. Christie says Ryan tells the truth. Vina says Christie tells the truth. Does Vina tell the truth?,Yes
+198,Question: Fletcher lies. Jerry says Fletcher lies. Raymond says Jerry lies. Conception says Raymond lies. Amberly says Conception tells the truth. Does Amberly tell the truth?,Yes
+27,Question: Fletcher lies. Phoebe says Fletcher tells the truth. Vina says Phoebe tells the truth. Andree says Vina tells the truth. Willian says Andree tells the truth. Does Willian tell the truth?,No
+155,Question: Delbert tells the truth. Gwenn says Delbert lies. Audrie says Gwenn lies. Christie says Audrie lies. Alexis says Christie lies. Does Alexis tell the truth?,Yes
+4,Question: Tamika lies. Raymond says Tamika tells the truth. Willian says Raymond tells the truth. Shaunda says Willian lies. Elanor says Shaunda tells the truth. Does Elanor tell the truth?,Yes
+122,Question: Osvaldo lies. Phoebe says Osvaldo lies. Kandi says Phoebe tells the truth. Crista says Kandi tells the truth. Delbert says Crista lies. Does Delbert tell the truth?,No
+32,Question: Delfina tells the truth. Willian says Delfina tells the truth. Crista says Willian lies. Shalonda says Crista lies. Shenna says Shalonda tells the truth. Does Shenna tell the truth?,Yes
+144,Question: Maybelle tells the truth. Antwan says Maybelle tells the truth. Audrie says Antwan tells the truth. Ryan says Audrie lies. Delfina says Ryan lies. Does Delfina tell the truth?,Yes
+178,Question: Vina tells the truth. Alejandro says Vina lies. Maybelle says Alejandro tells the truth. Millicent says Maybelle lies. Elanor says Millicent tells the truth. Does Elanor tell the truth?,Yes
+138,Question: Helene tells the truth. Raymond says Helene lies. Andree says Raymond tells the truth. Michael says Andree tells the truth. Amberly says Michael tells the truth. Does Amberly tell the truth?,No
+62,Question: Delfina lies. Leda says Delfina lies. Fidel says Leda lies. Sal says Fidel tells the truth. Andree says Sal lies. Does Andree tell the truth?,Yes
+135,Question: Osvaldo lies. Gwenn says Osvaldo lies. Michael says Gwenn lies. Elanor says Michael lies. Sal says Elanor tells the truth. Does Sal tell the truth?,Yes
+128,Question: Helene tells the truth. Teressa says Helene tells the truth. Jamey says Teressa lies. Alexis says Jamey lies. Osvaldo says Alexis tells the truth. Does Osvaldo tell the truth?,Yes
+226,Question: Tamika lies. Conception says Tamika tells the truth. Kristian says Conception lies. Alejandro says Kristian tells the truth. Shaunda says Alejandro lies. Does Shaunda tell the truth?,No
+205,Question: Sima lies. Maybelle says Sima tells the truth. Audrie says Maybelle lies. Leda says Audrie tells the truth. Shaunda says Leda lies. Does Shaunda tell the truth?,No
+70,Question: Kandi lies. Phoebe says Kandi tells the truth. Yoland says Phoebe tells the truth. Fletcher says Yoland lies. Lorine says Fletcher tells the truth. Does Lorine tell the truth?,Yes
+192,Question: Osvaldo lies. Fletcher says Osvaldo tells the truth. Michael says Fletcher tells the truth. Dallas says Michael tells the truth. Teressa says Dallas tells the truth. Does Teressa tell the truth?,No
+64,Question: Crista lies. Michael says Crista tells the truth. Audrie says Michael lies. Sherrie says Audrie lies. Michaela says Sherrie tells the truth. Does Michaela tell the truth?,No
+44,Question: Millicent lies. Alexis says Millicent lies. Inga says Alexis tells the truth. Christie says Inga lies. Gwenn says Christie lies. Does Gwenn tell the truth?,Yes
+165,Question: Shaunda lies. Elanor says Shaunda lies. Fidel says Elanor tells the truth. Lorine says Fidel tells the truth. Raymond says Lorine lies. Does Raymond tell the truth?,No
+40,Question: Alejandro lies. Amberly says Alejandro tells the truth. Osvaldo says Amberly lies. Vernell says Osvaldo lies. Shenna says Vernell lies. Does Shenna tell the truth?,Yes
+123,Question: Bernita lies. Jerry says Bernita tells the truth. Delbert says Jerry lies. Jamey says Delbert tells the truth. Shenna says Jamey lies. Does Shenna tell the truth?,No
+153,Question: Helene tells the truth. Leda says Helene lies. Antwan says Leda tells the truth. Andree says Antwan lies. Shaunda says Andree lies. Does Shaunda tell the truth?,No
+23,Question: Phoebe tells the truth. Christie says Phoebe tells the truth. Fletcher says Christie tells the truth. Amberly says Fletcher lies. Raymond says Amberly tells the truth. Does Raymond tell the truth?,No
+211,Question: Fletcher tells the truth. Willian says Fletcher tells the truth. Jamey says Willian lies. Leda says Jamey lies. Jaymie says Leda tells the truth. Does Jaymie tell the truth?,Yes
+183,Question: Christie lies. Amberly says Christie tells the truth. Bernita says Amberly tells the truth. Kristian says Bernita lies. Delfina says Kristian lies. Does Delfina tell the truth?,No
+81,Question: Rashida lies. Ryan says Rashida tells the truth. Vernell says Ryan tells the truth. Shaunda says Vernell lies. Amberly says Shaunda lies. Does Amberly tell the truth?,No
+39,Question: Jamey lies. Vernell says Jamey tells the truth. Millicent says Vernell lies. Rashida says Millicent tells the truth. Vina says Rashida tells the truth. Does Vina tell the truth?,Yes
+209,Question: Fidel lies. Millicent says Fidel tells the truth. Crista says Millicent lies. Leda says Crista lies. Tamika says Leda tells the truth. Does Tamika tell the truth?,No
+47,Question: Michaela lies. Millicent says Michaela lies. Delbert says Millicent lies. Bernita says Delbert lies. Teressa says Bernita tells the truth. Does Teressa tell the truth?,Yes
+94,Question: Jamey tells the truth. Delfina says Jamey lies. Vina says Delfina tells the truth. Teressa says Vina tells the truth. Conception says Teressa lies. Does Conception tell the truth?,Yes
+190,Question: Phoebe lies. Lorine says Phoebe tells the truth. Dallas says Lorine lies. Alexis says Dallas lies. Jim says Alexis tells the truth. Does Jim tell the truth?,No
+161,Question: Sima tells the truth. Jerry says Sima tells the truth. Sal says Jerry lies. Inga says Sal lies. Willian says Inga lies. Does Willian tell the truth?,No
+43,Question: Fletcher tells the truth. Helene says Fletcher lies. Elanor says Helene tells the truth. Yoland says Elanor tells the truth. Audrie says Yoland lies. Does Audrie tell the truth?,Yes
+145,Question: Bernita tells the truth. Ka says Bernita lies. Yoland says Ka lies. Gwenn says Yoland lies. Fidel says Gwenn lies. Does Fidel tell the truth?,Yes
+182,Question: Shaunda lies. Fletcher says Shaunda lies. Jaymie says Fletcher lies. Millie says Jaymie lies. Gwenn says Millie tells the truth. Does Gwenn tell the truth?,Yes
+3,Question: Christie tells the truth. Ka says Christie tells the truth. Delbert says Ka lies. Leda says Delbert tells the truth. Lorine says Leda tells the truth. Does Lorine tell the truth?,No
+105,Question: Conception tells the truth. Elanor says Conception tells the truth. Alexis says Elanor tells the truth. Fidel says Alexis tells the truth. Delbert says Fidel lies. Does Delbert tell the truth?,No
+53,Question: Bernita tells the truth. Michael says Bernita tells the truth. Fidel says Michael lies. Dallas says Fidel tells the truth. Millicent says Dallas lies. Does Millicent tell the truth?,Yes
+133,Question: Alejandro lies. Vina says Alejandro lies. Vernell says Vina tells the truth. Fidel says Vernell lies. Inga says Fidel tells the truth. Does Inga tell the truth?,No
+227,Question: Helene lies. Delfina says Helene lies. Christie says Delfina tells the truth. Jerry says Christie lies. Tamika says Jerry tells the truth. Does Tamika tell the truth?,No
+193,Question: Alexis tells the truth. Raymond says Alexis tells the truth. Michaela says Raymond tells the truth. Shalonda says Michaela tells the truth. Amberly says Shalonda tells the truth. Does Amberly tell the truth?,Yes
+232,Question: Alexis tells the truth. Elanor says Alexis tells the truth. Sherrie says Elanor lies. Audrie says Sherrie tells the truth. Inga says Audrie tells the truth. Does Inga tell the truth?,No
+49,Question: Fletcher lies. Teressa says Fletcher lies. Vernell says Teressa lies. Dallas says Vernell lies. Millicent says Dallas tells the truth. Does Millicent tell the truth?,Yes
+163,Question: Ryan tells the truth. Amberly says Ryan tells the truth. Kristian says Amberly lies. Bernita says Kristian lies. Alejandro says Bernita tells the truth. Does Alejandro tell the truth?,Yes
+80,Question: Christie tells the truth. Jamey says Christie tells the truth. Michael says Jamey lies. Rashida says Michael tells the truth. Teressa says Rashida tells the truth. Does Teressa tell the truth?,No
+34,Question: Fidel tells the truth. Tamika says Fidel lies. Shenna says Tamika lies. Audrie says Shenna lies. Jim says Audrie tells the truth. Does Jim tell the truth?,No
+206,Question: Vernell lies. Conception says Vernell lies. Kandi says Conception lies. Michael says Kandi tells the truth. Osvaldo says Michael tells the truth. Does Osvaldo tell the truth?,No
+7,Question: Jim lies. Crista says Jim lies. Vernell says Crista tells the truth. Bernita says Vernell tells the truth. Millicent says Bernita tells the truth. Does Millicent tell the truth?,Yes
+171,Question: Shenna lies. Crista says Shenna lies. Andree says Crista tells the truth. Sherrie says Andree lies. Ka says Sherrie lies. Does Ka tell the truth?,Yes
+110,Question: Delfina lies. Jerry says Delfina tells the truth. Maybelle says Jerry tells the truth. Dallas says Maybelle lies. Kristian says Dallas tells the truth. Does Kristian tell the truth?,Yes
+91,Question: Antwan tells the truth. Helene says Antwan tells the truth. Gwenn says Helene tells the truth. Sal says Gwenn tells the truth. Shaunda says Sal lies. Does Shaunda tell the truth?,No
+83,Question: Teressa lies. Willian says Teressa lies. Jamey says Willian lies. Ryan says Jamey lies. Kandi says Ryan lies. Does Kandi tell the truth?,No
+223,Question: Antwan tells the truth. Elanor says Antwan tells the truth. Bernita says Elanor tells the truth. Osvaldo says Bernita lies. Christie says Osvaldo tells the truth. Does Christie tell the truth?,No
+228,Question: Conception lies. Shenna says Conception tells the truth. Maybelle says Shenna tells the truth. Michael says Maybelle lies. Amberly says Michael lies. Does Amberly tell the truth?,No
+89,Question: Ryan lies. Kandi says Ryan lies. Lorine says Kandi lies. Christie says Lorine tells the truth. Fletcher says Christie lies. Does Fletcher tell the truth?,Yes
+8,Question: Fletcher tells the truth. Conception says Fletcher tells the truth. Bernita says Conception tells the truth. Jamey says Bernita tells the truth. Teressa says Jamey lies. Does Teressa tell the truth?,No
+13,Question: Inga tells the truth. Shenna says Inga lies. Rashida says Shenna tells the truth. Ka says Rashida tells the truth. Shalonda says Ka tells the truth. Does Shalonda tell the truth?,No
+59,Question: Ka tells the truth. Fletcher says Ka tells the truth. Maybelle says Fletcher lies. Lorine says Maybelle lies. Crista says Lorine tells the truth. Does Crista tell the truth?,Yes
+215,Question: Millie lies. Michael says Millie tells the truth. Vina says Michael lies. Conception says Vina tells the truth. Sima says Conception tells the truth. Does Sima tell the truth?,Yes
+131,Question: Christie tells the truth. Elanor says Christie lies. Jaymie says Elanor tells the truth. Jamey says Jaymie lies. Alexis says Jamey tells the truth. Does Alexis tell the truth?,Yes
+17,Question: Ka lies. Andree says Ka tells the truth. Audrie says Andree lies. Antwan says Audrie tells the truth. Millie says Antwan tells the truth. Does Millie tell the truth?,Yes
+166,Question: Gwenn tells the truth. Lorine says Gwenn lies. Antwan says Lorine tells the truth. Elanor says Antwan tells the truth. Delfina says Elanor tells the truth. Does Delfina tell the truth?,No
+72,Question: Millicent lies. Shenna says Millicent lies. Willian says Shenna tells the truth. Kandi says Willian lies. Vernell says Kandi lies. Does Vernell tell the truth?,Yes
+220,Question: Ka lies. Rashida says Ka tells the truth. Sherrie says Rashida tells the truth. Tamika says Sherrie tells the truth. Elanor says Tamika tells the truth. Does Elanor tell the truth?,No
+134,Question: Millicent tells the truth. Willian says Millicent lies. Crista says Willian lies. Teressa says Crista tells the truth. Rashida says Teressa tells the truth. Does Rashida tell the truth?,Yes
+204,Question: Christie tells the truth. Fidel says Christie lies. Jerry says Fidel tells the truth. Maybelle says Jerry lies. Delfina says Maybelle tells the truth. Does Delfina tell the truth?,Yes

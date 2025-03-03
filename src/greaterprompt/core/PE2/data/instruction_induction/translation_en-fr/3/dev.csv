@@ -1,0 +1,21 @@
+,input,output,possible_translations
+611,bottom,fond,"['bas', 'passif', 'cul', 'dessous', 'arrière-train', 'fond', 'derrière']"
+212,producer,producteur,['producteur']
+1299,suggestion,suggestion,['suggestion']
+692,penalty,penalisation,"['penalisation', 'peine']"
+1310,publicity,publicité,['publicité']
+2761,telegram,télégramme,['télégramme']
+480,planet,planète,['planète']
+1006,remix,remix,['remix']
+737,farm,ferme,"['ferme', 'exploitation agricole', 'domaine']"
+2622,neglect,négligence,"['négligence', 'négliger']"
+322,actor,acteur,"['faiseur', 'faiseuse', 'actrice', 'acteur']"
+1361,consideration,considération,"['considération', 'raison', 'récompense', 'motif']"
+2562,sergeant,sergent,['sergent']
+2003,defendant,inculpé,"['inculpé', 'défendeur']"
+2429,plea,supplication,"['supplication', 'appel']"
+848,canal,canal,['canal']
+812,vice,vice,['vice']
+603,composer,compositeur,['compositeur']
+31,band,groupe,['groupe']
+1421,assessment,évaluation,"['évaluation', 'estimation']"

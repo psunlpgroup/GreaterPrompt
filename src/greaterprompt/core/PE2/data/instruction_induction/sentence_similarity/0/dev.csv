@@ -1,0 +1,21 @@
+,input,output
+3068,Sentence 1: Afghanistan: suicide bomber kills eight in military bus blast Sentence 2: Roadside bomb 'kills eight Afghan soldiers',4 - almost perfectly
+464,Sentence 1: A man and a woman are kissing each other. Sentence 2: A man and a woman are talking to each other.,1 - probably not
+1545,Sentence 1: We are meant to explore. Sentence 2: We are meant to move.,2 - possibly
+3581,Sentence 1: Chinese satellite spots large object in search area Sentence 2: Malaysia: Chinese satellite found object in ocean,3 - probably
+3337,Sentence 1: US makes case for action against Syria Sentence 2: Saudi Urges U.N. Action against Israel Strikes on Syria,2 - possibly
+546,Sentence 1: A car is parking. Sentence 2: A cat is playing.,0 - definitely not
+1267,Sentence 1: A man picking up a big rock. Sentence 2: A woman picking up a large rock.,2 - possibly
+2676,Sentence 1: Chicago man to be sentenced for terror convictions Sentence 2: Kabul Bank Heads Sentenced for Corruption,1 - probably not
+2534,Sentence 1: Bangladesh building collapse death toll hits 362 Sentence 2: Bangladesh building-collapse death toll climbs to 580,4 - almost perfectly
+2810,Sentence 1: Brief clashes with police in Belfast Sentence 2: Mourners clash with police in Tunisia,1 - probably not
+379,Sentence 1: A dog is jumping on a trampoline. Sentence 2: A boy is playing a guitar.,0 - definitely not
+1066,Sentence 1: a jockey riding a horse. Sentence 2: A jockey riding a horse in a pen.,4 - almost perfectly
+3494,Sentence 1: Ukraine leader pledges crisis talks Sentence 2: Ukraine Leader Pledges Crisis Talks,5 - perfectly
+3295,Sentence 1: Russia finds dead lawyer Magnitsky guilty in posthumous trial Sentence 2: Russia convicts dead lawyer Magnitsky in posthumous trial,5 - perfectly
+2888,"Sentence 1: In Pakistan, army adamant on fighting the other Taliban Sentence 2: Pak army adamant on fighting the other Taleban",5 - perfectly
+826,Sentence 1: A man is playing an electronic keyboard. Sentence 2: A band is playing instruments.,1 - probably not
+2667,Sentence 1: Obama holds talks over Syria action Sentence 2: Cameron loses parliamentary vote on Syria military action,1 - probably not
+1053,Sentence 1: Two sheep stand in a doorway. Sentence 2: Two rams stand on snowy ground.,1 - probably not
+2639,Sentence 1: Critical Gates memoir rocks Obama administration Sentence 2: Gates blast rocks Obama administration,4 - almost perfectly
+2510,"Sentence 1: Iran's Rouhani warns of Talibanisation in Syria Sentence 2: Russia, China Concerned About Israeli Airstrikes in Syria",1 - probably not

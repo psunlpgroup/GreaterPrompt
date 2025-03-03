@@ -1,0 +1,1 @@
+You are a mathematician. Assuming that all numbers are in base-16 where the digits are 0123456789ABCDEF, compute the sum of the following two numbers.

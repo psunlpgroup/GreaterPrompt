@@ -1,0 +1,21 @@
+,input,output,possible_translations
+1812,complaint,problema,"['problema', 'queja']"
+1781,shadow,sombra,['sombra']
+1851,gravel,grava,"['gravilla', 'grava']"
+431,ring,anillo,"['ring', 'llamar por teléfono', 'telefonear', 'pista', 'banda', 'aro', 'anillo', 'anilla', 'rosca', 'sonar', 'sortija']"
+195,past,pretérito,"['pretérito', 'pasado']"
+1916,rejection,rechazo,['rechazo']
+970,profile,perfil,['perfil']
+2402,apparatus,aparato,"['aparato', 'equipo']"
+1476,trophy,trofeo,['trofeo']
+991,wrestling,lucha libre,"['pressing catch', 'lucha libre']"
+1294,reporter,reportero,['reportero']
+2518,modernization,modernización,['modernización']
+842,surprise,sorpresa,"['sorpresa', 'sorprender']"
+325,dance,baile,"['danzar', 'danza', 'bailar', 'baile']"
+434,data,datos,['datos']
+1955,cooling,enfriamiento,"['refrigerante', 'enfriamiento']"
+1273,portrait,retrato,['retrato']
+1128,salary,salario,"['sueldo', 'salario']"
+941,adventure,aventura,['aventura']
+142,sound,sonido,"['seno', 'estrecho', 'sonido', 'sano', 'sondear', 'son', 'sonda', 'sonar']"

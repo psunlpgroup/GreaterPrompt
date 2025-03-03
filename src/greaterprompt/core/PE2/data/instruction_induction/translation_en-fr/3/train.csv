@@ -1,0 +1,101 @@
+,input,output,possible_translations
+2290,sleeve,chemise,"['chemise', 'pochette', 'manche', 'manchon', 'boîtier', 'gaine']"
+1651,mud,boue,"['fange', 'boue']"
+2158,tolerance,tolérance,['tolérance']
+1489,thickness,épaisseur,"['épaisseur', 'grosseur']"
+1913,predator,prédateur,['prédateur']
+2273,descendant,descendant,['descendant']
+566,battery,batterie,"['pile', 'batterie', 'coups et blessures']"
+1702,confrontation,confrontation,['confrontation']
+2700,compliance,conformité,"['observance', 'conformité']"
+1314,patient,patient,"['patient', 'patiente']"
+1262,lawsuit,poursuite judiciaire,"['poursuite judiciaire', 'procès']"
+2322,reprise,reprise,['reprise']
+1545,midnight,minuit,['minuit']
+1256,moon,lune,"['mois', 'montrer sa lune', 'lune']"
+508,motion,mouvement,"['mouvement', 'motion']"
+1821,realism,réalisme,['réalisme']
+369,matter,matière,"['affaire', 'importer', 'matière']"
+2801,tap,dérivation,"['dérivation', 'taper', 'tarauder', 'tirer', 'bouchon', 'taraud', 'robinet']"
+1101,confidence,confidence,"['assurance', 'confidence', 'confiance en soi', 'confiance']"
+2138,surname,nom,"['nom', 'patronyme nom de famille']"
+928,bed,lit,['lit']
+1303,attraction,attraction,"['attraction', 'attirance']"
+1024,exposure,exposition,['exposition']
+963,revenue,revenu,['revenu']
+2172,vacuum,vide,"['vide', ""passer l'aspirateur"", 'vacuum']"
+197,past,passé,"['dernier', 'après', 'passé', 'passée', 'dernière']"
+1135,slave,esclave,"['esclave', 'serf', 'serve']"
+766,conduct,comportement,"['se comporter', 'comportement', 'conduire', 'mener', 'conduite']"
+1011,fantasy,fantasme,"['fantasme', 'fantaisie', 'fantasy']"
+1340,spacecraft,vaisseau spatial,['vaisseau spatial']
+595,tail,queue,"['pile', 'queue']"
+1124,abuse,abus,"['viol', 'abuser', 'abus']"
+240,fight,bataille,"['se battre', 'guerroyer in war', 'lutte', 'bagarre', 'bataille', 'combativité', 'combattre', 'combat']"
+863,faith,foi,"['foi', 'confiance']"
+1376,consciousness,conscience,['conscience']
+1671,fever,fièvre,['fièvre']
+2012,treason,trahison,['trahison']
+142,recording,enregistrement,['enregistrement']
+1462,cave,caverne,"['éboulement', 'grotte', 'cave', 'caverne', 'antre']"
+1810,lunch,déjeuner,"['dîner', 'déjeuner', 'lunch', 'prendre déjeuner', 'luncher']"
+2686,treasury,trésorerie,['trésorerie']
+1510,demonstration,démonstration,"['démonstration', 'manifestation']"
+1778,mortar,mortier,['mortier']
+1245,chest,coffre,"['coffre', 'poitrine']"
+1612,tendency,tendance,['tendance']
+569,table,tableau,"['table', 'tableau', 'mettre sur la table']"
+859,wedding,mariage,"['mariage', 'noces']"
+789,belief,croyance,"['foi', 'conviction', 'croyance']"
+760,hill,colline,['colline']
+1707,dock,socle,"['socle', 'darse']"
+1764,trace,trace,"['tracer', 'calquer', 'trace']"
+1798,makeup,constitution,"['maquillage', 'constitution']"
+2182,instability,instabilité,['instabilité']
+2617,dissent,dissidence,['dissidence']
+791,driver,conducteur,"['chauffeur', 'pilote', 'conducteur', 'conductrice']"
+510,label,étiquette,"['étiquette', 'étiqueter']"
+545,baseball,balle de baseball,"['balle de baseball', 'baseball', 'base-ball']"
+179,plan,plan,"['projeter', 'plan', 'schema']"
+1846,beta,bêta,['bêta']
+1458,aviation,aviation,['aviation']
+773,difference,différence,"['différend', 'différence']"
+499,volume,volume,['volume']
+1382,mail,poste,"['poste', 'courrier', 'mail', 'courrier électronique', 'courriel', 'e-mail']"
+2115,cuisine,cuisine,['cuisine']
+332,foot,pied,"['payer', 'patte', 'pied', 'donner un coup de pied']"
+325,train,caravane,"['entraîner', 'dompter', 'traîne', 'pointer', ""s'exercer"", 'exercer', 'caravane', 'train', ""s'entraîner"", 'former']"
+2717,juice,jus,['jus']
+966,console,console,"['console', 'console de jeu', 'consoler']"
+533,opinion,avis,"['opinion', 'avis', 'conclusions']"
+1791,corporation,corporation,"['corporation', 'société']"
+1408,faction,faction,['faction']
+2642,sailor,matelot,"['marin', 'matelot']"
+613,challenge,défi,"['défier', 'défi', 'challenge']"
+1430,referee,arbitre,['arbitre']
+415,nation,nation,['nation']
+2162,frog,talon,"['talon', 'grenouille']"
+2795,puck,palet,"['rondelle', 'galet', 'palet']"
+1045,advertising,publicité,['publicité']
+606,mountain,montagne,['montagne']
+2099,warehouse,entrepôt,['entrepôt']
+880,honour,honneur,['honneur']
+1422,seal,sceau,"['sceau', 'joint', 'cacheter', 'sceller', 'phoque']"
+33,ship,vaisseau,"['navire', 'bateau', 'vaisseau', 'poster', 'expédier']"
+2469,cinematography,cinématographie,['cinématographie']
+68,father,père,"['papa', 'père', 'paterner']"
+846,dispute,dispute,"['litige', 'dispute']"
+2682,bath,bain,"['bain', 'baignoire', 'salle de bains']"
+2589,shake,secousse,"['secousse', 'se secouer', 'secouer', 'agiter', 'se serrer la main']"
+1115,programming,programmation,['programmation']
+411,care,souci,"['se soucier', 'souci', 'soigner', ""s'intéresser"", 'soin']"
+784,universe,univers,"['Univers', 'univers']"
+2522,forehead,front,['front']
+1993,innovation,innovation,['innovation']
+2576,birthplace,lieu de naissance,['lieu de naissance']
+680,segment,segment,"['segmenter', 'segment']"
+1726,calendar,calendrier,"['calendrier', 'agenda', 'programme', 'emploi du temps']"
+2385,salvage,épave,"['épave', 'sauvetages', 'rescapées', 'sauver', 'récompense', 'épaves', 'sauvetage', 'récompenses', 'rescapé', 'rescapée', 'recycler', 'rescapés']"
+2747,taxonomy,taxinomie,['taxinomie']
+1406,web,âme,"['réseau', 'poche', 'palmure', 'bande', 'panier', 'Web', 'bobine', 'Toile', 'âme']"
+2067,twist,torsion,"['entortiller', 'twist', 'torsion', 'tordre']"

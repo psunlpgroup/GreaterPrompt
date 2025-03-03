@@ -1,0 +1,101 @@
+,input,output,small,large
+1,"mirror carp, alligator",alligator,mirror carp,alligator
+2,"baboons, hamster",baboons,hamster,baboons
+3,"shih tzu, ant",shih tzu,ant,shih tzu
+4,"hamster, salmon",salmon,hamster,salmon
+5,"cod, bobcat",cod,bobcat,cod
+6,"baboons, ant",baboons,ant,baboons
+7,"giant squid, baboons",giant squid,baboons,giant squid
+8,"reindeer, cod",reindeer,cod,reindeer
+9,"hamster, owl",owl,hamster,owl
+10,"hamster, penguin",penguin,hamster,penguin
+11,"shih tzu, walrus",walrus,shih tzu,walrus
+12,"pomeranian, blue whale",blue whale,pomeranian,blue whale
+13,"penguin, ant",penguin,ant,penguin
+14,"border collie, ant",border collie,ant,border collie
+15,"walrus, baboons",walrus,baboons,walrus
+16,"blue whale, shih tzu",blue whale,shih tzu,blue whale
+17,"border collie, brown bear",brown bear,border collie,brown bear
+18,"bobcat, humpback whale",humpback whale,bobcat,humpback whale
+19,"penguin, german shepherd",german shepherd,penguin,german shepherd
+20,"bobcat, brown bear",brown bear,bobcat,brown bear
+21,"mirror carp, walrus",walrus,mirror carp,walrus
+22,"hamster, brown bear",brown bear,hamster,brown bear
+23,"reindeer, sheep",reindeer,sheep,reindeer
+24,"pomeranian, penguin",penguin,pomeranian,penguin
+25,"sheep, giant squid",giant squid,sheep,giant squid
+26,"ant, mirror carp",mirror carp,ant,mirror carp
+27,"penguin, anaconda",anaconda,penguin,anaconda
+28,"rottweiler, penguin",rottweiler,penguin,rottweiler
+29,"owl, border collie",border collie,owl,border collie
+30,"anaconda, ant",anaconda,ant,anaconda
+31,"northern pike, rottweiler",rottweiler,northern pike,rottweiler
+32,"border collie, penguin",border collie,penguin,border collie
+33,"ant, brown bear",brown bear,ant,brown bear
+34,"bobcat, reindeer",reindeer,bobcat,reindeer
+35,"hamster, shih tzu",shih tzu,hamster,shih tzu
+36,"penguin, humpback whale",humpback whale,penguin,humpback whale
+37,"bobcat, baboons",baboons,bobcat,baboons
+38,"german shepherd, ant",german shepherd,ant,german shepherd
+39,"owl, reindeer",reindeer,owl,reindeer
+40,"anaconda, northern pike",anaconda,northern pike,anaconda
+41,"blue whale, cod",blue whale,cod,blue whale
+42,"border collie, shih tzu",border collie,shih tzu,border collie
+43,"baboons, alligator",alligator,baboons,alligator
+44,"cod, alligator",alligator,cod,alligator
+45,"owl, rottweiler",rottweiler,owl,rottweiler
+46,"walrus, bobcat",walrus,bobcat,walrus
+47,"cod, pomeranian",cod,pomeranian,cod
+48,"mirror carp, blue whale",blue whale,mirror carp,blue whale
+49,"northern pike, cod",cod,northern pike,cod
+50,"blue whale, baboons",blue whale,baboons,blue whale
+51,"blue whale, penguin",blue whale,penguin,blue whale
+52,"blue whale, ant",blue whale,ant,blue whale
+53,"sheep, alligator",alligator,sheep,alligator
+54,"giant squid, shih tzu",giant squid,shih tzu,giant squid
+55,"giant squid, hamster",giant squid,hamster,giant squid
+56,"cod, penguin",cod,penguin,cod
+57,"salmon, rottweiler",rottweiler,salmon,rottweiler
+58,"pomeranian, owl",owl,pomeranian,owl
+59,"ant, reindeer",reindeer,ant,reindeer
+60,"ant, humpback whale",humpback whale,ant,humpback whale
+61,"penguin, giant squid",giant squid,penguin,giant squid
+62,"walrus, hamster",walrus,hamster,walrus
+63,"cod, ant",cod,ant,cod
+64,"giant squid, owl",giant squid,owl,giant squid
+65,"hamster, bobcat",bobcat,hamster,bobcat
+66,"german shepherd, northern pike",german shepherd,northern pike,german shepherd
+67,"giant squid, border collie",giant squid,border collie,giant squid
+68,"reindeer, baboons",reindeer,baboons,reindeer
+69,"salmon, pomeranian",salmon,pomeranian,salmon
+70,"salmon, alligator",alligator,salmon,alligator
+71,"ant, alligator",alligator,ant,alligator
+72,"owl, german shepherd",german shepherd,owl,german shepherd
+73,"northern pike, walrus",walrus,northern pike,walrus
+74,"alligator, northern pike",alligator,northern pike,alligator
+75,"blue whale, hamster",blue whale,hamster,blue whale
+76,"anaconda, pomeranian",anaconda,pomeranian,anaconda
+77,"ant, northern pike",northern pike,ant,northern pike
+78,"german shepherd, pomeranian",german shepherd,pomeranian,german shepherd
+79,"hamster, alligator",alligator,hamster,alligator
+80,"alligator, shih tzu",alligator,shih tzu,alligator
+81,"humpback whale, salmon",humpback whale,salmon,humpback whale
+82,"sheep, anaconda",anaconda,sheep,anaconda
+83,"alligator, bobcat",alligator,bobcat,alligator
+84,"hamster, reindeer",reindeer,hamster,reindeer
+85,"penguin, brown bear",brown bear,penguin,brown bear
+86,"humpback whale, border collie",humpback whale,border collie,humpback whale
+87,"walrus, salmon",walrus,salmon,walrus
+88,"giant squid, salmon",giant squid,salmon,giant squid
+89,"pomeranian, brown bear",brown bear,pomeranian,brown bear
+90,"cod, mirror carp",cod,mirror carp,cod
+91,"anaconda, owl",anaconda,owl,anaconda
+92,"border collie, pomeranian",border collie,pomeranian,border collie
+93,"baboons, penguin",baboons,penguin,baboons
+94,"northern pike, brown bear",brown bear,northern pike,brown bear
+95,"pomeranian, shih tzu",shih tzu,pomeranian,shih tzu
+96,"owl, blue whale",blue whale,owl,blue whale
+97,"salmon, anaconda",anaconda,salmon,anaconda
+98,"brown bear, cod",brown bear,cod,brown bear
+99,"brown bear, salmon",brown bear,salmon,brown bear
+100,"border collie, salmon",border collie,salmon,border collie

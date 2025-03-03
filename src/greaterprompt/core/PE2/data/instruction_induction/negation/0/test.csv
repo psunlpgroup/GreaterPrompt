@@ -1,0 +1,101 @@
+,input,output,orig_id
+1,Newton played as quarterback during Super Bowl 50.,Newton did not play as quarterback during Super Bowl 50.,56bf41013aeaaa14008c959e_0
+2,Tucker plays as kicker with the Ravens.,Tucker does not play as kicker with the Ravens.,56bf467d3aeaaa14008c95a6_0
+3,During Super Bowl 50 the Nintendo gaming company debuted their ad for the first time.,During Super Bowl 50 the Nintendo gaming company did not debut their ad for the first time.,56bf717d3aeaaa14008c9639_0
+4,The ad shown during the Super Bowl with the trailer of X-Men: Apocalypse was paid by Fox.,The ad shown during the Super Bowl with the trailer of X-Men: Apocalypse was not paid by Fox.,56d9bf70dc89441400fdb77d_0
+5,the Super Bowl in England will be carried by BBC.,the Super Bowl in England will not be carried by BBC.,56d724ea0d65d214001983c8_0
+6,Manning's top receiver for Super Bowl 50 was Sanders.,Manning's top receiver for Super Bowl 50 was not Sanders.,56d9ccacdc89441400fdb842_0
+7,Nathan Alterman was a poet.,Nathan Alterman was not a poet.,5733a6ac4776f41900660f5b_0
+8,The French spread along with their imperialism spread the Catholic religion.,The French spread along with their imperialism did not spread the Catholic religion.,5730a4d02461fd1900a9cf2d_0
+9,Wales differs from other areas in the United Kingdom regarding education.,Wales does not differ from other areas in the United Kingdom regarding education.,56e777e500c9c71400d77176_0
+10,Norman architecture has rounded arches.,Norman architecture has not rounded arches.,56de4a89cffd8e1900b4b7be_0
+11,"At Westinghouse, Tesla's position was consultant.","At Westinghouse, Tesla's position was not consultant.",56e05900231d4119001ac051_0
+12,"In 1915, Edison received a bid.","In 1915, Edison did not receive a bid.",56e10aa5cd28a01900c674b4_0
+13,In a multiplication algorithm to produce the same outcome whether multiplying or squaring two integers the input would need to remain constant.,In a multiplication algorithm to produce the same outcome whether multiplying or squaring two integers the input would not need to remain constant.,56e1cbe2cd28a01900c67baf_0
+14,A teacher is most likely teaching at a school.,A teacher is not most likely teaching at a school.,56e7477700c9c71400d76f27_0
+15,Teachers might be responsible for student discipline.,Teachers might not be responsible for student discipline.,56e74d1f00c9c71400d76f71_0
+16,"If a teacher is only teaching one person, they are called a tutor.","If a teacher is only teaching one person, they are not called a tutor.",56e7504437bdd419002c3e5c_0
+17,The youngest student a teacher might have are infants.,The youngest student a teacher might have are not infants.,56e7535037bdd419002c3e72_0
+18,Teachers likely follow standardized curricula.,Teachers likely do not follow standardized curricula.,56e7535037bdd419002c3e73_0
+19,A teacher needs to be enthusiastic with regards to their subject matter.,A teacher does not need to be enthusiastic with regards to their subject matter.,56e7667e37bdd419002c3f4a_0
+20,The general religious belief of nations that received Huguenot refugees is Protestant.,The general religious belief of nations that received Huguenot refugees is not Protestant.,5711119cb654c5140001fae4_0
+21,The LDS Church focuses on spiritual mentorship.,The LDS Church does not focuse on spiritual mentorship.,56e77c6737bdd419002c401f_0
+22,"To impact German culture, Martin Luther translated the Bible.","To impact German culture, Martin Luther did not translate the Bible.",56f7cb10a6d7ea1400e17284_0
+23,Lurther was declared to be an outlaw by Edict of Works presented by Emperor.,Lurther was declared to be an outlaw by Edict of Works not presented by Emperor.,56f827caa6d7ea1400e1743b_0
+24,California used to be ruled by Mexico.,California was never ruled by Mexico.,5705eee952bb8914006896de_0
+25,California Institute of Technology is a private university.,California Institute of Technology is not a private university.,5706139252bb891400689866_0
+26,BSkyB was having issues with Thomson.,BSkyB was not having issues with Thomson.,5709686c200fba1400367f79_0
+27,Gasoline and heating gas was rationed by Sweden.,Gasoline and heating gas was not rationed by Sweden.,572649d8f1498d1400e8db3a_0
+28,Non-condensing direct-drive locomotives  for fast passenger trains were notably used in Britain.,Non-condensing direct-drive locomotives  for fast passenger trains were not used in Britain.,571166352419e314009555f5_0
+29,An early clue that philogiston theory was wrong was metals weight gain during rusting.,An early clue that philogiston theory was wrong was not metals weight gain during rusting.,571c8198dd7acb1400e4c0d1_0
+30,The majority of the amazon forest is in Brazil.,The majority of the amazon forest is not in Brazil.,5729e2316aef0514001550c7_0
+31,Scientists think all of the plagues originated from China.,Scientists think all of the plagues did not originate from China.,572647935951b619008f6ecb_0
+32,Walt Disney was approached about producing color broadcasts of his anthology series by NBC.,Walt Disney was not approached about producing color broadcasts of his anthology series by NBC.,5726f0865951b619008f82e6_0
+33,The perception of Genghis Khan in Mongolia brightened in the 1990s.,The perception of Genghis Khan in Mongolia did not brighten in the 1990s.,5727404b708984140094db59_0
+34,The denomination associated with Saint Kentigern College is Presbyterian.,The denomination associated with Saint Kentigern College is not Presbyterian.,57274f49f1498d1400e8f620_0
+35,The usual form of the government's wealth redistribution is taxation.,The usual form of the government's wealth redistribution is not taxation.,572a20816aef0514001552e5_0
+36,The second largest contrubtor to Kenyas GDP is Agriculture.,The second largest contrubtor to Kenyas GDP is not Agriculture.,572918bd3f37b31900478015_0
+37,The first month when Parliament takes a two week vacation is April.,The first month when Parliament takes a two week vacation is not April.,572fbfa504bcaa1900d76c73_0
+38,"The month where, every four years, the ordinary general elections are held on is May.","The month where, every four years, the ordinary general elections are held on is not May.",572fd6aa04bcaa1900d76da0_0
+39,Thomas Godfrey Faussett was born in Oxford.,Thomas Godfrey Faussett was not born in Oxford.,a58a5e49-e3bc-4723-b29d-606dc3220f36
+40,Taavi Vartia was born in Helsinki.,Taavi Vartia was not born in Helsinki.,7f764f18-f779-4c96-a71a-b59c1299aa59
+41,Jonathan Wilkins was born in London.,Jonathan Wilkins was not born in London.,f68d65be-4233-4cac-bf56-57f347ab8ad0
+42,Tazewell Ellett was born in Richmond.,Tazewell Ellett was not born in Richmond.,116c941a-ff12-4f2e-93bb-ba7dd6940b37
+43,Robert Moss was born in Melbourne.,Robert Moss was not born in Melbourne.,7af8476c-2c2b-4585-bdbe-27b474896f9b
+44,Parvaz Mirza was born in Birmingham.,Parvaz Mirza was not born in Birmingham.,1e145408-69f8-469a-80b4-127720e2d1a3
+45,Jim Chapin died in Florida.,Jim Chapin did not die in Florida.,44556830-fba0-4cb9-9b75-2bd51b0badf3
+46,William %22Rip%22 Robertson died in Laos.,William %22Rip%22 Robertson did not die in Laos.,03e7c443-ee44-4dc7-9bf0-9238723e5c61
+47,William Cumin died in Bath.,William Cumin did not die in Bath.,1fe1254a-97cb-4450-b46b-83c535d41dab
+48,Gotthard Deutsch died in Cincinnati.,Gotthard Deutsch did not die in Cincinnati.,dc4d2b13-7f12-4417-b730-9ab89d4b1187
+49,Jorge Noceda Sanchez died in Miami.,Jorge Noceda Sanchez did not die in Miami.,0e35a7ea-e94c-4904-826d-efa38a32cf27
+50,John Joseph Cotman died in Norwich.,John Joseph Cotman did not die in Norwich.,6ed70e84-5097-4acc-b724-998e2e1e387b
+51,Mira Ashby died in Toronto.,Mira Ashby did not die in Toronto.,ed7483d9-2ebb-467d-98d0-7d66911ab6b0
+52,Diego de Arroyo died in Madrid.,Diego de Arroyo did not die in Madrid.,97483332-dd08-45d5-8181-a4438756c351
+53,Robert Cryan died in Dublin.,Robert Cryan did not die in Dublin.,34932ccf-a060-4350-8a6b-6f16e757e062
+54,John Bonser died in Portland.,John Bonser did not die in Portland.,5e57e99b-2e68-4f6e-8e43-bcf5eb91376b
+55,Time is absolute.,Time is not absolute.,765a8c632f9fc2e12b10b386d4cad05b
+56,Some clubs are exclusive.,Some clubs are not exclusive.,3c5fdb642a861d629bf55fc14bfed2c3
+57,Some plants are carniverous.,Some plants are not carniverous.,fa38535b67319c2b446eae6b8991d8c2
+58,Monkeys are funny.,Monkeys are not funny.,d7b09c1020b868282747c86cb6cf0455
+59,Hydrgen is flammable.,Hydrgen is not flammable.,e4a9cabdfdd8306f18e96c5621eb7fc6
+60,Celebrating requires food.,Celebrating does not require food.,cd6947a4d083e31934310dab7ab93b27
+61,Soccer is competitive.,Soccer is not competitive.,2176c123bd4da38b6a646d01557c2e9d
+62,Vodka is generally colourless.,Vodka is not generally colourless.,b3becc6c146b97b3e4b18e3d9bf11f66
+63,Weddings can be boring.,Weddings cannot be boring.,33b71b94722cadb5dd86d67d5c9af747
+64,Zork is a game.,Zork is not a game.,76f7f1fd8955287ea8faa4dfcf4034f9
+65,Some tea contains caffeine.,Some tea does not contain caffeine.,968b57eef27e9793e2540829248db8e1
+66,Businesses like to succeed.,Businesses do not like to succeed.,7800e5f89d90fb941820cd37c0157edb
+67,Love is contagious.,Love is not contagious.,12b0b524f4f95d921655fa41a1102173
+68,Life is a journey.,Life is not a journey.,9781694c022e743e636c598dbf6120d6
+69,Exercising requires motivation.,Exercising does not require motivation.,379b33b9839fabc67df35c486881e05c
+70,Integrity is good.,Integrity is not good.,fdf4c3a11de4816321ab48edba01e4e3
+71,Beef can be marinated.,Beef cannot be marinated.,c4760a59533b32db95b3951652a60af7
+72,Pretending requires creativity.,Pretending does not require creativity.,84851006718246d06ea3b687c00327ab
+73,Porcelain is white.,Porcelain is not white.,270089d301ba88b7c6df00a49f5ecd06
+74,Rubies can be polished.,Rubies cannot be polished.,b02e2de11a677ab4b5a4df368cdb51b1
+75,Investing is risky.,Investing is not risky.,58f7fc9fb0931660ac654e225e9d4b95
+76,Writing requires patience.,Writing does not require patience.,28661f57da65b9e9d55a7a6a7dceec5d
+77,Janice was a pediatrician.,Janice was not a pediatrician.,90c25ec2b11882535945ef4b9eb8680c
+78,We like to camp.,We do not like to camp.,073b7bf84c625f268af3352db6fa0532
+79,Marmite is delicious.,Marmite is not delicious.,1f75a7a70bccbd474fb3087f7359e9f6
+80,Chocolate is yummy.,Chocolate is not yummy.,54ffceaa2c93650fab25465eaee855d4
+81,Genova is part of Italy.,Genova is not part of Italy.,138f284979dfde15156cc76ce61d1d1a
+82,Music can be beautifull.,Music cannot be beautifull.,f15bf5741410275e3b025283aa2e7a51
+83,Romance is generally complicated.,Romance is not generally complicated.,337f125191b055bd000947827c8438a2
+84,The official language of Bhopal is Hindi.,The official language of Bhopal is not Hindi.,84215e60-553c-4f14-9ec7-0795fd37e9ba
+85,Jarama is a river.,Jarama is not a river.,0ca4f5be-2a10-4453-82f2-4cb9476631e3
+86,Sonic X was created in Japan.,Sonic X was not created in Japan.,d4eec7ee-f1cf-4f5d-88bd-62e226b17f30
+87,Kosovo maintains diplomatic relations with Italy.,Kosovo does not maintain diplomatic relations with Italy.,494490ba-283b-4a80-aeac-a027cc1b2779
+88,Portugal maintains diplomatic relations with Germany.,Portugal does not maintain diplomatic relations with Germany.,0882595a-a3a2-4657-9552-04130ff3441d
+89,Mexico maintains diplomatic relations with Italy.,Mexico does not maintain diplomatic relations with Italy.,bbb3d916-c599-4675-8c64-ba2884b86a86
+90,Dacia Duster is produced by Renault.,Dacia Duster is not produced by Renault.,8d51970e-e4eb-4849-ad8f-a58333f911e7
+91,The capital of Bohemia is Prague.,The capital of Bohemia is not Prague.,669632a7-16d3-4168-b1da-1af84e791e57
+92,Wiener Schnitzel was created in Austria.,Wiener Schnitzel was not created in Austria.,786b6eff-cc7a-496e-97e8-af387b754868
+93,Great Performances was originally aired on PBS.,Great Performances was not originally aired on PBS.,c203ff16-1c41-4b63-8c0f-f3fd07b5656e
+94,Vevo is owned by Google.,Vevo is not owned by Google.,c9cc5a5f-6af3-4f0a-8ae5-fa3ab2eeda0e
+95,Dennis Rowland plays jazz music.,Dennis Rowland does not play jazz music.,54c574c6-5e97-4536-a4c3-15cf257865c6
+96,The Two Babylons was created in Scotland.,The Two Babylons was not created in Scotland.,843db91c-db14-481f-81c5-fa4be0992823
+97,The original language of Sadratnamala is Sanskrit.,The original language of Sadratnamala is not Sanskrit.,b4af1f1b-9387-4926-9992-af75068aff65
+98,Hempstead Washburne died in Chicago.,Hempstead Washburne did not die in Chicago.,7a5d5129-a6fb-4558-9576-44ae90cdefa0
+99,The official language of Posio is Finnish.,The official language of Posio is not Finnish.,ae702cd0-2b5c-42d3-a885-702e46fa6938
+100,Kerch Strait is located in Russia.,Kerch Strait is not located in Russia.,bd768ff1-1543-4580-82f9-e3b0a2306a58

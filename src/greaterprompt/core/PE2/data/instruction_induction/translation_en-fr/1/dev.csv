@@ -1,0 +1,21 @@
+,input,output,possible_translations
+393,senior,supérieur,"['aîné', 'supérieur']"
+1055,swimming,natation,['natation']
+1290,attorney,juriste,"['juriste', 'avocat', 'avocate']"
+1124,abuse,abus,"['viol', 'abuser', 'abus']"
+2366,relocation,déménagement,"['délocalisation', 'déménagement']"
+1945,ideology,idéologie,['idéologie']
+505,economy,économie,['économie']
+2347,desk,bureau,"['bureau', 'pupitre']"
+2430,weaponry,armement,"['arsenal', 'armement']"
+1864,calcium,calcium,['calcium']
+2128,sulfur,soufre,['soufre']
+290,combat,combat,"['bataille', 'lutte', 'combattre', 'combat']"
+2729,brightness,intelligence,"['luminosité', 'brillance', 'intelligence']"
+2099,warehouse,entrepôt,['entrepôt']
+2655,concussion,commotion,"['commotion cérébrale', 'choc', 'commotion']"
+994,aftermath,regain,"['regain', 'séquelles']"
+905,option,choix,"['choix', 'possibilité']"
+670,breed,race,"['élever', 'race', 'se reproduire', 'engendrer']"
+1733,concentrate,concentré,"['se concentrer', 'concentrer', 'concentré']"
+1513,suburb,banlieue,['banlieue']

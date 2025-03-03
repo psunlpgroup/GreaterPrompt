@@ -1,0 +1,21 @@
+,input,output,sentence,letter,words,source
+2176,John is as tall as that man. [i],is,John is as tall as that man.,i,['is'],train
+46,The man whose car I hit last week sued me. [m],man me,The man whose car I hit last week sued me.,m,"['man', 'me']",train
+686,Two or three books take a very long time to read. [t],two three take time to,Two or three books take a very long time to read.,t,"['Two', 'three', 'take', 'time', 'to']",train
+1608,Sally eats caviar too much for her own good. [c],caviar,Sally eats caviar too much for her own good.,c,['caviar'],train
+1232,Smith inscribed the ring with his name. [s],smith,Smith inscribed the ring with his name.,s,['Smith'],train
+863,It is a picture of Bill that this girl in the red coat will put on your desk before tomorrow. [r],red,It is a picture of Bill that this girl in the red coat will put on your desk before tomorrow.,r,['red'],train
+1966,Tom hid the manuscript in the cupboard. [c],cupboard,Tom hid the manuscript in the cupboard.,c,['cupboard'],train
+332,"The more that pictures of him appear in the news, the more likely John is to get arrested. [o]",of,"The more that pictures of him appear in the news, the more likely John is to get arrested.",o,['of'],train
+94,The DA proved Jones guilty and the Assistant DA will prove Smith. [a],and assistant,The DA proved Jones guilty and the Assistant DA will prove Smith.,a,"['and', 'Assistant']",train
+1642,No boys will put a picture of Bill on your desk before tomorrow. [n],no,No boys will put a picture of Bill on your desk before tomorrow.,n,['No'],train
+2987,In the hallway ticked a grandfather clock. [g],grandfather,In the hallway ticked a grandfather clock.,g,['grandfather'],train
+507,The chef eats beans and serves salads with forks. [b],beans,The chef eats beans and serves salads with forks.,b,['beans'],train
+2910,John scratched his arm and the boy who knew Mary scratched her arm. [j],john,John scratched his arm and the boy who knew Mary scratched her arm.,j,['John'],train
+2046,In the hallway there ticked a grandfather clock. [t],the there ticked,In the hallway there ticked a grandfather clock.,t,"['the', 'there', 'ticked']",train
+496,Why do you think he left? [h],he,Why do you think he left?,h,['he'],train
+2133,I am ashamed that I neglected you. [t],that,I am ashamed that I neglected you.,t,['that'],train
+1,I prefer for the girl to put a picture there. [a],a,I prefer for the girl to put a picture there.,a,['a'],train
+315,Rory will eat the muffins. [m],muffins,Rory will eat the muffins.,m,['muffins'],train
+1273,Which pictures of Bill did she put on your desk. [d],did desk,Which pictures of Bill did she put on your desk.,d,"['did', 'desk']",train
+1942,The police might plant the drugs in the apartment. [d],drugs,The police might plant the drugs in the apartment.,d,['drugs'],train

@@ -1,0 +1,21 @@
+,input,output
+3021,Sentence 1: Gunmen Kill Eight In Second Kenya Attack Sentence 2: Gunmen 'Kill 15' In Second Kenya Attack,3 - probably
+3510,Sentence 1: Venezuela expels three U.S. diplomats Sentence 2: Venezuela Expels 3 U.S. Diplomats,5 - perfectly
+539,Sentence 1: A man and a woman are riding on their bicycles. Sentence 2: A man and woman are riding a motorcycle.,2 - possibly
+2457,Sentence 1: Five killed in Belgian coach crash Sentence 2: Teenagers among 5 dead in Belgian bus crash,4 - almost perfectly
+1416,Sentence 1: A dog in the snow. Sentence 2: Two dogs in snow.,3 - probably
+1055,Sentence 1: A line outside of a bookstore on a street. Sentence 2: The yellow motorcycle is parked on the street.,0 - definitely not
+1503,Sentence 1: Two dogs are peeing at a red fire hydrant. Sentence 2: Two dogs are urinating on the red fire hydrant.,5 - perfectly
+3121,Sentence 1: Singapore shares open 0.31% higher on Monday Sentence 2: Singapore shares open lower on Monday,2 - possibly
+3117,Sentence 1: Death Toll in Bangladesh Collapse at 194 Sentence 2: At least 200 killed in Bangladesh building collapse,3 - probably
+2111,Sentence 1: Rick Santorum wins Kansas caucuses Sentence 2: Rick Santorum notches a victory in Kansas caucuses,5 - perfectly
+1842,Sentence 1: many of those executed in iran are hanged in public. Sentence 2: many of the people executed are hanged in public.,3 - probably
+2416,Sentence 1: Dozens dead in Taliban resort attack Sentence 2: 'India police name 3 Iranians in embassy attack',0 - definitely not
+2018,Sentence 1: UN envoy in Turkey for talks on Syria Sentence 2: NZ to increase exports to China,0 - definitely not
+2041,Sentence 1: Putin claims victory in Russia's presidential election Sentence 2: Putin wins disputed Russian presidential election,4 - almost perfectly
+2966,Sentence 1: France Hails Breakthrough after U.S.-Russia Deal on Syria Weapons Sentence 2: France Welcomes US-Russia Deal on Syria,4 - almost perfectly
+2607,Sentence 1: Britain shuts down plants as horse meat scandal reaches France Sentence 2: EU ministers 'determined' to resolve horsemeat scandal,3 - probably
+530,Sentence 1: A man is talking with a woman. Sentence 2: A woman is walking with a dog.,0 - definitely not
+2156,Sentence 1: China stocks end higher on PMI at midday Sentence 2: Chinese stocks open higher Thursday,2 - possibly
+1987,"Sentence 1: Saudi Arabia arrests suspected militants with al-Qaeda links Sentence 2: Saudi Arabia arrests suspected militants, state media reports",4 - almost perfectly
+3516,Sentence 1: Egypt Launches Offensive Against Sinai Militants Sentence 2: Egypt launches offensive against Sinai insurgents,5 - perfectly

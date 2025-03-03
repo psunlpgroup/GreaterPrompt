@@ -1,0 +1,21 @@
+,input,output,sentence,letter,words,source
+2883,Heather cabled Sara the news. [t],the,Heather cabled Sara the news.,t,['the'],train
+29,Lydia eloped with Wickham yesterday. [y],yesterday,Lydia eloped with Wickham yesterday.,y,['yesterday'],train
+135,I took a snooze. [a],a,I took a snooze.,a,['a'],train
+1777,"They said that Tom would pay up, and pay up it is well known that he did. [i]",it is,"They said that Tom would pay up, and pay up it is well known that he did.",i,"['it', 'is']",train
+2332,John whined that he was hungry. [w],whined was,John whined that he was hungry.,w,"['whined', 'was']",train
+406,Benjamin gave the cloak and sent the book to Lee [l],lee,Benjamin gave the cloak and sent the book to Lee,l,['Lee'],train
+962,The muffins might have been being eaten. [e],eaten,The muffins might have been being eaten.,e,['eaten'],train
+2184,I asked what John kissed. [i],i,I asked what John kissed.,i,['I'],train
+2734,To delay the march and to go ahead with it have been argued by different people at different times. [p],people,To delay the march and to go ahead with it have been argued by different people at different times.,p,['people'],train
+1392,I have never been spoken to so rudely! [b],been,I have never been spoken to so rudely!,b,['been'],train
+922,I explained how to fix the sink. [t],to the,I explained how to fix the sink.,t,"['to', 'the']",train
+1775,Some sentences can go on and on and on and on. [s],some sentences,Some sentences can go on and on and on and on.,s,"['Some', 'sentences']",train
+2597,"The harder it has rained, how much faster a flow appears in the river? [h]",harder has how,"The harder it has rained, how much faster a flow appears in the river?",h,"['harder', 'has', 'how']",train
+1167,Belinda walked the soles off her shoes. [h],her,Belinda walked the soles off her shoes.,h,['her'],train
+35,Those monkeys are eating the banana. [a],are,Those monkeys are eating the banana.,a,['are'],train
+331,Heidi gave a present to herself. [t],to,Heidi gave a present to herself.,t,['to'],train
+2443,John talked to any woman who came up to him except Sue. [u],up,John talked to any woman who came up to him except Sue.,u,['up'],train
+2511,What Medea attempted was to poison her children. [w],what was,What Medea attempted was to poison her children.,w,"['What', 'was']",train
+2513,John believes Bill to have slept. [j],john,John believes Bill to have slept.,j,['John'],train
+524,How long did this fit of generosity last and who gave what to whom? [h],how,How long did this fit of generosity last and who gave what to whom?,h,['How'],train

@@ -1,0 +1,21 @@
+,input,output,possible_translations
+1781,shadow,sombra,['sombra']
+839,load,carga,"['carga', 'cargamento', 'cargar']"
+1726,nurse,enfermera,"['enfermera', 'enfermero', 'niñera']"
+2233,emblem,emblema,['emblema']
+1060,precipitation,precipitación,"['precipitación lluvia', 'precipitación']"
+196,type,tipo,"['identificar el tipo de', 'clase', 'tipear', 'teclear', 'escribir a máquina', 'mecanografiar', 'tipo']"
+2145,dimension,dimensión,['dimensión']
+2644,pile,montón,"['montón', 'conjunto']"
+1595,coffee,café,"['cafeto', 'feca', 'tinto', 'grano de café', 'café']"
+938,surgery,cirugía,"['operación', 'cirugía']"
+1648,tier,capa,"['capa', 'enlace']"
+2062,malaria,paludismo,"['paludismo', 'malaria']"
+677,classification,clasificación,['clasificación']
+544,promotion,ascenso,"['ascenso', 'propagación', 'promoción', 'divulgación']"
+1188,disturbance,perturbación,"['estorbo', 'disturbio', 'trastorno', 'perturbación']"
+16,music,música,['música']
+2210,cycling,ciclismo,['ciclismo']
+782,shell,cáscara,"['caparazón', 'terminal', 'casquete', 'crustáceo', 'vaina', 'desvainar', 'cáscara', 'bombardear', 'descascarar', 'concha', 'marisco']"
+1193,shock,choque,['choque']
+1588,tool,herramienta,"['herramienta', 'utensilio']"

@@ -1,0 +1,21 @@
+,input,output,words,category_items,other_categories,num_category_items,num_others
+2883,"pajamas, red, fly, rabbit, bee, orange","rabbit, bee, fly","['pajamas', 'red', 'fly', 'rabbit', 'bee', 'orange']","['rabbit', 'bee', 'fly']","['color', 'clothing']",3,3
+29,"duck, train, sheep, tractor, panda, motorway","duck, sheep, panda","['duck', 'train', 'sheep', 'tractor', 'panda', 'motorway']","['duck', 'sheep', 'panda']",['vehicle'],3,3
+135,"shark, rabbit, soup, white, camel, duck, bus","rabbit, camel, shark, duck","['shark', 'rabbit', 'soup', 'white', 'camel', 'duck', 'bus']","['rabbit', 'camel', 'shark', 'duck']","['food', 'vehicle', 'color']",4,3
+1777,"butterfly, bus, parrot, soup, chicken, milk","butterfly, chicken, parrot","['butterfly', 'bus', 'parrot', 'soup', 'chicken', 'milk']","['butterfly', 'chicken', 'parrot']","['food', 'vehicle']",3,3
+2332,"doctor, giraffe, ambulance, donkey, horse, bus","giraffe, donkey, horse","['doctor', 'giraffe', 'ambulance', 'donkey', 'horse', 'bus']","['giraffe', 'donkey', 'horse']","['profession', 'vehicle']",3,3
+406,"meatballs, goat, blue, lion, hippo, jeans","hippo, goat, lion","['meatballs', 'goat', 'blue', 'lion', 'hippo', 'jeans']","['hippo', 'goat', 'lion']","['food', 'color', 'clothing']",3,3
+962,"penguin, bat, yellow, horse, hat","bat, horse, penguin","['penguin', 'bat', 'yellow', 'horse', 'hat']","['bat', 'horse', 'penguin']","['color', 'clothing']",3,2
+2184,"swan, giraffe, pink, tortoise, artist, brown","giraffe, swan, tortoise","['swan', 'giraffe', 'pink', 'tortoise', 'artist', 'brown']","['giraffe', 'swan', 'tortoise']","['profession', 'color']",3,3
+2734,"tortoise, truck, kiwi, spider, rabbit","spider, rabbit, tortoise","['tortoise', 'truck', 'kiwi', 'spider', 'rabbit']","['spider', 'rabbit', 'tortoise']","['food', 'vehicle']",3,2
+1392,"shark, olives, horse, hippo, teacher","horse, shark, hippo","['shark', 'olives', 'horse', 'hippo', 'teacher']","['horse', 'shark', 'hippo']","['profession', 'food']",3,2
+922,"mechanic, dolphin, octopus, mango, hippo, milk","hippo, octopus, dolphin","['mechanic', 'dolphin', 'octopus', 'mango', 'hippo', 'milk']","['hippo', 'octopus', 'dolphin']","['profession', 'food']",3,3
+1775,"zebra, tortoise, kiwi, camel, dolphin, shirt","zebra, tortoise, dolphin, camel","['zebra', 'tortoise', 'kiwi', 'camel', 'dolphin', 'shirt']","['zebra', 'tortoise', 'dolphin', 'camel']","['food', 'clothing']",4,2
+2597,"elephant, shirt, duck, whale, dentist, car","elephant, duck, whale","['elephant', 'shirt', 'duck', 'whale', 'dentist', 'car']","['elephant', 'duck', 'whale']","['profession', 'vehicle', 'clothing']",3,3
+1167,"mouse, spider, journalist, spaceship, dolphin, donkey","mouse, spider, donkey, dolphin","['mouse', 'spider', 'journalist', 'spaceship', 'dolphin', 'donkey']","['mouse', 'spider', 'donkey', 'dolphin']","['profession', 'vehicle']",4,2
+35,"gray, duck, milk, penguin, jellyfish, lion, belt","penguin, jellyfish, duck, lion","['gray', 'duck', 'milk', 'penguin', 'jellyfish', 'lion', 'belt']","['penguin', 'jellyfish', 'duck', 'lion']","['food', 'color', 'clothing']",4,3
+331,"shirt, bat, elephant, plane, journalist, chicken","chicken, elephant, bat","['shirt', 'bat', 'elephant', 'plane', 'journalist', 'chicken']","['chicken', 'elephant', 'bat']","['profession', 'vehicle', 'clothing']",3,3
+2443,"zebra, snake, spider, chocolate, brown, belt","snake, spider, zebra","['zebra', 'snake', 'spider', 'chocolate', 'brown', 'belt']","['snake', 'spider', 'zebra']","['food', 'color', 'clothing']",3,3
+2511,"shark, frog, shirt, rabbit, teacher, artist","rabbit, shark, frog","['shark', 'frog', 'shirt', 'rabbit', 'teacher', 'artist']","['rabbit', 'shark', 'frog']","['profession', 'clothing']",3,3
+2513,"horse, strawberry, swan, giraffe, gold, dress","swan, giraffe, horse","['horse', 'strawberry', 'swan', 'giraffe', 'gold', 'dress']","['swan', 'giraffe', 'horse']","['food', 'color', 'clothing']",3,3
+524,"sheep, artist, giraffe, tortoise, kiwi, swan","tortoise, swan, sheep, giraffe","['sheep', 'artist', 'giraffe', 'tortoise', 'kiwi', 'swan']","['tortoise', 'swan', 'sheep', 'giraffe']","['profession', 'food']",4,2

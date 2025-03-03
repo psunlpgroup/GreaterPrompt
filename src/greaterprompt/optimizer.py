@@ -1,11 +1,15 @@
+import argparse
+import csv
 import importlib
 import logging
+import os
 import time
 from collections import defaultdict
 from typing import List
 
-from greaterprompt.models import model_supported
-from greaterprompt.utils import clean_string, GreaterDataloader
+from src.greaterprompt.core.PE2.cli import ape_apo_pe2_optimizer
+from src.greaterprompt.models import model_supported
+from src.greaterprompt.utils import apo_pe2_args, clean_string, GreaterDataloader
 
 import torch
 from torch.nn import functional as F
@@ -18,6 +22,48 @@ logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s",
     filename=f"{time.strftime('%Y%m%d_%H%M%S')}.log", filemode="w"
 )
+
+
+class BaseOptimizer:
+    def __init__(self, trainer: str, optimize_config: dict = {}):
+        self.args = apo_pe2_args(trainer)
+        self.args.task_model = optimize_config.get("task_model", "openai_gpt35_turbo_instruct")
+        self.args.optim_model = optimize_config.get("optim_model", "openai_gpt4_turbo")
+
+
+    def write_data(self, inputs: GreaterDataloader, p_init: str) -> None:
+        os.makedirs(self.args.data_dir, exist_ok=True)
+
+        for filename in ["train", "test", "dev"]:
+            with open(os.path.join(self.args.data_dir, f"{filename}.csv"), "w") as f:
+                writer = csv.writer(f)
+                writer.writerow(["", "input", "label"])
+
+                for i, input in enumerate(inputs):
+                    writer.writerow([i, input["question"], input["answer"]])
+        
+        with open(os.path.join(self.args.data_dir, "prompt.md"), "w") as f:
+            f.write(p_init)
+        
+        return
+
+
+    def optimize(self, inputs: GreaterDataloader, p_init: str) -> str:
+        self.write_data(inputs, p_init)
+
+        p_star = ape_apo_pe2_optimizer(self.args)
+
+        return p_star
+
+
+class ApeOptimizer(BaseOptimizer):
+    def __init__(self, optimize_config: dict = {}):
+        super().__init__("ape", optimize_config)
+
+
+class ApoOptimizer(BaseOptimizer):
+    def __init__(self, optimize_config: dict = {}):
+        super().__init__("apo", optimize_config)
 
 
 class GreaterOptimizer:
@@ -437,3 +483,8 @@ class GreaterOptimizer:
             callback(1.0, {"status": "complete"})
 
         return outputs
+
+
+class Pe2Optimizer(BaseOptimizer):
+    def __init__(self, optimize_config: dict = {}):
+        super().__init__("pe2", optimize_config)

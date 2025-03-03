@@ -1,0 +1,21 @@
+,input,output
+1055,Sentence 1: A line outside of a bookstore on a street. Sentence 2: The yellow motorcycle is parked on the street.,0 - definitely not
+3287,Sentence 1: China sets Bo Xilai trial date Sentence 2: China Bo Xilai trial in fourth day,3 - probably
+1319,Sentence 1: A dog bounds across the brown grass. Sentence 2: Two dogs bound across the grass.,3 - probably
+2100,Sentence 1: U.N. observer patrol arrives at Syria massacre site Sentence 2: UN observers reach Syria massacre village,4 - almost perfectly
+3456,Sentence 1: Two skydivers dead after colliding during US jump Sentence 2: Two skydivers dead after colliding during jump in Arizona,4 - almost perfectly
+99,Sentence 1: A man is playing a guitar. Sentence 2: Someoen is playing guitar.,4 - almost perfectly
+3410,Sentence 1: Death toll from Egypt protests rises to 49 Sentence 2: Death toll from Egypt violence rises to 638,3 - probably
+3189,Sentence 1: Nato condemns Ukraine crackdown Sentence 2: Thai bonds best in region,0 - definitely not
+1174,Sentence 1: Large black and white cat resting on a windowsill. Sentence 2: A small white cat sitting in a sink.,2 - possibly
+1145,Sentence 1: Tan cow with ear tags on a grassy field. Sentence 2: Person in grassy field tending to sheep.,1 - probably not
+2777,Sentence 1: Piers Morgan questioned by police Sentence 2: Piers Morgan Interviewed by Police in Hacking Case,4 - almost perfectly
+2110,Sentence 1: BBC director general resigns over 'shoddy journalism' Sentence 2: BBC Director General Resigns amid Newsnight Scandal,4 - almost perfectly
+2004,Sentence 1: Syria rebels attack Lebanese post near border: army Sentence 2: Turkish army stages tank exercises near Syria border,1 - probably not
+977,Sentence 1: The black bird is sitting on the ground. Sentence 2: A blackbird sitting on the ground.,5 - perfectly
+2405,Sentence 1: Spain jobless rate hits new high Sentence 2: Spain's jobless claims hit new high,4 - almost perfectly
+2532,Sentence 1: Yacimovich urges cabinet to approve Palestinian prisoners release Sentence 2: Israel agrees to free 104 Palestinian prisoners,2 - possibly
+2200,Sentence 1: Obama praises U.S.-Latin America trade ties Sentence 2: Obama Secret Service agents sent home,0 - definitely not
+2783,Sentence 1: UK confirms fears over Syria's chemical weapons Sentence 2: End 'near' for Syria's chemical weapons,1 - probably not
+2274,Sentence 1: Libyans begin handing in weapons Sentence 2: Libyans transfer weapons to army,3 - probably
+611,Sentence 1: A little girl is playing a grand piano on stage. Sentence 2: A little girl is playing the piano.,3 - probably

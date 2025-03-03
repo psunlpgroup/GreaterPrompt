@@ -1,0 +1,21 @@
+,input,output,possible_translations
+424,bill,cartel,"['nota', 'cartel', 'pico', 'proyecto de ley', 'letra', 'proposición de ley', 'declaración', 'factura']"
+78,land,patria,"['país', 'aterrizar', 'patria', 'tierra']"
+2415,meditation,meditación,['meditación']
+826,approval,aprobación,['aprobación']
+2333,illusion,ilusión,['ilusión']
+463,text,texto,"['texto', 'mensaje de texto', 'SMS', 'textear', 'mensaje']"
+1214,trailer,acoplado,"['tráiler', 'rulota', 'caravana', 'avance', 'casa rodante', 'acoplado']"
+594,bomb,bomba,"['bomba', 'hacer la bomba', 'bombardear', 'bombear']"
+750,limit,límite,"['límite', 'limitar']"
+306,traffic,tráfico,"['tránsito', 'tráfico', 'trata']"
+1654,graduation,graduación,['graduación']
+2639,remark,observación,['observación']
+735,rescue,rescate,"['rescate', 'rescatar']"
+265,energy,energía,['energía']
+800,technique,técnica,['técnica']
+1639,fault,culpa,"['culpa', 'defecto', 'falla', 'falta']"
+32,record,registro,"['grabar', 'anotar', 'registrar', 'récord', 'registro']"
+393,governor,gobernador,"['gobernadora', 'gobernador']"
+955,drum,tambor,"['recalcar', 'tambor', 'bidón', 'tamborear', 'inculcar', 'barril', 'cilindro']"
+1796,patronage,clientela,"['patrocinio', 'clientela']"

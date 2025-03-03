@@ -1,0 +1,101 @@
+,input,output,possible_translations
+889,oxygen,oxygène,['oxygène']
+1078,scholar,savant,"['érudit', 'savant']"
+2146,kilogram,kilogramme,"['kilo', 'kilogramme']"
+2202,severity,sévérité,['sévérité']
+874,arrest,arrestation,"['arrestation', 'arrêter']"
+1965,superiority,supériorité,['supériorité']
+1773,kit,lapereau,"['nécessaire', 'équipement', 'lapereau', 'jeu']"
+413,contrast,contraste,"['contraste', 'contraster']"
+2569,sickness,maladie,['maladie']
+1553,inscription,inscription,"['inscription', 'dédicace', 'légende']"
+2007,funnel,entonnoir,"['', 'canaliser', 'utiliser un entonnoir', 'cheminée', 'entonnoir', ""faire circuler des resources ou de l'argent""]"
+1966,icon,icône,"['icône', 'icon']"
+550,freeway,autoroute,['autoroute']
+840,designation,appellation,['appellation']
+370,content,contenu,"['contente', 'contenu', 'content', 'satisfaire']"
+116,office,office,"['bureau', 'bons offices', 'bon office', 'office']"
+2064,slip,glissade,"['glissade', 'barbotine', 'glisser', 'faire passer', 'se tromper', 'faire erreur', 'fiche', 'empirer']"
+210,course,cours,"['parcourir', 'cours', 'parcours', 'trajectoire', 'plat']"
+661,responsibility,responsabilité,['responsabilité']
+260,commander,commandeur,"['commandeur', 'commandant']"
+2787,lockout,lock-out,"['lockout', 'grève patronale', 'lock-out']"
+1923,replica,réplique,"['copie exacte', 'réplique']"
+561,southwest,sud-ouest,"['sud-ouest', 'du sud-ouest']"
+1984,jacket,veste,"['veste', 'jaquette', 'couverture']"
+99,action,action,"['action légale', 'action', 'action en justice', 'mechanisme']"
+239,information,renseignement,"['renseignement', 'information', 'informations']"
+420,disease,maladie,['maladie']
+960,justice,justice,"['conseiller', 'justice']"
+664,page,page,"['biper', 'page', 'convoquer', 'moment', 'haut fait', 'feuilleter', 'paginer']"
+1649,correspondence,correspondance,['correspondance']
+1772,yield,rendement,"['rendement', 'rapporter', 'céder', 'laisser passer', 'retourner', 'se rendre', 'capituler']"
+1978,verdict,verdict,['verdict']
+1358,logo,logo,"['logo', 'logotype']"
+118,wife,femme,"['femme', 'épouse']"
+1987,blog,blog,"['faire du blogging', 'bloguer', 'blog', 'blogue']"
+1330,rice,riz,"['arroz', 'riz']"
+1677,lion,lion,"['Lion', 'lionne', 'lion']"
+2031,sponsor,sponsor,['sponsor']
+947,protest,manifestation,"['protester', 'protestation', 'manifestation']"
+878,household,foyer,"['ménage', 'domestique', 'foyer']"
+852,soil,terre,"['souillure', 'terre', 'territoire', 'souiller', 'salir', 'sol']"
+2173,suffrage,suffrage,['suffrage']
+2807,rigging,gréement,['gréement']
+2252,airplane,avion,"['aéroplane', 'avion']"
+2320,geography,géographie,['géographie']
+2658,eclipse,éclipse,"['éclipser', 'éclipse']"
+2458,taxi,taxi,['taxi']
+1562,accuracy,exactitude,"['précision', 'exactitude']"
+2607,diabetes,diabète,['diabète']
+1497,collision,collision,['collision']
+1283,taste,goût,"['essayer', 'avant-goût', 'goûter', 'saveur', 'goût']"
+1846,beta,bêta,['bêta']
+2552,workforce,main-d'œuvre,"['personnel', ""main-d'œuvre""]"
+892,tunnel,tunnel,['tunnel']
+148,post,poste,"['poste', 'courrier', 'poteau', 'poster', 'message', 'mettre à la poste']"
+1621,painter,peintre décorateur,"['peintresse décoratrice', 'peintre décorateur', 'peintre', 'peintre décoratrice', 'artiste peintre', 'peintresse']"
+1218,bypass,contournement,"['contourner', 'contournement', 'passer outre', 'pontage', 'déviation']"
+1363,vegetation,végétation,['végétation']
+70,club,club,"['boîte de nuit', 'gourdin', 'club', 'bâtonner', 'boîte', 'trèfle', 'bâton']"
+247,hour,heure,['heure']
+160,person,personne,['personne']
+584,message,message,['message']
+1079,songwriter,auteur-compositeur,['auteur-compositeur']
+2341,nationalism,nationalisme,['nationalisme']
+1475,transit,transit,"['transiter', 'transit']"
+1112,instrument,acte,"['instrument', 'acte']"
+609,driving,conduite,['conduite']
+1516,wound,blessure,"['blessure', 'blesser', 'offenser', 'lésion', 'offense', 'plaie']"
+2431,friction,friction,"['désaccord', 'frottement', 'friction']"
+1733,concentrate,concentré,"['se concentrer', 'concentrer', 'concentré']"
+687,discovery,découverte,['découverte']
+92,air,air,"['air', 'éventer', 'aria', 'ventiler', 'aérer']"
+1250,cup,coupe,"['bonnet', 'tasse', 'coupe']"
+8,song,chanson,['chanson']
+1919,precursor,réactif,"['réactif', 'précurseur']"
+2223,motorcycle,moto,"['motocyclette', 'moto']"
+1070,sun,soleil,"['soleil', 'Soleil']"
+624,decline,déclin,"['accorder', 'refuser', 'décliner', 'déclin']"
+1268,conquest,conquête,['conquête']
+678,picture,cinéma,"['photo', 'image', 'cinéma']"
+1941,carriage,wagon,"['voiture', 'wagon', 'carrosse']"
+2493,cake,gâteau,"['gâteau', 'pâtisserie']"
+2172,vacuum,vide,"['vide', ""passer l'aspirateur"", 'vacuum']"
+446,spring,ressort,"['printemps', 'ressort', 'garde', 'sauter', 'source']"
+2490,socialism,socialisme,['socialisme']
+1340,spacecraft,vaisseau spatial,['vaisseau spatial']
+352,blood,sang,['sang']
+24,group,groupe,"['groupe', 'grouper']"
+1791,corporation,corporation,"['corporation', 'société']"
+1976,novelist,romancier,['romancier']
+1702,confrontation,confrontation,['confrontation']
+2078,racism,racisme,['racisme']
+2598,receptor,récepteur,['récepteur']
+80,fire,feu,"['mettre à la porte', 'congédier', 'incendie', 'limoger', 'feu', 'licencier', 'cuire', 'faire feu', 'tirer', 'poêle']"
+1152,legend,légende,['légende']
+1122,autumn,automne,['automne']
+1670,steering,direction,['direction']
+2237,screenwriter,scénariste,['scénariste']
+279,network,réseau,"['tissus', 'réseau', 'réseau informatique', 'mettre en réseau', 'établir un réseau de contacts']"
+784,universe,univers,"['Univers', 'univers']"

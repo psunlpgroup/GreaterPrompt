@@ -1,0 +1,101 @@
+,input,output,possible_translations
+1,place,lugar,"['asiento', 'apostar', 'casa', 'colocar', 'posición', 'puesto', 'entonar', 'colocarse', 'poner', 'situar', 'lugar', 'contratar', 'sitio', 'clasificarse', 'plaza']"
+2,family,familia,"['familia', 'familiar']"
+3,point,punto,"['indicar', 'momento', 'punta', 'punto', 'apuntar']"
+4,east,este,"['levante', 'hacia oriente', 'oriental', 'hacia el este', 'oriente', 'rumbo al este', 'al este', 'este', 'rumbo este', 'oriente.']"
+5,aircraft,aeronave,['aeronave']
+6,title,título,"['tutela', 'título']"
+7,party,partido,"['divertirse', 'parte contratante', 'carrete', 'fiestar', 'partido', 'pachanga', 'reventón', 'fiesta']"
+8,victory,victoria,['victoria']
+9,list,tira,"['escora', 'hacer una lista', 'tira', 'lista', 'escorar', 'leer una lista']"
+10,evidence,evidencia,"['prueba', 'evidencia', 'evidenciar']"
+11,brother,hermano,"['par', 'hermano']"
+12,novel,novela,"['novela', 'novedoso', 'novedosa']"
+13,turn,turno,"['turno', 'rebelar', 'girar', 'volver', 'doblar']"
+14,king,rey,"['rey', 'coronar']"
+15,staff,personal,"['empleado', 'varas', 'personal', 'pentagrama', 'equipo', 'plantilla', 'báculo', 'pauta', 'bastón']"
+16,broadcast,programa,"['programa', 'emisión']"
+17,trade,comercio,"['comerciar', 'comercio', 'gremio']"
+18,unit,unidad,['unidad']
+19,letter,letra,"['carta', 'letra', 'carácter']"
+20,morning,mañana,"['madrugada', 'mañana', 'AM']"
+21,coach,coche,"['entrenadora', 'vagón', 'entrenar', 'entrenador', 'autocar', 'coche']"
+22,inch,pulgada,['pulgada']
+23,invasion,invasión,['invasión']
+24,sense,sentido,"['significación', 'significado', 'sentir', 'sentido', 'sensación', 'acepción', 'dar sentido']"
+25,ice,hielo,"['helado', 'congelar', 'hielo']"
+26,floor,palabra,['palabra']
+27,boat,barca,"['barco', 'bote', 'barca']"
+28,seat,asiento,"['asiento', 'sede']"
+29,transport,transporte,"['exiliar', 'deportado', 'transportar', 'transporte']"
+30,platform,plataforma,"['plataforma', 'andén']"
+31,environment,ambiente,"['sistema operativo', 'ecosistema', 'medio ambiente', 'medio', 'programa', 'clima', 'medioambiente', 'naturaleza', 'entorno', 'ambiente']"
+32,genre,género,['género']
+33,combination,combinación,['combinación']
+34,importance,importancia,['importancia']
+35,department,departamento,"['sección', 'departamento']"
+36,assistance,asistencia,['asistencia']
+37,anniversary,aniversario,['aniversario']
+38,fighter,guerrero,"['caza', 'combatiente', 'guerrero']"
+39,instance,instancia,"['caso', 'instancia']"
+40,occupation,ocupación,['ocupación']
+41,satellite,satélite,['satélite']
+42,strip,tira,"['remover', 'tira', 'sacarse la ropa', 'desvestir']"
+43,triple,triple,"['triple', 'triplicar']"
+44,duration,duración,['duración']
+45,slavery,esclavitud,['esclavitud']
+46,ticket,boleto,"['billete', 'multa', 'pasaje', 'parte', 'boleto', 'tique', 'tiquete', 'entrada']"
+47,confidence,confidencia,"['certeza propia', 'certeza', 'certidumbre', 'confidencia']"
+48,principle,principio,['principio']
+49,tag,pilla pilla,"['etiquetar', 'el pillarse', 'etiqueta marbete', 'pilla pilla']"
+50,dinner,cena,['cena']
+51,creature,criatura,['criatura']
+52,propaganda,propaganda,['propaganda']
+53,consciousness,conciencia,['conciencia']
+54,priority,prioridad,['prioridad']
+55,scientist,científico,['científico']
+56,mood,mal humor,"['humor', 'mal humor', 'mal genio', 'ánimos', 'ánimo']"
+57,eruption,erupción,['erupción']
+58,diving,buceo,"['buceo', 'submarinismo']"
+59,notion,ganas,"['intención', 'ganas', 'noción']"
+60,fever,fiebre,['fiebre']
+61,kit,juego,"['juego', 'kit', 'equipo', 'ensello']"
+62,shipyard,astillero,['astillero']
+63,deadline,fecha límite,"['compromiso', 'fecha límite', 'requisito']"
+64,framework,infraestructura,"['marco', 'infraestructura']"
+65,client,cliente,['cliente']
+66,drag,bocanada,"['arrastrar', 'bocanada', 'resistencia']"
+67,membrane,membrana,['membrana']
+68,profession,profesión,['profesión']
+69,liberty,libertad,['libertad']
+70,morality,moralidad,['moralidad']
+71,equality,igualdad,"['equidad', 'paridad', 'igualdad']"
+72,menu,menú,"['menú', 'carta']"
+73,autonomy,autonomía,['autonomía']
+74,certification,certificación,['certificación']
+75,conception,concepción,['concepción']
+76,sympathy,compasión,"['empatía', 'compasión']"
+77,emission,emisión,['emisión']
+78,clearance,despeje,"['oferta', 'espacio', 'limpieza', 'barata', 'permiso', 'liquidación', 'acceso', 'claro', 'remate', 'ganga', 'despeje', 'compensación']"
+79,belly,barriga,"['barriga', 'panza', 'vientre']"
+80,innocence,inocencia,['inocencia']
+81,expressway,autopista,['autopista']
+82,enterprise,empresa,"['empuje', 'emprendimiento', 'empresa', 'iniciativa']"
+83,millennium,milenio,['milenio']
+84,casino,casino,['casino']
+85,relocation,mudanza,"['mudanza', 'traslado']"
+86,curse,maldición,"['maldición', 'mala palabra', 'regla', 'maldecir', 'menstruación']"
+87,disguise,disfraz,"['pantalla', 'disfrazar', 'tapadera', 'disfraz']"
+88,lithium,litio,['litio']
+89,gamma,gamma,"['gama', 'gamma']"
+90,thread,tema,"['subproceso', 'argumento', 'hilo', 'pasar', 'filete', 'tema', 'enhebrar', 'rosca', 'proceso ligero', 'tópico']"
+91,posture,postura,['postura']
+92,echo,eco,"['eco', 'repercutir', 'repetir']"
+93,vernacular,idioma,"['dialecto', 'idioma', 'vernáculo']"
+94,builder,constructor,"['constructor civil', 'constructor']"
+95,chip,patata frita,"['ficha', 'desconcharse', 'papa frita', 'desconchado', 'patata frita', 'astillar', 'astilla', 'desconchar', 'chip']"
+96,juice,zumo,"['zumo', 'jugo']"
+97,apple,manzana,['manzana']
+98,casualty,baja,"['baja', 'víctima']"
+99,turf,césped,"['hipódromo', 'césped']"
+100,doctorate,doctorado,['doctorado']

@@ -1,0 +1,783 @@
+,input,label
+51,"Today is 9/7. Jane is watching NFL 2003. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 09/08/1916
+(B) 09/13/2003
+(C) 08/18/2003
+(D) 09/08/2003
+(E) 09/15/2003
+(F) 09/01/2003",(D)
+95,"Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 03/05/1972
+(B) 01/02/1973
+(C) 04/05/1973
+(D) 03/08/1983
+(E) 02/26/1973
+(F) 03/02/1973",(E)
+143,"Yesterday was April 30, 2021. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 04/29/2021
+(B) 05/02/2021
+(C) 04/11/2021
+(D) 05/01/2021
+(E) 03/14/2021
+(F) 05/02/1960",(B)
+199,"Today is 9/7. Jane is watching NFL 2003. What is the date today in MM/DD/YYYY?
+Options:
+(A) 12/05/2003
+(B) 08/08/2003
+(C) 07/07/2003
+(D) 09/07/2003
+(E) 11/20/2003
+(F) 09/06/2003",(D)
+76,"Jane got her job in 2016. Today is her 3-year work anniversary. She still remember that on Dec 2, her second day at work, she spilled coffee on her laptop. What is the date a month ago in MM/DD/YYYY?
+Options:
+(A) 11/01/2019
+(B) 11/02/2019
+(C) 09/06/2019
+(D) 11/01/1933
+(E) 11/01/2089
+(F) 08/04/2019",(A)
+41,"Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 06/19/2019
+(B) 06/24/2019
+(C) 08/26/2019
+(D) 06/25/2019
+(E) 06/26/2019
+(F) 07/03/2019",(E)
+113,"It was Sept. 1st, 2021 a week ago. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/07/2020
+(B) 08/31/2020
+(C) 07/08/2020
+(D) 09/08/2049
+(E) 08/18/2020
+(F) 09/08/2020",(F)
+152,"Today is 9/7. Jane is watching NFL 2003. What is the date yesterday in MM/DD/YYYY?
+Options:
+(A) 09/06/2003
+(B) 09/21/2003
+(C) 09/05/2003
+(D) 10/23/2003
+(E) 09/06/2102",(A)
+78,"Jane is celebrating the last day of Jan 2012. What is the date 24 hours later in MM/DD/YYYY?
+Options:
+(A) 01/31/2012
+(B) 02/01/2016
+(C) 02/01/2079
+(D) 11/10/2011
+(E) 01/04/2012
+(F) 02/01/2012",(F)
+147,"The day before yesterday was 11/23/1933. What is the date a month ago in MM/DD/YYYY?
+Options:
+(A) 10/25/1921
+(B) 10/25/1989
+(C) 10/26/1933
+(D) 10/25/1933
+(E) 11/22/1933",(D)
+26,"The deadline is Jun 1, 2021, which is 2 days away from now. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 05/23/2020
+(B) 04/13/2021
+(C) 05/24/2021
+(D) 05/23/2054
+(E) 05/23/1940
+(F) 05/23/2021",(F)
+241,"It is 4/19/1969 today. What is the date yesterday in MM/DD/YYYY?
+Options:
+(A) 04/18/1969
+(B) 04/18/1961
+(C) 03/21/1969
+(D) 04/19/1969
+(E) 04/27/1969",(A)
+164,"2015 is coming in 36 hours. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 01/02/2015
+(B) 12/23/2014
+(C) 12/19/2014
+(D) 12/18/2014
+(E) 11/21/2014
+(F) 12/20/2014",(C)
+243,"Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 02/13/2011
+(B) 01/22/2011
+(C) 01/24/2011
+(D) 01/23/2011
+(E) 12/31/2010
+(F) 12/26/2010",(D)
+137,"Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date today in MM/DD/YYYY?
+Options:
+(A) 10/15/1924
+(B) 10/15/1835
+(C) 10/14/1924
+(D) 10/29/1924
+(E) 09/17/1924",(A)
+0,"Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/25/2006
+(F) 07/25/1937",(B)
+2,"Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 01/16/1961
+(B) 01/09/1961
+(C) 01/09/1963
+(D) 03/09/1960
+(E) 07/09/1960
+(F) 02/28/1961",(B)
+77,"Jane booked a flight for tomorrow, Jul 29, 2002. What is the date a month ago in MM/DD/YYYY?
+Options:
+(A) 06/27/2002
+(B) 06/21/2002
+(C) 10/28/2001
+(D) 10/28/2002
+(E) 06/28/2002
+(F) 08/25/2002",(E)
+46,"Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date 24 hours later in MM/DD/YYYY?
+Options:
+(A) 05/04/2017
+(B) 03/01/1919
+(C) 03/01/2017
+(D) 03/01/2005
+(E) 02/15/2017
+(F) 06/02/2017",(C)
+100,"Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 03/08/2017
+(B) 03/07/2058
+(C) 03/07/2017
+(D) 03/07/2018
+(E) 03/07/1992
+(F) 03/15/2017",(C)
+127,"Today is the second day of the third month of 1966. What is the date a month ago in MM/DD/YYYY?
+Options:
+(A) 02/01/1966
+(B) 12/17/1965
+(C) 02/02/1966
+(D) 03/18/1966
+(E) 02/03/1966",(C)
+150,"Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 06/19/2018
+(B) 05/22/2018
+(C) 06/19/1934
+(D) 06/19/1956
+(E) 06/24/2018
+(F) 06/18/2018",(A)
+248,"Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 01/21/2010
+(B) 01/08/2010
+(C) 10/29/2009
+(D) 02/05/2010
+(E) 01/23/2010
+(F) 01/22/2010",(F)
+90,"Today is 9/7. Jane is watching NFL 2003. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 08/28/1959
+(B) 08/29/2003
+(C) 08/28/2003
+(D) 06/14/2003
+(E) 03/28/2003
+(F) 08/28/2043",(C)
+85,"Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 01/30/2011
+(B) 04/10/2011
+(C) 01/29/2011
+(D) 01/28/2011
+(E) 06/29/2010",(C)
+175,"Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 03/24/2007
+(B) 01/02/2007
+(C) 04/05/2007
+(D) 01/02/2037
+(E) 01/01/2007
+(F) 01/02/1957",(B)
+195,"Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date today in MM/DD/YYYY?
+Options:
+(A) 01/12/2011
+(B) 01/08/2011
+(C) 01/22/1990
+(D) 01/22/2011
+(E) 01/22/2086
+(F) 01/23/2011",(D)
+98,"Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 02/28/2017
+(B) 02/18/2017
+(C) 03/18/2017
+(D) 02/13/2017
+(E) 02/25/2017
+(F) 03/04/2017",(B)
+36,"Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date 24 hours later in MM/DD/YYYY?
+Options:
+(A) 09/19/2020
+(B) 09/13/2020
+(C) 06/13/2021
+(D) 10/05/2020
+(E) 12/13/2020
+(F) 09/13/1991",(B)
+61,"The day before yesterday was 11/23/1933. What is the date 24 hours later in MM/DD/YYYY?
+Options:
+(A) 11/25/1933
+(B) 11/26/1933
+(C) 07/26/1934
+(D) 08/23/1933
+(E) 11/26/1976
+(F) 12/06/1933",(B)
+162,"Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date 24 hours later in MM/DD/YYYY?
+Options:
+(A) 04/11/1985
+(B) 04/13/1985
+(C) 04/12/1987
+(D) 04/07/1975
+(E) 04/12/1986
+(F) 04/10/1985",(A)
+139,"The deadline is Jun 1, 2021, which is 2 days away from now. What is the date a month ago in MM/DD/YYYY?
+Options:
+(A) 05/09/2021
+(B) 05/01/2021
+(C) 08/03/2021
+(D) 02/19/2021
+(E) 04/30/2021
+(F) 07/06/2021",(E)
+11,"Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 05/13/1985
+(B) 04/03/1985
+(C) 03/10/1986
+(D) 04/01/1985
+(E) 04/13/1985
+(F) 04/12/1986",(B)
+244,"Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 06/02/1960
+(B) 01/02/1960
+(C) 01/02/1967
+(D) 12/19/1959
+(E) 12/26/1959
+(F) 01/02/2016",(B)
+198,"Today is Sep 9, 1909. What is the date a month ago in MM/DD/YYYY?
+Options:
+(A) 08/09/1909
+(B) 08/10/1909
+(C) 05/09/1910
+(D) 08/08/1909
+(E) 08/09/1820
+(F) 08/19/1909",(A)
+27,"Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 02/05/2021
+(B) 09/05/2020
+(C) 08/15/2020
+(D) 09/06/2020
+(E) 09/04/2020",(B)
+155,"Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date today in MM/DD/YYYY?
+Options:
+(A) 04/12/1986
+(B) 04/07/1985
+(C) 03/10/1986
+(D) 04/10/1985
+(E) 04/13/1985
+(F) 05/13/1985",(D)
+4,"Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 10/22/1944
+(B) 10/22/1924
+(C) 10/07/1924
+(D) 10/21/1924
+(E) 08/22/1925
+(F) 11/21/1924",(B)
+122,"Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date yesterday in MM/DD/YYYY?
+Options:
+(A) 01/01/2003
+(B) 11/01/1960
+(C) 02/01/1961
+(D) 01/01/1958
+(E) 01/01/1961
+(F) 04/09/1961",(E)
+32,"In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/06/1986
+(B) 01/03/1987
+(C) 01/04/1987
+(D) 01/09/1987
+(E) 01/03/2035
+(F) 02/03/1986",(B)
+144,"It is 4/19/1969 today. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 03/19/1969
+(B) 04/08/1969
+(C) 03/24/1969
+(D) 04/04/1969
+(E) 04/10/1969
+(F) 04/09/1969",(F)
+178,"Today is Sep 9, 1909. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/10/1908
+(B) 12/14/1909
+(C) 09/09/1909
+(D) 07/03/1909
+(E) 09/10/1909
+(F) 09/11/1909",(E)
+138,"2015 is coming in 36 hours. What is the date a month ago in MM/DD/YYYY?
+Options:
+(A) 03/07/2015
+(B) 11/28/2014
+(C) 11/23/2014
+(D) 12/20/2014
+(E) 12/05/2014
+(F) 11/29/2014",(F)
+62,"The day before yesterday was 11/23/1933. What is the date today in MM/DD/YYYY?
+Options:
+(A) 08/29/1933
+(B) 01/04/1934
+(C) 11/25/1967
+(D) 11/25/1933
+(E) 11/04/1933
+(F) 12/09/1933",(D)
+135,"Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date yesterday in MM/DD/YYYY?
+Options:
+(A) 02/21/2016
+(B) 02/28/2016
+(C) 03/13/2016
+(D) 04/28/2016
+(E) 06/01/2016
+(F) 11/28/2015",(B)
+128,"Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date yesterday in MM/DD/YYYY?
+Options:
+(A) 02/18/2019
+(B) 06/18/2066
+(C) 06/18/2019
+(D) 06/18/1933
+(E) 05/28/2019
+(F) 11/18/2019",(C)
+226,"Tomorrow is 11/12/2019. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 11/01/2048
+(B) 11/01/2019
+(C) 11/02/2019
+(D) 10/27/2019
+(E) 10/23/2019",(B)
+205,"Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date a month ago in MM/DD/YYYY?
+Options:
+(A) 08/12/2020
+(B) 07/29/2020
+(C) 09/06/2020
+(D) 08/20/2020
+(E) 08/12/2045
+(F) 08/12/2093",(A)
+70,"Today, 8/3/1997, is a day that we will never forget. What is the date 24 hours later in MM/DD/YYYY?
+Options:
+(A) 08/04/1997
+(B) 08/04/1978
+(C) 08/04/2043
+(D) 08/07/1997
+(E) 08/04/1935
+(F) 05/01/1997",(A)
+192,"Yesterday, Jan 21, 2011, Jane ate 2 pizzas and 5 wings. What is the date a month ago in MM/DD/YYYY?
+Options:
+(A) 02/08/2011
+(B) 12/22/2010
+(C) 06/22/2010
+(D) 12/01/2010
+(E) 01/05/2011
+(F) 12/21/2010",(B)
+64,"Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 03/02/2016
+(B) 03/01/1968
+(C) 02/20/2016
+(D) 03/01/2016
+(E) 03/01/2104
+(F) 03/01/2048",(D)
+44,"Today, 8/3/1997, is a day that we will never forget. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 10/07/1996
+(B) 08/03/2035
+(C) 05/03/1997
+(D) 08/03/1996
+(E) 08/04/1996",(D)
+165,"Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date 24 hours later in MM/DD/YYYY?
+Options:
+(A) 01/02/1930
+(B) 08/02/1930
+(C) 01/02/1884
+(D) 11/06/1929
+(E) 03/30/1930
+(F) 01/02/1877",(A)
+40,"Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 03/25/2017
+(B) 03/01/2017
+(C) 03/01/2116
+(D) 02/20/2017
+(E) 03/17/2017
+(F) 03/01/2076",(B)
+123,"Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 03/03/2017
+(B) 04/27/2017
+(C) 03/21/2017
+(D) 02/21/1961
+(E) 02/21/2017",(E)
+153,"Today is the last day of the first quarter of 2008. What is the date a month ago in MM/DD/YYYY?
+Options:
+(A) 02/29/2008
+(B) 02/08/2008
+(C) 12/26/2007
+(D) 02/28/2008
+(E) 02/01/2008
+(F) 08/29/2008",(A)
+23,"2015 is coming in 36 hours. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 12/22/2040
+(B) 12/23/2014
+(C) 12/22/2014
+(D) 01/05/2015
+(E) 12/22/2086
+(F) 02/06/2015",(C)
+211,"2015 is coming in 36 hours. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 12/09/2013
+(B) 01/19/2014
+(C) 12/28/2013
+(D) 07/29/2013
+(E) 12/29/2013
+(F) 02/28/2014",(E)
+183,"Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 04/05/1973
+(B) 03/02/1973
+(C) 03/05/1972
+(D) 01/02/1973
+(E) 03/08/1983
+(F) 03/12/1973",(F)
+81,"Today is Sep 9, 1909. What is the date yesterday in MM/DD/YYYY?
+Options:
+(A) 08/11/1909
+(B) 07/24/1909
+(C) 09/09/1909
+(D) 09/08/1962
+(E) 09/08/1909
+(F) 09/15/1909",(E)
+39,"It is 4/19/1969 today. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 04/26/1969
+(B) 04/05/1969
+(C) 05/11/1969
+(D) 04/27/1969
+(E) 05/14/1969
+(F) 04/25/1969",(A)
+209,"It was Sept. 1st, 2021 a week ago. What is the date 24 hours later in MM/DD/YYYY?
+Options:
+(A) 03/09/2022
+(B) 09/10/2021
+(C) 08/31/2021
+(D) 09/09/2021
+(E) 09/02/2021
+(F) 09/17/2021",(D)
+47,"Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 03/29/2008
+(B) 12/17/2007
+(C) 08/23/2007
+(D) 12/22/2007
+(E) 12/23/2007",(E)
+94,"Today is the second day of the third month of 1966. What is the date 24 hours later in MM/DD/YYYY?
+Options:
+(A) 03/04/1966
+(B) 04/03/1966
+(C) 03/03/1965
+(D) 03/03/2021
+(E) 03/02/1966
+(F) 03/03/1966",(F)
+190,"Tomorrow is 11/12/2019. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 02/12/2020
+(B) 11/12/2019
+(C) 10/22/2019
+(D) 11/14/2019
+(E) 12/10/2019",(B)
+161,"Jane got her job in 2016. Today is her 3-year work anniversary. She still remember that on Dec 2, her second day at work, she spilled coffee on her laptop. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 11/21/2019
+(B) 11/20/2019
+(C) 03/21/2020
+(D) 11/21/2080
+(E) 02/21/2020
+(F) 11/22/2019",(A)
+43,"Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date today in MM/DD/YYYY?
+Options:
+(A) 09/12/2020
+(B) 11/12/2020
+(C) 12/12/2020
+(D) 09/12/1961
+(E) 09/17/2020",(A)
+145,"Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date today in MM/DD/YYYY?
+Options:
+(A) 01/02/1894
+(B) 01/02/1961
+(C) 12/23/1960
+(D) 01/02/1960
+(E) 01/03/1961
+(F) 01/02/1990",(B)
+182,"Today is Christmas Eve of 1937. What is the date yesterday in MM/DD/YYYY?
+Options:
+(A) 09/23/1938
+(B) 12/23/1896
+(C) 12/24/1937
+(D) 01/06/1938
+(E) 12/31/1937
+(F) 12/23/1937",(F)
+3,"Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 07/09/1972
+(B) 12/01/1972
+(C) 07/01/2008
+(D) 05/13/1972
+(E) 07/01/1972
+(F) 08/12/1972",(E)
+105,"On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 06/18/2030
+(B) 09/18/2016
+(C) 06/18/2016
+(D) 07/18/2015
+(E) 06/22/2016
+(F) 06/25/2016",(C)
+53,"Yesterday was April 30, 2021. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 05/15/2020
+(B) 05/01/2020
+(C) 05/08/2020
+(D) 04/01/2020
+(E) 05/01/1971",(B)
+133,"The day before yesterday was 11/23/1933. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 11/25/1933
+(B) 12/02/1974
+(C) 12/16/1933
+(D) 11/11/1933
+(E) 12/23/1933
+(F) 12/02/1933",(F)
+227,"In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 01/23/1987
+(B) 01/09/2023
+(C) 01/09/1948
+(D) 01/08/1987
+(E) 03/17/1987
+(F) 01/09/1987",(F)
+193,"Yesterday was April 30, 2021. What is the date 24 hours later in MM/DD/YYYY?
+Options:
+(A) 05/02/2020
+(B) 05/02/2000
+(C) 05/02/2021
+(D) 05/03/2021
+(E) 05/02/2022
+(F) 04/04/2021",(C)
+232,"Jane is celebrating the last day of Jan 2012. What is the date a month ago in MM/DD/YYYY?
+Options:
+(A) 12/21/2011
+(B) 12/31/2011
+(C) 12/30/2011
+(D) 12/31/2074
+(E) 12/31/2108
+(F) 03/29/2012",(B)
+49,"Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date yesterday in MM/DD/YYYY?
+Options:
+(A) 12/31/2007
+(B) 01/01/2008
+(C) 02/03/2008
+(D) 01/02/2008
+(E) 12/27/2007",(B)
+163,"2015 is coming in 36 hours. What is the date 24 hours later in MM/DD/YYYY?
+Options:
+(A) 01/09/2015
+(B) 12/30/2059
+(C) 12/30/2014
+(D) 01/01/2015
+(E) 01/04/2015
+(F) 12/31/2014",(C)
+80,"In the US, Thanksgiving is on the fourth Thursday of November. Today is the US Thanksgiving of 2001. What is the date 24 hours later in MM/DD/YYYY?
+Options:
+(A) 12/01/2002
+(B) 11/24/2002
+(C) 06/23/2003
+(D) 05/23/2002
+(E) 11/23/2002",(E)
+34,"The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date 24 hours later in MM/DD/YYYY?
+Options:
+(A) 01/08/1960
+(B) 01/01/2019
+(C) 02/08/2018
+(D) 01/08/2019
+(E) 10/22/2018
+(F) 01/08/2043",(D)
+206,"Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 02/20/2019
+(B) 06/10/2019
+(C) 06/20/2019
+(D) 06/25/2019
+(E) 12/20/2018",(C)
+7,"Tomorrow is 11/12/2019. What is the date yesterday in MM/DD/YYYY?
+Options:
+(A) 11/10/2076
+(B) 11/10/2019
+(C) 09/10/2019
+(D) 11/06/2019
+(E) 11/11/2019
+(F) 11/17/2019",(B)
+171,"Today is the second day of the third month of 1966. What is the date yesterday in MM/DD/YYYY?
+Options:
+(A) 03/01/1966
+(B) 11/01/1966
+(C) 03/04/1966
+(D) 10/01/1966
+(E) 03/02/1966
+(F) 03/01/1871",(A)
+110,"Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 01/22/2020
+(B) 01/23/2020
+(C) 03/23/2020
+(D) 01/23/2078
+(E) 01/23/2011",(B)
+91,"Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 03/10/1986
+(B) 04/07/1985
+(C) 05/13/1985
+(D) 04/10/1984
+(E) 04/12/1986
+(F) 04/10/1985",(D)
+83,"On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date yesterday in MM/DD/YYYY?
+Options:
+(A) 07/18/2017
+(B) 06/17/2017
+(C) 06/17/2111
+(D) 07/13/2017
+(E) 06/26/2017
+(F) 06/25/2017",(B)
+223,"Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 07/08/2019
+(B) 06/09/2019
+(C) 06/08/2021
+(D) 06/01/2019
+(E) 06/07/2019
+(F) 06/08/2019",(F)
+228,"Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 04/10/1985
+(B) 05/10/1975
+(C) 03/10/1986
+(D) 04/17/1985
+(E) 04/12/1986
+(F) 04/07/1985",(D)
+89,"The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 06/03/1943
+(B) 03/15/1943
+(C) 08/03/1942
+(D) 06/02/1943
+(E) 07/04/1943
+(F) 05/06/1943",(A)
+8,"Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date yesterday in MM/DD/YYYY?
+Options:
+(A) 06/17/2063
+(B) 05/18/2019
+(C) 05/20/2019
+(D) 06/17/2019
+(E) 05/13/2019
+(F) 06/08/2019",(D)
+13,"Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date a month ago in MM/DD/YYYY?
+Options:
+(A) 01/01/2020
+(B) 01/02/2020
+(C) 10/02/2019
+(D) 11/05/2019
+(E) 01/02/1931
+(F) 01/03/2020",(B)
+59,"Today is Christmas Eve of 1937. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 12/24/1862
+(B) 01/10/1937
+(C) 10/24/1936
+(D) 12/24/1936
+(E) 03/24/1936
+(F) 12/29/1936",(D)
+215,"May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date 24 hours later in MM/DD/YYYY?
+Options:
+(A) 05/15/2002
+(B) 05/04/2002
+(C) 05/17/2002
+(D) 05/07/1982
+(E) 09/07/2001
+(F) 05/07/2002",(F)
+131,"Today is the second day of the third month of 1966. What is the date one week from today in MM/DD/YYYY?
+Options:
+(A) 12/09/1965
+(B) 03/02/1966
+(C) 03/28/1966
+(D) 03/26/1966
+(E) 03/09/1966
+(F) 02/22/1966",(E)
+17,"Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 09/13/2020
+(B) 08/14/2020
+(C) 09/13/2057
+(D) 07/26/2020
+(E) 10/04/2020
+(F) 09/13/2084",(A)
+166,"Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 01/01/1898
+(B) 01/01/1994
+(C) 08/01/1929
+(D) 01/08/1929
+(E) 01/01/1891
+(F) 01/01/1929",(F)
+72,"In the US, Thanksgiving is on the fourth Thursday of November. Today is the US Thanksgiving of 2001. What is the date a month ago in MM/DD/YYYY?
+Options:
+(A) 11/22/2001
+(B) 10/21/2002
+(C) 07/21/2002
+(D) 10/22/1923
+(E) 10/15/2002
+(F) 10/22/2002",(F)
+220,"Jane booked a flight for tomorrow, Jul 29, 2002. What is the date one week ago from today in MM/DD/YYYY?
+Options:
+(A) 08/18/2002
+(B) 10/21/2002
+(C) 07/20/2002
+(D) 10/17/2002
+(E) 07/21/2002
+(F) 11/21/2001",(E)
+134,"Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 02/28/2015
+(B) 03/31/2016
+(C) 02/28/2016
+(D) 02/28/1992
+(E) 03/27/2016
+(F) 03/06/2016",(C)
+204,"Today is Sep 9, 1909. What is the date today in MM/DD/YYYY?
+Options:
+(A) 09/09/1909
+(B) 09/30/1909
+(C) 11/19/1909
+(D) 09/09/1939
+(E) 09/09/1886
+(F) 12/11/1909",(A)

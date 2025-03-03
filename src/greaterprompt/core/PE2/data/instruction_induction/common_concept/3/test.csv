@@ -1,0 +1,17 @@
+,concept,items,all_common_concepts
+1,involve vertical movement.,"['rock climbing', 'elevators', 'helicopters']","['involve vertical movement.', 'involve going up.']"
+2,involve going up.,"['rock climbing', 'elevators', 'helicopters']","['involve vertical movement.', 'involve going up.']"
+3,can make a buzz.,"['bumble bees', 'cell phones', 'exciting news']",['can make a buzz.']
+4,involve strings.,"['guitars', 'sewing', 'tennis rackets', 'theoretical particle physics']",['involve strings.']
+5,involve bishops.,"['chess', 'Catholicism', 'Berkeley']",['involve bishops.']
+6,can be used to measure time.,"['sand falling', 'redshifts in cosmology', 'pendulums']",['can be used to measure time.']
+7,ham.,"['amateur radio', 'prosciutto', 'exaggerated acting']",['ham.']
+8,related to oil.,"['coconut', 'paint', 'motor']",['related to oil.']
+9,types of networks.,"['local', 'cable', 'cell']",['types of networks.']
+10,types of pedals.,"['bike', 'piano', 'brake']",['types of pedals.']
+11,castles.,"['rooks in chess', 'the Tower of London']",['castles.']
+12,involve courts.,"['lawyers', 'basketball', 'walled yards']",['involve courts.']
+13,types of cuts.,"['hair', 'laceration', 'short']",['types of cuts.']
+14,involve branch cuts.,"['pruning trees', 'complex analysis', 'closing stores in a franchise']",['involve branch cuts.']
+15,have pyramids.,"['food', 'the Louvre', 'the Aztecs']",['have pyramids.']
+16,coverings.,"['blanket', 'roof', 'umbrella', 'hat']",['coverings.']

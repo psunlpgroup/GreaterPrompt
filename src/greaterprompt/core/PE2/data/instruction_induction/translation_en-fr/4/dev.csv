@@ -1,0 +1,21 @@
+,input,output,possible_translations
+262,competition,concours,"['concurrence', 'compétition', 'concours']"
+755,festival,festival,['festival']
+2789,whistle,sifflet,"['sifflements', 'sifflement', 'sifflet', 'siffler']"
+1242,dozen,dizaine,"['douzaine', 'dizaine']"
+1214,teammate,coéquipier,"['coéquipier', 'coéuipière']"
+1069,parliament,parlement,['parlement']
+584,message,message,['message']
+161,sea,mer,['mer']
+2366,relocation,déménagement,"['délocalisation', 'déménagement']"
+968,definition,définition,"['définition', 'definition']"
+2597,stripe,galon,"['rayer', 'rayure', 'galon']"
+1629,performer,artiste,['artiste']
+1827,deadline,date butoir,"['date limite', 'échéance', 'date butoir']"
+2358,ecosystem,écosystème,['écosystème']
+966,console,console,"['console', 'console de jeu', 'consoler']"
+911,repair,réparation,"['réparer', 'réparation']"
+434,choice,choix,"['choix', 'de choix', 'morceau de choix']"
+2431,friction,friction,"['désaccord', 'frottement', 'friction']"
+973,factory,usine,"['fabrique', 'usine', 'manufacture']"
+2007,funnel,entonnoir,"['', 'canaliser', 'utiliser un entonnoir', 'cheminée', 'entonnoir', ""faire circuler des resources ou de l'argent""]"

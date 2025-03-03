@@ -1,0 +1,101 @@
+,input,output,sentence,letter,words,source
+1,Mary thinks that she is smart. [t],thinks that,Mary thinks that she is smart.,t,"['thinks', 'that']",dev_in_domain
+2,"They love to play golf, but I do not. [b]",but,"They love to play golf, but I do not.",b,['but'],dev_in_domain
+3,Muriel said nothing else than that she had been insulted. [s],said she,Muriel said nothing else than that she had been insulted.,s,"['said', 'she']",dev_in_domain
+4,The mechanical doll wriggled itself loose. [t],the,The mechanical doll wriggled itself loose.,t,['The'],dev_in_domain
+5,Fred talked about everything before Rusty did talk about something. [d],did,Fred talked about everything before Rusty did talk about something.,d,['did'],dev_in_domain
+6,Who did you get an accurate description of? [g],get,Who did you get an accurate description of?,g,['get'],dev_in_domain
+7,Who did you think kissed the gorilla? [k],kissed,Who did you think kissed the gorilla?,k,['kissed'],dev_in_domain
+8,"Every senator seems to become more corrupt, as he talks to more lobbyists. [b]",become,"Every senator seems to become more corrupt, as he talks to more lobbyists.",b,['become'],dev_in_domain
+9,They realised that never had Sir Thomas been so offended. [r],realised,They realised that never had Sir Thomas been so offended.,r,['realised'],dev_in_domain
+10,The book is boring. [b],book boring,The book is boring.,b,"['book', 'boring']",dev_in_domain
+11,I remembered having kissed Mary. [i],i,I remembered having kissed Mary.,i,['I'],dev_in_domain
+12,We elected me. [m],me,We elected me.,m,['me'],dev_in_domain
+13,John asked. [a],asked,John asked.,a,['asked'],dev_in_domain
+14,John ate his noodle quietly. [h],his,John ate his noodle quietly.,h,['his'],dev_in_domain
+15,We investigated the area for bombs. [t],the,We investigated the area for bombs.,t,['the'],dev_in_domain
+16,"The higher the stakes, the lower his expectations are. [a]",are,"The higher the stakes, the lower his expectations are.",a,['are'],dev_in_domain
+17,"The more pictures of him that appear in the news, the more embarrassed John becomes. [e]",embarrassed,"The more pictures of him that appear in the news, the more embarrassed John becomes.",e,['embarrassed'],dev_in_domain
+18,John promise Mary to shave himself. [h],himself,John promise Mary to shave himself.,h,['himself'],dev_in_domain
+19,"The angrier Mary got, the more she looked at pictures. [m]",mary more,"The angrier Mary got, the more she looked at pictures.",m,"['Mary', 'more']",dev_in_domain
+20,John bought a book on the table. [t],the table,John bought a book on the table.,t,"['the', 'table']",dev_in_domain
+21,Tom said he would and Bill actually did eat a raw eggplant. [e],eat eggplant,Tom said he would and Bill actually did eat a raw eggplant.,e,"['eat', 'eggplant']",dev_in_domain
+22,"Any tiger has orange fur, marked with black stripes. [m]",marked,"Any tiger has orange fur, marked with black stripes.",m,['marked'],dev_in_domain
+23,I met the man who grows peaches. [m],met man,I met the man who grows peaches.,m,"['met', 'man']",dev_in_domain
+24,Which pictures of himself does John like? [w],which,Which pictures of himself does John like?,w,['Which'],dev_in_domain
+25,Who do you think Tom saw? [y],you,Who do you think Tom saw?,y,['you'],dev_in_domain
+26,I talked to Winston about himself. [t],talked to,I talked to Winston about himself.,t,"['talked', 'to']",dev_in_domain
+27,Fred talked about everything before Rusty did talk about something. [e],everything,Fred talked about everything before Rusty did talk about something.,e,['everything'],dev_in_domain
+28,Everybody around here who ever buys anything on credit talks in his sleep. [t],talks,Everybody around here who ever buys anything on credit talks in his sleep.,t,['talks'],dev_in_domain
+29,I am both expecting to get the job and of the opinion that it is a desirable one. [a],am and a,I am both expecting to get the job and of the opinion that it is a desirable one.,a,"['am', 'and', 'a']",dev_in_domain
+30,Muriel said nothing else than that she had been insulted. [e],else,Muriel said nothing else than that she had been insulted.,e,['else'],dev_in_domain
+31,We linguists love to argue [w],we,We linguists love to argue,w,['We'],dev_in_domain
+32,"The angrier Mary got, the more she looked at pictures. [a]",angrier at,"The angrier Mary got, the more she looked at pictures.",a,"['angrier', 'at']",dev_in_domain
+33,It annoys me that Fido barks. [b],barks,It annoys me that Fido barks.,b,['barks'],dev_in_domain
+34,Which topic did you choose without getting his approval? [c],choose,Which topic did you choose without getting his approval?,c,['choose'],dev_in_domain
+35,Jessica loaded boxes on the wagon. [l],loaded,Jessica loaded boxes on the wagon.,l,['loaded'],dev_in_domain
+36,The tub leaked water. [t],the tub,The tub leaked water.,t,"['The', 'tub']",dev_in_domain
+37,She asked was Alison coming to the party. [c],coming,She asked was Alison coming to the party.,c,['coming'],dev_in_domain
+38,It was a brand new car that he bought. [n],new,It was a brand new car that he bought.,n,['new'],dev_in_domain
+39,he had spent five thousand dollars. [t],thousand,he had spent five thousand dollars.,t,['thousand'],dev_in_domain
+40,John owns the book. [b],book,John owns the book.,b,['book'],dev_in_domain
+41,I want her to dance. [h],her,I want her to dance.,h,['her'],dev_in_domain
+42,Fanny regretted having to talk to Aunt Norris. [r],regretted,Fanny regretted having to talk to Aunt Norris.,r,['regretted'],dev_in_domain
+43,Rusty talked about himself only after Mary did talk about him. [r],rusty,Rusty talked about himself only after Mary did talk about him.,r,['Rusty'],dev_in_domain
+44,Each candidate who has interest in semantics will be admitted to the department. [s],semantics,Each candidate who has interest in semantics will be admitted to the department.,s,['semantics'],dev_in_domain
+45,John is likely to leave. [l],likely leave,John is likely to leave.,l,"['likely', 'leave']",dev_in_domain
+46,John has not kissed Mary. [h],has,John has not kissed Mary.,h,['has'],dev_in_domain
+47,Carmen obtained the spare part at the hardware store. [a],at,Carmen obtained the spare part at the hardware store.,a,['at'],dev_in_domain
+48,"Extremely frantically, Anson danced at Trade [a]",anson at,"Extremely frantically, Anson danced at Trade",a,"['Anson', 'at']",dev_in_domain
+49,The man I saw get into the cab robbed the bank. [i],i into,The man I saw get into the cab robbed the bank.,i,"['I', 'into']",dev_in_domain
+50,Water bubbled up out of the kettle. [u],up,Water bubbled up out of the kettle.,u,['up'],dev_in_domain
+51,We celebrated in the streets in the rain on Tuesday in the morning. [s],streets,We celebrated in the streets in the rain on Tuesday in the morning.,s,['streets'],dev_out_of_domain
+52,Books were taken from each student by the other. [b],books by,Books were taken from each student by the other.,b,"['Books', 'by']",dev_out_of_domain
+53,John said Joan saw someone from her graduating class. [s],said saw someone,John said Joan saw someone from her graduating class.,s,"['said', 'saw', 'someone']",dev_out_of_domain
+54,John was believed by Mary to be telling the truth. [t],to telling the truth,John was believed by Mary to be telling the truth.,t,"['to', 'telling', 'the', 'truth']",dev_out_of_domain
+55,It annoys people that dogs bark. [a],annoys,It annoys people that dogs bark.,a,['annoys'],dev_out_of_domain
+56,"Everybody gets on well with a certain relative, but often only his therapist knows which one. [t]",therapist,"Everybody gets on well with a certain relative, but often only his therapist knows which one.",t,['therapist'],dev_out_of_domain
+57,I would hate for John to leave. [f],for,I would hate for John to leave.,f,['for'],dev_out_of_domain
+58,John told Mary that it was important to Fred to leave early. [j],john,John told Mary that it was important to Fred to leave early.,j,['John'],dev_out_of_domain
+59,The book was written. [w],was written,The book was written.,w,"['was', 'written']",dev_out_of_domain
+60,It was believed by the students that they would have an exam. [w],was would,It was believed by the students that they would have an exam.,w,"['was', 'would']",dev_out_of_domain
+61,John considers Bill silly. [j],john,John considers Bill silly.,j,['John'],dev_out_of_domain
+62,Some people yell at noisy dogs in my neighborhood. [n],noisy neighborhood,Some people yell at noisy dogs in my neighborhood.,n,"['noisy', 'neighborhood']",dev_out_of_domain
+63,A letter was received that Jones would be upset by. [t],that,A letter was received that Jones would be upset by.,t,['that'],dev_out_of_domain
+64,"Most columnists claim that a senior White House official has been briefing them, and the newspaper today reveals which one. [t]",that them the today,"Most columnists claim that a senior White House official has been briefing them, and the newspaper today reveals which one.",t,"['that', 'them', 'the', 'today']",dev_out_of_domain
+65,"Everybody gets on well with a certain relative, but often only his therapist knows which one. [b]",but,"Everybody gets on well with a certain relative, but often only his therapist knows which one.",b,['but'],dev_out_of_domain
+66,"Most columnists claim that a senior White House official has been briefing them, and the newspaper today reveals which one. [o]",official one,"Most columnists claim that a senior White House official has been briefing them, and the newspaper today reveals which one.",o,"['official', 'one']",dev_out_of_domain
+67,That surprised me. [s],surprised,That surprised me.,s,['surprised'],dev_out_of_domain
+68,John tried to leave. [t],tried to,John tried to leave.,t,"['tried', 'to']",dev_out_of_domain
+69,John is sad. [j],john,John is sad.,j,['John'],dev_out_of_domain
+70,There was some particular dog who saved every family. [w],was who,There was some particular dog who saved every family.,w,"['was', 'who']",dev_out_of_domain
+71,Tabs are kept on suspected drug dealers by the FBI. [o],on,Tabs are kept on suspected drug dealers by the FBI.,o,['on'],dev_out_of_domain
+72,They want them arrested. [w],want,They want them arrested.,w,['want'],dev_out_of_domain
+73,"Bob tried to wash himself, and Mary to read the funnies. [r]",read,"Bob tried to wash himself, and Mary to read the funnies.",r,['read'],dev_out_of_domain
+74,John was believed by Mary to be telling the truth. [w],was,John was believed by Mary to be telling the truth.,w,['was'],dev_out_of_domain
+75,Who always drinks milk? [m],milk,Who always drinks milk?,m,['milk'],dev_out_of_domain
+76,It is a problem that he is here. [a],a,It is a problem that he is here.,a,['a'],dev_out_of_domain
+77,Books were taken from no student and given to Mary. [m],mary,Books were taken from no student and given to Mary.,m,['Mary'],dev_out_of_domain
+78,"Most columnists claim that a senior White House official has been briefing them, and the newspaper today reveals which one. [h]",house has,"Most columnists claim that a senior White House official has been briefing them, and the newspaper today reveals which one.",h,"['House', 'has']",dev_out_of_domain
+79,I met the person who left. [p],person,I met the person who left.,p,['person'],dev_out_of_domain
+80,Susan told her a story. [h],her,Susan told her a story.,h,['her'],dev_out_of_domain
+81,All who lost money in the scam are eligible for the program. [e],eligible,All who lost money in the scam are eligible for the program.,e,['eligible'],dev_out_of_domain
+82,It was believed by everybody that Mary was a thief. [e],everybody,It was believed by everybody that Mary was a thief.,e,['everybody'],dev_out_of_domain
+83,I am counting on Bill to get there on time. [c],counting,I am counting on Bill to get there on time.,c,['counting'],dev_out_of_domain
+84,Lou put the umbrella in the closet. [p],put,Lou put the umbrella in the closet.,p,['put'],dev_out_of_domain
+85,We preferred them on our team. [p],preferred,We preferred them on our team.,p,['preferred'],dev_out_of_domain
+86,That professor is feared by all students. [p],professor,That professor is feared by all students.,p,['professor'],dev_out_of_domain
+87,Cohen proved that the continuum hypothesis was independent. [p],proved,Cohen proved that the continuum hypothesis was independent.,p,['proved'],dev_out_of_domain
+88,I would prefer for John to leave. [f],for,I would prefer for John to leave.,f,['for'],dev_out_of_domain
+89,John was believed by Mary to be telling the truth. [b],believed by be,John was believed by Mary to be telling the truth.,b,"['believed', 'by', 'be']",dev_out_of_domain
+90,The students drove cars. [d],drove,The students drove cars.,d,['drove'],dev_out_of_domain
+91,It mattered that the Giants had lost. [m],mattered,It mattered that the Giants had lost.,m,['mattered'],dev_out_of_domain
+92,"He announced he would marry the woman he loved most, but none of his relatives could figure out who. [w]",would woman who,"He announced he would marry the woman he loved most, but none of his relatives could figure out who.",w,"['would', 'woman', 'who']",dev_out_of_domain
+93,She voted for herself. [s],she,She voted for herself.,s,['She'],dev_out_of_domain
+94,There is a monster in Loch Ness. [m],monster,There is a monster in Loch Ness.,m,['monster'],dev_out_of_domain
+95,The administration has issued a statement that it is willing to meet a student group. [w],willing,The administration has issued a statement that it is willing to meet a student group.,w,['willing'],dev_out_of_domain
+96,John promised Bill to leave. [b],bill,John promised Bill to leave.,b,['Bill'],dev_out_of_domain
+97,She can run an accelerator. [a],an accelerator,She can run an accelerator.,a,"['an', 'accelerator']",dev_out_of_domain
+98,There was some particular dog who saved every family. [d],dog,There was some particular dog who saved every family.,d,['dog'],dev_out_of_domain
+99,Some people yell at noisy dogs in my neighborhood. [p],people,Some people yell at noisy dogs in my neighborhood.,p,['people'],dev_out_of_domain
+100,We like ourselves. [o],ourselves,We like ourselves.,o,['ourselves'],dev_out_of_domain

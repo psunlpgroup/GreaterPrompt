@@ -1,0 +1,101 @@
+,input,output,possible_translations
+116,office,oficina,['oficina']
+1391,horsepower,caballo de vapor,"['caballo de vapor', 'CV']"
+1412,wire,alambre,"['alambre', 'hilo']"
+1774,reflection,reflexión,"['reflejo', 'reflexión']"
+788,driver,conductor,"['manejador', 'controlador', 'conductor', 'conductora', 'chofer']"
+846,canal,canal,['canal']
+1007,talent,talento,['talento']
+1663,quantity,cantidad,['cantidad']
+2138,certificate,certificado,['certificado']
+2123,fauna,fauna,['fauna']
+1317,crop,fusta,"['cultivo', 'fusta', 'agosto', 'cosecha', 'rapado', 'rapar', 'recortar', 'buche']"
+384,value,valor,"['importancia', 'apreciar', 'valor', 'valorar']"
+1842,consultant,consultor,['consultor']
+2308,authenticity,autenticidad,['autenticidad']
+1327,reconstruction,reconstrucción,"['restauración', 'reconstrucción', 'reconstrucción de los hechos']"
+1280,heir,heredero,"['heredero', 'sucesor', 'heredera']"
+352,winter,invierno,"['invernar', 'invierno']"
+160,sea,mar,['mar']
+738,battleship,acorazado,['acorazado']
+2074,sulfur,azufre,"['azufre', 'azufrar']"
+492,shooting,tiroteo,"['tiro', 'tiroteo']"
+2318,nightclub,club nocturno,['club nocturno']
+2628,insignia,insignia,"['distintivo', 'insignia']"
+1476,trophy,trofeo,['trofeo']
+2099,diocese,diócesis,['diócesis']
+1287,wheel,pez gordo,"['rueda', 'volante', 'pez gordo', 'rodar', 'volar en círculos', 'llanta', 'circunvolar']"
+2290,chronicle,crónica,['crónica']
+981,dress,vestido,"['traje', 'vestido', 'vestirse', 'vestir']"
+743,arrangement,arreglo,"['planes', 'preparativos', 'acuerdo', 'disposición', 'arreglo']"
+2301,journalism,periodismo,['periodismo']
+1117,biographer,biógrafo,"['biógrafa', 'biógrafo']"
+2476,cassette,casete,['casete']
+472,ceremony,ceremonia,['ceremonia']
+1924,persecution,persecución,['persecución']
+92,air,aire,"['airear', 'aerar', 'aire', 'retransmitir', 'aria']"
+790,diameter,diámetro,['diámetro']
+1267,helicopter,helicóptero,"['autogiro', 'helicóptero']"
+1851,gravel,grava,"['gravilla', 'grava']"
+159,person,persona,"['individuo', 'persona']"
+1628,activist,activista,['activista']
+423,draft,borrador,"['reclutamiento', 'conscripción', 'leva', 'de grifo', 'esbozo', 'reclutar', 'de baril', 'borrador']"
+494,deck,piso,"['terraza', 'plataforma', 'baraja', 'piso', 'cubierta', 'balcón']"
+1434,shopping,shopping,['shopping']
+1798,soccer,fútbol,"['fútbol', 'futbol; balompié', 'balón-pie ; pambol']"
+764,conduct,conducción,"['manejar', 'dirigir', 'guiar', 'conducir', 'conducta', 'conducción', 'comportarse']"
+1227,promise,promesa,"['prometer', 'promesa']"
+260,commander,comandante,['comandante']
+1105,representation,representación,['representación']
+2053,ethanol,etanol,['etanol']
+118,wife,esposa,"['esposa', 'mujer']"
+1170,error,error,"['errores', 'error', 'yerro']"
+2568,mathematician,matemático,"['matemático', 'matemática']"
+1273,portrait,retrato,['retrato']
+2062,malaria,paludismo,"['paludismo', 'malaria']"
+8,song,canción,['canción']
+698,commission,comisión,"['comisión', 'encargar']"
+1237,cup,copa,"['copa', 'taza']"
+140,attempt,atentado,"['ensayo', 'tentativa', 'intentar', 'intento', 'atentado', 'tratar de']"
+699,strategy,estrategia,['estrategia']
+1437,joke,broma,"['chiste', 'broma', 'bromear']"
+653,atmosphere,atmósfera,"['atmósfera', 'clima', 'aire', 'ambiente']"
+988,aftermath,consecuencias,"['resultados', 'consecuencias']"
+1147,liner,transatlántico,"['barco de línea', 'transatlántico', 'forro']"
+2580,scent,olor,"['fragancia', 'olor', 'olfato', 'esencia']"
+1167,mythology,mitología,['mitología']
+349,pilot,piloto,"['pilotar', 'probar', 'piloto']"
+295,quality,calidad,"['cualidad', 'calidad', 'de calidad']"
+70,club,club,"['palo', 'bastón', 'club', 'agrupar', 'discoteca', 'garrote', 'apalear', 'trébol', 'garrotear']"
+124,training,capacitación,"['capacitación', 'entrenamiento']"
+537,opinion,opinión,"['opinión', 'conclusiones']"
+731,legislation,legislación,['legislación']
+1263,conversation,conversación,['conversación']
+48,power,potencia,"['electricidad', 'poder', 'corriente', 'potencia']"
+1204,chemistry,química,['química']
+319,situation,localización,"['nivel', 'situación', 'ubicación', 'puesto', 'localización', 'estado']"
+554,crowd,montón,"['multitud', 'vulgo', 'muchedumbre', 'montón', 'amasijo', 'turba']"
+1230,dozen,docena,['docena']
+778,poetry,poesía,['poesía']
+1496,plutonium,plutonio,['plutonio']
+239,fight,lucha,"['luchar', 'combatir', 'pelear', 'lucha']"
+1513,citizen,ciudadano,"['ciudadano', 'ciudadana']"
+2493,cocaine,cocaína,['cocaína']
+361,image,imagen,['imagen']
+1426,frigate,fragata,['fragata']
+1336,exterior,exterior,['exterior']
+1677,narrator,narrador,['narrador']
+2708,rigging,jarcia,['jarcia']
+682,segment,segmento,"['segmentar', 'segmento']"
+1222,costume,traje,['traje']
+921,bowling,bolos,['bolos']
+2343,snout,hocico,"['probóscide', 'trompa', 'hocico', 'boquilla']"
+2387,contractor,contratista,['contratista']
+669,glass,vaso,"['copa', 'vaso']"
+1719,coaster,deslizador,"['navegador', 'deslizador', 'holgazán', 'posavasos', 'costero']"
+2547,vapor,vapor,['vapor']
+2563,metabolism,metabolismo,['metabolismo']
+2614,tutor,tutor,['tutor']
+2635,clutch,cloch,"['croche', 'embrague', 'nidada', 'cloche', 'clutch', 'cloch', 'aferrar']"
+2162,soprano,soprano,['soprano']
+2149,parachute,paracaídas,"['lanzarse en paracaídas', 'paracaídas']"

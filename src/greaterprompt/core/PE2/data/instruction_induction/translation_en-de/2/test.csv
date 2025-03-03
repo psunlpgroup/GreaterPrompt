@@ -1,0 +1,101 @@
+,input,output,possible_translations
+1,place,Platz,"['Position', 'plazieren', 'Bude', 'Stelle', 'Ort', 'Schlafplatz', 'Sitzplatz', 'Quartier', 'Stehplatz', 'for vehicles: Standplatz', 'stellen', 'Platz', 'Sitz', 'einordnen']"
+2,family,Familie,"['Familie', 'vom anderen Ufer sein']"
+3,point,Punkt,"['Komma', 'Peninsula', 'Standpunkt', 'Halbinsel', 'Spitze', 'Zeitpunkt', 'Landzunge', 'Punkt', 'zeigen']"
+4,east,Osten,"['Osten', 'Ost']"
+5,aircraft,Luftfahrzeug,['Luftfahrzeug']
+6,title,Titel,"['Eigentumsnachweis', 'Titel', 'Eigentumsrecht']"
+7,party,Partei,"['Partie', 'Fest', 'Partei', 'Teilnehmer', 'Teilnehmerin', 'Party', 'Feier', 'Fete']"
+8,victory,Sieg,['Sieg']
+9,list,Liste,"['Liste', 'Schlagseite', 'aufzählen', 'Krängung']"
+10,cover,Deckung,"['Abdeckung', 'decken', 'Versteck', 'Deckung', 'bespringen', 'besteigen', 'behandeln', 'Deckel', 'Gedeck', 'abdecken', 'covern', 'Deckung geben', 'Überdeckung', 'Decke']"
+11,idea,Idee,"['Idee', 'Ahnung']"
+12,loss,Verlust,"['Verlust', 'Niederlage']"
+13,king,König,"['Dame', 'König']"
+14,staff,Belegschaft,"['Belegschaft', 'Notenlinien', 'Personal', 'Stab']"
+15,broadcast,Sendung,"['verbreiten', 'Rundfunk', 'Sendung', 'Ausstrahlung', 'senden', 'Übertragung']"
+16,trade,Handel,"['Passat', 'Kommerz', 'Tausch', 'Facharbeiter', 'Passatwind', 'Handel', 'Handwerk', 'Geschäft']"
+17,energy,Energie,['Energie']
+18,peak,Gipfel,"['Gipfel', 'Maximum']"
+19,combat,Kampf,"['Schlacht', 'Kampf']"
+20,source,Quelle,"['Ursprung', 'beziehen', 'Quellkode', 'Quelle', 'belegen', 'Quellcode']"
+21,piece,Stück,['Stück']
+22,plant,Pflanze,"['platzieren', 'pflanzen', 'Kombination', 'Pflanze']"
+23,ice,Eis,"['frieren', 'einfrieren', 'Eis']"
+24,lot,Los,"['Parzelle', 'Grund', 'Haufen', 'Grundstück', 'Los', 'Häuflein', 'Anzahl', 'Gruppe', 'Schicksal', 'Charge', 'Menge']"
+25,couple,Paar,"['Paar', 'einige', 'ein paar']"
+26,boat,Boot,"['Boot', 'Schiff']"
+27,seat,Sitz,"['Sitz', 'Sitzplatz']"
+28,transport,Beförderung,"['befördern', 'Beförderung', 'transportieren']"
+29,mouth,Mündung,"['Mündlein', 'Mund', 'Maul', 'Mündung']"
+30,iron,Eisen,"['eisern', 'Eisen', 'bügeln', 'Bügeleisen']"
+31,composition,Zusammenstellung,"['Komposition', 'Zusammenstellung']"
+32,forest,Wald,"['Hain', 'Wald', 'aufforsten', 'Gehölz', 'Forst']"
+33,bird,Vogel,"['Braut', 'Typ', 'Perle', 'Schnitte', 'Vogel', 'absitzen im Cafe Viereck', 'Mieze']"
+34,armor,Panzerung,"['Rüstung', 'Panzerung', 'Panzer', 'Panzerkraftwagen']"
+35,replacement,Ersatz,"['Ersatzspieler', 'Ersatz']"
+36,discovery,Entdeckung,['Entdeckung']
+37,sale,Auktion,"['Verkauf', 'Ausverkauf', 'Auktion', 'Schlussverkauf']"
+38,chain,Kette,"['Kette', 'ketten']"
+39,designation,Benennung,['Benennung']
+40,pace,Tempo,"['Tempo', 'Geschwindigkeit', 'Schritt', 'Pass', 'Passgang']"
+41,pit,Box,"['Stein', 'Loch', 'Same', 'Kern', 'Box', 'Grube']"
+42,dress,Kleidung,"['sich anziehen', 'ankleiden', 'anziehen', 'Kleid', 'Kleidung', 'kleiden']"
+43,delay,Verzögerung,"['etwas verschieben', 'sich verspäten', 'Verzögerung']"
+44,electricity,Strom,"['Elektrizität', 'Strom']"
+45,coup,Coup,['Coup']
+46,improvement,Verbesserung,['Verbesserung']
+47,victim,Opfer,['Opfer']
+48,girlfriend,Freundin,"['Freundin', 'Girlfriend']"
+49,tension,Spannung,['Spannung']
+50,patient,Patient,"['Patient', 'geduldig']"
+51,crest,Kamm,"['Krone', 'Kamm', 'Haube']"
+52,consideration,Vergütung,"['Rücksicht', 'Vergütung', 'Erwägung', 'Überlegung']"
+53,autobiography,Autobiografie,['Autobiografie']
+54,sum,Summe,"['Summe', 'summieren']"
+55,procedure,Prozedur,"['Prozedur', 'Vorgehensweise', 'Vorgehen', 'Unterprogramm', 'Prozedere']"
+56,ceiling,Decke,['Decke']
+57,coalition,Koalition,['Koalition']
+58,essay,Versuch,"['Aufsatz', 'Essay', 'Versuch']"
+59,goalkeeper,Torwart,"['Goali', 'Schlussmann', 'Torsteher', 'Fliegenfängerin', 'Keeper', 'Torwartin', 'Torwächterin', 'Torsteherin', 'Schlussfrau', 'Keeperin', 'Tormann', 'Goalmann', 'Torhüterin', 'Torwächter', 'Fliegenfänger', 'Torhüter', 'Torwart', 'Torfrau', 'Goalie', 'Goalfrau']"
+60,marble,Marmor,"['Murmel', 'Marmor', 'marmorieren']"
+61,ballet,Ballett,['Ballett']
+62,stunt,Stunt,['Stunt']
+63,dragon,Drache,"['Drache', 'Lindwurm', 'Wurm', 'Wyvern']"
+64,soccer,Fußball,['Fußball']
+65,biology,Biologie,['Biologie']
+66,invention,Erfinden,"['Invention', 'Erfinden', 'Erfindung', 'Einfallsreichtum']"
+67,button,Taste,"['Taste', 'Knopf', 'Knospe']"
+68,embassy,Botschaft,['Botschaft']
+69,abbey,Klosterkirche,"['Abtei', 'Klosterkirche']"
+70,ankle,Knöchel,"['Fußknöchel', 'Knöchel', 'enkel']"
+71,fog,Nebel,['Nebel']
+72,suspicion,Verdacht,"['Argwohn', 'Verdacht', 'Verdächtigung']"
+73,poison,Gift,"['Giftstoff', 'Gift', 'vergiften']"
+74,integrity,Integrität,['Integrität']
+75,treasure,Schatz,['Schatz']
+76,vector,Vektor,['Vektor']
+77,evaluation,Beurteilung,['Beurteilung']
+78,premier,Ministerpräzident,['Ministerpräzident']
+79,mock,Nachahmung,"['aufziehen', 'Schein-', 'nachahmen', 'hochnehmen', 'Nachahmung', 'nachgemacht', 'nachäffen']"
+80,certificate,Zertifikat,['Zertifikat']
+81,slate,Schiefergrau,"['planen', 'Kandidatenliste', 'verreissen', 'schiefergrau', 'Tafel', 'vorsehen', 'Liste', 'Schiefergrau', 'Schiefertafel', 'Dachschiefer', 'bestimmen', 'ansetzen', 'Schuldentafel', 'Schiefer']"
+82,coordination,Koordination,"['Koordinierung', 'Koordination']"
+83,mourning,Trauer,['Trauer']
+84,confluence,Zusammenfluss,['Zusammenfluss']
+85,fortification,Festung,"['Festung', 'Fort', 'Befestigen', 'Festungsbau']"
+86,slogan,Devise,"['Devise', 'Losung', 'Spruch ; Schlachtruf', 'Parole', 'Motto']"
+87,authenticity,Authentizität,['Authentizität']
+88,denial,Leugnung,"['Negierung', 'Negation', 'Verneinung', 'Leugnung', 'Dementi', 'Verweigerung']"
+89,haul,Lastbeförderung,"['Fang', 'ziehen', 'Gütertransport', 'transportieren', 'Fischzug', 'schleppen', 'Lastbeförderung', 'befödern']"
+90,attribute,Attribut,"['zuschreiben', 'Attribut']"
+91,bunker,Bunker,['Bunker']
+92,prostitute,Prostituierte,"['prostituieren', 'sich prostituieren', 'Hure', 'Prostituierte', 'Dirne']"
+93,foliage,Blätter,"['Laub', 'Blätter']"
+94,perfection,Vollkommenheit,"['Vollkommenheit', 'Perfektion']"
+95,quartet,Quartett,['Quartett']
+96,sailor,Matrose,"['Seemann', 'Matrose']"
+97,shootout,Schießerei,"['Schusswechsel', 'Schießerei']"
+98,jewellery,Schmuck,"['Juwelen', 'Schmuck']"
+99,objection,Beanstandung,"['Einspruch', 'Beanstandung', 'Widerspruch', 'Einwand']"
+100,casualty,Opfer,['Opfer']

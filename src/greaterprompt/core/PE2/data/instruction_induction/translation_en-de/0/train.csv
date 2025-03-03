@@ -1,0 +1,101 @@
+,input,output,possible_translations
+856,soil,Erde,"['verschmutzen', 'beschmutzen', 'Boden', 'Erde']"
+616,identity,Identität,"['Identität', 'Gleichheit']"
+71,control,Kontrolle,"['kontrollieren', 'steuern', 'Kontrollgruppe', 'Steuerelement', 'Kontrollen', 'Kontrollelement', 'Kontrolle']"
+353,focus,Fokus,"['Konzentration', 'fokussieren', 'Epizentrum', 'Fokus', 'sich konzentrieren', 'Brennpunkt']"
+119,army,Heeresamt,"['Heeresamt', 'Armee', 'Landstreitkräfte', 'Heer']"
+125,rock,Fels,"['Klunker', 'aufmischen', 'schockieren', 'wiegen', 'Rock', 'schaukeln', 'Kandiszucker', 'schwanken', 'Gestein', 'Schäre', 'Felsbrocken', 'Felsen', 'Zuckerstange', 'Findling', 'auwühlen', 'Felsblock', 'stampfen', 'Klippe', 'Fels', 'rocken', 'Fels in der Brandung']"
+1622,athlete,Athlet/Athletin /,"['Athletin', 'Sportlerin', 'Athlet/Athletin /', 'Sportler', 'Athlet']"
+299,break,Break,"['knacken', 'Öffnung', 'aufbrechen', 'Bruch', 'pausieren', 'Break', 'dämmern', 'Spalt', 'anbrechen', 'brechen', 'zerbrechen', 'kaputtgehen', 'Pause', 'kaputtmachen']"
+2381,crack,Knall,"['Krachen', 'einreißen', 'Riss', 'Ritze', 'Sprung', 'Knall', 'knallen', 'Knacks', 'bersten', 'Spalte']"
+1690,transformation,Transformation,['Transformation']
+1488,rapper,Rapper,['Rapper']
+1966,equality,Gleichheit,"['Gleichberechtigung', 'Gleichheit']"
+1886,pyramid,Pyramide,['Pyramide']
+703,documentary,Dokumentation,"['Dokumentarfilm', 'Dokumentation']"
+2361,ecosystem,Ökosystem,['Ökosystem']
+1487,delegation,Delegation,"['Delegation', 'Delegierung', 'Übertragung']"
+2607,wreckage,Trümmer,['Trümmer']
+105,law,Gesetz,"['Gesetz', 'Recht']"
+2110,globe,Globus,"['Globus', 'Erdkugel', 'Erde']"
+537,steel,Stahl,"['stählern', 'Stahl']"
+1584,freight,Fracht,['Fracht']
+1664,businessman,Geschäftsmann,"['Geschäftsmann', 'Unternehmer']"
+1031,duo,Duo,['Duo']
+428,personnel,Personal,['Personal']
+2114,dish,Gericht,"['Geschirr', 'Gericht', 'Schüssel', 'Teller', 'Parabolantenne', 'Satellitenschüssel']"
+2271,pseudonym,Pseudonym,['Pseudonym']
+649,drug,Droge,"['Rauschgift', 'Rauschmittel', 'Droge', 'Betäubungsmittel']"
+619,challenge,Herausforderung,"['Herausforderung', 'herausfordern']"
+183,speed,Filmempfindlichkeit,"['Speed', 'Geschwindigkeit', 'Pep', 'Schnelligkeit', 'Filmempfindlichkeit', 'rasen']"
+568,function,Funktion,"['Zweck', 'Funktion', 'fungieren', 'funzen', 'Funktionalität', 'arbeiten', 'funktionieren', 'Aufgabe', 'Festveranstaltung', 'wirken', 'Feier']"
+1633,quest,Suche,"['Queste', 'Suche']"
+2527,dependence,Abhängigkeit,['Abhängigkeit']
+1453,stroke,Schlag,"['Hieb', 'Apoplexie', 'Streich', 'Schlagmann', 'Schlaganfall', 'Hirnschlag', 'Strich', 'Schlagerl', 'Hirninfarkt', 'Zug', 'streicheln', 'Apoplex', 'Federstrich', 'Hub', 'streichen', 'Schlag']"
+1879,framework,Bezugssystem,"['Bezugssystem', 'Gerüst', 'Fachwerk', 'Gefüge', 'Rahmenkonzept', 'Rahmenwerk', 'Programmiergerüst', 'Rahmen']"
+11,team,Mannschaft,"['Team', 'Mannschaft']"
+1055,translation,Übersetzung,"['Translation', 'Untersetzung', 'Übersetzen', 'Übersetzung']"
+307,mission,Mission,"['Auftrag', 'Mission']"
+2091,commentator,Kommentator,['Kommentator']
+1550,midnight,Mitternacht,['Mitternacht']
+157,election,Wahl,['Wahl']
+794,valley,Senke,"['Senke', 'Tal']"
+34,world,Welt,"['Welt', 'Erde']"
+2583,prejudice,Vorurteil,"['Voreingenommenheit', 'Vorurteil']"
+2564,humidity,Luftfeuchtigkeit,"['Luftfeuchtigkeit', 'Feuchtigkeit']"
+1693,spectrum,Spektrum,['Spektrum']
+2573,reel,Haspel,"['taumeln', 'Spule', 'Haspel']"
+2254,sanctuary,Zuflucht,"['Herberge', 'Zuflucht', 'Asyl']"
+705,architecture,Architektur,"['Architektur', 'Baustil']"
+1019,withdrawal,Entzug,"['Entnahme', 'Entzug']"
+830,carbon,Kohlenstoff,"['Kohlenstoff', 'Kohlendioxid', 'Kohle']"
+118,wife,Ehefrau,"['Eheweib', 'Gattin', 'Weib', 'Ehefrau', 'Frau', 'Gemahlin']"
+1123,representation,Repräsentation,"['Repräsentation', 'Darstellung']"
+16,music,Musik,"['Noten', 'Musik']"
+515,rear,Nachhut,"['aufziehen', 'großziehen', 'erziehen', 'Nachhut', 'aufrichten']"
+1981,swim,Schwimmen,"['schwimmen', 'Schwimmen']"
+779,animation,Animation,['Animation']
+996,string,Zeichenkette,"['einfädeln', 'String', 'Schnur', 'Zeichenkette', 'auffädeln', 'Saite']"
+924,bowling,Bowling,['Bowling']
+676,association,Verein,"['Vereinigung', 'Assoziation', 'Verband', 'Verein']"
+1739,implementation,Implementierung,['Implementierung']
+2234,filmmaker,Filmemacher,['Filmemacher']
+1569,arcade,Spielhalle,"['Spielhalle', 'Arkade']"
+813,advice,Rat,['Rat']
+2015,pose,Pose,"['Pose', 'stellen', 'posieren', 'legen']"
+218,leader,Leittier,"['Regenrinne', 'Führer', 'Leiter', 'Leitartikel', 'Kopf', 'Führerin', 'Hauptmann', 'Anführer', 'Anführerin', 'Leittier']"
+688,difficulty,Schwierigkeit,['Schwierigkeit']
+1227,trailer,Anhänger,"['Trailer', 'Wohncontainer', 'Vorschau', 'Wohnwagen', 'Anhänger']"
+1265,relation,Relation,"['Verwandte', 'Verwandtschaft', 'Verwandter', 'Familienangehöriger', 'Angehöriger', 'Familienmitglied', 'Familienangehörige', 'Angehörige', 'Beziehung', 'Relation']"
+1901,intercept,Achsenabschnitt,"['Achsenabschnitt', 'abfangen']"
+228,report,Bericht,"['anzeigen', 'verzeigen', 'Mitteilung', 'Bericht', 'sich melden', 'melden', 'berichten', 'Reportage', 'Meldung']"
+2766,interrogation,Befragung,"['Verhör', 'Vernehmung', 'Befragung']"
+2236,crater,Krater,['Krater']
+1663,preservation,Erhaltung,['Erhaltung']
+1678,infant,Säugling,"['Baby', 'Säugling']"
+1727,steal,Schnäppchen,"['rauben', 'Diebstahl', 'Raub', 'stehlen', 'Schnäppchen', 'entwenden', 'klauen']"
+290,metal,Metall,['Metall']
+1211,motor,Motor,"['Antrieb', 'Triebwerk', 'Motor']"
+1109,communist,Kommunist,"['kommunistisch', 'Kommunistin', 'Kommunist']"
+1461,whale,Wal,['Wal']
+197,type,Typ,"['Typ', 'tippen', 'Typus', 'Letter', 'Type', 'Art']"
+303,concert,Konzert,['Konzert']
+484,murder,Mord,"['mörderisch', 'Mord', 'umbringen', 'ermorden']"
+1628,synthesis,Synthese,['Synthese']
+1982,slide,Rutsche,"['Objektträger', 'ausrutschen', 'Erdrutsch', 'Dia', 'rutschen', 'Klarsichtfolie', 'gleiten', 'Rutsche']"
+1736,manufacturer,Hersteller,['Hersteller']
+2346,wisdom,Weisheit,['Weisheit']
+911,engagement,Verpflichtung,"['Bindung', 'Verpflichtung', 'Verlöbnis', 'Gefecht', 'Verlobung']"
+547,exchange,Austausch,"['Austausch', 'umtauschen', 'tauschen', 'Tausch']"
+853,benefit,Vorteil,"['profitieren', 'Benefizkonzert', 'von Vorteil sein', 'Vorteil', 'Leistung', 'Benefizveranstaltung']"
+362,share,Aktie,"['teilen', 'Aktie', 'Teil', 'Freigabe', 'Anteil']"
+583,cell,Zelle,"['Handy', 'Zelle']"
+1342,reconstruction,Rekonstruktion,"['Wiederaufbau', 'Rekonstruktion']"
+1477,widow,Hurenkind,"['Witwe', 'Hurenkind']"
+1731,breakdown,Betriebsstörung,"['Nervenzusammenbruch', 'Betriebsstörung', 'Panne', 'Aufschlüsselung']"
+1006,quarterback,Quarterback,['Quarterback']
+2315,pottery,Töpferei,"['Töpferei', 'Töpferware']"
+2179,affection,Zuneigung,"['Rührung', 'Zuneigung']"
+2156,cheese,Käse,['Käse']
+1314,publicity,Werbung,['Werbung']
+1280,boyfriend,Freund,"['Freund', 'Boyfriend']"

@@ -1,0 +1,21 @@
+,input,output,possible_translations
+1517,monitor,écran,"['monitrice', 'surveiller', 'moniteur', 'contrôler', 'écran']"
+967,bow,arc,"[""s'incliner"", 'faire une révérence', 'proue', 'étrave', 'archet', 'révérence', 'courber', 'arc', 'fléchir']"
+2190,necessity,nécessité,['nécessité']
+952,context,contexte,['contexte']
+2442,ambulance,ambulance,['ambulance']
+2109,dish,plat,"['parabole', 'vaisselle', 'canon', 'plat', 'assiette']"
+897,alliance,alliance,['alliance']
+277,health,santé,['santé']
+2434,activism,activisme,['activisme']
+464,critic,critique ; détracteur,"['critique ; détracteur', 'critique', 'détractrice']"
+2391,workshop,atelier,['atelier']
+2503,daytime,journée,"['journée', 'jour']"
+1935,cage,cage,"['cage', 'encager']"
+196,fact,fait,"['vérité', 'fait']"
+1776,starter,starter,"[""hors d'œuvre"", 'starter']"
+570,distribution,distribution,['distribution']
+984,flood,inondation,"['inondation', 'inonder', 'noyer', 'submerger']"
+620,depth,profondeur,['profondeur']
+1084,destroyer,destructeur,"['destructeur', 'contre-torpilleur', 'destroyer']"
+2095,laugh,rire,"['rire', 'se moquer de', 'se rire de']"

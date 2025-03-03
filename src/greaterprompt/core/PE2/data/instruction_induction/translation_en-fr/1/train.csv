@@ -1,0 +1,101 @@
+,input,output,possible_translations
+622,departure,déviation,"['déviation', 'départ']"
+1394,choir,chœur,"['chœur', 'classe']"
+974,profile,profil,"['profil', 'contour', 'réputation']"
+2382,bathroom,toilette,"['toilette', 'salle de bains']"
+1455,whale,baleine,['baleine']
+2045,comfort,confort,"['consoler', 'confort']"
+2684,builder,constructeur,"['bâtisseur', 'constructeur']"
+265,model,modèle,"['modèle réduit', 'mannequin', 'maquette', 'témoin', 'exemple', 'modeler', 'modéliser', 'exemplaire', 'modèle']"
+929,application,application,"['candidature', 'programme', 'demande', 'application']"
+168,magazine,magasin,"['magazine', 'arsenal', 'magasin', 'revue']"
+2752,dairy,alimentation générale,"['laiterie ; laiterie', 'laitière', 'laitier', 'dépanneur', 'alimentation générale', 'laiterie', 'laitages', 'crémerie', 'crémerie ; produits laitiers']"
+586,trip,faux pas,"['triper', ""s'enfarger"", 'trip', 'se prendre les pieds', 'bévue', 'faux pas', 'trébucher', 'croche-pied', 'croc-en-jambe', 'faire un croche-pied']"
+2174,lineage,descendance,"['lignée', 'descendance', 'lignage']"
+2554,vibe,vibe,['vibe']
+1112,instrument,acte,"['instrument', 'acte']"
+2435,diplomat,diplomate,['diplomate']
+1292,roadway,chaussée,['chaussée']
+1235,costume,costume,['costume']
+1237,prototype,prototype,['prototype']
+274,word,mot,"['mot', 'Verbe', 'verbe', 'parole']"
+2265,synthesizer,synthétiseur,['synthétiseur']
+1584,skeleton,squelette,['squelette']
+1524,pleasure,plaisir,"['plaisir', 'désir']"
+1820,ancestry,ascendance,['ascendance']
+1532,ensemble,ensemble,['ensemble']
+1936,maneuver,manœuvre,"['manœuvrer', 'manœuvre']"
+2308,concession,concession,['concession']
+1443,troop,troupes,['troupes']
+1679,overtime,prolongation,"['prolongation', 'heures supplémentaires']"
+1413,consensus,consensus,['consensus']
+2107,cultivation,culture,['culture']
+1603,perception,perception,['perception']
+476,session,session,"['séance', 'session']"
+2041,agenda,planning,['planning']
+2525,valve,valve,"['clapet', 'soupape', 'valve']"
+2607,diabetes,diabète,['diabète']
+2364,donation,donation,['donation']
+2756,toe,doigt de pied,"['orteil', 'doigt de pied']"
+865,shear,cisailles,"['tondaison', 'cisailles', 'cisaille', 'cisailler', 'couper', 'tondeuse', 'tonte', 'cisaillement', 'tondre']"
+779,stock,jas,"['violier', 'giroflée des jardins', 'bétail', 'jas', 'pioche', 'réserve', 'stock', 'action', 'matthiole', 'crosse']"
+533,opinion,avis,"['opinion', 'avis', 'conclusions']"
+221,voice,voix,"['son', 'énoncer', 'voter', 'exprimer', 'voix', 'proclamer', 'clamer', 'orateur']"
+642,freedom,liberté,['liberté']
+1161,throw,jet,"['déplacer', 'lancer', 'lancement', 'jeter', 'bouger', 'jet']"
+1754,qualification,qualification,['qualification']
+84,style,modèle,['modèle']
+1790,cooking,cuisine,"['cuisine', 'tambouille']"
+1478,captivity,captivité,['captivité']
+1094,trough,gouttière,"['gouttière', 'abreuvoir', 'auge', 'thalweg', 'creux']"
+2239,monkey,singe,"['guenon', 'singe']"
+2577,spectacle,spectacle,['spectacle']
+682,touchdown,touchdown,"['touchdown', 'touché']"
+1007,rebellion,rébellion,['rébellion']
+2374,authenticity,authenticité,['authenticité']
+2523,discretion,discrétion,['discrétion']
+215,space,espace,"['blanc', 'espace', 'espacer']"
+1597,volunteer,volontaire,"['volontaire', 'bénévole']"
+541,branch,branche,"['brancher', 'rameau', 'branche', 'filiale']"
+1563,cartoon,dessin animé,"['caricature', 'dessin animé', 'bande dessinée', 'BD']"
+445,sex,sexe,"['le sexe', 'sexe', 'rapports sexuels', 'cul', 'sexer']"
+1795,wrestler,lutteur,['lutteur']
+1973,slide,glissade,"['glissade', 'toboggan', 'lame', 'diapositive', 'glissière', 'glisser', 'diapo', 'coulisse', 'glissoire', 'glissement de terrain', 'glissement']"
+1368,worker,ouvrier,"['travailleuse', 'ouvrière', 'ouvrier', 'travailleur']"
+1791,corporation,corporation,"['corporation', 'société']"
+1228,pitcher,cruche,"['pichet', 'lanceur', 'lanceuse', 'cruche']"
+1725,manufacturer,fabricant,['fabricant']
+2758,smuggling,trafique,['trafique']
+903,partnership,partenariat,['partenariat']
+677,reality,réalité,['réalité']
+882,funeral,funérailles,"['funérailles', 'obsèques', 'funéraire']"
+1050,attitude,posture,"[""état d'esprit"", 'posture']"
+549,moment,moment,"['moment', 'instant']"
+360,border,bordure,"['border', 'bordure', 'frontière', 'bord']"
+1338,reconstruction,reconstitution,['reconstitution']
+593,controversy,controverse,"['controverse', 'polémique']"
+1877,shed,hangar,"['séparer', 'hangar', 'baraque', 'verser']"
+1487,trick,tour,"['tromper', 'pli', 'embobiner', 'farce', 'tour', 'duper', 'truc', 'rouler']"
+1854,comeback,repartie,['repartie']
+2757,sabotage,sabotage,"['sabotage', 'saboter']"
+2278,leisure,loisir,"['loisir', 'temps libre']"
+2038,surgeon,chirurgien,"['chirurgien', 'chirurgienne']"
+2766,exposition,exposition,['exposition']
+509,chance,raccroc,"['raccroc', 'chance']"
+2580,ink,encre,['encre']
+1657,editorial,éditorial,['éditorial']
+1108,copper,cuivré,"['cuivre', 'cuivré', 'keuf poulet poulaga', 'flic']"
+1284,portrait,portrait,['portrait']
+963,revenue,revenu,['revenu']
+102,stage,scène,"['calèche', 'scène', 'forger', 'mettre en scène', 'platine', 'organiser', 'monter de toutes pièces', 'étape']"
+1527,stance,position,"['posture', 'attitude', 'position']"
+105,law,loi,"['loi', 'théorème', 'droit']"
+1785,brass,laiton,"['douille', 'cuivres', 'laiton', 'en laiton', 'galonnés', 'couleur de laiton']"
+1239,tornado,tornade,['tornade']
+1446,migration,free,"['free', 'french', 'migration']"
+1057,execution,exécution,['exécution']
+402,capacity,capacité,['capacité']
+409,squadron,escadron,['escadron']
+1902,ankle,cheville,['cheville']
+756,siege,siège,"['siège', 'assiéger']"
+1831,insect,insecte,['insecte']

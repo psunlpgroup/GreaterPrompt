@@ -1,0 +1,1 @@
+Determine the exact date from the scenario, considering context and date arithmetic. Interpret 'today', 'tomorrow', and 'a month ago' as per the calendar month. Use the year mentioned in the scenario. Format the date as MM/DD/YYYY, including leading zeros.

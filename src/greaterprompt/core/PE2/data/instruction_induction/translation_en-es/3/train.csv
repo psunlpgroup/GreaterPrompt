@@ -1,0 +1,101 @@
+,input,output,possible_translations
+2685,arbitration,arbitraje,['arbitraje']
+2478,adulthood,edad adulta,"['edad adulta', 'adultez']"
+487,council,concejo,['concejo']
+297,presence,presencia,['presencia']
+1363,sum,cantidad,"['cantidad', 'suma', 'sumar', 'adición']"
+1054,shop,tienda,"['negocio', 'taller', 'comercio', 'almacén', 'tienda', 'ir de compras', 'changarro']"
+1964,texture,textura,['textura']
+437,silver,plateado,"['de plata', 'plateado', 'plata', 'plata labrada', 'blanco', 'platería', 'argentino']"
+1545,momentum,cantidad de movimiento,"['cantidad de movimiento', 'ímpetu']"
+319,situation,localización,"['nivel', 'situación', 'ubicación', 'puesto', 'localización', 'estado']"
+2648,verb,verbo,['verbo']
+81,television,televisión,"['televisión', 'televisor']"
+1179,interaction,interacción,['interacción']
+2287,robbery,robo,['robo']
+369,quarter,cuarto,"['cuartel', 'cuartear', 'trimestre', 'cuarto']"
+1478,file,archivo,"['archivar', 'guardar', 'fichero', 'gestionar', 'archivo', 'lima', 'fila', 'limar']"
+651,youth,juventud,"['adolescente', 'adolescencia', 'juventud', 'mozo', 'moza', 'joven', 'mancebo']"
+451,paper,papel académico,"['artículo científico', 'artículo', 'papel académico', 'papel', 'de papel']"
+830,creator,creador,['creador']
+1663,quantity,cantidad,['cantidad']
+1913,resource,recurso,"['medio', 'recurso']"
+2276,shower,ducha,"['rociar', 'regadera', 'ducha', 'duchar', 'bañarse', 'chubasco', 'ducharse']"
+912,perspective,perspectiva,['perspectiva']
+2244,disruption,desorden,"['desorganización', 'quebranto', 'interrupción', 'desorden', 'incidente', 'ruptura']"
+2011,joy,alegría,"['júbilo', 'felicidad', 'alegría', 'gozo', 'regocijo']"
+795,crisis,crisis,['crisis']
+2012,allegiance,fidelidad,"['fidelidad', 'lealtad']"
+846,canal,canal,['canal']
+765,ride,rait,"['medio de transporte', 'cabalgar', 'rait', 'conducir', 'montar', 'autoestop', 'pasear en coche']"
+1011,margin,margen,['margen']
+945,layer,gallina ponedora,"['hijuelo', 'capa', 'gallina ponedora', 'onedora']"
+1843,pyramid,pirámide,['pirámide']
+1993,bite,mordedura,"['picadura', 'picar', 'mordedura', 'morder', 'mordisco']"
+507,brief,resumen,"['corto', 'sucinto', 'poner al tanto', 'breve', 'resumen', 'conciso']"
+394,soundtrack,banda sonora,['banda sonora']
+472,ceremony,ceremonia,['ceremonia']
+457,security,seguridad,"['prenda', 'certificado', 'confianza', 'documento', 'respaldo', 'garantía', 'seguridad', 'título de propiedad']"
+2458,subscription,abono,['abono']
+1256,conquest,conquista,['conquista']
+1568,limestone,caliza,['caliza']
+1275,explanation,explicación,['explicación']
+292,market,mercado,"['mercado', 'comercializar', 'poner al mercado', 'del mercado', 'plaza']"
+2619,dopamine,dopamina,['dopamina']
+747,fruit,fruta,"['fruto', 'fruta', 'marica', 'maricón']"
+760,journalist,periodista,"['reportero', 'periodista']"
+832,tribute,tributo,"['tributo', 'homenaje']"
+2230,geology,geología,['geología']
+2650,unification,unificación,['unificación']
+1396,compromise,acuerdo,"['compromiso', 'acuerdo', 'arreglo', 'comprometerse']"
+1279,attorney,abogado,"['notario', 'abogado', 'abogada']"
+528,reaction,reacción,['reacción']
+979,elevation,altitud,"['elevación', 'exaltación', 'ascenso', 'altitud', 'enaltecimiento', 'promontorio']"
+1869,ankle,tobillo,['tobillo']
+1271,stress,estrés,"['tensión', 'acentuar', 'enfatizar', 'tensar', 'acento', 'estrés', 'estresar', 'énfasis', 'tensionar']"
+1002,discussion,discusión,['discusión']
+2234,pneumonia,pulmonía,"['pulmonía', 'neumonía']"
+433,landing,rellano,"['rellano', 'aterrizaje', 'muelle', 'descansillo']"
+1012,circle,círculo,"['rodear', 'círculo', 'grupo', 'esfera', 'circular', 'órbita', 'curva', 'moverse en círculo']"
+2599,citation,cita,"['cita', 'mención', 'citación']"
+1764,breach,brecha,"['brecha', 'quebrada', 'boquete', 'disolución', 'violación', 'batería']"
+2681,whaling,caza de ballenas,['caza de ballenas']
+1178,observation,observación,"['parecer', 'observación', 'juicio', 'vigilancia ; observancia', 'anotación', 'comentario', 'registro']"
+74,run,galopar,"['afluir', 'fluir', 'galopar', 'correr', 'carrera']"
+2393,expertise,pericia,['pericia']
+1646,reward,recompensa,"['recompensa', 'recompensar']"
+2657,dairy,granja,"['lechería', 'granja lechera', 'lácteo', 'granja', 'lácteos', 'establo', 'con 100% grasa láctea']"
+333,job,tarea,"['pega', 'empleo', 'curro', 'trabajo', 'chamba', 'laburo', 'talacha', 'tarea', 'camello', 'trabajar']"
+408,sequence,secuencia,['secuencia']
+463,text,texto,"['texto', 'mensaje de texto', 'SMS', 'textear', 'mensaje']"
+2150,absorption,absorción,"['absorción', 'concentración']"
+1242,lighter,encendedor,"['mechero', 'encendedor', 'fosforera', 'lighter', 'briquet', 'yesquero']"
+611,mountain,montón,"['montaña', 'montón']"
+2499,crusade,cruzada,['cruzada']
+2214,descendant,descendiente,['descendiente']
+1300,parking,estacionamiento,"['aparcamiento', 'estacionamiento']"
+1481,kitchen,cocina,['cocina']
+2381,bride,novia,['novia']
+2029,anxiety,zozobra,"['zozobra', 'ansiedad', 'inquietud']"
+1881,plug,tapón,"['tapón', 'enchufe']"
+2665,lizard,lagarto,['lagarto']
+1709,emotion,afecto,"['emoción', 'afecto']"
+2191,institute,instituto,['instituto']
+271,access,acceso,"['acceder', 'acceso']"
+1594,athlete,atleta,"['atleta', 'atletica', 'deportista']"
+706,minister,ministro,['ministro']
+2695,puck,disco de goma,"['disco', 'disco de goma']"
+33,ship,barco,"['barco', 'enviar', 'nave', 'buque']"
+1076,ballad,balada,['balada']
+808,weapon,arma,['arma']
+2322,workshop,taller,['taller']
+1868,consumer,consumidor,['consumidor']
+458,infantry,infantería,"['regimiento de infantería', 'tercio', 'infantería']"
+2216,cavity,cavidad,"['caries', 'cavidad']"
+544,promotion,ascenso,"['ascenso', 'propagación', 'promoción', 'divulgación']"
+2036,viewership,audiencia,['audiencia']
+94,range,campo de tiro,"['sierra', 'cordillera', 'campo de tiro', 'intervalo', 'dehesa', 'escala', 'gama', 'amplitud', 'rango', 'hornillo', 'estufa', 'alcance', 'extensión', 'distancia', 'autonomía']"
+45,production,elaboración,"['elaboración', 'producción']"
+1806,climax,clímax,['clímax']
+1591,inquiry,inquisición,"['indagatoria', 'inquisición']"
+533,southeast,sureste,"['sureste', 'del sudeste', 'sudeste']"

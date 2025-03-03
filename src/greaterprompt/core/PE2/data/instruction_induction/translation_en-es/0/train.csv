@@ -1,0 +1,101 @@
+,input,output,possible_translations
+1810,horn,cuerno,"['bocina', 'cuerno', 'viento', 'cacho', 'queratina']"
+1920,granite,granito,['granito']
+892,tunnel,túnel,['túnel']
+2055,balloon,globo,"['bomba', 'chimbomba', 'globo']"
+566,rain,lluvia,"['lluvia', 'llover']"
+1882,replica,réplica,['réplica']
+616,zone,zona,"['zona', 'declarar', 'dividir en zonas']"
+2058,chloride,cloruro,['cloruro']
+125,rock,piedra,"['peña', 'piedra preciosa', 'peñasco', 'rockear', 'roca', 'rock', 'mecer', 'piedra']"
+1415,flesh,carne,"['carne', 'pellejo']"
+180,pressure,presión,['presión']
+582,landfall,recalada,"['tocar tierra', 'aterrada', 'recalada']"
+2488,contamination,contaminación,['contaminación']
+723,respect,respeto,"['respeto', 'respetar']"
+71,control,control,"['manejo', 'mando', 'patrón de comparación', 'control', 'dirección', 'autodominio', 'organización', 'de control', 'controlar', 'contramedida', 'administración']"
+997,cult,secta,['secta']
+290,metal,metal,['metal']
+1970,pet,mascota,"['acariciar', 'mascota']"
+620,principal,director,"['jefe de estudios', 'director', 'principal de escuela', 'principal']"
+1713,timing,cronometraje,['cronometraje']
+1288,suggestion,sugestión,"['sugestión', 'propuesta']"
+1097,document,documento,"['documento', 'documentar']"
+579,stadium,estadio,['estadio']
+1003,behaviour,comportamiento,"['conducta', 'comportamiento']"
+1692,steal,robo,"['robo', 'hurtar', 'robar']"
+924,flagship,buque insignia,['buque insignia']
+228,village,aldea,"['pueblo', 'aldea']"
+334,chief,jefe,['jefe']
+983,architect,arquitecto,"['arquitecta', 'arquitecto']"
+693,praise,alabanza,"['alabar', 'adoración', 'alabanza', 'loa', 'enaltecimiento']"
+2237,immunity,inmunidad,['inmunidad']
+1881,plug,tapón,"['tapón', 'enchufe']"
+2045,groove,rutina,"['hendidura', 'ranura', 'estría', 'rutina', 'tonadilla', 'acanaladura', 'canal', 'surco', 'hábito']"
+197,daughter,hija,['hija']
+105,law,ley,"['ley', 'derecho']"
+1730,helium,helio,['helio']
+1846,corn,callo,['callo']
+1738,boost,impulso,"['impulso', 'empujar', 'empuje', 'impulsar']"
+1212,examination,examen,"['examinación', 'examen']"
+2138,certificate,certificado,['certificado']
+1717,mortality,mortalidad,['mortalidad']
+653,atmosphere,atmósfera,"['atmósfera', 'clima', 'aire', 'ambiente']"
+455,interchange,intercambio,"['transbordo', 'intercambio', 'transbordos', 'reemplazar', 'intercambios', 'intercambiar']"
+671,passage,pasaje,['pasaje']
+2479,seller,vendedor,"['vendedor', 'vendedora']"
+655,block,manzana,"['impedir', 'obstruir', 'bloquear', 'cuadra', 'bloque', 'atorar', 'manzana', 'block']"
+2555,cartoonist,dibujante,['dibujante']
+883,compilation,compilación,['compilación']
+879,honour,honor,"['ajustarse', 'honor', 'privilegio', 'acatar', 'honrar', 'respetar']"
+2249,smallpox,viruela,['viruela']
+2662,smuggling,contrabando,['contrabando']
+2628,insignia,insignia,"['distintivo', 'insignia']"
+218,woman,mujer,['mujer']
+2349,terrorism,terrorismo,['terrorismo']
+2266,influx,entrada,['entrada']
+1949,fairy,marica,"['marica', 'hada']"
+896,preparation,preparación,['preparación']
+1887,counsel,consejo,"['abogado', 'consejo', 'consulta']"
+2002,archipelago,archipiélago,['archipiélago']
+2604,conditioning,condicionamiento,['condicionamiento']
+1544,rifle,fusil,"['fusil', 'rifle']"
+1294,reporter,reportero,['reportero']
+11,team,equipo,"['yunta', 'tiro', 'cuadrilla', 'equipo']"
+1658,spectrum,espectro,['espectro']
+225,status,estado,['estado']
+426,administration,administración,['administración']
+1996,devotion,devoción,"['devoción', 'veneración', 'dedicación', 'fervor']"
+712,fit,convulción,"['caber', 'hacer juego', 'quedar', 'crisis', 'convulción', 'en forma', 'apropiado']"
+1080,voting,votando,['votando']
+1576,efficiency,eficiencia,['eficiencia']
+583,cell,célula,"['célula', 'bartolina', 'teléfono móvil', 'celular', 'celda', 'móvil', 'teléfono celular']"
+519,adult,adulto,"['adulto', 'adulta']"
+1842,consultant,consultor,['consultor']
+1650,lion,león,['león']
+2282,wisdom,sabiduría,['sabiduría']
+897,alliance,alianza,['alianza']
+2103,tolerance,tolerancia,['tolerancia']
+1437,joke,broma,"['chiste', 'broma', 'bromear']"
+428,expansion,expansión,"['expansión', 'dilatación']"
+297,presence,presencia,['presencia']
+910,repair,reparación,"['reparación', 'reparar']"
+2040,toss,tiro,"['tiro', 'tirar', 'lanzamiento', 'desechar']"
+688,cavalry,caballería,['caballería']
+249,attention,atención,['atención']
+1821,integration,integración,['integración']
+673,breed,raza,"['engendrar', 'aparearse', 'variedad', 'cepa', 'cultivar', 'casta', 'procrear', 'criar', 'raza']"
+2589,terrace,terraza,"['terraplenar', 'terraza', 'terrado']"
+1587,freshman,novato,"['novato', 'mechón']"
+447,spring,resorte,"['manantial', 'resorte', 'muelle', 'fuente', 'origen', 'saltar', 'primavera']"
+1418,declaration,declaración,['declaración']
+2398,lesson,lección,['lección']
+1613,countryside,campo,['campo']
+2019,folklore,folclore,"['demosofía', 'folclore', 'folclor']"
+312,pair,par,"['par', 'emparejar']"
+193,structure,estructura,['estructura']
+1200,manuscript,manuscrito,['manuscrito']
+1990,tributary,tributario,['tributario']
+93,road,camino,"['camino', 'ruta', 'calle']"
+1978,sodium,sodio,['sodio']
+547,exchange,intercambio,"['canjear', 'intercambio', 'intercambiar', 'cambiar']"

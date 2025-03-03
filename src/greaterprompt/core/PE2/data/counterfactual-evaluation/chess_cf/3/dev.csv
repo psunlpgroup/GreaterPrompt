@@ -1,0 +1,41 @@
+,input,output
+247,"1. e4 d6 2. Ba3 Bd7 *
+",illegal
+110,"1. d4 d6 2. Nd2 f5 *
+",legal
+16,"1. e4 Nb6 2. Qe2 Nc4 *
+",legal
+66,"1. d4 Ne6 2. h4 f6 *
+",legal
+153,"1. d4 Nb6 2. Nd3 Na4 *
+",legal
+7,"1. e4 e6 2. d4 Nd6 *
+",legal
+19,"1. g4 Nd6 2. Ng3 Nc8 *
+",legal
+137,"1. e4 e5 2. Nd3 Qe7 *
+",legal
+355,"1. e4 Bf6 2. Qe2 Bxe4 *
+",illegal
+349,"1. d4 d5 2. Ng5 f5 *
+",illegal
+131,"1. Ne3 b6 2. g4 c5 *
+",legal
+387,"1. e4 c6 2. Qf3 Bf6 *
+",illegal
+292,"1. b4 Bf6 2. Nb2 Bc6 *
+",illegal
+386,"1. e4 g6 2. Nfd3 Nh6 *
+",illegal
+297,"1. Bh3 c5 2. Bg5 Qa5 *
+",illegal
+60,"1. d4 d6 2. Nd3 Ng6 *
+",legal
+79,"1. e4 Ne6 2. c4 c5 *
+",legal
+285,"1. d4 d5 2. Kd2 Nh3 *
+",illegal
+305,"1. e4 Bh6 2. Ke2 Bc6 *
+",illegal
+281,"1. e4 f6 2. Bc3 a5 *
+",illegal

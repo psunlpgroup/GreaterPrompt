@@ -1,0 +1,101 @@
+,input,output,possible_translations
+1,place,place,"['place', 'se placer', 'endroit', 'poser', 'faire', 'arriver', 'lieu', 'mettre', 'placer']"
+2,family,famille,['famille']
+3,point,point,"['case', 'opinion', 'avis', 'indiquer', 'aiguille', 'aiguillage', 'point', 'instant', 'pointe', 'prise', 'moment', 'péninsule', 'but', 'flèche', 'dixième', 'pointer', 'prise électrique', 'point de vue', 'objectif', 'virgule']"
+4,east,est,"['oriental', 'orientale', ""de l'est"", ""vers l 'est"", 'est', ""à l'est""]"
+5,aircraft,aéronef,['aéronef']
+6,title,titre,"['titre', 'intitulé']"
+7,party,détachement,"['détachement', 'partie', 'participant', 'parti', 'veiller', 'fêter']"
+8,victory,victoire,['victoire']
+9,list,liste,"['liste', 'lister']"
+10,cover,couverture,"['reprendre', 'couvercle', 'couvrir', 'couvert', 'couverture']"
+11,idea,idée,"['idée', 'pensée']"
+12,loss,perte,"['défaite', 'perte']"
+13,length,longueur,['longueur']
+14,self,soi-même,['soi-même']
+15,broadcast,émission,"['radiodiffuser', 'émission', 'diffuser']"
+16,trade,métier,"['métier', 'échanger', 'commerce']"
+17,energy,énergie,"['courage', 'énergie']"
+18,peak,cime,['cime']
+19,market,marché,"['commercialiser', 'du marché', 'marché']"
+20,quality,qualité,"['qualité', 'de qualité']"
+21,dance,danse,"['danse', 'danser']"
+22,county,comté,"['département', 'comté']"
+23,lot,bande,"['groupe', 'bande', 'ensemble', 'destin']"
+24,wing,aile,"['aile', 'ailier']"
+25,camp,camp,"['bivouaquer', 'camp', 'camper']"
+26,leadership,autorité,"['charisme', 'leadership', 'autorité']"
+27,split,grand écart ; to do the splits: faire le grand écart,"['diviser', 'répartir', 'fendre', 'séparer', 'scinder', 'grand écart ; to do the splits: faire le grand écart']"
+28,leg,jambe,['jambe']
+29,crowd,monceau,"['foule', 'monceau']"
+30,knowledge,connaissance,"['science', 'savoir', 'connaissances', 'connaissance']"
+31,statement,déclaration,"['déclaration', 'instruction', 'relevé']"
+32,campus,campus,['campus']
+33,entry,entrée,"['coefficient', 'article', 'entrée', 'accès', 'vestibule', 'enregistrement', 'rubrique', 'élément']"
+34,circulation,circulation,['circulation']
+35,atmosphere,atmosphère,"['atmosphère', 'ambiance']"
+36,praise,louange,"['louer', 'féliciter', 'louange', 'prôner']"
+37,throne,trône,['trône']
+38,dialogue,dialogue,"['dialoguer', 'conversation', 'dialogue']"
+39,surprise,surprise,"['étonner', 'surprendre', 'surprise']"
+40,agency,agence,"['organisme', 'action', 'agence']"
+41,delivery,accouchement,"['administration', 'naissance', 'parturition', 'accouchement', 'livraison']"
+42,elevation,élévation,['élévation']
+43,jury,jury,['jury']
+44,friendship,amitié,['amitié']
+45,uncle,oncle,"['tonton', 'oncle']"
+46,touch,toucher,['toucher']
+47,worship,culte,"['adorer', 'vénérer', 'culte', 'adoration', 'vénération']"
+48,sculpture,sculpture,['sculpture']
+49,holiday,jour férié,"['vacances', 'fête', 'vacance', 'jour férié', 'congé']"
+50,resignation,démission,"['démission', 'résignation']"
+51,expert,expert,['expert']
+52,punishment,punition,"['punition', 'châtiment']"
+53,custom,coutume,"['droit de douane', 'us', 'coutume', 'connaissance']"
+54,switch,commutateur,"['badine', 'commuter', 'échanger', 'fouetter', 'interrupteur', 'changer', 'commutateur']"
+55,spite,dépit,"['dépit', 'rancune']"
+56,acceptance,acceptation,['acceptation']
+57,photograph,photographie,"['photo', 'photographier', 'photographie']"
+58,upgrade,mise à niveau,['mise à niveau']
+59,genius,génie,['génie']
+60,torture,torture,"['torture', 'torturer']"
+61,triumph,triomphe,"['triomphe', 'triompher']"
+62,reflection,réflexion,"['réflexion', 'reflet']"
+63,hosting,hébergement,['hébergement']
+64,invention,invention,['invention']
+65,gasoline,essence,"['essence', 'gas']"
+66,boxing,boxe,['boxe']
+67,striker,gréviste,['gréviste']
+68,profession,profession,['profession']
+69,superhero,super-héros,['super-héros']
+70,visitor,invité,"['visiteur', 'invitée', 'invité', 'visiteuse']"
+71,rejection,refus,"['refus', 'rejet']"
+72,snake,furet,"['serpenter', 'serpent', 'furet']"
+73,puzzle,puzzle,"['puzzle', 'rendre perplexe', 'devinette', 'mystère', 'énigme', 'casse-tête', 'jeu de patience']"
+74,commissioner,commissaire,['commissaire']
+75,tributary,affluent,['affluent']
+76,zoo,zoo,['zoo']
+77,overhaul,remise à neuf,['remise à neuf']
+78,essence,essence,['essence']
+79,dimension,dimension,"['dimensionner', 'dimension']"
+80,footballer,footballeur,"['footballeuse', 'footballeur']"
+81,draught,à la pression,"[""courant d'air"", 'gorgée', 'à la pression']"
+82,dealer,dealer,['dealer']
+83,impedance,impédance,['impédance']
+84,disruption,interruption,"['perturbation', 'interruption']"
+85,flu,grippe,['grippe']
+86,crack,fissure,"['crack', 'casser', 'craquer', 'fissure', 'craquement', 'plaisanterie']"
+87,denial,négation,"['déni', 'refus', 'dénégation', 'négation']"
+88,fluoride,fluorure,['fluorure']
+89,attribute,attribut,"['depending on which class it belongs', 'attribuer', 'épithète or déterminant', 'attribut']"
+90,documentation,documentation,['documentation']
+91,prostitute,prostitué,"['prostituée', 'se prostituer', 'fille des rues', 'fille de joie', 'prostitué']"
+92,foliage,feuillage,['feuillage']
+93,repetition,répétition,['répétition']
+94,modeling,modelage,"['mannequinat', 'modélisation', 'modelage']"
+95,resentment,ressentiment,"['agacement', 'rancune', 'ressentiment']"
+96,sermon,sermon,"['prêche', 'sermon']"
+97,pollen,pollen,['pollen']
+98,superintendent,surintendant,['surintendant']
+99,pastor,pasteur,['pasteur']
+100,venom,venin,['venin']

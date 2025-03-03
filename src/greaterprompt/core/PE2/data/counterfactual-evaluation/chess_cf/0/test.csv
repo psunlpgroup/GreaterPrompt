@@ -1,0 +1,201 @@
+,input,output
+92,"1. g4 e5 2. Nb3 d6 *
+",legal
+223,"1. d4 e5 2. Qd2 Bc6 *
+",illegal
+234,"1. d3 Bc6 2. Nh6 Bb4+ *
+",illegal
+232,"1. Bc3 g6 2. h4 Bc6 *
+",illegal
+377,"1. e4 Bf6 2. Nfe2 b6 *
+",illegal
+142,"1. g4 Nb6 2. Ne3 Qc8 *
+",legal
+22,"1. c4 b6 2. e4 Ne6 *
+",legal
+252,"1. Ba3 Bc6 2. h4 Bd4 *
+",illegal
+350,"1. e4 Bc6 2. Nfd3 Be5 *
+",illegal
+168,"1. e4 Nb6 2. Ne3 f6 *
+",legal
+150,"1. e4 Nd6 2. h4 Nf5 *
+",legal
+393,"1. e3 c5 2. Nfd3 Qc7 *
+",illegal
+66,"1. d4 Ne6 2. h4 f6 *
+",legal
+240,"1. e3 Bf6 2. a4 Bc6 *
+",illegal
+218,"1. e4 d6 2. Be2 Bc6 *
+",illegal
+101,"1. f3 g6 2. Bxa7 Nb6 *
+",legal
+311,"1. g3 e5 2. Ng2 a5 *
+",illegal
+194,"1. d4 Nb6 2. Ng3 d6 *
+",legal
+326,"1. Bc3 Bf6 2. Bb1 Bg4 *
+",illegal
+17,"1. a3 c5 2. Nd3 Bc7 *
+",legal
+164,"1. Ng3 h5 2. Nf5 Rh7 *
+",legal
+186,"1. b3 d5 2. Ne3 a5 *
+",legal
+30,"1. e4 Nb6 2. d4 d5 *
+",legal
+114,"1. c4 a6 2. Bc2 g6 *
+",legal
+263,"1. e3 Bf6 2. Bc3 Bc6 *
+",illegal
+103,"1. d4 Ng6 2. b3 Ne5 *
+",legal
+358,"1. d4 d6 2. Nf4 Nf5 *
+",illegal
+245,"1. f4 d6 2. Kf2 Nf5 *
+",illegal
+235,"1. h3 Bf6 2. Bf3 Bg8 *
+",illegal
+116,"1. a3 c5 2. Ba2 Ng6 *
+",legal
+330,"1. d4 e6 2. Nf4 a6 *
+",illegal
+120,"1. e4 Ng6 2. g4 f6 *
+",legal
+289,"1. e4 Bc6 2. c3 Be5 *
+",illegal
+112,"1. d4 a5 2. Kd2 Ng6 *
+",legal
+215,"1. e4 a6 2. Nfd3 f5 *
+",illegal
+136,"1. e4 c6 2. Ne3 Qc7 *
+",legal
+275,"1. e4 e5 2. Bf3 Nb4 *
+",illegal
+126,"1. e4 e6 2. Ne3 c6 *
+",legal
+198,"1. d4 Ng6 2. Nd2 Nd6 *
+",legal
+299,"1. a3 g5 2. Ra2 Nh6 *
+",illegal
+281,"1. e4 f6 2. Bc3 a5 *
+",illegal
+133,"1. d4 d6 2. a3 Nb6 *
+",legal
+33,"1. b4 Ne6 2. Ng3 Nb6 *
+",legal
+378,"1. d4 e6 2. Bh3 Qe7 *
+",illegal
+162,"1. b4 e5 2. Nb3 g5 *
+",legal
+34,"1. e4 d5 2. Ng3 c6 *
+",legal
+231,"1. e4 d5 2. Be2 Qd6 *
+",illegal
+97,"1. d4 e5 2. Ne3 f5 *
+",legal
+85,"1. Nd3 Nd6 2. f4 Ne4 *
+",legal
+61,"1. a3 c6 2. Ba2 Bd6 *
+",legal
+167,"1. g4 Nd6 2. Nb3 Ng6 *
+",legal
+282,"1. Ba3 d6 2. c4 Bc6 *
+",illegal
+200,"1. e4 e6 2. Nfe2 Nc5 *
+",illegal
+391,"1. d4 e5 2. Nh6 g5 *
+",illegal
+230,"1. c3 d6 2. Qa4+ Bd7 *
+",illegal
+287,"1. Bf3 d6 2. Bg1 Qd7 *
+",illegal
+108,"1. d4 Nb6 2. f3 h6 *
+",legal
+46,"1. e4 d6 2. h3 Ng6 *
+",legal
+320,"1. Bc3 Bf6 2. Bd5 h6 *
+",illegal
+396,"1. e4 d6 2. Ba3 Nce6 *
+",illegal
+224,"1. c4 Bc6 2. e3 Rb8 *
+",illegal
+73,"1. Nd3 Ne6 2. Qc1 Nd4 *
+",legal
+137,"1. e4 e5 2. Nd3 Qe7 *
+",legal
+381,"1. Bc3 g6 2. e3 Nh6 *
+",illegal
+220,"1. d4 Bf6 2. Bd2 g6 *
+",illegal
+210,"1. d4 Bc6 2. g3 Bxd4 *
+",illegal
+29,"1. e4 Nb6 2. Ke2 Na4 *
+",legal
+181,"1. e4 Nb6 2. a4 a6 *
+",legal
+360,"1. d4 c5 2. Nce3 g6 *
+",illegal
+271,"1. e4 d6 2. Ba3 Ba6 *
+",illegal
+51,"1. d4 e5 2. Nb3 Ng6 *
+",legal
+328,"1. e4 g5 2. Nb5 Ng7 *
+",illegal
+352,"1. h3 Bf6 2. Bc3 Bg8 *
+",illegal
+27,"1. Ng3 Nd6 2. Ne4 Nc4 *
+",legal
+2,"1. d4 h5 2. f4 Nh7 *
+",legal
+217,"1. e4 d5 2. Na6 Kd7 *
+",illegal
+156,"1. d4 Ne6 2. e4 b5 *
+",legal
+212,"1. b3 d6 2. Nb2 f5 *
+",illegal
+376,"1. f4 Bc6 2. Bf3 Be5 *
+",illegal
+221,"1. d4 Bf6 2. Qd2 Bg4 *
+",illegal
+138,"1. b4 e6 2. g3 Nb6 *
+",legal
+236,"1. a3 d5 2. Bf3 Nce6 *
+",illegal
+219,"1. e4 d6 2. d3 Bc6 *
+",illegal
+274,"1. Ba3 d6 2. Bb1 Bf6 *
+",illegal
+278,"1. e4 Bf6 2. Ke2 Bd5 *
+",illegal
+307,"1. e4 Bf6 2. Nc4 Bg8 *
+",illegal
+239,"1. e4 Bf6 2. Qe2 e5 *
+",illegal
+35,"1. e4 e6 2. Ne2 g5 *
+",legal
+204,"1. f3 Bf6 2. c3 c6 *
+",illegal
+392,"1. d4 Bf6 2. g4 e6 *
+",illegal
+67,"1. d4 Nb6 2. Ng3 Ng6 *
+",legal
+24,"1. e4 a5 2. Ng3 d6 *
+",legal
+332,"1. e4 Bc6 2. Qe2 Rb8 *
+",illegal
+44,"1. f4 c5 2. c4 Bd6 *
+",legal
+241,"1. h3 Bf6 2. d3 Be4 *
+",illegal
+129,"1. a4 d6 2. Ba2 c6 *
+",legal
+93,"1. f3 d5 2. Bf2 Nd7 *
+",legal
+111,"1. d3 Ng6 2. Qd2 Nb6 *
+",legal
+166,"1. f3 d5 2. Bxa7 d4 *
+",legal
+389,"1. f3 Bf6 2. Bc3 Bd5 *
+",illegal

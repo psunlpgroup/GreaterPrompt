@@ -1,0 +1,101 @@
+,input,output
+2677,Sentence 1: US drone strike kills three in northwest Pakistan Sentence 2: US drone strike kills seven in North Waziristan,2 - possibly
+1345,Sentence 1: A girl does a back bend on the beach. Sentence 2: A girl doing a back bend at the beach.,5 - perfectly
+3617,Sentence 1: Saudi Women To Protest Against Driving Ban Sentence 2: Saudi women drive in protest with little problem,2 - possibly
+2328,Sentence 1: Key says marae visit a lost opportunity Sentence 2: Key wants Waitangi marae visit to stay,2 - possibly
+3600,Sentence 1: North Korea says to put US citizen on trial Sentence 2: North Korea says detained American tourist to face trial,5 - perfectly
+2766,Sentence 1: China stocks end lower Thursday Sentence 2: China stocks close lower on Thursday,5 - perfectly
+866,Sentence 1: A man is catching a ball. Sentence 2: A cat is rubbing against a baby.,0 - definitely not
+2565,Sentence 1: USA expels Venezuela diplomats in row Sentence 2: U.S. expels Venezuelan diplomats,4 - almost perfectly
+2098,Sentence 1: Syrian journalists killed in capital Sentence 2: US Marines killed in base attack,1 - probably not
+63,Sentence 1: A man is riding a motorcycle. Sentence 2: A man is riding a horse.,1 - probably not
+1966,Sentence 1: Yorkshire soldier killed in Afghan bomb blast Sentence 2: Soldier killed in Afghanistan blast,4 - almost perfectly
+3209,Sentence 1: Gang violence kills 16 in Venezuelan prison Sentence 2: Sixteen killed in Venezuela prison,4 - almost perfectly
+743,Sentence 1: A tiger trys to climb the wall. Sentence 2: A lion is trying to climb up over a wall.,3 - probably
+2700,Sentence 1: Vinnie Jones reveals cancer battle new Sentence 2: Vinnie Jones reveals he has skin cancer,4 - almost perfectly
+2109,"Sentence 1: Romney, Obama fight for edge on Medicare Sentence 2: Obama, Romney compete for undecideds, stoke base",1 - probably not
+2770,"Sentence 1: Obama mourns death of icon Nelson Mandela Sentence 2: South Africans mourn, celebrate Mandela",2 - possibly
+1359,Sentence 1: a man plays his white guitar. Sentence 2: a man playing a white guitar and singing as well,3 - probably
+3597,Sentence 1: Napolitano elected for second term as Italy president Sentence 2: Italian President Napolitano elected for second term,5 - perfectly
+1816,"Sentence 1: alto huallaga is located northeast of the capital lima. Sentence 2: puerto cabezas is located 557 km northeast of managua, nicaragua.",0 - definitely not
+2758,Sentence 1: Snowden's father arrives in Moscow Sentence 2: Edward Snowden's father in Moscow,4 - almost perfectly
+1357,Sentence 1: A grey hound is active in a grassy field. Sentence 2: A bunch of bikes racing on a track.,0 - definitely not
+2683,"Sentence 1: Kerry to visit Jordan, Israel-Palestinian peace on agenda Sentence 2: Kerry postpones visit to Israel in one week",2 - possibly
+3406,"Sentence 1: Clashes continue between police and protesters in Turkey Sentence 2: Turkish police fight protesters, clear square",4 - almost perfectly
+2628,Sentence 1: Suicide Bomber Kills 14 at Afghan Province Council Sentence 2: Suicide Bomber Kills 11 in Afghanistan,2 - possibly
+1726,"Sentence 1: Breathe In, Breathe Out, Move On. Sentence 2: buwhahahaha Breathe In, Breathe Out, Move On.",4 - almost perfectly
+2608,Sentence 1: US warns Syria on chemical weapons Sentence 2: U.S. concerns grow about Syria's chemical weapons,3 - probably
+2001,"Sentence 1: Israel kills Hamas commander, bombs Gaza targets Sentence 2: Israel airstrikes kill Hamas commander, 5 others",3 - probably
+3422,Sentence 1: 17:02 23 killed in Iraq car bombings Sentence 2: 11 children killed in Syria bombings,1 - probably not
+3395,"Sentence 1: Israel agrees to extend Gaza truce by four hours Sentence 2: Israel, Hamas reportedly agree to 12-hour truce",3 - probably
+2201,Sentence 1: Blitzbokke ousted by Fiji Sentence 2: Blitzbokke beaten by NZ,2 - possibly
+3045,"Sentence 1: Cuba sees ""major role"" for foreign investment Sentence 2: House set to vote on plan to reopen government",0 - definitely not
+736,Sentence 1: A man does floor exercises. Sentence 2: A man is exercising.,4 - almost perfectly
+2237,Sentence 1: Sudan blames Israel for Khartoum arms fire Sentence 2: Sudan accuses Israel of airstrike on arms factory,4 - almost perfectly
+988,Sentence 1: Black train on train tracks. Sentence 2: A train on the train tracks.,4 - almost perfectly
+2265,Sentence 1: Ukrainian weightlifter gets four-year doping ban Sentence 2: Ukraine's Korobka gets four-year doping ban,4 - almost perfectly
+2437,Sentence 1: US lawmakers take next step on new Iran sanctions Sentence 2: Somalia lawmakers to vote for new president,0 - definitely not
+2802,Sentence 1: Obama meets Mandela family as icon remains in hospital Sentence 2: Obamas to meet Mandela family wont visit hospital,3 - probably
+2940,Sentence 1: 'Blade Runner' Pistorius to dispute murder charge Sentence 2: Pistorius cop on seven attempted murder charges,2 - possibly
+1459,Sentence 1: Kids play soccer on a field. Sentence 2: Three boys playing soccer in a field,4 - almost perfectly
+1574,Sentence 1: Morals have absolutely nothing to do with it ! Sentence 2: and morals and honesty have everything to do with it.,2 - possibly
+3559,Sentence 1: Egypt braces for 'Friday of anger' after carnage Sentence 2: Egypt braces for Friday of anger after bloody crackdown,4 - almost perfectly
+3534,"Sentence 1: Palestinian hunger striker, Israel reach deal Sentence 2: Palestinian activist detained in Israeli raid",1 - probably not
+821,Sentence 1: A monkey is walking on a bed. Sentence 2: A man is riding a horse.,0 - definitely not
+1053,Sentence 1: Two sheep stand in a doorway. Sentence 2: Two rams stand on snowy ground.,1 - probably not
+2666,Sentence 1: China's yuan weakens to 6.2767 against USD Thursday Sentence 2: China yuan weakens to 6.1818 against USD Tuesday,2 - possibly
+874,Sentence 1: A cat and a ferret are playing. Sentence 2: A ferret and kitten play together.,4 - almost perfectly
+761,Sentence 1: A woman is slicing pumpkin. Sentence 2: A person is slicing cantaloupe.,2 - possibly
+1430,Sentence 1: The dog returns the play toy to its master. Sentence 2: Three dogs race in the snow together.,1 - probably not
+2184,Sentence 1: Iconic science fiction writer Ray Bradbury dies at 91 Sentence 2: Science fiction legend Ray Bradbury dead at 91,5 - perfectly
+3545,Sentence 1: Mayawati demands president's rule in Kashmir Sentence 2: Mayawati demands Presidents rule in Jammu and Kashmir,3 - probably
+269,Sentence 1: A man is rowing a boat. Sentence 2: A man is shooting off a gun.,1 - probably not
+2750,"Sentence 1: Syria welcomes Iran's nuclear deal Sentence 2: Iran, six world powers clinch breakthrough nuclear deal",3 - probably
+1187,Sentence 1: A man riding a white horse. Sentence 2: A woman leading a white horse.,2 - possibly
+220,Sentence 1: A car is moving through a road. Sentence 2: A car is driving down the road.,4 - almost perfectly
+1205,Sentence 1: Two people are sailing a small boat. Sentence 2: Two women in a sailboat.,4 - almost perfectly
+391,Sentence 1: Soccer players are kicking a soccer ball into the goal. Sentence 2: A soccer player scores a goal.,4 - almost perfectly
+1608,"Sentence 1: My gosh, I'm the one with the pregnancy ticker. Sentence 2: I have the pregnancy ticker.",4 - almost perfectly
+1321,Sentence 1: Three dogs playing in the snow. Sentence 2: The boy is playing in the sand.,1 - probably not
+1777,Sentence 1: Cone threw an  game. Sentence 2: Addie Joss Cone threw an  game.,4 - almost perfectly
+1050,Sentence 1: A white cat standing on a carpet. Sentence 2: A sheep standing in a forest.,0 - definitely not
+1122,Sentence 1: Close up of a brown horse with a blue halter. Sentence 2: A close up of a horse wearing a blue halter.,4 - almost perfectly
+1121,Sentence 1: Two goats standing in a field by a tree. Sentence 2: A large boat pulling a small white boat.,0 - definitely not
+2026,Sentence 1: Court in Bahrain rejects medics' last rally appeal Sentence 2: Bahrain rejects activists' appeal,4 - almost perfectly
+111,Sentence 1: A boy is checking a calender. Sentence 2: A boy is looking at a calendar.,4 - almost perfectly
+1370,Sentence 1: Many people run in a race on a street. Sentence 2: A puppy running along a street.,1 - probably not
+3328,Sentence 1: China yuan weakens to 6.1059 against USD Sentence 2: China yuan strengthens to 6.1070 against USD Friday,2 - possibly
+3522,Sentence 1: Putin signs Crimea annexe treaty Sentence 2: 09:32 Putin signs off Crimea annexation,4 - almost perfectly
+1182,Sentence 1: A bicycle is parked outside a bookstore. Sentence 2: A green bike parked outside a book store.,4 - almost perfectly
+2093,Sentence 1: Warship sets sail for Falklands Sentence 2: British Warship Sets Sail for Falklands,4 - almost perfectly
+2315,Sentence 1: Yemen suicide attack kills 7 soldiers: officials Sentence 2: Afghan suicide car bomb kills at least seven: officials,2 - possibly
+143,Sentence 1: A woman is chopping up garlic. Sentence 2: The woman is dicing garlic.,5 - perfectly
+260,Sentence 1: A man is walking along a path through wilderness. Sentence 2: A man is walking down a road.,2 - possibly
+487,Sentence 1: A man is playing a flute. Sentence 2: A man is playing a guitar.,2 - possibly
+1556,Sentence 1: any woman that wants birth control can get it. Sentence 2: Any woman that wants and abortion can get one.,2 - possibly
+514,Sentence 1: A woman is dancing. Sentence 2: The man is dancing.,3 - probably
+1733,Sentence 1: So answer the question. Sentence 2: Stop avoiding the question.,3 - probably
+372,Sentence 1: A man is hugging someone. Sentence 2: A man is taking a picture.,0 - definitely not
+3116,Sentence 1: US: Assad used chemical weapons on Syria rebels Sentence 2: Assad agrees to hand over chemical weapons,2 - possibly
+2416,Sentence 1: Dozens dead in Taliban resort attack Sentence 2: 'India police name 3 Iranians in embassy attack',0 - definitely not
+98,Sentence 1: A woman is peeling a potato. Sentence 2: A man is slicing potato.,2 - possibly
+2182,Sentence 1: Eurozone unemployment stays at record 11 percent Sentence 2: Eurozone unemployment hits record high,3 - probably
+1695,Sentence 1: Cyclopes don't exist - fine. Sentence 2: Goblins don't exist - fine.,2 - possibly
+1559,Sentence 1: What's my opinion regarding the series? Sentence 2: What was my opinion of Firefly in the interim?,3 - probably
+728,Sentence 1: The man danced in the diner. Sentence 2: The bomb exploded in the desert.,0 - definitely not
+2907,Sentence 1: Faction Names Bianca Ojukwu APGA National Leader Sentence 2: Bianca Ojukwu becomes APGA national leader,4 - almost perfectly
+1092,Sentence 1: A group of sheep grazing on a hill. Sentence 2: A group of sheep are on a hill.,4 - almost perfectly
+1610,Sentence 1: ALL of the electrical energy comes from the battery. Sentence 2: ALL of the electrical energy ultimately comes from the alternator.,2 - possibly
+232,Sentence 1: A woman is dancing by a fire. Sentence 2: A woman is taking a bath.,1 - probably not
+2130,Sentence 1: China stocks close mixed Friday Sentence 2: Chinese stocks close higher midday Friday,3 - probably
+2495,Sentence 1: Egypt's main opposition rejects president's call for dialogue Sentence 2: Egypt opposition mulls response to Morsi dialogue call,4 - almost perfectly
+1184,Sentence 1: Cars driving near a model building. Sentence 2: Vehicles driving infant of an ornate building.,2 - possibly
+599,Sentence 1: The man is playing the guitar. Sentence 2: The man played his guitar.,4 - almost perfectly
+1003,Sentence 1: A potted plant in sunlight from a window. Sentence 2: A potted plant with only a few sprouting.,3 - probably
+2096,Sentence 1: Police: Four killed in German hostage taking incident Sentence 2: Palestinians: 12 killed in IDF strike in northern Strip,1 - probably not
+938,Sentence 1: An Apple computer sitting on the floor. Sentence 2: A Macintosh computer sitting on the floor.,4 - almost perfectly
+745,Sentence 1: A woman dances on a stage. Sentence 2: A woman is dancing.,3 - probably
+1823,Sentence 1: china is an important force for safeguarding world peace. Sentence 2: china is an important force for promoting world development.,3 - probably
+1097,Sentence 1: The bird is sitting on the branch. Sentence 2: The sheep is standing under the trees.,0 - definitely not
+1462,Sentence 1: The tan and white dog is running in the field. Sentence 2: The brown and white dogs run through the field.,3 - probably
+3650,Sentence 1: Hawaii preps for first hurricane in 22 years Sentence 2: Hawaii bracing as first hurricane in 22 years approaches,5 - perfectly

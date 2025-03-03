@@ -1,0 +1,21 @@
+,input,output,possible_translations
+597,hair,pelo,"['pelo', 'cabello']"
+1919,supervisor,supervisor,"['supervisor', 'director']"
+2078,cricketer,criquetista,['criquetista']
+2002,archipelago,archipiélago,['archipiélago']
+2004,supplement,suplemento,"['complementar', 'suplementario', 'suplemento']"
+2060,cuisine,cocina,['cocina']
+1623,keyboard,teclado,"['teclado', 'teclear']"
+2165,insistence,insistencia,['insistencia']
+1451,tourism,turismo,['turismo']
+1682,dock,acoplamiento,"['descolar', 'desrabotar', 'acoplamiento', 'desrabar']"
+2338,doll,muñeca,['muñeca']
+2125,smell,olfato,"['oler', 'olor', 'oler a', 'olfato', 'husmear']"
+2422,algorithm,algoritmo,['algoritmo']
+1787,canon,canónigo,['canónigo']
+1415,flesh,carne,"['carne', 'pellejo']"
+2508,liquor,licor,['licor']
+370,growth,crecimiento,['crecimiento']
+311,property,propiedad,"['propiedad', 'cualidad', 'posesión', 'pertenecia', 'finca', 'bienes']"
+1004,loan,préstamo,"['prestar', 'préstamo']"
+276,edition,edición,"['edición', 'tiraje']"

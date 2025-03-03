@@ -1,0 +1,21 @@
+,input,output,possible_translations
+2473,diffusion,Diffusion,['Diffusion']
+967,console,Konsole,"['trösten', 'Konsole']"
+2511,staple,Grundnahrungsmittel,"['Grundnahrungsmittel', 'Grundversorgung', 'Heftklammer', 'Ausgangsmaterial']"
+952,context,Kontext,"['Kontext', 'Zusammenhang']"
+1394,curve,Kurve,"['biegen', 'Kurve', 'verbiegen', 'Linie']"
+2471,lesson,Lehre,"['Lektion', 'Stunde', 'Lehre', 'Unterricht', 'Lehrstunde']"
+897,residence,Sitz,"['Wohnort', 'Firmensitz', 'Sitz', 'Wohnsitz']"
+277,health,Gesundheit,['Gesundheit']
+1497,pregnancy,Schwangerschaft,['Schwangerschaft']
+464,text,Text,"['simsen', 'Text', 'SMS']"
+1387,hypothesis,Hypothese,['Hypothese']
+2500,segregation,Rassentrennung,"['Rassentrennung', 'Geschlechtertrennung', 'Trennung']"
+1932,gale,Sturm,"['Sturm', 'Gagelstrauch']"
+196,past,Vergangenheit,"['vergangen', 'Vergangenheit', 'Präteritum', 'vorbei']"
+1773,premise,Lokal,"['Lokal', 'Lokalität', 'Voraussetzung', 'Prämisse', 'Räumlichkeiten']"
+570,battery,Körperverletzung,"['tätlicher Angriff', 'Legebatterie', 'Körperverletzung', 'Batterie']"
+984,organ,Organ,"['Orgel', 'Organ']"
+620,lane,Spur,"['Route', 'Spur', 'Gasse', 'Gang']"
+1084,debt,Schulden,"['Schulden', 'Verpflichtung', 'Verbindlichkeit', 'Schuld']"
+2094,disappearance,Verschwinden,['Verschwinden']

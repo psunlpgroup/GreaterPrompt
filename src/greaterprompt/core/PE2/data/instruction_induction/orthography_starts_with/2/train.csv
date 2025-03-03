@@ -1,0 +1,101 @@
+,input,output,sentence,letter,words,source
+1339,The very old and extremely wise owl. [w],wise,The very old and extremely wise owl.,w,['wise'],train
+2037,It is very difficult to get an idea for a book simply from an interview. [f],for from,It is very difficult to get an idea for a book simply from an interview.,f,"['for', 'from']",train
+1035,I am frightened of tigers and fond of clowns without exception. [i],i,I am frightened of tigers and fond of clowns without exception.,i,['I'],train
+875,Cakes were given to Margaret every Friday by the pupils in this maths class. [w],were,Cakes were given to Margaret every Friday by the pupils in this maths class.,w,['were'],train
+2716,They wanted to leave tomorrow or on Tuesday. [l],leave,They wanted to leave tomorrow or on Tuesday.,l,['leave'],train
+1824,Christina is ready to leave. [t],to,Christina is ready to leave.,t,['to'],train
+195,Mary expected John to fix the computer. [j],john,Mary expected John to fix the computer.,j,['John'],train
+2224,Susan whispered for me to come. [s],susan,Susan whispered for me to come.,s,['Susan'],train
+1337,The son took care of his parents. [t],the took,The son took care of his parents.,t,"['The', 'took']",train
+736,Tom seems eager for her brother to catch a cold. [s],seems,Tom seems eager for her brother to catch a cold.,s,['seems'],train
+164,Burn letters to him! [b],burn,Burn letters to him!,b,['Burn'],train
+758,Cassandra has warned Agamemnon again. [h],has,Cassandra has warned Agamemnon again.,h,['has'],train
+98,The students are proud of themselves. [s],students,The students are proud of themselves.,s,['students'],train
+446,A man just came in and a woman went out who hate each other like poison and always have. [l],like,A man just came in and a woman went out who hate each other like poison and always have.,l,['like'],train
+2196,Who did John think that Bill claimed that Mary suspected that everybody liked? [w],who,Who did John think that Bill claimed that Mary suspected that everybody liked?,w,['Who'],train
+1608,Sally eats caviar too much for her own good. [c],caviar,Sally eats caviar too much for her own good.,c,['caviar'],train
+966,"His expectations are lower, the higher the stakes are. [s]",stakes,"His expectations are lower, the higher the stakes are.",s,['stakes'],train
+1353,Enthusiastic golfers with large handicaps can be good company. [l],large,Enthusiastic golfers with large handicaps can be good company.,l,['large'],train
+2431,Dan gives to charity. [c],charity,Dan gives to charity.,c,['charity'],train
+1358,He looked at a book about swimming. [h],he,He looked at a book about swimming.,h,['He'],train
+2764,Ron yawned himself awake. [a],awake,Ron yawned himself awake.,a,['awake'],train
+2710,Is there anything I can do for you? [i],is i,Is there anything I can do for you?,i,"['Is', 'I']",train
+847,There may exist a man in the park. [i],in,There may exist a man in the park.,i,['in'],train
+800,Gilgamesh may seek Ishtar [s],seek,Gilgamesh may seek Ishtar,s,['seek'],train
+1475,I am neither an authority on this subject nor trying to portray myself as one. [o],on one,I am neither an authority on this subject nor trying to portray myself as one.,o,"['on', 'one']",train
+2085,Barbara handed the intriguing results of the latest examination to Alan on Tuesday. [h],handed,Barbara handed the intriguing results of the latest examination to Alan on Tuesday.,h,['handed'],train
+584,The fans were deliberately provoked by a rival group. [p],provoked,The fans were deliberately provoked by a rival group.,p,['provoked'],train
+2456,She would never believe that story. [t],that,She would never believe that story.,t,['that'],train
+1204,The flag waved. [w],waved,The flag waved.,w,['waved'],train
+1491,Bill cried himself to sleep. [c],cried,Bill cried himself to sleep.,c,['cried'],train
+1497,He turned off the light. [l],light,He turned off the light.,l,['light'],train
+2032,Whether Agamemnon had triumphed was unknown. [t],triumphed,Whether Agamemnon had triumphed was unknown.,t,['triumphed'],train
+269,I promised that around midnight he would be there. [w],would,I promised that around midnight he would be there.,w,['would'],train
+349,John said Martha sang the aria with gusto. [w],with,John said Martha sang the aria with gusto.,w,['with'],train
+521,My brother lives near Strasbourg. [b],brother,My brother lives near Strasbourg.,b,['brother'],train
+891,This rock is too heavy for me to begin to decide about helping Bob to try to pick it up. [p],pick,This rock is too heavy for me to begin to decide about helping Bob to try to pick it up.,p,['pick'],train
+2740,Fred hired Sharon to change the oil. [t],to the,Fred hired Sharon to change the oil.,t,"['to', 'the']",train
+537,The public never had faith in his ability to handle the job. [n],never,The public never had faith in his ability to handle the job.,n,['never'],train
+2882,That anybody ever left at all is not known. [t],that,That anybody ever left at all is not known.,t,['That'],train
+185,Barbara handed the intriguing results of the latest examination to Alan on Tuesday. [r],results,Barbara handed the intriguing results of the latest examination to Alan on Tuesday.,r,['results'],train
+2049,I consider him immoral. [h],him,I consider him immoral.,h,['him'],train
+1564,Mary talked to any student who was angry. [m],mary,Mary talked to any student who was angry.,m,['Mary'],train
+1557,The money that you gave me disappeared last night. [n],night,The money that you gave me disappeared last night.,n,['night'],train
+849,The man who I think chased Fido returned. [m],man,The man who I think chased Fido returned.,m,['man'],train
+1151,Fanny stopped talking because in came Aunt Norris. [s],stopped,Fanny stopped talking because in came Aunt Norris.,s,['stopped'],train
+2364,Every child should have a daily glass of milk. [d],daily,Every child should have a daily glass of milk.,d,['daily'],train
+1791,Tom placed it under the table. [t],tom the table,Tom placed it under the table.,t,"['Tom', 'the', 'table']",train
+2960,The streets gushed with water. [t],the,The streets gushed with water.,t,['The'],train
+2772,"Only Churchill remembered his giving the Blood, Sweat and Tears speech. [s]",sweat speech,"Only Churchill remembered his giving the Blood, Sweat and Tears speech.",s,"['Sweat', 'speech']",train
+833,The professor talked us into a stupor. [u],us,The professor talked us into a stupor.,u,['us'],train
+2825,This book just sells itself. [i],itself,This book just sells itself.,i,['itself'],train
+291,There remained just a few problems to be solved. [b],be,There remained just a few problems to be solved.,b,['be'],train
+2583,Merlin is extremely evil. [i],is,Merlin is extremely evil.,i,['is'],train
+99,How did you solve the problem? [y],you,How did you solve the problem?,y,['you'],train
+1782,John sang a song and danced to the music. [m],music,John sang a song and danced to the music.,m,['music'],train
+1525,There were several hundred people yelling for me to put down gently. [p],people put,There were several hundred people yelling for me to put down gently.,p,"['people', 'put']",train
+1870,I asked Anson if he was happy [a],asked anson,I asked Anson if he was happy,a,"['asked', 'Anson']",train
+1085,Tom believes Stephen to be irritating. [s],stephen,Tom believes Stephen to be irritating.,s,['Stephen'],train
+2719,Every vampire slept. [e],every,Every vampire slept.,e,['Every'],train
+2184,I asked what John kissed. [i],i,I asked what John kissed.,i,['I'],train
+1071,Cynthia ate the peach with a fork. [w],with,Cynthia ate the peach with a fork.,w,['with'],train
+19,"It is important for you to be more careful, the more you eat. [i]",it is important,"It is important for you to be more careful, the more you eat.",i,"['It', 'is', 'important']",train
+653,Anson demonized David at the club. [t],the,Anson demonized David at the club.,t,['the'],train
+1234,Sir Walter Elliott imagined the scene. [s],sir scene,Sir Walter Elliott imagined the scene.,s,"['Sir', 'scene']",train
+810,Rub the cloth on the baby torn. [r],rub,Rub the cloth on the baby torn.,r,['Rub'],train
+2675,It is very difficult to get an idea for a book simply from an interview. [b],book,It is very difficult to get an idea for a book simply from an interview.,b,['book'],train
+1176,The electric main joins the house circuit in the basement. [h],house,The electric main joins the house circuit in the basement.,h,['house'],train
+1871,There are fewer trucks on the motorway this winter. [m],motorway,There are fewer trucks on the motorway this winter.,m,['motorway'],train
+2887,Would the men not enjoy that? [w],would,Would the men not enjoy that?,w,['Would'],train
+2226,We believed him to be the headmaster [w],we,We believed him to be the headmaster,w,['We'],train
+853,An example of these substances be tobacco. [b],be,An example of these substances be tobacco.,b,['be'],train
+2094,Their teaching material is what we are using. [t],their teaching,Their teaching material is what we are using.,t,"['Their', 'teaching']",train
+118,"That he was sick, we talked about for days. [d]",days,"That he was sick, we talked about for days.",d,['days'],train
+2592,"With him sick, the team is in trouble. [t]",the team trouble,"With him sick, the team is in trouble.",t,"['the', 'team', 'trouble']",train
+1436,Day by day the facts are getting murkier. [b],by,Day by day the facts are getting murkier.,b,['by'],train
+184,I saw the brilliant one. [o],one,I saw the brilliant one.,o,['one'],train
+2709,We put a book on the table. [t],the table,We put a book on the table.,t,"['the', 'table']",train
+2788,The rolling stone avoided the river. [s],stone,The rolling stone avoided the river.,s,['stone'],train
+1142,We believed John to try to leave the country. [w],we,We believed John to try to leave the country.,w,['We'],train
+1880,John suddenly put off the customers. [j],john,John suddenly put off the customers.,j,['John'],train
+1977,"In the book, he talks about his ups and downs at school. [t]",the talks,"In the book, he talks about his ups and downs at school.",t,"['the', 'talks']",train
+1340,Bill seems to himself to be handsome. [h],himself handsome,Bill seems to himself to be handsome.,h,"['himself', 'handsome']",train
+1037,Who did Mary see walking toward the railroad station? [s],see station,Who did Mary see walking toward the railroad station?,s,"['see', 'station']",train
+2873,The child wails [w],wails,The child wails,w,['wails'],train
+2075,The fact that the scientists used the latest technology to verify was reported at the recent conference. [w],was,The fact that the scientists used the latest technology to verify was reported at the recent conference.,w,['was'],train
+2841,I saw the physics student. [p],physics,I saw the physics student.,p,['physics'],train
+852,In preparation for the return fixture this team has trained more efficiently than they had in recent months. [m],more months,In preparation for the return fixture this team has trained more efficiently than they had in recent months.,m,"['more', 'months']",train
+2190,He I often sees Mary. [h],he,He I often sees Mary.,h,['He'],train
+764,I am removing the shovel from the shed. [s],shovel shed,I am removing the shovel from the shed.,s,"['shovel', 'shed']",train
+1810,It hung on the wall. [h],hung,It hung on the wall.,h,['hung'],train
+1876,"So that he could escape, Jason became invisible [t]",that,"So that he could escape, Jason became invisible",t,['that'],train
+2961,He would not finish. [h],he,He would not finish.,h,['He'],train
+2713,There were five tourists in the room apart from myself. [a],apart,There were five tourists in the room apart from myself.,a,['apart'],train
+370,With which club did you hit the winning putt? [p],putt,With which club did you hit the winning putt?,p,['putt'],train
+909,I know two men behind me. [b],behind,I know two men behind me.,b,['behind'],train
+2386,John convinced Bill to sleep. [s],sleep,John convinced Bill to sleep.,s,['sleep'],train
+333,Will George indeed not endorse the treaty? [w],will,Will George indeed not endorse the treaty?,w,['Will'],train
+1097,John coughed. [j],john,John coughed.,j,['John'],train
+1076,Which poem did you go to hear a recital of last night? [h],hear,Which poem did you go to hear a recital of last night?,h,['hear'],train
+2677,For me to concentrate on calculus is difficult. [m],me,For me to concentrate on calculus is difficult.,m,['me'],train

@@ -1,0 +1,21 @@
+,input,output,possible_translations
+415,contrast,contraste,"['contraste', 'contrastar']"
+143,cast,reparto,"['castear', 'sondear', 'reparto', 'elenco', 'sondar', 'escayola', 'molde', 'yeso']"
+268,wind,flatulencia,"['enrollar', 'serpentear', 'flatulencia', 'viento']"
+2110,candidacy,candidatura,['candidatura']
+1038,jury,jurado,['jurado']
+452,leg,pierna,"['etapa', 'cateto', 'pierna', 'pata']"
+2065,grammar,gramática,['gramática']
+1027,exercise,ejercicio,"['ejercer', 'ejercicio', 'ejercitar']"
+2135,necessity,necesidad,['necesidad']
+1516,input,insumo,"['insumo', 'introducir']"
+275,word,palabra,"['vocablo', 'redactar', 'palabra']"
+435,choice,opción,"['decisión', 'exquisito', 'opción', 'selección', 'elección']"
+1106,magnitude,magnitud,"['norma', 'magnitud']"
+1964,texture,textura,['textura']
+2237,immunity,inmunidad,['inmunidad']
+855,brand,marca,"['marca', 'tizón']"
+887,professor,profesor,"['profesora', 'profesor']"
+1919,supervisor,supervisor,"['supervisor', 'director']"
+599,hall,pasillo,"['salón', 'pasillo']"
+339,cross,cruz,"['enfadado', 'cruce', 'cruzar', 'de través', 'pasar', 'marcar con una cruz', 'aspa', 'contrario', 'transversal', 'atravesar', 'persignarse', 'atravesado', 'santiguarse', 'cruz']"
