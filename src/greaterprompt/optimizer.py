@@ -17,13 +17,6 @@ from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
-# TODO: remove logger when offically released
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s",
-    filename=f"{time.strftime('%Y%m%d_%H%M%S')}.log", filemode="w"
-)
-
-
 class BaseOptimizer:
     def __init__(self, trainer: str, optimize_config: dict = {}):
         self.args = apo_pe2_args(trainer)
@@ -112,7 +105,6 @@ class GreaterOptimizer:
     
 
     def get_pred_probs(self, input: torch.Tensor, y_tokens: torch.Tensor) -> torch.Tensor:
-        logging.info('getting model predictions')
         probs = []
 
         with torch.enable_grad():
@@ -132,7 +124,6 @@ class GreaterOptimizer:
     
                 next_token_id = next_token_id.unsqueeze(0)
                 probs.append(F.softmax(logits, dim=-1))
-                logging.info(f'next_token_id: {next_token_id}, next_token decoded: {repr(self.client.tokenizer.decode(next_token_id[0, 0]))}')
                 input = torch.cat([input, next_token_id], dim=1)
                 del logits
                 if i % 5 == 0:
@@ -152,7 +143,6 @@ class GreaterOptimizer:
             loss += log_probs[p_tokens[0, i]]
         
         loss = torch.exp(-1 * loss / p_tokens.size(1))
-        logging.info(f'perplexity loss: {loss.item()}')
         return loss
 
 
@@ -177,11 +167,7 @@ class GreaterOptimizer:
         gradients = []
 
         for y, y_hat in zip(y_tokens[0, :], y_hat_probs):
-            logging.info(f'calculating loss')
-            logging.info(f'y_token: {repr(self.client.tokenizer.decode(y))}')
-            logging.info(f'y_hat_token: {repr(self.client.tokenizer.decode(torch.argmax(y_hat)))}')
             loss = self.calculate_loss(q_tokens, p_tokens, y_hat, y)
-            logging.info(f'loss: {loss.item()}')
             embedding_layer = self.client.model.get_input_embeddings()
             embedding_grad = embedding_layer.weight.grad.detach().clone()
             gradients.append(embedding_grad.cpu())
@@ -205,13 +191,11 @@ class GreaterOptimizer:
     
     
     def get_p_i_star(self, gradients: List[torch.Tensor], candidates: List[int]) -> int:
-        logging.info('calculating p_i_star')
         p_i_star, p_i_star_grad = None, float("-inf")
 
         for candidate in candidates:
             token_grad = sum([torch.norm(grad[candidate], p=2) * -1 for grad in gradients])
             token_grad /= len(gradients)
-            logging.info(f'candidate id: {candidate}, candidate token: {repr(self.client.tokenizer.decode(candidate))}, token_grad: {token_grad}')
             if token_grad > p_i_star_grad:
                 p_i_star = candidate
                 p_i_star_grad = token_grad
@@ -224,7 +208,6 @@ class GreaterOptimizer:
 
         intersect_q = self.optimize_config.get("intersect_q", 1)
         batch_inputs = [inputs[i:i+intersect_q] for i in range(0, len(inputs), intersect_q)]
-        logging.info(f'Batch inputs: {batch_inputs}')
 
         for i, batch in enumerate(batch_inputs):
             question_tokens, p_tokens, p_extr_tokens, y_tokens = self.encode_input(batch, p_extractor)
@@ -236,26 +219,17 @@ class GreaterOptimizer:
             start_time = time.time()
             for j in tqdm(range(rounds), desc=f"Optimizing {i + 1} / {len(batch_inputs)}"):
                 torch.cuda.empty_cache()
-                # calculate p_i, if it is the first token, skip
-                logging.info(f'Round {j}, p_idx: {idx}')
-                logging.info(f'Batch p_tokens: {p_tokens}')
-                logging.info(f'Batch p_tokens decoded: {[repr(self.client.tokenizer.decode(p_token[0, :])) for p_token in p_tokens]}')
-
                 # get candidates for p_i by using x + p_0 ... p_i-1 for each p in the batch
                 candidates_tmp = []
 
                 for k, p in enumerate(p_tokens):
                     if idx >= p.size(1): continue
-                    logging.info(f'calculating candidates for p_{k}: {p}')
-                    logging.info(f'p_{k} decoded: {repr(self.client.tokenizer.decode(p[0, :]))}')
                     p_token_i = p[:, idx]
-                    logging.info(f'p_token_i: {p_token_i}, p_token_i decoded: {repr(self.client.tokenizer.decode(p_token_i))}')
                     input_ids = torch.cat([question_tokens[k], p[:, :idx]], dim=1)
                     p_candidates = set(self.get_candidates(input_ids))
                     # avoid adding dummy token to candidates
                     eos_token_id = self.client.tokenizer.eos_token_id
                     p_candidates.update([int(p_token_i[0])] if int(p_token_i[0]) != eos_token_id else [])
-                    logging.info(f'p_candidates for p_{k}: {p_candidates}, decoded: {[repr(self.client.tokenizer.decode(c)) for c in p_candidates]}')
                     candidates_tmp.append(p_candidates)
                 
                 candidates = set(candidates_tmp[0])
@@ -263,17 +237,13 @@ class GreaterOptimizer:
                     candidates = candidates.intersection(c)
                 if not candidates:
                     candidates = set(t for c in candidates_tmp for t in c)
-
-                logging.info(f'Batch candidates: {candidates}, decoded: {[repr(self.client.tokenizer.decode(c)) for c in candidates]}')
                 
                 # use intersection candidates to optimize each p in the batch
                 for k, p in enumerate(p_tokens):
                     if idx >= p.size(1): continue
-                    logging.info(f'optimizing p_{k}: {p}, decoded: {repr(self.client.tokenizer.decode(p[0, :]))}')
                     # use x + p to get reasoning chain r
                     input_ids = torch.cat([question_tokens[k], p], dim=1)
                     reasoning_chain = self.get_reasoning(input_ids)
-                    logging.info(f'reasoning chain for p_{k}:\n{reasoning_chain}')
                     r_tokens = self.client.tokenizer.encode(reasoning_chain, return_tensors="pt")
                     r_tokens = r_tokens.to(self.client.device)
 
@@ -284,10 +254,7 @@ class GreaterOptimizer:
 
                     # calculate gradient for each candidate to get p_i_star
                     p_i_star = self.get_p_i_star(gradients, candidates)
-                    logging.info(f'p_i_star: {p_i_star}, p_i_star decoded: {repr(self.client.tokenizer.decode(p_i_star))}')
                     p[:, idx] = p_i_star
-                    logging.info(f'p_{k}_tokens after updating: {p}')
-                    logging.info(f'p_{k}_tokens decoded: {repr(self.client.tokenizer.decode(p[0, :]))}')
 
                     # if p_i_star is a period, truncate the prompt and star from the beginning
                     p_i_star_token = self.client.tokenizer.decode(p_i_star)
@@ -296,26 +263,17 @@ class GreaterOptimizer:
                         truncated[k] = True
                         decoded_p_star = self.client.tokenizer.decode(p_tokens[k][0, :], skip_special_tokens=True)
                         p_stars[batch[k]["question"]].append((repr(decoded_p_star.strip()), loss.item()))
-                        logging.info(f'p_i_star is a stop symbol, truncate the prompt')
-                        logging.info(f'p_{k}_tokens after truncation: {p_tokens[k]}')
-                        logging.info(f'p_{k}_tokens decoded: {repr(decoded_p_star)}')
-                        logging.info(f'updated p_stars: {p_stars}')
                     # add a dummy token to the end of the prompt for next round of candidate generation
                     elif p_i_star_token.strip() != "." and idx == len(p[0, :]) - 1:
                         eos_token_id = self.client.tokenizer.eos_token_id
                         dummy_token = torch.tensor([[eos_token_id]], device=p.device)
                         p_tokens[k] = torch.cat([p, dummy_token], dim=1)
-                        logging.info(f'reach the end but p_i_star is not a period, add a dummy token to extend')
-                        logging.info(f'p_{k}_tokens after adding dummy token: {p_tokens[k]}')
-                        logging.info(f'p_{k}_tokens decoded: {repr(self.client.tokenizer.decode(p[0, :]))}')
-                
+
                 if all(t for t in truncated):
                     idx = 1
                     truncated = [False] * len(batch)
-                    logging.info(f'reach the end of all prompts, reset the index to 1')
                 else:
                     idx = (idx + 1) % max(p.size(1) for p in p_tokens)
-                    logging.info(f'update the index to {idx}')
             
             # save and filter the optimized prompts
             outputs.update(p_stars)
@@ -328,9 +286,6 @@ class GreaterOptimizer:
                 cleaned_prompts = clean_string(prompts)
                 if self.optimize_config.get("filter", False):
                     outputs[question] = self.client.filter(cleaned_prompts)
-            logging.info(f'time taken: {time.time() - start_time}')
-            logging.info(f'Batch {i + 1} finished, outputs: {outputs}')
-            logging.info(f'Moving to next batch')
 
             del input_ids, reasoning_chain, r_tokens, y_hat_probs
             torch.cuda.empty_cache()
@@ -343,7 +298,6 @@ class GreaterOptimizer:
 
         intersect_q = self.optimize_config.get("intersect_q", 1)
         batch_inputs = [inputs[i:i+intersect_q] for i in range(0, len(inputs), intersect_q)]
-        logging.info(f'Batch inputs: {batch_inputs}')
 
         total_batches = len(batch_inputs)
 
@@ -380,26 +334,17 @@ class GreaterOptimizer:
                     callback(total_progress, status_info)
                 
                 torch.cuda.empty_cache()
-                # calculate p_i, if it is the first token, skip
-                logging.info(f'Round {j}, p_idx: {idx}')
-                logging.info(f'Batch p_tokens: {p_tokens}')
-                logging.info(f'Batch p_tokens decoded: {[repr(self.client.tokenizer.decode(p_token[0, :])) for p_token in p_tokens]}')
-
                 # get candidates for p_i by using x + p_0 ... p_i-1 for each p in the batch
                 candidates_tmp = []
 
                 for k, p in enumerate(p_tokens):
                     if idx >= p.size(1): continue
-                    logging.info(f'calculating candidates for p_{k}: {p}')
-                    logging.info(f'p_{k} decoded: {repr(self.client.tokenizer.decode(p[0, :]))}')
                     p_token_i = p[:, idx]
-                    logging.info(f'p_token_i: {p_token_i}, p_token_i decoded: {repr(self.client.tokenizer.decode(p_token_i))}')
                     input_ids = torch.cat([question_tokens[k], p[:, :idx]], dim=1)
                     p_candidates = set(self.get_candidates(input_ids))
                     # avoid adding dummy token to candidates
                     eos_token_id = self.client.tokenizer.eos_token_id
                     p_candidates.update([int(p_token_i[0])] if int(p_token_i[0]) != eos_token_id else [])
-                    logging.info(f'p_candidates for p_{k}: {p_candidates}, decoded: {[repr(self.client.tokenizer.decode(c)) for c in p_candidates]}')
                     candidates_tmp.append(p_candidates)
                 
                 candidates = set(candidates_tmp[0])
@@ -407,17 +352,13 @@ class GreaterOptimizer:
                     candidates = candidates.intersection(c)
                 if not candidates:
                     candidates = set(t for c in candidates_tmp for t in c)
-
-                logging.info(f'Batch candidates: {candidates}, decoded: {[repr(self.client.tokenizer.decode(c)) for c in candidates]}')
                 
                 # use intersection candidates to optimize each p in the batch
                 for k, p in enumerate(p_tokens):
                     if idx >= p.size(1): continue
-                    logging.info(f'optimizing p_{k}: {p}, decoded: {repr(self.client.tokenizer.decode(p[0, :]))}')
                     # use x + p to get reasoning chain r
                     input_ids = torch.cat([question_tokens[k], p], dim=1)
                     reasoning_chain = self.get_reasoning(input_ids)
-                    logging.info(f'reasoning chain for p_{k}:\n{reasoning_chain}')
                     r_tokens = self.client.tokenizer.encode(reasoning_chain, return_tensors="pt")
                     r_tokens = r_tokens.to(self.client.device)
 
@@ -428,10 +369,7 @@ class GreaterOptimizer:
 
                     # calculate gradient for each candidate to get p_i_star
                     p_i_star = self.get_p_i_star(gradients, candidates)
-                    logging.info(f'p_i_star: {p_i_star}, p_i_star decoded: {repr(self.client.tokenizer.decode(p_i_star))}')
                     p[:, idx] = p_i_star
-                    logging.info(f'p_{k}_tokens after updating: {p}')
-                    logging.info(f'p_{k}_tokens decoded: {repr(self.client.tokenizer.decode(p[0, :]))}')
 
                     # if p_i_star is a period, truncate the prompt and star from the beginning
                     p_i_star_token = self.client.tokenizer.decode(p_i_star)
@@ -440,26 +378,17 @@ class GreaterOptimizer:
                         truncated[k] = True
                         decoded_p_star = self.client.tokenizer.decode(p_tokens[k][0, :], skip_special_tokens=True)
                         p_stars[batch[k]["question"]].append((repr(decoded_p_star.strip()), loss.item()))
-                        logging.info(f'p_i_star is a stop symbol, truncate the prompt')
-                        logging.info(f'p_{k}_tokens after truncation: {p_tokens[k]}')
-                        logging.info(f'p_{k}_tokens decoded: {repr(decoded_p_star)}')
-                        logging.info(f'updated p_stars: {p_stars}')
                     # add a dummy token to the end of the prompt for next round of candidate generation
                     elif p_i_star_token.strip() != "." and idx == len(p[0, :]) - 1:
                         eos_token_id = self.client.tokenizer.eos_token_id
                         dummy_token = torch.tensor([[eos_token_id]], device=p.device)
                         p_tokens[k] = torch.cat([p, dummy_token], dim=1)
-                        logging.info(f'reach the end but p_i_star is not a period, add a dummy token to extend')
-                        logging.info(f'p_{k}_tokens after adding dummy token: {p_tokens[k]}')
-                        logging.info(f'p_{k}_tokens decoded: {repr(self.client.tokenizer.decode(p[0, :]))}')
-                
+
                 if all(t for t in truncated):
                     idx = 1
                     truncated = [False] * len(batch)
-                    logging.info(f'reach the end of all prompts, reset the index to 1')
                 else:
                     idx = (idx + 1) % max(p.size(1) for p in p_tokens)
-                    logging.info(f'update the index to {idx}')
             
             # save and filter the optimized prompts
             outputs.update(p_stars)
@@ -472,9 +401,6 @@ class GreaterOptimizer:
                 cleaned_prompts = clean_string(prompts)
                 if self.optimize_config.get("filter", False):
                     outputs[question] = self.client.filter(cleaned_prompts)
-            logging.info(f'time taken: {time.time() - start_time}')
-            logging.info(f'Batch {i + 1} finished, outputs: {outputs}')
-            logging.info(f'Moving to next batch')
 
             del input_ids, reasoning_chain, r_tokens, y_hat_probs
             torch.cuda.empty_cache()
