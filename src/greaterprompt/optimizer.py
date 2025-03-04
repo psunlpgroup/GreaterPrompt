@@ -1,15 +1,14 @@
-import argparse
 import csv
 import importlib
-import logging
 import os
 import time
 from collections import defaultdict
 from typing import List
 
 from src.greaterprompt.core.PE2.cli import ape_apo_pe2_optimizer
+from src.greaterprompt.dataloader import GreaterDataloader
 from src.greaterprompt.models import model_supported
-from src.greaterprompt.utils import apo_pe2_args, clean_string, GreaterDataloader
+from src.greaterprompt.utils import ape_apo_pe2_args, clean_string
 
 import torch
 from torch.nn import functional as F
@@ -19,7 +18,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 class BaseOptimizer:
     def __init__(self, trainer: str, optimize_config: dict = {}):
-        self.args = apo_pe2_args(trainer)
+        self.args = ape_apo_pe2_args(trainer)
         self.args.task_model = optimize_config.get("task_model", "openai_gpt35_turbo_instruct")
         self.args.optim_model = optimize_config.get("optim_model", "openai_gpt4_turbo")
 

@@ -19,7 +19,7 @@ def clean_string(prompts: List[Tuple[str, float]]) -> List[Tuple[str, float]]:
     return cleaned_prompts
 
 
-def apo_pe2_args(trainer: str) -> argparse.Namespace:
+def ape_apo_pe2_args(trainer: str) -> argparse.Namespace:
     args = argparse.Namespace()
     args.do_train = True
     args.do_validate = True
