@@ -115,14 +115,18 @@ setup(
     # 'Programming Language' classifiers above, 'pip install' will check this
     # and refuse to install the project if the version does not match. See
     # https://packaging.python.org/guides/distributing-packages-using-setuptools/#python-requires
-    python_requires=">=3.7, <4",
+    python_requires="==3.11",
     # This field lists other packages that your project depends on to run.
     # Any package you put here will be installed by pip when your project is
     # installed, so they must be valid existing projects.
     #
     # For an analysis of "install_requires" vs pip's requirements files see:
     # https://packaging.python.org/discussions/install-requires-vs-requirements/
-    install_requires=["torch", "transformers", "tqdm"],  # Optional
+    install_requires=[
+        "accelerate", "torch==2.3.1", "transformers==4.48.3", 
+        "guidance==0.0.64", "openai==0.27.8", "vllm==0.5.3.post1", "retrying",
+        "tqdm", "streamlit"
+    ],  # Optional
     # List additional groups of dependencies here (e.g. development
     # dependencies). Users will be able to install these using the "extras"
     # syntax, for example:
