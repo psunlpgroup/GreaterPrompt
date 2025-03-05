@@ -1,5 +1,8 @@
+import sys
+sys.path.append("/scratch1/wmz5132/GreaterPrompt")
+
 import json
-from greaterprompt.optimizer import GreaterOptimizer, GreaterDataloader
+from src.greaterprompt.optimizer import GreaterOptimizer, GreaterDataloader
 
 import torch
 import streamlit as st
@@ -10,9 +13,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 CUDA_DEVICES = torch.cuda.device_count()
 
 with st.sidebar:
-    settings = st.markdown("<h3>🛠️ Optimization Settings</h3>", unsafe_allow_html=True)
-    # TODO: change default value to google/gemma-2-9b-it
-    model_path = st.text_input("Model Path", key="model_path", value='/scratch1/wmz5132/models/huggingface/gemma-2-9b-it')
+    settings = st.markdown("<h3>🛠️ Advanced Settings</h3>", unsafe_allow_html=True)
     device = st.selectbox("Device", ["cpu", *[f"cuda:{i}" for i in range(CUDA_DEVICES)]], index=1)
     intersect_q = st.number_input("Intersect Q", value=5)
     candidates_topk = st.number_input("Candidates Topk", value=10)
@@ -21,10 +22,15 @@ with st.sidebar:
     filter = st.selectbox("Filter", [True, False])
     rounds = st.number_input("Rounds", value=80)
 
-st.markdown("<h1 style='text-align: center; white-space: nowrap;'>🤩 Optimize with GreaterPrompt</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; white-space: nowrap;'>🤩 Optimize with GreaterOptimizer</h1>", unsafe_allow_html=True)
+model_path = st.text_input("Model Path", key="model_path", value='google/gemma-2-9b-it')
 uploaded_file = st.file_uploader("Upload a jsonl input file", type=("jsonl"))
 
 p_extraction = st.text_input("P Extractor", value="\nNext, only give the exact answer, no extract words or any punctuation:")
+
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    start_button = st.button("⚡ Start Optimization", type="primary", use_container_width=True)
 
 optimize_config = {
     "intersect_q": intersect_q,
@@ -34,12 +40,19 @@ optimize_config = {
     "perplexity_lambda": perplexity_lambda,
     "filter": filter,
     "generate_config": {
+        "do_sample": True,
         "temperature": 0.2,
-        "max_new_tokens": 1024
+        "max_new_tokens": 512
     }
 }
 
-if uploaded_file and p_extraction.strip():
+if not uploaded_file and start_button:
+    st.info("Please upload a jsonl file to start")
+
+if p_extraction.strip() == "" and start_button:
+    st.info("Please enter a valid P Extractor to start")
+
+if uploaded_file and p_extraction.strip() and start_button:
     content = uploaded_file.getvalue().decode("utf-8")
     lines = content.strip().split('\n')
 
@@ -87,4 +100,5 @@ if uploaded_file and p_extraction.strip():
         outputs = optimizer.optimize_streamlit(inputs=dataset, p_extractor=p_extraction, rounds=rounds, callback=update_progress)
         
         status.update(label="😄 Optimization complete!", state="complete")
+        st.markdown("<h5 style='text-align: left; white-space: nowrap;'>🎯 Optimization Result:</h5>", unsafe_allow_html=True)
         st.write(outputs)
