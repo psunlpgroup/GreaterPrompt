@@ -90,7 +90,7 @@ apo_result = apo_optimizer.optimize(dataloader2, p_init="think step by step")
 greater_result = greater_optimizer.optimize(
     dataloader1,
     p_extractor="\nNext, only give the exact answer, no extract words or any punctuation:",
-    rounds=10
+    rounds=80
 )
 pe2_result = pe2_optimizer.optimize(dataloader2, p_init="think step by step")
 
