@@ -57,39 +57,6 @@ class ZeroshotCoTTask(AbstractTask):
         all_output = []
         for pred in data["raw_output"].tolist():
             final_pred = pred.strip(" ").strip(".").strip('"').strip("'").strip(":").strip(" ")
-            '''
-            try:
-                if self.args.task == "math":
-                    final_pred = pred.replace(",", "")
-                    final_pred = [s for s in re.findall(r'-?\d+\.?\d*', final_pred)]
-                    final_pred = float(final_pred[0].rstrip("."))
-                elif self.args.task == "bbh":
-                    if self.args.subtask in ["disambiguation_qa", "date_understanding", "disambiguation_qa",
-                                              "geometric_shapes", "hyperbaton", "logical_deduction_five_objects", 
-                                              "logical_deduction_seven_objects", "logical_deduction_three_objects", "movie_recommendation",
-                                              "penguins_in_a_table", "reasoning_about_colored_objects", "ruin_names", 
-                                              "salient_translation_error_detection", "snarks", "temporal_sequences", 
-                                              "tracking_shuffled_objects_five_objects", "tracking_shuffled_objects_three_objects", 
-                                              "tracking_shuffled_objects_seven_objects"]:
-                        # multiple-choice, answer is (A), (B), (C), ...
-                        final_pred = re.findall(r'\([A-Z]\)', pred)[0]
-                    elif self.args.subtask in ["object_counting", "multistep_arithmetic_two"]:
-                        # answer is an interger
-                        final_pred = pred.replace(",", "")
-                        final_pred = [s for s in re.findall(r'-?\d+\.?\d*', final_pred)]
-                        final_pred = final_pred[0].rstrip(".")
-                    elif self.args.subtask in ["formal_fallacies", "navigate", "sports_understanding", "web_of_lies"]:
-                        pred = pred.lstrip(":")
-                        tokens = pred.split()
-                        tokens_without_punct = [''.join(char for char in token if char not in string.punctuation) for token in tokens]
-                        final_pred = tokens_without_punct[0]
-                    else: # dyck_languages, word_sorting
-                        final_pred = pred.strip(" ").strip(".").strip('"').strip("'").strip(":").strip(" ")
-
-            except Exception as e:
-                final_pred = -1e10 if self.args.task == "math" else pred
-                self.logger.info("[Postprocess Exception] Raw Output: {}; Exception: {}".format(pred, e))
-            '''
             all_reasoning.append(pred)
             all_output.append(final_pred)
 

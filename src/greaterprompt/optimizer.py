@@ -1,7 +1,6 @@
 import csv
 import importlib
 import os
-import time
 from collections import defaultdict
 from typing import List
 
@@ -71,7 +70,7 @@ class GreaterOptimizer:
         supported, model_name = model_supported(model)
         assert supported, f"Model: {model} is not supported"
 
-        model_class = getattr(importlib.import_module("greaterprompt.models"), model_name)
+        model_class = getattr(importlib.import_module("src.greaterprompt.models"), model_name)
         self.client = model_class(model, tokenizer)
 
         for param in self.client.model.parameters():
@@ -215,7 +214,6 @@ class GreaterOptimizer:
             idx = 1
             truncated = [False] * len(batch)
 
-            start_time = time.time()
             for j in tqdm(range(rounds), desc=f"Optimizing {i + 1} / {len(batch_inputs)}"):
                 torch.cuda.empty_cache()
                 # get candidates for p_i by using x + p_0 ... p_i-1 for each p in the batch
@@ -307,7 +305,6 @@ class GreaterOptimizer:
             idx = 1
             truncated = [False] * len(batch)
 
-            start_time = time.time()
             for j in range(rounds):
                 if callback:
                     batch_progress = (i / total_batches)
