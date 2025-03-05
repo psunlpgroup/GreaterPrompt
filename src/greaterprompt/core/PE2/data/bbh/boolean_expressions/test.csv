@@ -1,6 +1,4 @@
 ,input,label
-0,not ( True ) and ( True ) is,False
-1,True and not not ( not False ) is,True
-2,not True or False or ( False ) is,False
-3,False or not ( True ) and False is,False
-4,True or not False and True and False is,True
+0,((-1 + 2 + 9 * 5) - (-2 + -4 + -4 * -7)) =,24
+1,((-9 * -5 - 6 + -2) - (-8 - -6 * -3 * 1)) =,63
+2,((3 * -3 * 6 + -5) - (-2 + -7 - 7 - -7)) =,-50

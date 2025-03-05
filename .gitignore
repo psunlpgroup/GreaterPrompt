@@ -3,3 +3,4 @@ __pycache__/
 testspace/
 *.log
 *.csv
+src/greaterprompt/core/PE2/
