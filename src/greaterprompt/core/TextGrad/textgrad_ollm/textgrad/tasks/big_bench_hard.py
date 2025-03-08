@@ -69,10 +69,13 @@ class BigBenchHard(Dataset):
         subprocess.call(
             [
                 "wget",
+                "-q",
                 f"https://raw.githubusercontent.com/suzgunmirac/BIG-Bench-Hard/main/bbh/{self.task_name}.json",
                 "-O",
                 os.path.join(self.root, f"{self.task_name}.json")
-            ]
+            ],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL
         )
         # Separate to train, val, test
         data = json.load(open(os.path.join(self.root, f"{self.task_name}.json")))
