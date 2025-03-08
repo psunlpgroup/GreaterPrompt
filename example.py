@@ -1,5 +1,5 @@
 from src.greaterprompt import (
-    ApeOptimizer, ApoOptimizer, GreaterOptimizer, GreaterDataloader, Pe2Optimizer, 
+    ApeOptimizer, ApoOptimizer, GreaterOptimizer, GreaterDataloader, Pe2Optimizer, TextGradOptimizer
 )
 
 import torch
@@ -63,6 +63,13 @@ optimize_config = {
     "optim_model": "openai_gpt4_turbo",
 }
 
+# for TextGradOptimizer
+textgrad_optimize_config = {
+    "evaluation_engine": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "test_engine": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "device": "cuda:0"
+}
+
 # ------ Part 4: Initialize the Optimizers ------ #
 
 ape_optimizer = ApeOptimizer(
@@ -83,6 +90,10 @@ pe2_optimizer = Pe2Optimizer(
     optimize_config=optimize_config # Optional
 )
 
+textgrad_optimizer = TextGradOptimizer(
+    textgrad_optimize_config # Optional
+)
+
 # ------ Part 5: Pass the Dataloader to Optimizer and Optimize ------ #
 
 ape_result = ape_optimizer.optimize(dataloader1, p_init="think step by step")
@@ -93,6 +104,7 @@ greater_result = greater_optimizer.optimize(
     rounds=80
 )
 pe2_result = pe2_optimizer.optimize(dataloader2, p_init="think step by step")
+textgrad_result = textgrad_optimizer.optimize(p_init="think step by step", dataloader=dataloader1)
 
 # print results
 print(f'ape_result: {ape_result}')
@@ -102,3 +114,5 @@ print(f'-' * 30)
 print(f'greater_result: {greater_result}')
 print(f'-' * 30)
 print(f'pe2_result: {pe2_result}')
+print(f'-' * 30)
+print(f'textgrad_result: {textgrad_result}')

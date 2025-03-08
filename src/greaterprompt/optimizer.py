@@ -424,10 +424,11 @@ class TextGradOptimizer:
         self.args = textgrad_args()
         self.args.evaluation_engine = optimize_config.get("evaluation_engine", "meta-llama/Meta-Llama-3-8B-Instruct")
         self.args.test_engine = optimize_config.get("test_engine", "meta-llama/Meta-Llama-3-8B-Instruct")
+        self.args.device = optimize_config.get("device", "cpu")
 
-        evaluation_engine = ChatExternalClient(client=None, model_string=self.args.evaluation_engine)
+        evaluation_engine = ChatExternalClient(client=None, model_string=self.args.evaluation_engine, device=self.args.device)
         if self.args.evaluation_engine != self.args.test_engine:
-            test_engine = ChatExternalClient(client=None, model_string=self.args.test_engine)
+            test_engine = ChatExternalClient(client=None, model_string=self.args.test_engine, device=self.args.device)
         else:
             test_engine = evaluation_engine
         self.llm_api_eval = evaluation_engine
@@ -558,6 +559,6 @@ class TextGradOptimizer:
                 if steps == 3:
                     break
         
-        p_stars = results["prompt"]
+        p_star = results["prompt"][-1]
 
-        return p_stars
+        return p_star

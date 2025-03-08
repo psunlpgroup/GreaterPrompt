@@ -14,7 +14,7 @@ PATH = '/scratch2/share/model_files/huggingface'
 
 
 class ModelClass(object):
-    def __init__(self, *, model_path, is_distributed=False, use_path=True, system_prompt=""):
+    def __init__(self, *, model_path, is_distributed=False, use_path=True, system_prompt="", device):
         self.is_distributed = is_distributed
 
 
@@ -29,11 +29,11 @@ class ModelClass(object):
 
                 self.model = AutoModelForCausalLM.from_pretrained(
                     model_path, torch_dtype=torch.float16,
-                    trust_remote_code=True, cache_dir=PATH).to(self.device)
+                    trust_remote_code=True, device_map=device)
             else:
                 self.model = AutoModelForCausalLM.from_pretrained(
                     model_path, torch_dtype=torch.float16,
-                    trust_remote_code=True).to(self.device)
+                    trust_remote_code=True, device_map=device)
 
             self.model_name_or_path = self.model.name_or_path
 
@@ -44,10 +44,10 @@ class ModelClass(object):
             if use_path:
 
                 self.model = AutoModelForCausalLM.from_pretrained(model_path, torch_dtype=torch.float16,
-                                                              trust_remote_code=True, device_map="auto",
+                                                              trust_remote_code=True, device_map=device,
                                                               cache_dir=PATH)
             else:
-                self.model = AutoModelForCausalLM.from_pretrained(model_path, torch_dtype=torch.float16,trust_remote_code=True, device_map="auto")
+                self.model = AutoModelForCausalLM.from_pretrained(model_path, torch_dtype=torch.float16,trust_remote_code=True, device_map=device)
 
             self.model_name_or_path = self.model.name_or_path
 

@@ -18,6 +18,7 @@ class ChatExternalClient(ChatOpenAI):
     def __init__(
         self,
         client,
+        device,
         model_string: str,
         system_prompt: str = DEFAULT_SYSTEM_PROMPT,
         **kwargs,
@@ -48,7 +49,7 @@ class ChatExternalClient(ChatOpenAI):
         #     model_string=model_string, system_prompt=system_prompt, **kwargs
         # )
         self.client = client
-        self.engine_llm = ModelClass(model_path=model_string, system_prompt=system_prompt)
+        self.engine_llm = ModelClass(model_path=model_string, system_prompt=system_prompt, device=device)
 
     def generate(self, content, system_prompt:str=None, **kwargs):
         return self.engine_llm.get_answer(prompt=content, system_prompt=system_prompt, **kwargs)[0]
