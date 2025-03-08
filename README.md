@@ -73,7 +73,7 @@ dataset2 = GreaterDataloader(custom_inputs=[
 ])
 ```
 
-### Step 2: Init the Model and Tokenizer
+### Step 2: Init the Model and Tokenizer (Only for GreaterPrompt)
 
 ```python
 import torch
@@ -87,12 +87,13 @@ tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 
 ### Step 3: Set Optimize Configs
 
-It's totally okay to not set the custom config!!! For details about each parameter, please refer to <a href="#robot-optimize-configs"> Optimize-Configs</a>
+This step is totally Optional. For details about parameters, please refer to <a href="#robot-optimize-configs"> Optimize-Configs</a>
 
 ```python
 from torch.nn import functional as F
 
-optimize_config = {
+# for GreaterOptimizer
+greater_optimize_config = {
     "intersect_q": 5,
     "candidates_topk": 10,
     "loss_function": F.cross_entropy,
@@ -100,40 +101,80 @@ optimize_config = {
     "perplexity_lambda": 0.2,
     "filter": True,
     "generate_config": {
+        "do_sample": True,
         "temperature": 0.2,
         "max_new_tokens": 512,
     }
 }
+
+# for ApeOptimizer, ApoOptimizer, Pe2Optimizer
+optimize_config = {
+    "task_model": "openai_gpt35_turbo_instruct",
+    "optim_model": "openai_gpt4_turbo",
+}
+
+# for TextGradOptimizer
+textgrad_optimize_config = {
+    "evaluation_engine": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "test_engine": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "device": "cuda:0"
+}
 ```
 
-### Step 4: Init the Optimizer with Model, Tokenzier and Configs
+### Step 4: Init the Optimizers you wanna use
 
 ```python
-from greaterprompt import GreaterOptimizer
+from greaterprompt import (
+    ApeOptimizer, ApoOptimizer, GreaterOptimizer, GreaterDataloader, Pe2Optimizer, TextGradOptimizer
+)
 
-optimizer = GreaterOptimizer(
+ape_optimizer = ApeOptimizer(
+    optimize_config=optimize_config # Optional
+)
+
+apo_optimizer = ApoOptimizer(
+    optimize_config=optimize_config # Optional
+)
+
+greater_optimizer = GreaterOptimizer(
     model=model,
     tokenizer=tokenizer,
-    optimize_config=optimize_config # optimize_config is not mandatory
+    optimize_config=greater_optimize_config # Optional
+)
+
+pe2_optimizer = Pe2Optimizer(
+    optimize_config=optimize_config # Optional
+)
+
+textgrad_optimizer = TextGradOptimizer(
+    textgrad_optimize_config # Optional
 )
 ```
 
 ### Step 5: Pass the Dataloader to Optimizer and Optimize
 
-Optimizer will return a dict, which each key is the original question and item is a list of tuples, each tuple is a (p*, loss)
-
 ```python
-outputs = optimizer.optimize(
-    inputs=dataset1, 
-    # this extractor will be applied to all prompts inside the dataset
+ape_result = ape_optimizer.optimize(dataloader1, p_init="think step by step")
+apo_result = apo_optimizer.optimize(dataloader2, p_init="think step by step")
+greater_result = greater_optimizer.optimize(
+    dataloader1,
     p_extractor="\nNext, only give the exact answer, no extract words or any punctuation:",
-    rounds=105
+    rounds=80
 )
+pe2_result = pe2_optimizer.optimize(dataloader2, p_init="think step by step")
+textgrad_result = textgrad_optimizer.optimize(p_init="think step by step", dataloader=dataloader1)
 
 # print results
-for question, p_stars in outputs.items():
-    print(f'question: {question}')
-    print(f'p_stars: {p_stars}')
+print(f'ape_result: {ape_result}')
+print(f'-' * 30)
+print(f'apo_result: {apo_result}')
+print(f'-' * 30)
+print(f'greater_result: {greater_result}')
+print(f'-' * 30)
+print(f'pe2_result: {pe2_result}')
+print(f'-' * 30)
+print(f'textgrad_result: {textgrad_result}')
+
 ```
 
 ## :book: Input Format
@@ -151,7 +192,15 @@ If you wanna use jsonl file as the input, please make sure each line contains "q
 ## :robot: Optimize Configs
 
 <details>
-<summary>Explanations on the Configs</summary>
+<summary>ApeOptimizer, ApoOptimizer, Pe2Optimizer Parameters</summary>
+
+* `task_model: str`, the LLM that performs the task with a prompt. You can use OpenAI instruct models like `openai_gpt35_turbo_instruct` or you can also use models supported in vLLM. The code currently supports `mistralai/Mistral-7B-Instruct-v0.2`, `mosaicml/mpt-7b-instruct`, `01-ai/Yi-6B`.
+* `optim_model: str`, the LLM that performs prompt engineering. Currently the code supports `openai_gpt35`, `openai_gpt4`, `openai_gpt4_turbo`, `openai_gpt4o`, `openai_gpt4o_mini`
+
+</details>
+
+<details>
+<summary>GreaterPrompt Parameters</summary>
 
 * `intersect_q: int`, use how many question/prompt inpur pair to build a batch to get candidates.
 * `candidates_topk: int`, sample how many candidates for each p_i.
@@ -163,9 +212,19 @@ If you wanna use jsonl file as the input, please make sure each line contains "q
 
 </details>
 
+<details>
+<summary>TextGradOptimizer Parameters</summary>
+
+* `evaluation_engine: str`, currently we only support Llama3 family models.
+* `test_engine: str`, currently we only support Llama3 family models.
+* `device: str`, which device you wanna use to load the model.
+
+</details>
+
+
 ## :sparkles: Features
 
-We support custom loss function in order to optimize different tasks, you could either use customed loss function or other pytorch loss functions!
+For GreaterOptimizer, we support custom loss function in order to optimize different tasks, you could either use customed loss function or other pytorch loss functions!
 
 ```python
 import torch
