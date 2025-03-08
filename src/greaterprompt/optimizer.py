@@ -503,7 +503,7 @@ class TextGradOptimizer:
         results["validation_acc"].append(val_performance)
 
 
-    def optimize(self, p_init:str, dataloader:GreaterDataloader):
+    def optimize(self, dataloader: GreaterDataloader, p_init: str):
         tg.set_backward_engine(self.llm_api_eval, override=True)
 
         train_set, val_set, test_set, eval_fn = self.load_data(p_init, dataloader)

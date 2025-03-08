@@ -104,7 +104,7 @@ greater_result = greater_optimizer.optimize(
     rounds=80
 )
 pe2_result = pe2_optimizer.optimize(dataloader2, p_init="think step by step")
-textgrad_result = textgrad_optimizer.optimize(p_init="think step by step", dataloader=dataloader1)
+textgrad_result = textgrad_optimizer.optimize(dataloader1, p_init="think step by step")
 
 # print results
 print(f'ape_result: {ape_result}')
