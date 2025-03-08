@@ -6,6 +6,7 @@ import sys
 from collections import defaultdict
 from typing import List
 
+import src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad as tg
 from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.tasks import load_task
 from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.engine.local_model_openai_api import ChatExternalClient
 from src.greaterprompt.core.PE2.cli import ape_apo_pe2_optimizer
@@ -424,6 +425,14 @@ class TextGradOptimizer:
         self.args.evaluation_engine = optimize_config.get("evaluation_engine", "meta-llama/Meta-Llama-3-8B-Instruct")
         self.args.test_engine = optimize_config.get("test_engine", "meta-llama/Meta-Llama-3-8B-Instruct")
 
+        evaluation_engine = ChatExternalClient(client=None, model_string=self.args.evaluation_engine)
+        if self.args.evaluation_engine != self.args.test_engine:
+            test_engine = ChatExternalClient(client=None, model_string=self.args.test_engine)
+        else:
+            test_engine = evaluation_engine
+        self.llm_api_eval = evaluation_engine
+        self.llm_api_test = test_engine
+
     
     def load_data(self, p_init:str, dataloader:GreaterDataloader):
         train_set, val_set, test_set, eval_fn, csv_path = load_task(
@@ -446,7 +455,109 @@ class TextGradOptimizer:
         return train_set, val_set, test_set, eval_fn
 
 
-    def optimize(self, p_init:str, dataloader:GreaterDataloader):
-        train_set, val_set, test_set, eval_fn = self.load_data(p_init, dataloader)
+    def eval_sample(self, item, eval_fn, model):
+        x, y = item
+        y = str(y)
+        x = tg.Variable(x, requires_grad=False, role_description="query to the language model")
+        y = tg.Variable(str(y), requires_grad=False, role_description="correct answer for the query")
+        response = model(x)
+        try:
+            eval_output_variable = eval_fn(inputs=dict(prediction=response, ground_truth_answer=y))
+            return int(eval_output_variable.value)
+        except:
+            eval_output_variable = eval_fn([x, y, response])
+            eval_output_parsed = eval_fn.parse_output(eval_output_variable)
+            return int(eval_output_parsed)
 
-        return
+
+    def eval_dataset(self, test_set, eval_fn, model, max_samples: int=None):
+        if max_samples is None:
+            max_samples = len(test_set)
+        accuracy_list = []
+        with concurrent.futures.ThreadPoolExecutor(max_workers=self.args.num_threads) as executor:
+            futures = []
+            for _, sample in enumerate(test_set):
+                
+                future = executor.submit(self.eval_sample, sample, eval_fn, model)
+                futures.append(future)
+                if len(futures) >= max_samples:
+                    break
+            tqdm_loader = tqdm(concurrent.futures.as_completed(futures), total=len(futures), position=0)
+            for future in tqdm_loader:
+                acc_item = future.result()
+                accuracy_list.append(acc_item)
+                tqdm_loader.set_description(f"Proxy Accuracy: {np.mean(accuracy_list)}")
+        return accuracy_list
+    
+
+    def run_validation_revert(self, system_prompt: tg.Variable, results, model, eval_fn, val_set):
+        val_performance = np.mean(self.eval_dataset(val_set, eval_fn, model))
+        previous_performance = np.mean(results["validation_acc"][-1])
+        previous_prompt = results["prompt"][-1]
+        
+        if val_performance < previous_performance:
+            system_prompt.set_value(previous_prompt)
+            val_performance = previous_performance
+
+        results["validation_acc"].append(val_performance)
+
+
+    def optimize(self, p_init:str, dataloader:GreaterDataloader):
+        tg.set_backward_engine(self.llm_api_eval, override=True)
+
+        train_set, val_set, test_set, eval_fn = self.load_data(p_init, dataloader)
+        STARTING_SYSTEM_PROMPT = train_set.get_task_description()
+
+        train_loader = tg.tasks.DataLoader(train_set, batch_size=self.args.batch_size, shuffle=True)
+        system_prompt = tg.Variable(
+            STARTING_SYSTEM_PROMPT, requires_grad=True, role_description="system prompt to the language model"
+        )
+        model_evaluation = tg.BlackboxLLM(self.llm_api_eval, system_prompt)
+
+        if not self.args.do_not_run_larger_model:
+            reference = np.mean(self.eval_dataset(test_set, eval_fn, model_evaluation))
+
+
+        system_prompt = tg.Variable(
+            STARTING_SYSTEM_PROMPT, requires_grad=True,
+            role_description="structured system prompt to a somewhat capable language model \
+                  that specifies the behavior and strategies for the QA task"
+        )
+        model = tg.BlackboxLLM(self.llm_api_test, system_prompt)
+
+        optimizer = tg.TextualGradientDescent(engine=self.llm_api_eval, parameters=[system_prompt])
+
+        results = {"test_acc": [], "prompt": [], "validation_acc": []}
+        results["test_acc"].append(self.eval_dataset(test_set, eval_fn, model))
+        results["validation_acc"].append(self.eval_dataset(val_set, eval_fn, model))
+        results["prompt"].append(system_prompt.get_value())
+
+        for epoch in range(self.args.max_epochs):
+            for steps, (batch_x, batch_y) in enumerate((pbar := tqdm(train_loader, position=0))):
+                pbar.set_description(f"Training step {steps}. Epoch {epoch}")
+                optimizer.zero_grad()
+                losses = []
+                for (x, y) in zip(batch_x, batch_y):
+                    y = str(y)
+                    x = tg.Variable(x, requires_grad=False, role_description="query to the language model")
+                    y = tg.Variable(y, requires_grad=False, role_description="correct answer for the query")
+                    response = model(x)
+                    try:
+                        eval_output_variable = eval_fn(inputs=dict(prediction=response, ground_truth_answer=y))
+                    except:
+                        eval_output_variable = eval_fn([x, y, response])
+                    losses.append(eval_output_variable)
+                total_loss = tg.sum(losses)
+                total_loss.backward()
+                optimizer.step()
+                if self.args.run_validation:
+                    self.run_validation_revert(system_prompt, results, model, eval_fn, val_set)
+                test_acc = self.eval_dataset(test_set, eval_fn, model)
+                results["test_acc"].append(test_acc)
+                results["prompt"].append(system_prompt.get_value())
+                if steps == 3:
+                    break
+        
+        p_stars = results["prompt"]
+
+        return p_stars
