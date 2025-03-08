@@ -63,3 +63,17 @@ def ape_apo_pe2_args(trainer: str) -> argparse.Namespace:
 
     return args
 
+
+def textgrad_args() -> argparse.Namespace:
+    args = argparse.Namespace()
+    args.task = "BBH_object_counting"
+    args.evaluation_engine = "meta-llama/Meta-Llama-3-8B-Instruct"
+    args.test_engine = "meta-llama/Meta-Llama-3-8B-Instruct"
+    args.batch_size = 2
+    args.max_epochs = 3
+    args.seed = 42
+    args.run_validation = True
+    args.do_not_run_larger_model = False
+    args.num_threads = 1
+
+    return args

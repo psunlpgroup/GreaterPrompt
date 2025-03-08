@@ -1,8 +1,8 @@
 ## Operations over variables.
 from typing import List, Set
-from textgrad import logger
-from textgrad.variable import Variable
-from textgrad.engine import EngineLM
+from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad import logger
+from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.variable import Variable
+from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.engine import EngineLM
 from .reduce_prompts import construct_reduce_prompt, REDUCE_MEAN_SYSTEM_PROMPT
 from .function import Function, BackwardContext
 

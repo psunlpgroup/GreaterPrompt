@@ -1,9 +1,9 @@
-from textgrad import logger
-from textgrad.defaults import (SYSTEM_PROMPT_DEFAULT_ROLE, 
+from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad import logger
+from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.defaults import (SYSTEM_PROMPT_DEFAULT_ROLE, 
                                VARIABLE_OUTPUT_DEFAULT_ROLE)
-from textgrad.variable import Variable
-from textgrad.engine import EngineLM
-from textgrad.config import validate_engine_or_get_default
+from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.variable import Variable
+from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.engine import EngineLM
+from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.config import validate_engine_or_get_default
 from typing import List, Dict
 from .llm_backward_prompts import (
     EVALUATE_VARIABLE_INSTRUCTION,

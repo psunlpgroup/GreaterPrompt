@@ -1,15 +1,21 @@
+import concurrent
 import csv
 import importlib
 import os
+import sys
 from collections import defaultdict
 from typing import List
 
+from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.tasks import load_task
+from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.engine.local_model_openai_api import ChatExternalClient
 from src.greaterprompt.core.PE2.cli import ape_apo_pe2_optimizer
 from src.greaterprompt.dataloader import GreaterDataloader
 from src.greaterprompt.models import model_supported
-from src.greaterprompt.utils import ape_apo_pe2_args, clean_string
+from src.greaterprompt.utils import ape_apo_pe2_args, clean_string, textgrad_args
 
 import torch
+import numpy as np
+import pandas as pd
 from torch.nn import functional as F
 from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -410,3 +416,37 @@ class GreaterOptimizer:
 class Pe2Optimizer(BaseOptimizer):
     def __init__(self, optimize_config: dict = {}):
         super().__init__("pe2", optimize_config)
+
+
+class TextGradOptimizer:
+    def __init__(self, optimize_config: dict = {}):
+        self.args = textgrad_args()
+        self.args.evaluation_engine = optimize_config.get("evaluation_engine", "meta-llama/Meta-Llama-3-8B-Instruct")
+        self.args.test_engine = optimize_config.get("test_engine", "meta-llama/Meta-Llama-3-8B-Instruct")
+
+    
+    def load_data(self, p_init:str, dataloader:GreaterDataloader):
+        train_set, val_set, test_set, eval_fn, csv_path = load_task(
+            p_init, self.args.task, evaluation_api=self.args.evaluation_engine
+        )
+        for filename in ["train", "test", "val"]:
+            with open(os.path.join(csv_path, f"{filename}.csv"), "w") as f:
+                writer = csv.writer(f)
+                writer.writerow(["", "x", "y"])
+                for i, input in enumerate(dataloader):
+                    writer.writerow([i, input["question"], input["answer"]])
+            
+            if filename == "train":
+                train_set.data = pd.read_csv(os.path.join(csv_path, f"{filename}.csv"), index_col=0)
+            elif filename == "test":
+                test_set.data = pd.read_csv(os.path.join(csv_path, f"{filename}.csv"), index_col=0)
+            elif filename == "val":
+                val_set.data = pd.read_csv(os.path.join(csv_path, f"{filename}.csv"), index_col=0)
+
+        return train_set, val_set, test_set, eval_fn
+
+
+    def optimize(self, p_init:str, dataloader:GreaterDataloader):
+        train_set, val_set, test_set, eval_fn = self.load_data(p_init, dataloader)
+
+        return

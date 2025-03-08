@@ -3,7 +3,7 @@ import json
 import pandas as pd
 import subprocess
 import platformdirs
-import textgrad as tg
+import src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad as tg
 from .base import Dataset
 
 # The below metric is taken from DSPy for consistenc
@@ -31,7 +31,7 @@ def string_based_equality_fn(prediction: tg.Variable, ground_truth_answer: tg.Va
 
 
 class BigBenchHard(Dataset):
-    def __init__(self, task_name: str, root: str=None, split: str="train", *args, **kwargs):
+    def __init__(self, p_init, task_name: str, root: str=None, split: str="train", *args, **kwargs):
         """
         Tasks from BIG-Bench Hard
         <https://github.com/suzgunmirac/BIG-Bench-Hard>
@@ -44,6 +44,7 @@ class BigBenchHard(Dataset):
         """
         if root is None:
             root = platformdirs.user_cache_dir("textgrad")
+        self.csv_data_path = os.path.join(root, task_name)
         self.root = root
         self.split = split
         self.task_name = task_name
@@ -51,7 +52,7 @@ class BigBenchHard(Dataset):
         assert split in ["train", "val", "test"]
         data_path = os.path.join(self.root, self.task_name, f"{split}.csv")
         self.data = pd.read_csv(data_path, index_col=0)
-        self._task_description = "You will answer a reasoning question. Think step by step. The last line of your response should be of the following format: 'Answer: $VALUE' where VALUE is a numerical value."
+        self._task_description = f"{p_init} The last line of your response should be of the following format: 'Answer: $ANSWER'"
     
     def get_task_description(self):
         return self._task_description 

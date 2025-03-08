@@ -1,7 +1,7 @@
-try:
-    from openai import OpenAI, AzureOpenAI
-except ImportError:
-    raise ImportError("If you'd like to use OpenAI models, please install the openai package by running `pip install openai`, and add 'OPENAI_API_KEY' to your environment variables.")
+# try:
+#     from openai import OpenAI, AzureOpenAI
+# except ImportError:
+#     raise ImportError("If you'd like to use OpenAI models, please install the openai package by running `pip install openai`, and add 'OPENAI_API_KEY' to your environment variables.")
 
 import os
 import json
@@ -51,14 +51,15 @@ class ChatOpenAI(EngineLM, CachedEngine):
             if os.getenv("OPENAI_API_KEY") is None:
                 raise ValueError("Please set the OPENAI_API_KEY environment variable if you'd like to use OpenAI models.")
             
-            self.client = OpenAI(
-                api_key=os.getenv("OPENAI_API_KEY")
-            )
+            # self.client = OpenAI(
+            #     api_key=os.getenv("OPENAI_API_KEY")
+            # )
         elif base_url and base_url == OLLAMA_BASE_URL:
-            self.client = OpenAI(
-                base_url=base_url,
-                api_key="ollama"
-            )
+            pass
+            # self.client = OpenAI(
+            #     base_url=base_url,
+            #     api_key="ollama"
+            # )
         else:
             raise ValueError("Invalid base URL provided. Please use the default OLLAMA base URL or None.")
 
@@ -191,10 +192,10 @@ class AzureChatOpenAI(ChatOpenAI):
         if os.getenv("AZURE_OPENAI_API_KEY") is None:
             raise ValueError("Please set the AZURE_OPENAI_API_KEY, AZURE_OPENAI_API_BASE, and AZURE_OPENAI_API_VERSION environment variables if you'd like to use Azure OpenAI models.")
         
-        self.client = AzureOpenAI(
-            api_version=api_version,
-            api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-            azure_endpoint=os.getenv("AZURE_OPENAI_API_BASE"),
-            azure_deployment=model_string,
-        )
+        # self.client = AzureOpenAI(
+        #     api_version=api_version,
+        #     api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+        #     azure_endpoint=os.getenv("AZURE_OPENAI_API_BASE"),
+        #     azure_deployment=model_string,
+        # )
         self.model_string = model_string

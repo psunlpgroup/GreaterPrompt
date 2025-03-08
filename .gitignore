@@ -4,3 +4,4 @@ testspace/
 *.log
 *.csv
 src/greaterprompt/core/PE2/
+logs/

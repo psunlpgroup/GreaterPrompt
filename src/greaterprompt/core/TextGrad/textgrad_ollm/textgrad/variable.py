@@ -1,10 +1,10 @@
-from textgrad import logger
-from textgrad.engine import EngineLM
+from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad import logger
+from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.engine import EngineLM
 from typing import List, Set, Dict
 import httpx
 from collections import defaultdict
 from functools import partial
-from .config import SingletonBackwardEngine
+from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.config import SingletonBackwardEngine
 from .utils.image_utils import is_valid_url
 from typing import Union
 

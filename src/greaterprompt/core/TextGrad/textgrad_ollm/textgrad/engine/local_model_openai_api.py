@@ -1,6 +1,6 @@
 import os
 import logging
-from openai import OpenAI
+# from openai import OpenAI
 from .openai import ChatOpenAI
 from .llm_call import ModelClass
 
@@ -17,7 +17,7 @@ class ChatExternalClient(ChatOpenAI):
 
     def __init__(
         self,
-        client: OpenAI,
+        client,
         model_string: str,
         system_prompt: str = DEFAULT_SYSTEM_PROMPT,
         **kwargs,

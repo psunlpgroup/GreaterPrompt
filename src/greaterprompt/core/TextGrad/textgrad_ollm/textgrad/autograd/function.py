@@ -1,5 +1,5 @@
-from textgrad.variable import Variable
-from textgrad.engine import EngineLM
+from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.variable import Variable
+from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.engine import EngineLM
 
 from abc import ABC, abstractmethod
 from typing import List

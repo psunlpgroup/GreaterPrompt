@@ -3,8 +3,8 @@ from .base import Dataset, DataLoader
 from .leetcode import LeetCodeHardEval
 
 from typing import Tuple, Callable
-from textgrad import Variable
-from textgrad.engine import EngineLM
+from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad import Variable
+from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.engine import EngineLM
 
 AVAILABLE_DATASETS = [
     "BBH_object_counting",
@@ -19,20 +19,20 @@ AVAILABLE_INSTANCE_DATASETS = [
     "LeetCodeHardEval"
 ]
 
-def load_task(task_name: str, evaluation_api: EngineLM, *args, **kwargs) -> Tuple[Dataset, Dataset, Callable]:
+def load_task(p_init, task_name: str, evaluation_api: EngineLM, *args, **kwargs) -> Tuple[Dataset, Dataset, Callable]:
     """
     Args:
         task_name: the name of the task to evaluate
         evaluation_api: the engine to use for evaluation, if needed
     """
     if "object_counting" in task_name:
-        from textgrad.loss import MultiFieldTokenParsedEvaluation
+        from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.loss import MultiFieldTokenParsedEvaluation
         from .big_bench_hard import BigBenchHard, string_based_equality_fn
-        from textgrad.autograd.string_based_ops import StringBasedFunction
+        from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.autograd.string_based_ops import StringBasedFunction
         task_name = task_name[4:]
-        train_set = BigBenchHard(task_name, split="train", *args, **kwargs)
-        val_set = BigBenchHard(task_name, split="val", *args, **kwargs)
-        test_set = BigBenchHard(task_name, split="test", *args, **kwargs)
+        train_set = BigBenchHard(p_init, task_name, split="train", *args, **kwargs)
+        val_set = BigBenchHard(p_init, task_name, split="val", *args, **kwargs)
+        test_set = BigBenchHard(p_init, task_name, split="test", *args, **kwargs)
         role_descriptions = [
             "Question for the task",
             "Ground truth answer",
@@ -40,15 +40,15 @@ def load_task(task_name: str, evaluation_api: EngineLM, *args, **kwargs) -> Tupl
         ]
         fn_purpose = "The runtime of string-based function that checks if the prediction is correct."
         eval_fn = StringBasedFunction(string_based_equality_fn, function_purpose=fn_purpose)
-        return train_set, val_set, test_set, eval_fn
+        return train_set, val_set, test_set, eval_fn, train_set.csv_data_path
     
     elif "BBH" in task_name:
         from textgrad.loss import MultiFieldTokenParsedEvaluation
         from .big_bench_hard import BigBenchHard
         task_name = task_name[4:]
-        train_set = BigBenchHard(task_name, split="train", *args, **kwargs)
-        val_set = BigBenchHard(task_name, split="val", *args, **kwargs)
-        test_set = BigBenchHard(task_name, split="test", *args, **kwargs)
+        train_set = BigBenchHard(p_init, task_name, split="train", *args, **kwargs)
+        val_set = BigBenchHard(p_init, task_name, split="val", *args, **kwargs)
+        test_set = BigBenchHard(p_init, task_name, split="test", *args, **kwargs)
         role_descriptions = [
             "Question for the task",
             "Ground truth answer",
@@ -65,7 +65,7 @@ def load_task(task_name: str, evaluation_api: EngineLM, *args, **kwargs) -> Tupl
             parse_tags=["<ACCURACY>", "</ACCURACY>"]
         )
         
-        return train_set, val_set, test_set, eval_fn
+        return train_set, val_set, test_set, eval_fn, train_set.csv_data_path
     
     elif task_name == "GSM8K_DSPy":
         from textgrad.tasks.gsm8k import GSM8K_DSPy
