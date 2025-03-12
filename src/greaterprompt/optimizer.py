@@ -109,32 +109,36 @@ class GreaterOptimizer:
         )
     
 
-    def get_pred_probs(self, input: torch.Tensor, y_tokens: torch.Tensor) -> torch.Tensor:
-        probs = []
+    def get_y_hat(self, input: torch.Tensor, y_tokens: torch.Tensor) -> torch.Tensor:
+        y_hat = None
 
         with torch.enable_grad():
             generate_config = self.optimize_config["generate_config"]
             for i in range(len(y_tokens)):
                 logits = self.client.get_logits(input, generate_config)[:, -1, :]
-                next_token_id = torch.argmax(logits, dim=-1)
+                if y_hat is None:
+                    y_hat = logits
+                else:
+                    y_hat = torch.cat([y_hat, logits], dim=0)
+                probs = F.softmax(logits, dim=1)
+                next_token_id = torch.argmax(probs, dim=1).reshape(1, -1)
 
                 # ----------------- only for gemma2 ----------------- #
                 # TODO: hardcode here, if gemma2 generate \n, keep generating until it is not
                 if self.client.model.config.model_type == "gemma2":
                     while self.client.tokenizer.decode(next_token_id[0], skip_special_tokens=True) in ["\n", "\n\n"]:
-                        input = torch.cat([input, next_token_id.unsqueeze(0)], dim=1)
+                        input = torch.cat([input, next_token_id], dim=1)
                         logits = self.client.get_logits(input, generate_config)[:, -1, :]
-                        next_token_id = torch.argmax(logits, dim=-1)
+                        probs = F.softmax(logits, dim=1)
+                        next_token_id = torch.argmax(probs, dim=1).reshape(1, -1)
                 # ----------------- only for gemma2 ----------------- #
-    
-                next_token_id = next_token_id.unsqueeze(0)
-                probs.append(F.softmax(logits, dim=-1))
+
                 input = torch.cat([input, next_token_id], dim=1)
                 del logits
                 if i % 5 == 0:
                     torch.cuda.empty_cache()
 
-        return torch.cat(probs, dim=0)
+        return y_hat
     
 
     def perplexity_loss(self, q_tokens: torch.Tensor, p_tokens: torch.Tensor) -> torch.Tensor:
@@ -159,8 +163,7 @@ class GreaterOptimizer:
             perpl_lambda = self.optimize_config.get("perplexity_lambda", 0.2)
         else:
             perpl_lambda = 0
-        
-        raw_loss = loss_function(y_hat, y)
+        raw_loss = loss_function(y_hat, y[0, :]).mean()
         perpl_loss = perpl_lambda * self.perplexity_loss(q_tokens, p_tokens)
         loss = raw_loss + perpl_loss
         loss.backward()
@@ -168,16 +171,12 @@ class GreaterOptimizer:
         return raw_loss
 
 
-    def get_gradients(self, q_tokens: torch.Tensor, p_tokens: torch.Tensor, y_tokens: torch.Tensor, y_hat_probs: torch.Tensor) -> List[torch.Tensor]:
-        gradients = []
+    def get_gradients(self, q_tokens: torch.Tensor, p_tokens: torch.Tensor, y_tokens: torch.Tensor, y_hat: torch.Tensor) -> List[torch.Tensor]:
+        loss = self.calculate_loss(q_tokens, p_tokens, y_hat, y_tokens)
+        embedding_layer = self.client.model.get_input_embeddings()
+        embedding_grad = embedding_layer.weight.grad.detach().clone()
 
-        for y, y_hat in zip(y_tokens[0, :], y_hat_probs):
-            loss = self.calculate_loss(q_tokens, p_tokens, y_hat, y)
-            embedding_layer = self.client.model.get_input_embeddings()
-            embedding_grad = embedding_layer.weight.grad.detach().clone()
-            gradients.append(embedding_grad.cpu())
-
-        return gradients, loss
+        return embedding_grad, loss
 
 
     def get_candidates(self, input: torch.Tensor) -> List[int]:
@@ -195,12 +194,11 @@ class GreaterOptimizer:
         return response
     
     
-    def get_p_i_star(self, gradients: List[torch.Tensor], candidates: List[int]) -> int:
+    def get_p_i_star(self, gradients: torch.Tensor, candidates: List[int]) -> int:
         p_i_star, p_i_star_grad = None, float("-inf")
 
         for candidate in candidates:
-            token_grad = sum([torch.norm(grad[candidate], p=2) * -1 for grad in gradients])
-            token_grad /= len(gradients)
+            token_grad = -1 * gradients[candidate, :].mean().item()
             if token_grad > p_i_star_grad:
                 p_i_star = candidate
                 p_i_star_grad = token_grad
@@ -253,8 +251,8 @@ class GreaterOptimizer:
 
                     # use x + p + r + p_extractor to get logits of y_hat(x and p is already included in r)
                     input_ids = torch.cat([r_tokens, p_extr_tokens], dim=1)
-                    y_hat_probs = self.get_pred_probs(input_ids, y_tokens[k])
-                    gradients, loss = self.get_gradients(question_tokens[k], p[:, :idx], y_tokens[k], y_hat_probs)
+                    y_hat = self.get_y_hat(input_ids, y_tokens[k])
+                    gradients, loss = self.get_gradients(question_tokens[k], p[:, :idx], y_tokens[k], y_hat)
 
                     # calculate gradient for each candidate to get p_i_star
                     p_i_star = self.get_p_i_star(gradients, candidates)
@@ -291,7 +289,7 @@ class GreaterOptimizer:
                 if self.optimize_config.get("filter", False):
                     outputs[question] = self.client.filter(cleaned_prompts)
 
-            del input_ids, reasoning_chain, r_tokens, y_hat_probs
+            del input_ids, reasoning_chain, r_tokens, y_hat
             torch.cuda.empty_cache()
 
         return outputs
