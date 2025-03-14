@@ -36,7 +36,7 @@ setup(
     # For a discussion on single-sourcing the version across setup.py and the
     # project code, see
     # https://packaging.python.org/guides/single-sourcing-package-version/
-    version="0.3.0",  # Required
+    version="0.3.2",  # Required
     # This is a one-line description or tagline of what your project does. This
     # corresponds to the "Summary" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#summary
@@ -126,7 +126,7 @@ setup(
         "torch==2.3.1", "guidance==0.0.64", "openai==0.27.8", "tenacity>=8.2.3",
         "vllm==0.5.3.post1", "retrying", "python-dotenv>=1.0.0", "pandas>=1.5.3",
         "platformdirs>=3.11.0", "datasets>=2.14.6", "diskcache>=5.6.3", "graphviz>=0.20.3",
-        "gdown>=5.2.0", "pillow", "tqdm", "streamlit", "transformers==4.48.3", "accelerate==1.4.0",
+        "gdown>=5.2.0", "pillow", "tqdm", "streamlit", "accelerate==1.4.0",
         "httpx", "fschat==0.2.20"
     ],  # Optional
     # List additional groups of dependencies here (e.g. development
