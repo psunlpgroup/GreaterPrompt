@@ -1,10 +1,10 @@
 from abc import ABC, abstractmethod
 from typing import List, Union
 from collections import defaultdict
-from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.variable import Variable
-from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad import logger
-from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.engine import EngineLM
-from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.config import validate_engine_or_get_default
+from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.variable import Variable
+from greaterprompt.core.TextGrad.textgrad_ollm.textgrad import logger
+from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.engine import EngineLM
+from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.config import validate_engine_or_get_default
 from .optimizer_prompts import construct_tgd_prompt, OPTIMIZER_SYSTEM_PROMPT, GRADIENT_TEMPLATE, GRADIENT_MULTIPART_TEMPLATE
 
 

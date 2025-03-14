@@ -1,4 +1,4 @@
-from src.greaterprompt import (
+from greaterprompt import (
     ApeOptimizer, ApoOptimizer, GreaterOptimizer, GreaterDataloader, Pe2Optimizer, TextGradOptimizer
 )
 
@@ -35,7 +35,7 @@ dataloader2 = GreaterDataloader(custom_inputs=[
 
 # init model and tokenzier if you want to use GreaterOptimizer
 MODEL_PATH = "/scratch1/wmz5132/models/huggingface/gemma-2-9b-it"
-DEVICE = "cuda:0"
+DEVICE = "cuda"
 model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, torch_dtype=torch.bfloat16, device_map=DEVICE)
 model.gradient_checkpointing_enable()
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
@@ -67,7 +67,7 @@ optimize_config = {
 textgrad_optimize_config = {
     "evaluation_engine": "meta-llama/Meta-Llama-3-8B-Instruct",
     "test_engine": "meta-llama/Meta-Llama-3-8B-Instruct",
-    "device": "cuda:0"
+    "device": "cuda"
 }
 
 # ------ Part 4: Initialize the Optimizers ------ #

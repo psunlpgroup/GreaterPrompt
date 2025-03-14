@@ -1,9 +1,9 @@
-from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.engine import EngineLM, get_engine
-from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.variable import Variable
+from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.engine import EngineLM, get_engine
+from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.variable import Variable
 from typing import List, Union
-from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.autograd import LLMCall, FormattedLLMCall, OrderedFieldsMultimodalLLMCall
-from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.autograd import Module
-from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.config import SingletonBackwardEngine
+from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.autograd import LLMCall, FormattedLLMCall, OrderedFieldsMultimodalLLMCall
+from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.autograd import Module
+from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.config import SingletonBackwardEngine
 
 
 class TextLoss(Module):

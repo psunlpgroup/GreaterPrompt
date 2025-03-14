@@ -1,9 +1,6 @@
-import sys
-sys.path.append("/scratch1/wmz5132/GreaterPrompt")
-
 import json
 
-from src.greaterprompt.optimizer import Pe2Optimizer, GreaterDataloader
+from greaterprompt.optimizer import Pe2Optimizer, GreaterDataloader
 
 import openai
 import streamlit as st

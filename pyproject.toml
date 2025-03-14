@@ -4,12 +4,12 @@ build-backend = "hatchling.build"
 
 [project]
 name = "greaterprompt"
-version = "0.2.0"
+version = "0.3.0"
 dependencies = [
     "torch==2.3.1", "guidance==0.0.64", "openai==0.27.8", "tenacity>=8.2.3",
     "vllm==0.5.3.post1", "retrying", "python-dotenv>=1.0.0", "pandas>=1.5.3",
     "platformdirs>=3.11.0", "datasets>=2.14.6", "diskcache>=5.6.3", "graphviz>=0.20.3",
-    "gdown>=5.2.0", "pillow", "tqdm", "streamlit", "transformers==4.48.3", "accelerate"
+    "gdown>=5.2.0", "pillow", "tqdm", "streamlit", "transformers==4.48.3", "accelerate==1.4.0"
 ]
 
 authors = [

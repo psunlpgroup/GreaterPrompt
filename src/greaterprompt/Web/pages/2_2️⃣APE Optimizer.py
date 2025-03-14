@@ -1,9 +1,6 @@
-import sys
-sys.path.append("/scratch1/wmz5132/GreaterPrompt")
-
 import json
 
-from src.greaterprompt.optimizer import ApoOptimizer, GreaterDataloader
+from greaterprompt.optimizer import ApeOptimizer, GreaterDataloader
 
 import openai
 import streamlit as st
@@ -16,7 +13,7 @@ with st.sidebar:
     task_model = st.selectbox("Task Model", ["openai_gpt35_turbo_instruct", "openai_gpt4", "openai_gpt4_turbo", "openai_gpt4o", "openai_gpt4o_mini"], index=0)
     optim_model = st.selectbox("Optim Model", ["openai_gpt35_turbo_instruct", "openai_gpt4", "openai_gpt4_turbo", "openai_gpt4o", "openai_gpt4o_mini"], index=2)
 
-st.markdown("<h1 style='text-align: center; white-space: nowrap;'>🤩 Optimize with APO Optimizer</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; white-space: nowrap;'>🤩 Optimize with APE Optimizer</h1>", unsafe_allow_html=True)
 
 uploaded_file = st.file_uploader("Upload a jsonl input file", type=("jsonl"))
 p_init = st.text_input("P Initial")
@@ -54,7 +51,7 @@ if openai_key and uploaded_file and p_init.strip() and start_button:
     }
 
     with st.status("⚡ Optimizing...", expanded=True) as status:
-        ape_optimizer = ApoOptimizer(optimize_config=optimize_config)
+        ape_optimizer = ApeOptimizer(optimize_config=optimize_config)
         dataset = GreaterDataloader(custom_inputs=inputs)
 
         output = ape_optimizer.optimize(dataset, p_init)

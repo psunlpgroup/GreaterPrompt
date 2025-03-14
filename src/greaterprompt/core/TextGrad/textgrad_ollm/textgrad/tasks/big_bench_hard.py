@@ -3,7 +3,7 @@ import json
 import pandas as pd
 import subprocess
 import platformdirs
-import src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad as tg
+import greaterprompt.core.TextGrad.textgrad_ollm.textgrad as tg
 from .base import Dataset
 
 # The below metric is taken from DSPy for consistenc

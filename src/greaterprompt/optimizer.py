@@ -6,13 +6,13 @@ import sys
 from collections import defaultdict
 from typing import List
 
-import src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad as tg
-from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.tasks import load_task
-from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.engine.local_model_openai_api import ChatExternalClient
-from src.greaterprompt.core.PE2.cli import ape_apo_pe2_optimizer
-from src.greaterprompt.dataloader import GreaterDataloader
-from src.greaterprompt.models import model_supported
-from src.greaterprompt.utils import ape_apo_pe2_args, clean_string, textgrad_args
+import greaterprompt.core.TextGrad.textgrad_ollm.textgrad as tg
+from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.tasks import load_task
+from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.engine.local_model_openai_api import ChatExternalClient
+from .core.PE2.cli import ape_apo_pe2_optimizer
+from greaterprompt.dataloader import GreaterDataloader
+from greaterprompt.models import model_supported
+from .utils import ape_apo_pe2_args, clean_string, textgrad_args
 
 import torch
 import numpy as np
@@ -77,7 +77,7 @@ class GreaterOptimizer:
         supported, model_name = model_supported(model)
         assert supported, f"Model: {model} is not supported"
 
-        model_class = getattr(importlib.import_module("src.greaterprompt.models"), model_name)
+        model_class = getattr(importlib.import_module("greaterprompt.models"), model_name)
         self.client = model_class(model, tokenizer)
 
         for param in self.client.model.parameters():

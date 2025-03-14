@@ -1,9 +1,9 @@
 from typing import Union
-from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.variable import Variable
-from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.autograd import LLMCall
-from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.autograd.function import Module
-from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.engine import EngineLM, get_engine
-from src.greaterprompt.core.TextGrad.textgrad_ollm.textgrad.config import SingletonBackwardEngine
+from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.variable import Variable
+from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.autograd import LLMCall
+from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.autograd.function import Module
+from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.engine import EngineLM, get_engine
+from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.config import SingletonBackwardEngine
 
 class BlackboxLLM(Module):
     def __init__(self, engine: Union[EngineLM, str] = None, system_prompt: Union[Variable, str] = None):

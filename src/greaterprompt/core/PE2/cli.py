@@ -2,8 +2,8 @@ import os
 import argparse
 import logging
 
-from src.greaterprompt.core.PE2.run import run
-from src.greaterprompt.core.PE2.utils import get_logger, seed_everything
+from .run import run
+from .utils import get_logger, seed_everything
 
 def ape_apo_pe2_optimizer(args):
     # create output_dir

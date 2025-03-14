@@ -1,14 +1,10 @@
-import sys
-sys.path.append("/scratch1/wmz5132/GreaterPrompt")
-
-import os
 import json
-from src.greaterprompt.optimizer import TextGradOptimizer, GreaterDataloader
+
+from greaterprompt.optimizer import TextGradOptimizer, GreaterDataloader
 
 import torch
 import streamlit as st
 from torch.nn import functional as F
-from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
 CUDA_DEVICES = torch.cuda.device_count()
