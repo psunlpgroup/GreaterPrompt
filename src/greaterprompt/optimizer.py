@@ -8,7 +8,7 @@ from typing import List
 from .core.TextGrad.textgrad_ollm import textgrad as tg
 from .core.TextGrad.textgrad_ollm.textgrad.tasks import load_task
 from .core.TextGrad.textgrad_ollm.textgrad.engine.local_model_openai_api import ChatExternalClient
-from .core.PE2.cli import ape_apo_pe2_optimizer
+from .core.pe2.cli import ape_apo_pe2_optimizer
 from .dataloader import GreaterDataloader
 from .models import model_supported
 from .utils import ape_apo_pe2_args, clean_string, textgrad_args
