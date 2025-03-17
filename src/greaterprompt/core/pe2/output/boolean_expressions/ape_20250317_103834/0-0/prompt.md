@@ -1,0 +1,1 @@
+Consider each phase in sequence.

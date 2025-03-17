@@ -1,0 +1,12 @@
+{
+    "timestamp": 1,
+    "id": "0-0",
+    "parent": "0",
+    "scores": {
+        "dev": 0.8
+    },
+    "prompt": "Proceed methodically, taking one step at a time.",
+    "history": null,
+    "optim_batch": null,
+    "reasoning": null
+}

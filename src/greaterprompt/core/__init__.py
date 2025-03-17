@@ -1,2 +1,2 @@
-from .PE2 import *
+from .pe2 import *
 from .TextGrad import *

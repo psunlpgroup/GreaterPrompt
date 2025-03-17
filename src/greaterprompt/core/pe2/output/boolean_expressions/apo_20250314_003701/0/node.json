@@ -1,0 +1,12 @@
+{
+    "timestamp": 0,
+    "id": "0",
+    "parent": null,
+    "scores": {
+        "dev": 1.0
+    },
+    "prompt": "think step by step",
+    "history": null,
+    "optim_batch": null,
+    "reasoning": null
+}
