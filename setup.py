@@ -123,11 +123,13 @@ setup(
     # For an analysis of "install_requires" vs pip's requirements files see:
     # https://packaging.python.org/discussions/install-requires-vs-requirements/
     install_requires=[
-        "torch==2.3.1", "guidance==0.0.64", "openai==0.27.8", "tenacity>=8.2.3",
-        "vllm==0.5.3.post1", "retrying", "python-dotenv>=1.0.0", "pandas>=1.5.3",
-        "platformdirs>=3.11.0", "datasets>=2.14.6", "diskcache>=5.6.3", "graphviz>=0.20.3",
-        "gdown>=5.2.0", "pillow", "tqdm", "streamlit", "accelerate==1.4.0",
-        "httpx", "fschat==0.2.20"
+        "accelerate", "autopep8==2.3.2", "black==25.1.0", "datasets==3.3.2", 
+        "diskcache==5.6.3", "fschat", "graphviz==0.20.3", "guidance==0.0.64", 
+        "httpx==0.28.1", "numpy", "pandas==2.2.3", "Pillow==11.1.0", "platformdirs==4.3.6", 
+        "psutil", "protobuf==6.30.1", "pytest==8.3.5", "python-dotenv==1.0.1", 
+        "python_Levenshtein==0.27.1", "Requests==2.32.3", "retrying==1.3.4", 
+        "setuptools==75.8.0", "streamlit", "tenacity==9.0.0", "torch==2.3.1", 
+        "tqdm==4.67.1", "transformers==4.48.3", "vllm==0.5.3.post1", "openai==0.27.8"
     ],  # Optional
     # List additional groups of dependencies here (e.g. development
     # dependencies). Users will be able to install these using the "extras"
