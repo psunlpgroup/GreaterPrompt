@@ -111,7 +111,7 @@ setup(
     #   py_modules=["my_module"],
     #
     packages=find_packages(where="src") + [
-        "greaterprompt.core.PE2",
+        "greaterprompt.core.pe2",
         "greaterprompt.core.TextGrad",
     ],  # Required
     # Specify which Python versions you support. In contrast to the

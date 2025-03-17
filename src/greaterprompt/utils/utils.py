@@ -31,12 +31,12 @@ def ape_apo_pe2_args(trainer: str) -> argparse.Namespace:
     args.trainer = trainer
     args.backtrack = True
     args.resume = True
-    args.meta_prompts_dir = f"{PARENT_DIR}/core/PE2/meta_prompts/{trainer}"
+    args.meta_prompts_dir = f"{PARENT_DIR}/core/pe2/meta_prompts/{trainer}"
     args.model = "zeroshotcot"
     args.task = "bbh"
     args.subtask = "boolean_expressions"
-    args.data_dir = f"{PARENT_DIR}/core/PE2/data/bbh/boolean_expressions"
-    args.output_dir = f"{PARENT_DIR}/core/PE2/output/boolean_expressions/{trainer}_{time.strftime('%Y%m%d_%H%M%S')}"
+    args.data_dir = f"{PARENT_DIR}/core/pe2/data/bbh/boolean_expressions"
+    args.output_dir = f"{PARENT_DIR}/core/pe2/output/boolean_expressions/{trainer}_{time.strftime('%Y%m%d_%H%M%S')}"
     args.task_model = "openai_gpt35_turbo_instruct"
     args.optim_model = "openai_gpt4_turbo"
     args.n_beam = 2
