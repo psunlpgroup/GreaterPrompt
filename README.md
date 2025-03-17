@@ -257,7 +257,7 @@ Before using the UI interface, you have to clone the repo
 git clone git@github.com:WenliangZhoushan/GreaterPrompt.git
 
 cd Web
-streamlit run Overview.py
+python web.py
 ```
 
 ## :bookmark: License
