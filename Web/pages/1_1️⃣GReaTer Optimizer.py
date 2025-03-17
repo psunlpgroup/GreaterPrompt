@@ -1,5 +1,7 @@
+import sys
+sys.path.append("../src")
 import json
-from src.greaterprompt.optimizer import GreaterOptimizer, GreaterDataloader
+from greaterprompt.optimizer import GreaterOptimizer, GreaterDataloader
 
 import torch
 import streamlit as st

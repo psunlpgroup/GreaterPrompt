@@ -1,6 +1,8 @@
+import sys
+sys.path.append("../src")
 import json
 
-from src.greaterprompt.optimizer import Pe2Optimizer, GreaterDataloader
+from greaterprompt.optimizer import Pe2Optimizer, GreaterDataloader
 
 import openai
 import streamlit as st
