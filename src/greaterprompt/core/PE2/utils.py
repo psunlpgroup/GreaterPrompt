@@ -4,9 +4,9 @@ import logging
 import random
 import numpy as np
 
-from greaterprompt.core.PE2.task.collection import Task2Class
-from greaterprompt.core.PE2.model.collection import Model2Class
-from greaterprompt.core.PE2.trainer.collection import Trainer2Class
+from .task.collection import Task2Class
+from .model.collection import Model2Class
+from .trainer.collection import Trainer2Class
 
 def get_logger(args):
     # Create a logger

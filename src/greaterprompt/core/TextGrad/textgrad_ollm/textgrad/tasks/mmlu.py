@@ -1,7 +1,7 @@
 import platformdirs
 
-from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.variable import Variable
-from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.loss import MultiChoiceTestTime, MultiFieldTokenParsedEvaluation
+from ..variable import Variable
+from ..loss import MultiChoiceTestTime, MultiFieldTokenParsedEvaluation
 from .base import Dataset
 
 import re

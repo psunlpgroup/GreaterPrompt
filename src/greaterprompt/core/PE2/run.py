@@ -1,9 +1,9 @@
 import os
 
-from greaterprompt.core.PE2.trainer.default_trainer import DefaultTrainer
-from greaterprompt.core.PE2.trainer.node import Node
+from .trainer.default_trainer import DefaultTrainer
+from .trainer.node import Node
 
-from greaterprompt.core.PE2.utils import get_task, get_model, get_trainer
+from .utils import get_task, get_model, get_trainer
 
 def run(args, logger):
     

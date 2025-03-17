@@ -3,8 +3,8 @@ from .base import Dataset, DataLoader
 from .leetcode import LeetCodeHardEval
 
 from typing import Tuple, Callable
-from greaterprompt.core.TextGrad.textgrad_ollm.textgrad import Variable
-from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.engine import EngineLM
+from ..variable import Variable
+from ..engine import EngineLM
 
 AVAILABLE_DATASETS = [
     "BBH_object_counting",
@@ -26,9 +26,9 @@ def load_task(p_init, task_name: str, evaluation_api: EngineLM, *args, **kwargs)
         evaluation_api: the engine to use for evaluation, if needed
     """
     if "object_counting" in task_name:
-        from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.loss import MultiFieldTokenParsedEvaluation
+        from ..loss import MultiFieldTokenParsedEvaluation
         from .big_bench_hard import BigBenchHard, string_based_equality_fn
-        from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.autograd.string_based_ops import StringBasedFunction
+        from ..autograd.string_based_ops import StringBasedFunction
         task_name = task_name[4:]
         train_set = BigBenchHard(p_init, task_name, split="train", *args, **kwargs)
         val_set = BigBenchHard(p_init, task_name, split="val", *args, **kwargs)

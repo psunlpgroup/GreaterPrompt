@@ -3,7 +3,6 @@ import json
 import pandas as pd
 import subprocess
 import platformdirs
-import greaterprompt.core.TextGrad.textgrad_ollm.textgrad as tg
 from .base import Dataset
 
 # The below metric is taken from DSPy for consistenc
@@ -26,7 +25,7 @@ def parse_integer_answer(answer: str, only_first_line: bool=False):
     
     return answer
 
-def string_based_equality_fn(prediction: tg.Variable, ground_truth_answer: tg.Variable):
+def string_based_equality_fn(prediction, ground_truth_answer):
     return int(parse_integer_answer(str(prediction.value)) == int(parse_integer_answer(str(ground_truth_answer.value))))
 
 

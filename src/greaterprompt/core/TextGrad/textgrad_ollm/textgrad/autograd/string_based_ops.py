@@ -1,6 +1,6 @@
-from greaterprompt.core.TextGrad.textgrad_ollm.textgrad import logger
-from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.variable import Variable
-from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.engine import EngineLM
+from .. import logger
+from ..variable import Variable
+from ..engine import EngineLM
 from .function import Function, BackwardContext
 from typing import Callable, Dict, List
 

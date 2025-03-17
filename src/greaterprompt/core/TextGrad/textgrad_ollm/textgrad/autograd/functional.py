@@ -1,9 +1,9 @@
 from typing import List, Dict
 
-from greaterprompt.core.TextGrad.textgrad_ollm.textgrad import Variable
-from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.engine import EngineLM
-from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.autograd.algebra import Sum, Aggregate
-from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.autograd.llm_ops import LLMCall, FormattedLLMCall
+from .. import Variable
+from ..engine import EngineLM
+from .algebra import Sum, Aggregate
+from .llm_ops import LLMCall, FormattedLLMCall
 
 def sum(variables: List[Variable]) -> Variable:
     """

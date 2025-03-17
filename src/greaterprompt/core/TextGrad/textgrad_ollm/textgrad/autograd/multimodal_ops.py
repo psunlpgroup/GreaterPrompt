@@ -1,8 +1,8 @@
-from greaterprompt.core.TextGrad.textgrad_ollm.textgrad import logger
-from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.defaults import (SYSTEM_PROMPT_DEFAULT_ROLE, 
+from .. import logger
+from ..defaults import (SYSTEM_PROMPT_DEFAULT_ROLE, 
                                VARIABLE_OUTPUT_DEFAULT_ROLE)
-from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.variable import Variable
-from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.engine import EngineLM, validate_multimodal_engine
+from ..variable import Variable
+from ..engine import EngineLM, validate_multimodal_engine
 from typing import List, Dict
 from .llm_backward_prompts import (
     EVALUATE_VARIABLE_INSTRUCTION,
@@ -14,7 +14,7 @@ from .llm_backward_prompts import (
 )
 from .multimodal_backward_prompts import MULTIMODAL_CONVERSATION_TEMPLATE
 from typing import Union
-from greaterprompt.core.TextGrad.textgrad_ollm.textgrad.config import validate_engine_or_get_default
+from ..config import validate_engine_or_get_default
 from .function import Function, BackwardContext
 
 
