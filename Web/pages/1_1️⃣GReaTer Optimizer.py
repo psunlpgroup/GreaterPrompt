@@ -1,5 +1,5 @@
 import json
-from greaterprompt.optimizer import GreaterOptimizer, GreaterDataloader
+from src.greaterprompt.optimizer import GreaterOptimizer, GreaterDataloader
 
 import torch
 import streamlit as st

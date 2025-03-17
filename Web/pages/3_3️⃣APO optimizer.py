@@ -1,6 +1,6 @@
 import json
 
-from greaterprompt.optimizer import ApoOptimizer, GreaterDataloader
+from src.greaterprompt.optimizer import ApoOptimizer, GreaterDataloader
 
 import openai
 import streamlit as st

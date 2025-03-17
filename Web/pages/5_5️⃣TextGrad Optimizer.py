@@ -1,28 +1,28 @@
 import json
 
-from greaterprompt.optimizer import Pe2Optimizer, GreaterDataloader
+from src.greaterprompt.optimizer import TextGradOptimizer, GreaterDataloader
 
-import openai
+import torch
 import streamlit as st
+from torch.nn import functional as F
 
+
+CUDA_DEVICES = torch.cuda.device_count()
 
 with st.sidebar:
-    openai_key = st.markdown("<h3>🔐 OpenAI Key</h3>", unsafe_allow_html=True)
-    openai_key = st.text_input("OpenAI Key", type="password")
     settings = st.markdown("<h3>🛠️ Advanced Settings</h3>", unsafe_allow_html=True)
-    task_model = st.selectbox("Task Model", ["openai_gpt35_turbo_instruct", "openai_gpt4", "openai_gpt4_turbo", "openai_gpt4o", "openai_gpt4o_mini"], index=0)
-    optim_model = st.selectbox("Optim Model", ["openai_gpt35_turbo_instruct", "openai_gpt4", "openai_gpt4_turbo", "openai_gpt4o", "openai_gpt4o_mini"], index=2)
+    device = st.selectbox("Device", ["cpu", *[f"cuda:{i}" for i in range(CUDA_DEVICES)]], index=1)
 
-st.markdown("<h1 style='text-align: center; white-space: nowrap;'>🤩 Optimize with PE2 Optimizer</h1>", unsafe_allow_html=True)
-
+st.markdown("<h1 style='text-align: center; white-space: nowrap;'>🤩 Optimize with TextGradOptimizer</h1>", unsafe_allow_html=True)
+evaluation_engine = st.text_input("Evaluation Engine", key="Evaluation Engine", value='meta-llama/Meta-Llama-3-8B-Instruct')
+test_engine = st.text_input("Test Engine", key="Test Engine", value='meta-llama/Meta-Llama-3-8B-Instruct')
 uploaded_file = st.file_uploader("Upload a jsonl input file", type=("jsonl"))
-p_init = st.text_input("P Initial")
+
+p_init = st.text_input("P Initial", value="")
+
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
     start_button = st.button("⚡ Start Optimization", type="primary", use_container_width=True)
-
-if not openai_key and start_button:
-    st.info("Please enter an OpenAI key to start")
 
 if not uploaded_file and start_button:
     st.info("Please upload a jsonl file to start")
@@ -30,9 +30,7 @@ if not uploaded_file and start_button:
 if p_init.strip() == "" and start_button:
     st.info("Please enter a valid P Initial to start")
 
-if openai_key and uploaded_file and p_init.strip() and start_button:
-    openai.api_key = openai_key
-    
+if uploaded_file and p_init.strip() and start_button:
     content = uploaded_file.getvalue().decode("utf-8")
     lines = content.strip().split('\n')
 
@@ -45,16 +43,15 @@ if openai_key and uploaded_file and p_init.strip() and start_button:
             except json.JSONDecodeError:
                 st.error(f"Invalid JSON in line: {line}")
 
-    optimize_config = {
-        "task_model": task_model,
-        "optim_model": optim_model,
-    }
-
     with st.status("⚡ Optimizing...", expanded=True) as status:
-        ape_optimizer = Pe2Optimizer(optimize_config=optimize_config)
+        textgrad_optimizer = TextGradOptimizer({
+            "evaluation_engine": evaluation_engine,
+            "test_engine": test_engine,
+            "device": device
+        })
         dataset = GreaterDataloader(custom_inputs=inputs)
 
-        output = ape_optimizer.optimize(dataset, p_init)
+        output = textgrad_optimizer.optimize(p_init, dataset)
 
         status.update(label="😄 Optimization complete!", state="complete")
         st.markdown("<h5 style='text-align: left; white-space: nowrap;'>🎯 Optimization Result:</h5>", unsafe_allow_html=True)
