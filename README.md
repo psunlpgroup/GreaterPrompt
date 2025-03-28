@@ -1,4 +1,4 @@
-# <div align="center"><h5>🤩 GreaterPrompt: A Python Toolkit for Prompt Optimization</h5><div>
+# <div align="center"><h5><img src="./images/GP_logo.png" width="25" height="25" alt="logo"> GreaterPrompt: A Python Toolkit for Prompt Optimization</h5><div>
 
 <div align="center">
 <a href="https://github.com/WenliangZhoushan/GreaterPrompt/blob/main/LICENSE" target="_blank"><img src=https://img.shields.io/badge/license-MIT-green></a>
@@ -32,8 +32,11 @@ GreaterPrompt is a python toolkit for prompt optimization which only levarges sm
 To get started with GreaterPormpt, you can simply install with pip:
 
 ```base
+# currently we only support python==3.11
 pip install greaterprompt
 ```
+
+notice: Its strongly recommended to create a new conda environment to install greaterprompt to avoid the overwrite your other python packages.
 
 ## :rocket: Quick Start
 
