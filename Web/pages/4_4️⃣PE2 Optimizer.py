@@ -1,5 +1,3 @@
-import sys
-sys.path.append("../src")
 import json
 
 from greaterprompt.optimizer import Pe2Optimizer, GreaterDataloader

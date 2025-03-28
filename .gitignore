@@ -3,8 +3,6 @@ __pycache__/
 testspace/
 *.log
 *.csv
-src/greaterprompt/core/pe2/
-src/greaterprompt/core/PE2/
 logs/
 .json
 .md

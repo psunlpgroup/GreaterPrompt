@@ -1,1 +1,0 @@
-Proceed methodically, taking one step at a time.

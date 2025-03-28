@@ -1,1 +1,1 @@
-think step by step
+use logical reasoning to think step by step

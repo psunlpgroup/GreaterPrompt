@@ -1,1 +1,0 @@
-Proceed in a sequential manner.

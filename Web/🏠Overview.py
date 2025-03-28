@@ -9,7 +9,7 @@ p2p_star = {
 
 st.set_page_config(
     layout="wide",
-    page_title="GreaterOptimizer",
+    page_title="GreaterPrompt",
     initial_sidebar_state="expanded"
 )
 
@@ -87,7 +87,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="main-header"><h1 class="title-text">GreaterOptimizer: A Python Toolkit for Prompt Optimization</h1></div>', unsafe_allow_html=True)
+st.markdown('<div class="main-header"><h1 class="title-text">GreaterPrompt: A Python Toolkit for Prompt Optimization</h1></div>', unsafe_allow_html=True)
 st.markdown('<div class="main-header"><h3 class="author-text">\
             <a href="mailto:wmz5132@psu.edu">Wenliang Zheng</a>,\
             <a href="mailto:sfd5525@psu.edu">Sarkar Snigdha Sarathi Das</a>,\

@@ -76,7 +76,7 @@ class GreaterOptimizer:
         supported, model_name = model_supported(model)
         assert supported, f"Model: {model} is not supported"
 
-        model_class = getattr(importlib.import_module("src.greaterprompt.models"), model_name)
+        model_class = getattr(importlib.import_module("greaterprompt.models"), model_name)
         self.client = model_class(model, tokenizer)
 
         for param in self.client.model.parameters():
@@ -364,8 +364,8 @@ class GreaterOptimizer:
 
                     # use x + p + r + p_extractor to get logits of y_hat(x and p is already included in r)
                     input_ids = torch.cat([r_tokens, p_extr_tokens], dim=1)
-                    y_hat_probs = self.get_pred_probs(input_ids, y_tokens[k])
-                    gradients, loss = self.get_gradients(question_tokens[k], p[:, :idx], y_tokens[k], y_hat_probs)
+                    y_hat = self.get_y_hat(input_ids, y_tokens[k])
+                    gradients, loss = self.get_gradients(question_tokens[k], p[:, :idx], y_tokens[k], y_hat)
 
                     # calculate gradient for each candidate to get p_i_star
                     p_i_star = self.get_p_i_star(gradients, candidates)
@@ -402,7 +402,7 @@ class GreaterOptimizer:
                 if self.optimize_config.get("filter", False):
                     outputs[question] = self.client.filter(cleaned_prompts)
 
-            del input_ids, reasoning_chain, r_tokens, y_hat_probs
+            del input_ids, reasoning_chain, r_tokens, y_hat
             torch.cuda.empty_cache()
 
         if callback:
