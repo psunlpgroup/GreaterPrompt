@@ -113,7 +113,7 @@ class GreaterOptimizer:
 
         with torch.enable_grad():
             generate_config = self.optimize_config["generate_config"]
-            for i in range(len(y_tokens)):
+            for i in range(y_tokens.shape[1]):
                 logits = self.client.get_logits(input, generate_config)[:, -1, :]
                 if y_hat is None:
                     y_hat = logits
