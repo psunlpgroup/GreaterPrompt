@@ -9,7 +9,7 @@ long_description = (here / "README_pypi.md").read_text(encoding="utf-8")
 
 setup(
     name="greaterprompt",
-    version="1.1.1",
+    version="1.1.2",
     description="A Gradient-based Prompt Optimizer for Text Generation",
     long_description_content_type="text/markdown",
     url="https://github.com/WenliangZhoushan/GreaterPrompt",
