@@ -257,7 +257,7 @@ With GreaterPrompt-UI, you can easily and quickly configure and experience the s
 Before using the UI interface, you have to clone the repo
 
 ```bash
-git clone git@github.com:psunlpgroup/GreaterPrompt.git
+git clone https://github.com/psunlpgroup/GreaterPrompt.git
 
 cd Web
 python web.py
