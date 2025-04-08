@@ -3,7 +3,7 @@
 <div align="center">
 <a href="https://github.com/WenliangZhoushan/GreaterPrompt/blob/main/LICENSE" target="_blank"><img src=https://img.shields.io/badge/license-MIT-green></a>
 <a href="https://pypi.org/project/greaterprompt/" target="_blank"><img src=https://img.shields.io/badge/Pypi-GreaterPrompt-orange></a>
-<a href="https://arxiv.org/abs/2412.09722" target="_blank"><img src=https://img.shields.io/badge/arXiv-2412.09722-b31b1b.svg></a>
+<a href="https://arxiv.org/abs/2504.03975" target="_blank"><img src=https://img.shields.io/badge/arXiv-2412.09722-b31b1b.svg></a>
 <a href="https://colab.research.google.com/drive/1yUPWSG6DuFFD0VIcbCTFdYpxrdT0-Z-f?usp=sharing" target="_blank"><img src=https://colab.research.google.com/assets/colab-badge.svg></a>
 <a href="https://github.com/WenliangZhoushan/GreaterPrompt/pulls" target="_blank"><img src=https://img.shields.io/github/issues-pr/WenliangZhoushan/GreaterPrompt></a>
 <a href="https://github.com/WenliangZhoushan/GreaterPrompt/issues" target="_blank"><img src=https://img.shields.io/github/issues/WenliangZhoushan/GreaterPrompt></a>
@@ -31,12 +31,13 @@ GreaterPrompt is a python toolkit for prompt optimization which only levarges sm
 
 To get started with GreaterPormpt, you can simply install with pip:
 
-```base
-# currently we only support python==3.11
+**⚠️ Currently, we only support python 3.11**
+
+```bash
 pip install greaterprompt
 ```
 
-notice: Its strongly recommended to create a new conda environment to install greaterprompt to avoid the overwrite your other python packages.
+Notice: Its strongly recommended to create a new conda environment to install greaterprompt to avoid the overwrite your other python packages.
 
 ## :rocket: Quick Start
 
@@ -126,6 +127,19 @@ textgrad_optimize_config = {
 
 ### Step 4: Init the Optimizers you wanna use
 
+To use the APO, APE and PE2 optimizer, OPENAI_API_KEY is required. There are two ways to set the OPENAI_API_KEY:
+
+Set the OPENAI_API_KEY in the environment variables
+```bash
+export OPENAI_API_KEY=<your_openai_api_key>
+```
+
+Set the OPENAI_API_KEY in the code
+```python
+import os
+os.environ["OPENAI_API_KEY"] = "<your_openai_api_key>"
+```
+
 ```python
 from greaterprompt import (
     ApeOptimizer, ApoOptimizer, GreaterOptimizer, GreaterDataloader, Pe2Optimizer, TextGradOptimizer
@@ -157,15 +171,15 @@ textgrad_optimizer = TextGradOptimizer(
 ### Step 5: Pass the Dataloader to Optimizer and Optimize
 
 ```python
-ape_result = ape_optimizer.optimize(dataloader1, p_init="think step by step")
-apo_result = apo_optimizer.optimize(dataloader2, p_init="think step by step")
+ape_result = ape_optimizer.optimize(dataset1, p_init="think step by step")
+apo_result = apo_optimizer.optimize(dataset2, p_init="think step by step")
 greater_result = greater_optimizer.optimize(
-    dataloader1,
+    dataset1,
     p_extractor="\nNext, only give the exact answer, no extract words or any punctuation:",
     rounds=80
 )
-pe2_result = pe2_optimizer.optimize(dataloader2, p_init="think step by step")
-textgrad_result = textgrad_optimizer.optimize(dataloader1, p_init="think step by step")
+pe2_result = pe2_optimizer.optimize(dataset2, p_init="think step by step")
+textgrad_result = textgrad_optimizer.optimize(dataset1, p_init="think step by step")
 
 # print results
 print(f'ape_result: {ape_result}')
@@ -272,5 +286,13 @@ GreaterPrompt is licensed under the [<u>MIT License</u>](./LICENSE).
 Please kindly cite our work if helps your research:
 
 ```BibTex
-TODO: paper not start writing yet.
+@misc{zheng2025greaterpromptunifiedcustomizablehighperforming,
+      title={GREATERPROMPT: A Unified, Customizable, and High-Performing Open-Source Toolkit for Prompt Optimization}, 
+      author={Wenliang Zheng and Sarkar Snigdha Sarathi Das and Yusen Zhang and Rui Zhang},
+      year={2025},
+      eprint={2504.03975},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2504.03975}, 
+}
 ```
