@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "greaterprompt"
-version = "1.1.2"
+version = "1.1.3"
 dependencies = [
     "altair", "accelerate", "autopep8==2.3.2", "black==25.1.0", "datasets==3.3.2", 
     "diskcache==5.6.3", "fschat", "graphviz==0.20.3", "guidance==0.0.64", 
